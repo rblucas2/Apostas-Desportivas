@@ -1,0 +1,79 @@
+name: Scanner de jogos
+
+on:
+  schedule:
+    - cron: "15 0,6,12,18 * * *"   # UTC; as cotas só são pedidas às 06:15 para poupar créditos
+  push:
+    branches: [main]
+    paths: ["site/**", "scanner/**", ".github/workflows/scan.yml"]
+  workflow_dispatch:
+    inputs:
+      cotas:
+        description: "Obter cotas nesta execução (gasta créditos da The Odds API)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: scanner
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Testes
+        run: python -m unittest discover -s scanner/tests
+
+      - name: Decidir se pede cotas
+        id: odds
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            [ "${{ inputs.cotas }}" = "true" ] && echo "modo=auto" >> "$GITHUB_OUTPUT" || echo "modo=nao" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%H)" = "06" ]; then
+            echo "modo=auto" >> "$GITHUB_OUTPUT"
+          else
+            echo "modo=nao" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Correr scanner
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python scanner/scan.py --odds "${{ steps.odds.outputs.modo }}"
+
+      - name: Guardar dados no repositório
+        run: |
+          git config user.name "scanner-bot"
+          git config user.email "scanner-bot@users.noreply.github.com"
+          git add site/data/jogos.json
+          if git diff --cached --quiet; then echo "Sem alterações"; exit 0; fi
+          git commit -m "Dados atualizados $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Preparar site
+        if: vars.DEPLOY_PAGES == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: scan
+    if: vars.DEPLOY_PAGES == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

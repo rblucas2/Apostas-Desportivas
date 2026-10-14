@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Scanner de Jogos</title>
+  <meta name="description" content="Jogos de futebol europeu filtrados por critérios de classificação e forma, com cotas.">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>⚽ Scanner de Jogos</h1>
+    <div class="meta" id="meta">A carregar…</div>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-view="jogos" role="tab">Jogos</button>
+      <button class="tab" data-view="boletim" role="tab">Boletim <span id="slip-count" class="pill">0</span></button>
+      <button class="tab" data-view="definicoes" role="tab">Definições</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="view-jogos" class="view active">
+      <div class="filters">
+        <select id="f-criterio" aria-label="Critério">
+          <option value="">Todos os critérios</option>
+          <option value="top_vs_bottom">Top 3 vs Últimos 3</option>
+          <option value="serie_derrotas">Série de derrotas vs melhor classificado</option>
+          <option value="ambos">Cumpre os dois critérios</option>
+        </select>
+        <select id="f-pais" aria-label="País"><option value="">Todos os países</option></select>
+        <select id="f-dia" aria-label="Dia"><option value="">Todos os dias</option></select>
+        <input id="f-busca" type="search" placeholder="Procurar equipa…" aria-label="Procurar equipa">
+        <label class="check"><input id="f-cotas" type="checkbox"> Só com cotas</label>
+      </div>
+      <div id="lista"></div>
+      <details class="ligas-estado">
+        <summary>Estado das ligas analisadas</summary>
+        <div id="ligas"></div>
+      </details>
+    </section>
+
+    <section id="view-boletim" class="view">
+      <div id="boletim"></div>
+    </section>
+
+    <section id="view-definicoes" class="view">
+      <div class="card">
+        <h2>Sincronização telemóvel ↔ PC</h2>
+        <p>O boletim é guardado num <em>Gist</em> privado da tua conta GitHub. Usa o mesmo token nos dois
+          dispositivos e o boletim fica igual em ambos.</p>
+        <ol class="small">
+          <li>Em GitHub → Settings → Developer settings → Personal access tokens → <strong>Tokens (classic)</strong>,
+            cria um token só com a permissão <code>gist</code>.</li>
+          <li>Cola-o abaixo no telemóvel e no PC.</li>
+        </ol>
+        <label class="field">Token GitHub (permissão gist)
+          <input id="s-token" type="password" autocomplete="off" placeholder="ghp_…">
+        </label>
+        <div class="row">
+          <button id="s-guardar" class="btn primary">Guardar e sincronizar</button>
+          <button id="s-sync" class="btn">Sincronizar agora</button>
+          <button id="s-limpar" class="btn danger">Desligar</button>
+        </div>
+        <p id="s-estado" class="small muted"></p>
+      </div>
+      <div class="card">
+        <h2>Sobre os dados</h2>
+        <ul class="small">
+          <li>Classificações, resultados e calendário: API pública da ESPN, atualizada a cada 6 horas.</li>
+          <li>Cotas 1X2: Betclic via The Odds API. A cota pode diferir ligeiramente da Betclic.pt e
+            não é garantida no momento da aposta. A Betano não está disponível nessa API: introduz a
+            cota manualmente no boletim.</li>
+          <li>As séries de derrotas contam apenas jogos do campeonato.</li>
+        </ul>
+        <p class="small muted">Jogo responsável: aposta apenas o que podes perder. Linha de apoio SICAD: 1414.</p>
+      </div>
+    </section>
+  </main>
+
+  <template id="tpl-jogo">
+    <article class="card jogo">
+      <div class="jogo-top"><span class="liga"></span><time></time></div>
+      <div class="equipas">
+        <div class="equipa casa"><span class="nome"></span><span class="info"></span></div>
+        <div class="vs">vs</div>
+        <div class="equipa fora"><span class="nome"></span><span class="info"></span></div>
+      </div>
+      <div class="criterios"></div>
+      <div class="cotas"></div>
+      <div class="links small"></div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

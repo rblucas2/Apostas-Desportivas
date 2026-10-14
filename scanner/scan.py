@@ -30,6 +30,7 @@ from pathlib import Path
 
 ESPN_STANDINGS = "https://site.api.espn.com/apis/v2/sports/soccer/{slug}/standings"
 ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard"
+ESPN_TEAM_SCHEDULE = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/teams/{team}/schedule"
 ODDS_URL = "https://api.the-odds-api.com/v4/sports/{sport}/odds"
 
 ROOT = Path(__file__).resolve().parent
@@ -128,7 +129,7 @@ def parse_events(data: dict) -> list[dict]:
             continue
         st = ((ev.get("status") or comp.get("status") or {}).get("type") or {})
         hs, as_ = _score(home), _score(away)
-        terminado = bool(st.get("completed")) and st.get("state") == "post" and hs is not None and as_ is not None
+        terminado = (bool(st.get("completed")) or st.get("state") == "post") and hs is not None and as_ is not None
         out.append({
             "id": str(ev.get("id")),
             "data": ev.get("date"),
@@ -295,16 +296,28 @@ def fetch_odds(sport: str, api_key: str, bookmakers: list[str]) -> list[dict]:
 
 # ---------------------------------------------------------------- execução
 
-def fetch_events(slug: str, start: dt.date, end: dt.date) -> list[dict]:
-    events, cur = [], start
-    while cur <= end:
-        chunk_end = min(cur + dt.timedelta(days=30), end)
-        data, _ = http_json(ESPN_SCOREBOARD.format(slug=slug), {
-            "dates": f"{cur:%Y%m%d}-{chunk_end:%Y%m%d}", "limit": 1000})
+def fetch_fixtures(slug: str, start: dt.date, days: int) -> list[dict]:
+    """Jogos dos próximos dias. A ESPN só aceita uma data por pedido (intervalos dão 400)."""
+    events = []
+    for i in range(days + 1):
+        d = start + dt.timedelta(days=i)
+        data, _ = http_json(ESPN_SCOREBOARD.format(slug=slug), {"dates": f"{d:%Y%m%d}"})
         events.extend(parse_events(data))
-        cur = chunk_end + dt.timedelta(days=1)
-    uniq = {e["id"]: e for e in events}
-    return list(uniq.values())
+    return list({e["id"]: e for e in events}.values())
+
+
+def fetch_results(slug: str, team_ids) -> list[dict]:
+    """Resultados da época, a partir do calendário de cada equipa."""
+    events = {}
+    for tid in team_ids:
+        try:
+            data, _ = http_json(ESPN_TEAM_SCHEDULE.format(slug=slug, team=tid))
+        except Exception as e:
+            log(f"    aviso: calendário da equipa {tid} indisponível ({e})")
+            continue
+        for e in parse_events(data):
+            events[e["id"]] = e
+    return list(events.values())
 
 
 def scan_league(liga: dict, cfg: dict, now: dt.datetime) -> tuple[list[dict], dict]:
@@ -312,20 +325,19 @@ def scan_league(liga: dict, cfg: dict, now: dt.datetime) -> tuple[list[dict], di
     st, _ = http_json(ESPN_STANDINGS.format(slug=slug))
     table = parse_standings(st)
     if not table:
-        raise ValueError("classificação vazia")
-    today = now.date()
-    events = fetch_events(slug, today - dt.timedelta(days=cfg["dias_historico"]),
-                          today + dt.timedelta(days=cfg["dias_a_frente"]))
-    results = team_results(events)
+        raise ValueError("classificação vazia (a ESPN não tem a época atual desta liga)")
+    results = team_results(fetch_results(slug, table.keys()))
     limit = now + dt.timedelta(days=cfg["dias_a_frente"])
-    fixtures = [e for e in events if e["estado"] == "pre" and now <= parse_date(e["data"]) <= limit
+    fixtures = [e for e in fetch_fixtures(slug, now.date(), cfg["dias_a_frente"])
+                if e["estado"] == "pre" and now <= parse_date(e["data"]) <= limit
                 and "POSTPONED" not in e["estado_nome"]]
     games = evaluate(fixtures, table, results, cfg)
     for g in games:
         g["liga"] = liga["nome"]
         g["pais"] = liga["pais"]
         g["liga_id"] = slug
-    resumo = {"equipas": len(table), "jogos_agendados": len(fixtures), "selecionados": len(games)}
+    resumo = {"equipas": len(table), "jogos_agendados": len(fixtures), "selecionados": len(games),
+              "com_resultados": sum(1 for t in table if results.get(t))}
     return games, resumo
 
 

@@ -1,7 +1,6 @@
 {
   "_comment": "espn = código da liga na API pública da ESPN; odds = sport_key na The Odds API (null = sem cotas). Ligas com código inválido são ignoradas com aviso no log.",
   "dias_a_frente": 7,
-  "dias_historico": 150,
   "top_n": 3,
   "bottom_n": 3,
   "derrotas_minimas": 4,
@@ -26,10 +25,8 @@
     {"nome": "Premiership", "pais": "Escócia", "espn": "sco.1", "odds": "soccer_spl"},
     {"nome": "Super League", "pais": "Grécia", "espn": "gre.1", "odds": "soccer_greece_super_league"},
     {"nome": "Bundesliga", "pais": "Áustria", "espn": "aut.1", "odds": "soccer_austria_bundesliga"},
-    {"nome": "Super League", "pais": "Suíça", "espn": "sui.1", "odds": "soccer_switzerland_superleague"},
     {"nome": "Superliga", "pais": "Dinamarca", "espn": "den.1", "odds": "soccer_denmark_superliga"},
     {"nome": "Eliteserien", "pais": "Noruega", "espn": "nor.1", "odds": "soccer_norway_eliteserien"},
-    {"nome": "Allsvenskan", "pais": "Suécia", "espn": "swe.1", "odds": "soccer_sweden_allsvenskan"},
-    {"nome": "Premier Division", "pais": "Irlanda", "espn": "irl.1", "odds": "soccer_league_of_ireland"}
+    {"nome": "Allsvenskan", "pais": "Suécia", "espn": "swe.1", "odds": "soccer_sweden_allsvenskan"}
   ]
 }

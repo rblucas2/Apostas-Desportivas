@@ -59,7 +59,7 @@ cd site && python3 -m http.server 8000  # abrir http://localhost:8000
   de apostar.
 - **Créditos**: cada liga consultada gasta 1 crédito. Só são consultadas ligas com jogos selecionados,
   uma vez por dia (06:15 UTC), o que deve caber no plano gratuito.
-- **ESPN**: é uma API pública mas não documentada oficialmente. Pode mudar sem aviso. Uma liga
+- **ESPN**: é uma API pública mas não documentada oficialmente. Não aceita intervalos de datas, por isso os resultados vêm do calendário de cada equipa e os próximos jogos são pedidos dia a dia (cerca de 600 pedidos e 1 a 2 minutos por execução). Pode mudar sem aviso. Uma liga
   que falhe aparece como "Erro" em *Estado das ligas analisadas*, sem afetar as outras.
 - **Séries de derrotas**: contam só jogos do campeonato (não incluem taças nem competições europeias).
   No início da época a classificação tem pouco valor informativo: vê o número de jogos (J) no cartão.

@@ -1,0 +1,27 @@
+name: diag
+on:
+  push:
+    branches: [claude/stoic-hopper-1p6hqs]
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          B=https://site.api.espn.com/apis/site/v2/sports/soccer
+          t() { echo "== $1"; curl -s -o /tmp/o -w '%{http_code} %{size_download}\n' "$1"; head -c 300 /tmp/o; echo; python3 -c "import json;d=json.load(open('/tmp/o'));print('events',len(d.get('events',[])))" 2>/dev/null; }
+          t "$B/por.1/scoreboard"
+          t "$B/por.1/scoreboard?dates=20261001-20261031"
+          t "$B/por.1/scoreboard?dates=20261001-20261031&limit=1000"
+          t "$B/por.1/scoreboard?dates=20261001-20261031&limit=100"
+          t "$B/por.1/scoreboard?dates=20260801-20260831&limit=500"
+          t "$B/por.1/scoreboard?dates=20260515-20260614&limit=500"
+          t "$B/por.1/scoreboard?dates=20261014-20261021"
+          t "$B/por.1/scoreboard?dates=20261018"
+          t "$B/por.1/teams"
+          t "https://site.api.espn.com/apis/v2/sports/soccer/sui.1/standings"
+          t "https://site.api.espn.com/apis/v2/sports/soccer/irl.1/standings"
+          t "https://site.api.espn.com/apis/v2/sports/soccer/por.1/standings"
+          python3 -c "import json;d=json.load(open('/tmp/o'));e=d['children'][0]['standings']['entries'][0];print(json.dumps(e)[:1500])"
+          ID=$(curl -s "$B/por.1/teams" | python3 -c "import json,sys;print(json.load(sys.stdin)['sports'][0]['leagues'][0]['teams'][0]['team']['id'])")
+          t "$B/por.1/teams/$ID/schedule"
+          python3 -c "import json;d=json.load(open('/tmp/o'));ev=d['events'];print(len(ev));print(json.dumps(ev[0])[:2500])"

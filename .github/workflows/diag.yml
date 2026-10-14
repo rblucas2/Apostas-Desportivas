@@ -6,26 +6,15 @@ jobs:
   d:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - shell: bash {0}
         run: |
-          B=https://site.api.espn.com/apis/site/v2/sports/soccer
-          t() { echo "== $1"; curl -s --compressed -o /tmp/o -w '%{http_code} %{size_download}\n' "$1"; head -c 300 /tmp/o; echo; python3 -c "import json;d=json.load(open('/tmp/o'));print('events',len(d.get('events',[])))" 2>/dev/null; }
-          t "$B/por.1/scoreboard"
-          t "$B/por.1/scoreboard?dates=20261001-20261031"
-          t "$B/por.1/scoreboard?dates=20261001-20261031&limit=1000"
-          t "$B/por.1/scoreboard?dates=20261001-20261014"
-          t "$B/por.1/scoreboard?dates=20261001-20261020"
-          t "$B/por.1/scoreboard?dates=20261001-20261008&limit=200"
-          t "$B/por.1/scoreboard?dates=20260901-20260930"
-          t "$B/por.1/scoreboard?dates=20260801-20260831&limit=500"
-          t "$B/por.1/scoreboard?dates=20260515-20260614&limit=500"
-          t "$B/por.1/scoreboard?dates=20261014-20261021"
-          t "$B/por.1/scoreboard?dates=20261018"
-          t "$B/por.1/teams"
-          t "https://site.api.espn.com/apis/v2/sports/soccer/sui.1/standings"
-          t "https://site.api.espn.com/apis/v2/sports/soccer/irl.1/standings"
-          t "https://site.api.espn.com/apis/v2/sports/soccer/por.1/standings"
-          python3 -c "import json;d=json.load(open('/tmp/o'));e=d['children'][0]['standings']['entries'][0];print(json.dumps(e)[:1500])"
-          ID=$(curl -s "$B/por.1/teams" | python3 -c "import json,sys;print(json.load(sys.stdin)['sports'][0]['leagues'][0]['teams'][0]['team']['id'])")
-          t "$B/por.1/teams/$ID/schedule"
-          python3 -c "import json;d=json.load(open('/tmp/o'));ev=d['events'];print(len(ev));print(json.dumps(ev[0])[:2500])"
+          time python3 scanner/scan.py --odds nao --out /tmp/j.json
+          python3 - <<'PY'
+          import json
+          d=json.load(open('/tmp/j.json'))
+          for l in d['ligas']: print(l)
+          print('JOGOS', len(d['jogos']))
+          for g in d['jogos'][:40]:
+              print(g['data'], g['liga'], '|', g['casa']['nome'], g['casa']['posicao'], g['casa']['forma'], 'vs', g['fora']['nome'], g['fora']['posicao'], g['fora']['forma'], '|', [c['texto'] for c in g['criterios']])
+          PY

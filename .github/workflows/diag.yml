@@ -6,13 +6,17 @@ jobs:
   d:
     runs-on: ubuntu-latest
     steps:
-      - run: |
+      - shell: bash {0}
+        run: |
           B=https://site.api.espn.com/apis/site/v2/sports/soccer
-          t() { echo "== $1"; curl -s -o /tmp/o -w '%{http_code} %{size_download}\n' "$1"; head -c 300 /tmp/o; echo; python3 -c "import json;d=json.load(open('/tmp/o'));print('events',len(d.get('events',[])))" 2>/dev/null; }
+          t() { echo "== $1"; curl -s --compressed -o /tmp/o -w '%{http_code} %{size_download}\n' "$1"; head -c 300 /tmp/o; echo; python3 -c "import json;d=json.load(open('/tmp/o'));print('events',len(d.get('events',[])))" 2>/dev/null; }
           t "$B/por.1/scoreboard"
           t "$B/por.1/scoreboard?dates=20261001-20261031"
           t "$B/por.1/scoreboard?dates=20261001-20261031&limit=1000"
-          t "$B/por.1/scoreboard?dates=20261001-20261031&limit=100"
+          t "$B/por.1/scoreboard?dates=20261001-20261014"
+          t "$B/por.1/scoreboard?dates=20261001-20261020"
+          t "$B/por.1/scoreboard?dates=20261001-20261008&limit=200"
+          t "$B/por.1/scoreboard?dates=20260901-20260930"
           t "$B/por.1/scoreboard?dates=20260801-20260831&limit=500"
           t "$B/por.1/scoreboard?dates=20260515-20260614&limit=500"
           t "$B/por.1/scoreboard?dates=20261014-20261021"

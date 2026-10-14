@@ -53,7 +53,7 @@ cd site && python3 -m http.server 8000  # abrir http://localhost:8000
 ## Limitações (importante)
 
 - **Cotas**: a Betclic e a Betano não têm API pública, e fazer scraping dos sites viola os termos de
-  utilização de ambas. As cotas vêm da The Odds API (casa `betclic`, mercado europeu/francês). Podem
+  utilização de ambas. As cotas vêm da The Odds API (casa `betclic_fr`, ou seja, a Betclic França). Podem
   diferir ligeiramente das da Betclic.pt e mudam até ao início do jogo. A **Betano não está coberta**,
   por isso a cota tem de ser introduzida manualmente no boletim. Confirma sempre a cota na casa antes
   de apostar.

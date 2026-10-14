@@ -11,6 +11,24 @@ Tocar numa cota adiciona-a a um **boletim** que calcula a cota total da combinad
 No boletim podes escolher Betclic ou Betano e escrever a cota manualmente. O boletim fica
 **sincronizado entre o telemóvel e o PC**.
 
+## Histórico de resultados
+
+O separador **Histórico** mede se os critérios dão lucro. Cada jogo selecionado é registado
+em `site/data/historico.json` com a última cota da Betclic antes do jogo. Depois do jogo, o
+scanner vai buscar o resultado e liquida uma **aposta simulada de 1 unidade no favorito**
+(o melhor classificado): lucro = cota − 1 se ganhar, −1 se empatar ou perder.
+
+- Indicadores: lucro, ROI, taxa de acerto (e a taxa necessária para não perder) e cota média.
+- Gráfico do lucro acumulado e tabelas por critério, por intervalo de cota e por liga.
+- Um jogo que deixa de cumprir os critérios antes de começar sai do registo. Jogos adiados,
+  ou sem resultado 10 dias depois, ficam "anulados" e não contam.
+- Jogos sem cota contam para a taxa de acerto, mas não para o lucro nem para o ROI.
+- O registo começa no dia em que esta funcionalidade foi ativada. Não há dados retroativos,
+  porque a ESPN não guarda classificações passadas e o plano gratuito da The Odds API não tem
+  cotas históricas.
+- Com poucas apostas, o resultado depende muito da sorte. Antes de tirar conclusões, convém
+  juntar algumas centenas de apostas.
+
 ## Arquitetura
 
 ```

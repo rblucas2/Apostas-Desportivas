@@ -19,6 +19,7 @@
     <nav class="tabs" role="tablist">
       <button class="tab active" data-view="jogos" role="tab">Jogos</button>
       <button class="tab" data-view="boletim" role="tab">Boletim <span id="slip-count" class="pill">0</span></button>
+      <button class="tab" data-view="historico" role="tab">Histórico</button>
       <button class="tab" data-view="definicoes" role="tab">Definições</button>
     </nav>
   </header>
@@ -46,6 +47,23 @@
 
     <section id="view-boletim" class="view">
       <div id="boletim"></div>
+    </section>
+
+    <section id="view-historico" class="view">
+      <div class="filters">
+        <select id="h-periodo" aria-label="Período">
+          <option value="">Desde o início</option>
+          <option value="30">Últimos 30 dias</option>
+          <option value="7">Últimos 7 dias</option>
+        </select>
+        <select id="h-criterio" aria-label="Critério">
+          <option value="">Todos os critérios</option>
+          <option value="top_vs_bottom">Top 3 vs Últimos 3</option>
+          <option value="serie_derrotas">Série de derrotas vs melhor classificado</option>
+          <option value="ambos">Cumpre os dois critérios</option>
+        </select>
+      </div>
+      <div id="h-conteudo"></div>
     </section>
 
     <section id="view-definicoes" class="view">
@@ -97,5 +115,6 @@
   </template>
 
   <script src="app.js"></script>
+  <script src="historico.js"></script>
 </body>
 </html>

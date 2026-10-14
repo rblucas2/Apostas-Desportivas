@@ -118,3 +118,75 @@ class TestScan(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestHistorico(unittest.TestCase):
+    BM = ["betclic_fr"]
+    NOW = dt.datetime(2026, 10, 15, 12, 0, tzinfo=dt.timezone.utc)
+
+    def jogo(self, gid="100", data="2026-10-18T15:00Z", fav="fora", cotas=None):
+        g = {"id": gid, "data": data, "liga": "Liga", "pais": "Portugal", "liga_id": "por.1",
+             "casa": {"nome": "Tondela", "posicao": 18, "total": 18},
+             "fora": {"nome": "Benfica", "posicao": 1, "total": 18},
+             "criterios": [{"tipo": "top_vs_bottom", "favorito": fav}]}
+        if cotas:
+            g["cotas"] = {"betclic_fr": {"cotas": cotas}}
+        return g
+
+    def ev(self, gid="100", data="2026-10-18T15:00Z", hs=0, as_=2, estado="post", nome="STATUS_FULL_TIME"):
+        return {"id": gid, "data": data, "estado": estado, "estado_nome": nome, "terminado": estado == "post",
+                "golos_casa": hs, "golos_fora": as_}
+
+    def test_regista_e_liquida_vitoria(self):
+        h = scan.update_history({}, [self.jogo(cotas={"1": 7.5, "X": 4.6, "2": 1.4})], {"por.1": {}},
+                                {"por.1"}, self.BM, self.NOW)
+        e = h["jogos"][0]
+        self.assertEqual((e["estado"], e["aposta"], e["cota"]), ("pendente", "2", 1.4))
+        depois = self.NOW + dt.timedelta(days=4)
+        h = scan.update_history(h, [], {"por.1": {"100": self.ev()}}, {"por.1"}, self.BM, depois)
+        e = h["jogos"][0]
+        self.assertEqual((e["estado"], e["resultado"], e["acertou"], e["lucro"]), ("terminado", "2", True, 0.4))
+
+    def test_derrota_e_empate_perdem_uma_unidade(self):
+        for hs, as_ in ((2, 0), (1, 1)):
+            h = scan.update_history({}, [self.jogo(cotas={"2": 1.4})], {}, set(), self.BM, self.NOW)
+            h = scan.update_history(h, [], {"por.1": {"100": self.ev(hs=hs, as_=as_)}}, {"por.1"}, self.BM,
+                                    self.NOW + dt.timedelta(days=4))
+            self.assertEqual((h["jogos"][0]["acertou"], h["jogos"][0]["lucro"]), (False, -1.0))
+
+    def test_sem_cota_nao_conta_para_lucro(self):
+        h = scan.update_history({}, [self.jogo()], {}, set(), self.BM, self.NOW)
+        h = scan.update_history(h, [], {"por.1": {"100": self.ev()}}, {"por.1"}, self.BM,
+                                self.NOW + dt.timedelta(days=4))
+        self.assertTrue(h["jogos"][0]["acertou"])
+        self.assertIsNone(h["jogos"][0]["lucro"])
+
+    def test_mantem_cota_anterior_se_nao_houver_nova(self):
+        h = scan.update_history({}, [self.jogo(cotas={"2": 1.5})], {}, set(), self.BM, self.NOW)
+        h = scan.update_history(h, [self.jogo()], {"por.1": {}}, {"por.1"}, self.BM, self.NOW)
+        self.assertEqual(h["jogos"][0]["cota"], 1.5)
+
+    def test_sai_do_historico_se_deixar_de_cumprir_antes_do_jogo(self):
+        h = scan.update_history({}, [self.jogo()], {}, set(), self.BM, self.NOW)
+        h = scan.update_history(h, [], {"por.1": {}}, {"por.1"}, self.BM, self.NOW + dt.timedelta(hours=6))
+        self.assertEqual(h["jogos"], [])
+
+    def test_liga_com_erro_nao_remove_nem_liquida(self):
+        h = scan.update_history({}, [self.jogo()], {}, set(), self.BM, self.NOW)
+        h = scan.update_history(h, [], {}, set(), self.BM, self.NOW + dt.timedelta(hours=6))
+        self.assertEqual(h["jogos"][0]["estado"], "pendente")
+
+    def test_adiado_fica_anulado(self):
+        h = scan.update_history({}, [self.jogo()], {}, set(), self.BM, self.NOW)
+        ev = self.ev(estado="post", nome="STATUS_POSTPONED", hs=None, as_=None)
+        ev["terminado"] = False
+        h = scan.update_history(h, [], {"por.1": {"100": ev}}, {"por.1"}, self.BM, self.NOW + dt.timedelta(days=4))
+        self.assertEqual(h["jogos"][0]["estado"], "anulado")
+
+    def test_terminado_nao_e_alterado(self):
+        h = scan.update_history({}, [self.jogo(cotas={"2": 1.4})], {}, set(), self.BM, self.NOW)
+        h = scan.update_history(h, [], {"por.1": {"100": self.ev()}}, {"por.1"}, self.BM,
+                                self.NOW + dt.timedelta(days=4))
+        h2 = scan.update_history(h, [self.jogo(cotas={"2": 9.9})], {}, set(), self.BM,
+                                 self.NOW + dt.timedelta(days=5))
+        self.assertEqual(h2["jogos"][0]["cota"], 1.4)

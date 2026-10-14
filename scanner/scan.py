@@ -379,7 +379,7 @@ def main(argv=None) -> int:
 
     api_key = os.environ.get("ODDS_API_KEY", "").strip()
     want_odds = args.odds == "sim" or (args.odds == "auto" and api_key)
-    bookmakers = cfg.get("casas_odds", ["betclic"])
+    bookmakers = cfg.get("casas_odds", ["betclic_fr"])
     odds_ok = False
     if want_odds and api_key:
         sports = {}

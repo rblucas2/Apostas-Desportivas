@@ -4,7 +4,7 @@
   "top_n": 3,
   "bottom_n": 3,
   "derrotas_minimas": 4,
-  "casas_odds": ["betclic"],
+  "casas_odds": ["betclic_fr"],
   "ligas": [
     {"nome": "Liga Portugal Betclic", "pais": "Portugal", "espn": "por.1", "odds": "soccer_portugal_primeira_liga"},
     {"nome": "Premier League", "pais": "Inglaterra", "espn": "eng.1", "odds": "soccer_epl"},

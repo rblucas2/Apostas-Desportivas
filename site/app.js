@@ -112,7 +112,7 @@ function render() {
     }
     $(".criterios", el).innerHTML = j.criterios.map(c => `<span class="chip ${c.tipo}">${esc(c.texto)}</span>`).join("");
 
-    const bc = j.cotas && (j.cotas.betclic || Object.values(j.cotas)[0]);
+    const bc = j.cotas && (j.cotas.betclic_fr || j.cotas.betclic || Object.values(j.cotas)[0]);
     const cot = bc ? bc.cotas : {};
     const favPick = favs.has("casa") ? "1" : favs.has("fora") ? "2" : null;
     const cotasEl = $(".cotas", el);

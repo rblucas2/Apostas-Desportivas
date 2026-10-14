@@ -1,1 +1,876 @@
-{"gerado_em": null, "cotas_atualizadas": false, "ligas": [], "jogos": []}
+{
+ "gerado_em": "2026-10-14T15:02:21+00:00",
+ "cotas_atualizadas": false,
+ "parametros": {
+  "top_n": 3,
+  "bottom_n": 3,
+  "derrotas_minimas": 4,
+  "dias_a_frente": 7
+ },
+ "ligas": [
+  {
+   "liga": "Liga Portugal Betclic",
+   "pais": "Portugal",
+   "ok": true,
+   "equipas": 18,
+   "jogos_agendados": 1,
+   "selecionados": 0,
+   "com_resultados": 18
+  },
+  {
+   "liga": "Premier League",
+   "pais": "Inglaterra",
+   "ok": true,
+   "equipas": 20,
+   "jogos_agendados": 10,
+   "selecionados": 0,
+   "com_resultados": 20
+  },
+  {
+   "liga": "Championship",
+   "pais": "Inglaterra",
+   "ok": true,
+   "equipas": 24,
+   "jogos_agendados": 17,
+   "selecionados": 1,
+   "com_resultados": 24
+  },
+  {
+   "liga": "League One",
+   "pais": "Inglaterra",
+   "ok": true,
+   "equipas": 24,
+   "jogos_agendados": 23,
+   "selecionados": 0,
+   "com_resultados": 24
+  },
+  {
+   "liga": "League Two",
+   "pais": "Inglaterra",
+   "ok": true,
+   "equipas": 24,
+   "jogos_agendados": 24,
+   "selecionados": 1,
+   "com_resultados": 24
+  },
+  {
+   "liga": "LaLiga",
+   "pais": "Espanha",
+   "ok": true,
+   "equipas": 20,
+   "jogos_agendados": 10,
+   "selecionados": 0,
+   "com_resultados": 20
+  },
+  {
+   "liga": "LaLiga 2",
+   "pais": "Espanha",
+   "ok": true,
+   "equipas": 22,
+   "jogos_agendados": 11,
+   "selecionados": 2,
+   "com_resultados": 22
+  },
+  {
+   "liga": "Bundesliga",
+   "pais": "Alemanha",
+   "ok": true,
+   "equipas": 18,
+   "jogos_agendados": 9,
+   "selecionados": 2,
+   "com_resultados": 18
+  },
+  {
+   "liga": "2. Bundesliga",
+   "pais": "Alemanha",
+   "ok": true,
+   "equipas": 18,
+   "jogos_agendados": 9,
+   "selecionados": 1,
+   "com_resultados": 18
+  },
+  {
+   "liga": "Serie A",
+   "pais": "Itália",
+   "ok": true,
+   "equipas": 20,
+   "jogos_agendados": 10,
+   "selecionados": 2,
+   "com_resultados": 20
+  },
+  {
+   "liga": "Serie B",
+   "pais": "Itália",
+   "ok": true,
+   "equipas": 20,
+   "jogos_agendados": 10,
+   "selecionados": 0,
+   "com_resultados": 20
+  },
+  {
+   "liga": "Ligue 1",
+   "pais": "França",
+   "ok": true,
+   "equipas": 18,
+   "jogos_agendados": 9,
+   "selecionados": 1,
+   "com_resultados": 18
+  },
+  {
+   "liga": "Ligue 2",
+   "pais": "França",
+   "ok": true,
+   "equipas": 18,
+   "jogos_agendados": 9,
+   "selecionados": 1,
+   "com_resultados": 18
+  },
+  {
+   "liga": "Eredivisie",
+   "pais": "Países Baixos",
+   "ok": true,
+   "equipas": 18,
+   "jogos_agendados": 9,
+   "selecionados": 1,
+   "com_resultados": 18
+  },
+  {
+   "liga": "Pro League",
+   "pais": "Bélgica",
+   "ok": true,
+   "equipas": 18,
+   "jogos_agendados": 0,
+   "selecionados": 0,
+   "com_resultados": 18
+  },
+  {
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "ok": true,
+   "equipas": 18,
+   "jogos_agendados": 9,
+   "selecionados": 3,
+   "com_resultados": 18
+  },
+  {
+   "liga": "Premiership",
+   "pais": "Escócia",
+   "ok": true,
+   "equipas": 12,
+   "jogos_agendados": 6,
+   "selecionados": 0,
+   "com_resultados": 12
+  },
+  {
+   "liga": "Super League",
+   "pais": "Grécia",
+   "ok": true,
+   "equipas": 14,
+   "jogos_agendados": 6,
+   "selecionados": 0,
+   "com_resultados": 14
+  },
+  {
+   "liga": "Bundesliga",
+   "pais": "Áustria",
+   "ok": true,
+   "equipas": 12,
+   "jogos_agendados": 6,
+   "selecionados": 2,
+   "com_resultados": 12
+  },
+  {
+   "liga": "Superliga",
+   "pais": "Dinamarca",
+   "ok": true,
+   "equipas": 12,
+   "jogos_agendados": 6,
+   "selecionados": 1,
+   "com_resultados": 12
+  },
+  {
+   "liga": "Eliteserien",
+   "pais": "Noruega",
+   "ok": true,
+   "equipas": 16,
+   "jogos_agendados": 8,
+   "selecionados": 0,
+   "com_resultados": 16
+  },
+  {
+   "liga": "Allsvenskan",
+   "pais": "Suécia",
+   "ok": true,
+   "equipas": 16,
+   "jogos_agendados": 8,
+   "selecionados": 2,
+   "com_resultados": 16
+  }
+ ],
+ "jogos": [
+  {
+   "id": "401885087",
+   "data": "2026-10-16T16:30Z",
+   "casa": {
+    "nome": "Holstein Kiel",
+    "posicao": 18,
+    "total": 18,
+    "pontos": 4,
+    "jogos": 7,
+    "forma": "DEDED",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "Hertha Berlin",
+    "posicao": 1,
+    "total": 18,
+    "pontos": 21,
+    "jogos": 7,
+    "forma": "VVVVV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "2. Bundesliga",
+   "pais": "Alemanha",
+   "liga_id": "ger.2"
+  },
+  {
+   "id": "401888271",
+   "data": "2026-10-17T10:30Z",
+   "casa": {
+    "nome": "Erzurum BB",
+    "posicao": 14,
+    "total": 18,
+    "pontos": 8,
+    "jogos": 7,
+    "forma": "EVDVE",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Eyupspor",
+    "posicao": 18,
+    "total": 18,
+    "pontos": 3,
+    "jogos": 7,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 4,
+     "favorito": "casa",
+     "texto": "Eyupspor com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1"
+  },
+  {
+   "id": "401880211",
+   "data": "2026-10-17T11:30Z",
+   "casa": {
+    "nome": "Watford",
+    "posicao": 22,
+    "total": 24,
+    "pontos": 8,
+    "jogos": 10,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Charlton Athletic",
+    "posicao": 12,
+    "total": 24,
+    "pontos": 14,
+    "jogos": 10,
+    "forma": "EEDEE",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Watford com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Championship",
+   "pais": "Inglaterra",
+   "liga_id": "eng.2"
+  },
+  {
+   "id": "401883133",
+   "data": "2026-10-17T12:00Z",
+   "casa": {
+    "nome": "Real Sociedad II",
+    "posicao": 19,
+    "total": 22,
+    "pontos": 8,
+    "jogos": 9,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Almería",
+    "posicao": 1,
+    "total": 22,
+    "pontos": 21,
+    "jogos": 9,
+    "forma": "VVVVV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Real Sociedad II com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "LaLiga 2",
+   "pais": "Espanha",
+   "liga_id": "esp.2"
+  },
+  {
+   "id": "401874760",
+   "data": "2026-10-17T13:00Z",
+   "casa": {
+    "nome": "Venezia",
+    "posicao": 20,
+    "total": 20,
+    "pontos": 0,
+    "jogos": 6,
+    "forma": "DDDDD",
+    "serie_derrotas": 6
+   },
+   "fora": {
+    "nome": "Napoli",
+    "posicao": 8,
+    "total": 20,
+    "pontos": 10,
+    "jogos": 6,
+    "forma": "VEVDD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 6,
+     "favorito": "fora",
+     "texto": "Venezia com 6 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Serie A",
+   "pais": "Itália",
+   "liga_id": "ita.1"
+  },
+  {
+   "id": "401888378",
+   "data": "2026-10-17T13:00Z",
+   "casa": {
+    "nome": "Amed SFK",
+    "posicao": 3,
+    "total": 18,
+    "pontos": 14,
+    "jogos": 7,
+    "forma": "EVVEV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Konyaspor",
+    "posicao": 16,
+    "total": 18,
+    "pontos": 5,
+    "jogos": 7,
+    "forma": "EEVDD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1"
+  },
+  {
+   "id": "401884769",
+   "data": "2026-10-17T13:30Z",
+   "casa": {
+    "nome": "1. FC Union Berlin",
+    "posicao": 16,
+    "total": 18,
+    "pontos": 4,
+    "jogos": 5,
+    "forma": "VDDDE",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Borussia Dortmund",
+    "posicao": 2,
+    "total": 18,
+    "pontos": 13,
+    "jogos": 5,
+    "forma": "EVVVV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Bundesliga",
+   "pais": "Alemanha",
+   "liga_id": "ger.1"
+  },
+  {
+   "id": "401881316",
+   "data": "2026-10-17T14:00Z",
+   "casa": {
+    "nome": "Salford City",
+    "posicao": 1,
+    "total": 24,
+    "pontos": 19,
+    "jogos": 10,
+    "forma": "VVVVE",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Crawley Town",
+    "posicao": 24,
+    "total": 24,
+    "pontos": 5,
+    "jogos": 8,
+    "forma": "EDDDE",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "League Two",
+   "pais": "Inglaterra",
+   "liga_id": "eng.4"
+  },
+  {
+   "id": "401875582",
+   "data": "2026-10-17T14:30Z",
+   "casa": {
+    "nome": "ADO Den Haag",
+    "posicao": 17,
+    "total": 18,
+    "pontos": 3,
+    "jogos": 8,
+    "forma": "EEDDE",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "PSV Eindhoven",
+    "posicao": 2,
+    "total": 18,
+    "pontos": 19,
+    "jogos": 8,
+    "forma": "VDVVV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Eredivisie",
+   "pais": "Países Baixos",
+   "liga_id": "ned.1"
+  },
+  {
+   "id": "401883155",
+   "data": "2026-10-17T16:30Z",
+   "casa": {
+    "nome": "Sporting Gijón",
+    "posicao": 6,
+    "total": 22,
+    "pontos": 16,
+    "jogos": 9,
+    "forma": "VVDVD",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Albacete",
+    "posicao": 22,
+    "total": 22,
+    "pontos": 1,
+    "jogos": 9,
+    "forma": "DDDDE",
+    "serie_derrotas": 4
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 4,
+     "favorito": "casa",
+     "texto": "Albacete com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "LaLiga 2",
+   "pais": "Espanha",
+   "liga_id": "esp.2"
+  },
+  {
+   "id": "401876431",
+   "data": "2026-10-17T18:45Z",
+   "casa": {
+    "nome": "Troyes",
+    "posicao": 17,
+    "total": 18,
+    "pontos": 4,
+    "jogos": 6,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Lens",
+    "posicao": 10,
+    "total": 18,
+    "pontos": 7,
+    "jogos": 6,
+    "forma": "VDEDD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Troyes com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1"
+  },
+  {
+   "id": "401874771",
+   "data": "2026-10-18T10:30Z",
+   "casa": {
+    "nome": "Udinese",
+    "posicao": 15,
+    "total": 20,
+    "pontos": 4,
+    "jogos": 6,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Lecce",
+    "posicao": 13,
+    "total": 20,
+    "pontos": 6,
+    "jogos": 6,
+    "forma": "DDVDD",
+    "serie_derrotas": 2
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Udinese com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Serie A",
+   "pais": "Itália",
+   "liga_id": "ita.1"
+  },
+  {
+   "id": "401888276",
+   "data": "2026-10-18T10:30Z",
+   "casa": {
+    "nome": "Kasimpasa",
+    "posicao": 9,
+    "total": 18,
+    "pontos": 10,
+    "jogos": 7,
+    "forma": "DEVEE",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "Samsunspor",
+    "posicao": 17,
+    "total": 18,
+    "pontos": 4,
+    "jogos": 7,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 5,
+     "favorito": "casa",
+     "texto": "Samsunspor com 5 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1"
+  },
+  {
+   "id": "401881772",
+   "data": "2026-10-18T12:30Z",
+   "casa": {
+    "nome": "RB Salzburg",
+    "posicao": 2,
+    "total": 12,
+    "pontos": 18,
+    "jogos": 8,
+    "forma": "EVEVV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "SC Rheindorf Altach",
+    "posicao": 11,
+    "total": 12,
+    "pontos": 6,
+    "jogos": 8,
+    "forma": "VDDDD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Bundesliga",
+   "pais": "Áustria",
+   "liga_id": "aut.1"
+  },
+  {
+   "id": "401881769",
+   "data": "2026-10-18T12:30Z",
+   "casa": {
+    "nome": "Wolfsberger",
+    "posicao": 12,
+    "total": 12,
+    "pontos": 5,
+    "jogos": 8,
+    "forma": "DDDDE",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "WSG Swarovski Tirol",
+    "posicao": 8,
+    "total": 12,
+    "pontos": 8,
+    "jogos": 8,
+    "forma": "DDEVV",
+    "serie_derrotas": 2
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Wolfsberger com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Bundesliga",
+   "pais": "Áustria",
+   "liga_id": "aut.1"
+  },
+  {
+   "id": "401842845",
+   "data": "2026-10-18T14:30Z",
+   "casa": {
+    "nome": "Halmstads BK",
+    "posicao": 16,
+    "total": 16,
+    "pontos": 14,
+    "jogos": 23,
+    "forma": "DVDDV",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "Hammarby IF",
+    "posicao": 3,
+    "total": 16,
+    "pontos": 43,
+    "jogos": 23,
+    "forma": "DVVED",
+    "serie_derrotas": 1
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Allsvenskan",
+   "pais": "Suécia",
+   "liga_id": "swe.1"
+  },
+  {
+   "id": "401884768",
+   "data": "2026-10-18T15:30Z",
+   "casa": {
+    "nome": "Borussia Mönchengladbach",
+    "posicao": 18,
+    "total": 18,
+    "pontos": 0,
+    "jogos": 5,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
+   },
+   "fora": {
+    "nome": "TSG Hoffenheim",
+    "posicao": 17,
+    "total": 18,
+    "pontos": 3,
+    "jogos": 5,
+    "forma": "DDVDD",
+    "serie_derrotas": 2
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 5,
+     "favorito": "fora",
+     "texto": "Borussia Mönchengladbach com 5 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Bundesliga",
+   "pais": "Alemanha",
+   "liga_id": "ger.1"
+  },
+  {
+   "id": "401874551",
+   "data": "2026-10-18T16:00Z",
+   "casa": {
+    "nome": "F.C. København",
+    "posicao": 1,
+    "total": 12,
+    "pontos": 24,
+    "jogos": 10,
+    "forma": "DVVVV",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "AGF",
+    "posicao": 10,
+    "total": 12,
+    "pontos": 8,
+    "jogos": 10,
+    "forma": "VEDED",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Superliga",
+   "pais": "Dinamarca",
+   "liga_id": "den.1"
+  },
+  {
+   "id": "401842846",
+   "data": "2026-10-19T17:00Z",
+   "casa": {
+    "nome": "Degerfors IF",
+    "posicao": 13,
+    "total": 16,
+    "pontos": 20,
+    "jogos": 23,
+    "forma": "EDDVD",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Kalmar FF",
+    "posicao": 14,
+    "total": 16,
+    "pontos": 19,
+    "jogos": 23,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 5,
+     "favorito": "casa",
+     "texto": "Kalmar FF com 5 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Allsvenskan",
+   "pais": "Suécia",
+   "liga_id": "swe.1"
+  },
+  {
+   "id": "401876719",
+   "data": "2026-10-19T18:45Z",
+   "casa": {
+    "nome": "Rodez Aveyron",
+    "posicao": 15,
+    "total": 18,
+    "pontos": 7,
+    "jogos": 8,
+    "forma": "DDDDE",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Montpellier",
+    "posicao": 3,
+    "total": 18,
+    "pontos": 15,
+    "jogos": 8,
+    "forma": "VEVDE",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Rodez Aveyron com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Ligue 2",
+   "pais": "França",
+   "liga_id": "fra.2"
+  }
+ ]
+}

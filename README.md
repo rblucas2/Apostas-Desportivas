@@ -81,7 +81,6 @@ cd site && python3 -m http.server 8000  # abrir http://localhost:8000
   que falhe aparece como "Erro" em *Estado das ligas analisadas*, sem afetar as outras.
 - **Séries de derrotas**: contam só jogos do campeonato (não incluem taças nem competições europeias).
   No início da época a classificação tem pouco valor informativo: vê o número de jogos (J) no cartão.
-- **Ligas**: a lista cobre as principais ligas europeias com oferta na Betclic. Para acrescentar uma
-  liga, junta uma entrada a `config.json` com o código ESPN e o `sport_key` da The Odds API.
+- **Ligas**: 27 competições: as principais ligas europeias, a Eerste Divisie (Países Baixos), a Championship escocesa e as três competições da UEFA (fase de liga). A ESPN não cobre a Liga Portugal 2, a 3. Liga alemã, a Polónia, a Croácia nem a Sérvia, e não tem a classificação atual da Rep. Checa, Roménia, Finlândia, Chipre, Suíça e Irlanda. Para acrescentar uma liga, junta uma entrada a `config.json` com o código ESPN e o `sport_key` da The Odds API (ou `null`, para não ter cotas).
 
 > Os critérios são filtros de seleção, não previsões. Joga com responsabilidade.

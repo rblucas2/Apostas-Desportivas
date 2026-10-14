@@ -7,37 +7,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - shell: bash {0}
-        env:
-          K: ${{ secrets.ODDS_API_KEY }}
         run: |
-          S=https://site.api.espn.com/apis/v2/sports/soccer
-          B=https://site.api.espn.com/apis/site/v2/sports/soccer
-          for slug in por.2 ned.2 sco.2 ger.3 pol.1 cze.1 cro.1 srb.1 rou.1 fin.1 cyp.1 sui.1 irl.1 uefa.champions uefa.europa uefa.europa.conf; do
-            python3 - "$slug" <<'PY'
-          import json, sys, urllib.request
-          slug = sys.argv[1]
+          python3 - <<'PY'
+          import json, urllib.request, re
           def get(u):
               try:
-                  return json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "x"}), timeout=20))
+                  return json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "x"}), timeout=25))
               except Exception as e:
                   return {"_erro": str(e)}
-          st = get(f"https://site.api.espn.com/apis/v2/sports/soccer/{slug}/standings")
-          ch = st.get("children") or []
-          n = sum(len((c.get("standings") or {}).get("entries") or []) for c in ch)
-          season = (st.get("season") or {}).get("displayName") or (ch[0].get("name") if ch else "")
-          gp = []
-          for c in ch:
-              for e in (c.get("standings") or {}).get("entries") or []:
-                  gp += [s.get("value") for s in e.get("stats", []) if s.get("name") == "gamesPlayed"]
-          sb = get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard")
-          lg = (sb.get("leagues") or [{}])[0]
-          print(f"{slug:18} erro={st.get('_erro','')[:40]:40} grupos={len(ch)} equipas={n} jogos_max={max(gp) if gp else '-'} | {lg.get('name','?')} | época {(lg.get('season') or {}).get('displayName','?')} | {season}")
+          d = get("https://site.api.espn.com/apis/site/v2/leagues/dropdown?sport=soccer&limit=1000")
+          ls = d.get("leagues") or []
+          print("ligas na lista:", len(ls), d.get("_erro", ""))
+          pat = re.compile(r"portug|liga 3|3\. liga|german|poland|polish|ekstra|croat|hnl|serbia|czech|romania|finland|finnish|swiss|switz|ireland|irish|cyprus|cypriot", re.I)
+          cands = []
+          for l in ls:
+              nome = f"{l.get('name','')} {l.get('abbreviation','')}"
+              if pat.search(nome):
+                  print("  ", l.get("slug"), "|", l.get("name"))
+                  cands.append(l.get("slug"))
+          for slug in cands:
+              t = get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/teams")
+              teams = (((t.get("sports") or [{}])[0].get("leagues") or [{}])[0].get("teams") or [])
+              info = ""
+              if teams:
+                  tid = teams[0]["team"]["id"]
+                  s = get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/teams/{tid}/schedule")
+                  evs = s.get("events") or []
+                  done = [e for e in evs if (((e.get("competitions") or [{}])[0].get("status") or {}).get("type") or {}).get("completed")]
+                  info = f"época={(s.get('season') or {}).get('displayName')} eventos={len(evs)} terminados={len(done)} ultimo={(done[-1]['date'] if done else '-')}"
+              st = get(f"https://site.api.espn.com/apis/v2/sports/soccer/{slug}/standings")
+              n = sum(len((c.get('standings') or {}).get('entries') or []) for c in st.get('children') or [])
+              print(f"{slug:24} equipas={len(teams):3} classif={n:3} {info}")
           PY
-          done
-          echo "== ODDS SPORTS"
-          curl -s -D /tmp/h "https://api.the-odds-api.com/v4/sports?apiKey=$K&all=true" -o /tmp/s
-          grep -i x-requests /tmp/h
-          python3 -c "
-          import json; d=json.load(open('/tmp/s'))
-          for s in d:
-              if s['group']=='Soccer': print(s['key'], '|', s['title'], '|', 'ativo' if s['active'] else 'inativo')"

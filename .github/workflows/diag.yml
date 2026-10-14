@@ -6,36 +6,32 @@ jobs:
   d:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - shell: bash {0}
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: |
+          python3 -m unittest discover -s scanner/tests 2>&1 | tail -1
+          cp -r site /tmp/site
+          python3 scanner/scan.py --odds nao --out /tmp/site/data/jogos.json 2>&1 | grep -v "^    aviso"
           python3 - <<'PY'
-          import json, urllib.request, re
-          def get(u):
-              try:
-                  return json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "x"}), timeout=25))
-              except Exception as e:
-                  return {"_erro": str(e)}
-          d = get("https://site.api.espn.com/apis/site/v2/leagues/dropdown?sport=soccer&limit=1000")
-          ls = d.get("leagues") or []
-          print("ligas na lista:", len(ls), d.get("_erro", ""))
-          pat = re.compile(r"portug|liga 3|3\. liga|german|poland|polish|ekstra|croat|hnl|serbia|czech|romania|finland|finnish|swiss|switz|ireland|irish|cyprus|cypriot", re.I)
-          cands = []
-          for l in ls:
-              nome = f"{l.get('name','')} {l.get('abbreviation','')}"
-              if pat.search(nome):
-                  print("  ", l.get("slug"), "|", l.get("name"))
-                  cands.append(l.get("slug"))
-          for slug in cands:
-              t = get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/teams")
-              teams = (((t.get("sports") or [{}])[0].get("leagues") or [{}])[0].get("teams") or [])
-              info = ""
-              if teams:
-                  tid = teams[0]["team"]["id"]
-                  s = get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/teams/{tid}/schedule")
-                  evs = s.get("events") or []
-                  done = [e for e in evs if (((e.get("competitions") or [{}])[0].get("status") or {}).get("type") or {}).get("completed")]
-                  info = f"época={(s.get('season') or {}).get('displayName')} eventos={len(evs)} terminados={len(done)} ultimo={(done[-1]['date'] if done else '-')}"
-              st = get(f"https://site.api.espn.com/apis/v2/sports/soccer/{slug}/standings")
-              n = sum(len((c.get('standings') or {}).get('entries') or []) for c in st.get('children') or [])
-              print(f"{slug:24} equipas={len(teams):3} classif={n:3} {info}")
+          import sys, json, datetime as dt, os
+          sys.path.insert(0, "scanner"); import scan
+          d = json.load(open("/tmp/site/data/jogos.json"))
+          cfg = json.load(open("scanner/config.json"))
+          sports = {l["espn"]: l["odds"] for l in cfg["ligas"] if l.get("odds")}
+          now = dt.datetime.now(dt.timezone.utc)
+          rem = scan.odds_credits(os.environ["ODDS_API_KEY"])
+          st = scan.update_budget_state({}, rem, now.date(), None)
+          print("ORCAMENTO", {k: st[k] for k in ("restantes", "dias_ate_renovacao", "orcamento_hoje", "disponivel_agora")})
+          for g in d["jogos"]: g.pop("cotas", None)  # pior caso: nenhum jogo com cota
+          fila = scan.leagues_needing_odds(d["jogos"], sports, {}, now)
+          print("FILA (pior caso)", len(fila), fila)
+          from collections import Counter
+          print("JOGOS POR LIGA", Counter(g["liga_id"] for g in d["jogos"]))
+          for g in d["jogos"]:
+              if g["liga_id"].startswith(("uefa", "ned.2", "sco.2")):
+                  print(" ", g["data"][:16], g["liga"], "|", g["casa"]["nome"], g["casa"]["posicao"], "vs", g["fora"]["nome"], g["fora"]["posicao"], [c["texto"] for c in g["criterios"]])
+          h = json.load(open("/tmp/site/data/historico.json"))
+          print("HIST", len(h["jogos"]))
           PY

@@ -2,7 +2,7 @@ name: Scanner de jogos
 
 on:
   schedule:
-    - cron: "15 0,6,12,18 * * *"   # UTC; as cotas só são pedidas às 06:15 para poupar créditos
+    - cron: "15 0,6,12,18 * * *"   # UTC; as cotas respeitam um orçamento diário de créditos (ver scan.py)
   push:
     branches: [main]
     paths: ["site/**", "scanner/**", ".github/workflows/scan.yml"]
@@ -46,7 +46,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             [ "${{ inputs.cotas }}" = "true" ] && echo "modo=auto" >> "$GITHUB_OUTPUT" || echo "modo=nao" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%H)" = "06" ]; then
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
             echo "modo=auto" >> "$GITHUB_OUTPUT"
           else
             echo "modo=nao" >> "$GITHUB_OUTPUT"
@@ -63,10 +63,13 @@ jobs:
           git config user.email "scanner-bot@users.noreply.github.com"
           # Parte da versão mais recente do ramo (outra execução pode ter gravado dados entretanto)
           cp site/data/jogos.json site/data/historico.json "$RUNNER_TEMP/"
+          [ -f site/data/creditos.json ] && cp site/data/creditos.json "$RUNNER_TEMP/"
           git fetch -q origin "${GITHUB_REF_NAME}"
           git reset -q --hard "origin/${GITHUB_REF_NAME}"
           cp "$RUNNER_TEMP/jogos.json" "$RUNNER_TEMP/historico.json" site/data/
+          [ -f "$RUNNER_TEMP/creditos.json" ] && cp "$RUNNER_TEMP/creditos.json" site/data/
           git add site/data/jogos.json site/data/historico.json
+          [ -f site/data/creditos.json ] && git add site/data/creditos.json
           if git diff --cached --quiet; then echo "Sem alterações"; exit 0; fi
           git commit -m "Dados atualizados $(date -u +'%Y-%m-%d %H:%M') UTC"
           git push origin "HEAD:${GITHUB_REF_NAME}"

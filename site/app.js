@@ -44,6 +44,18 @@ async function carregar() {
   preencherFiltros();
   render();
   renderLigas();
+  carregarCreditos();
+}
+
+async function carregarCreditos() {
+  try {
+    const r = await fetch(`data/creditos.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) return;
+    const c = await r.json();
+    const ren = c.dia_renovacao ? `renovação no dia ${c.dia_renovacao}` : "dia de renovação ainda por detetar (orçamento prudente)";
+    $("#creditos").textContent = `Créditos de cotas: ${c.restantes ?? "?"} restantes · orçamento de hoje ${c.orcamento_hoje ?? "?"} ` +
+      `(gastos ${c.gastos_hoje ?? 0}) · ${ren}.`;
+  } catch { /* sem informação de créditos */ }
 }
 
 function preencherFiltros() {

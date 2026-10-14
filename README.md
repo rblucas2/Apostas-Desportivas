@@ -75,7 +75,7 @@ cd site && python3 -m http.server 8000  # abrir http://localhost:8000
   diferir ligeiramente das da Betclic.pt e mudam até ao início do jogo. A **Betano não está coberta**,
   por isso a cota tem de ser introduzida manualmente no boletim. Confirma sempre a cota na casa antes
   de apostar.
-- **Créditos**: cada liga consultada gasta 1 crédito. Só são consultadas ligas com jogos selecionados,
+- **Créditos**: o scanner tem um orçamento diário (créditos restantes ÷ dias até à renovação), por isso os 500 créditos mensais nunca acabam antes de renovar. Cada liga só gasta 1 crédito quando tem um jogo selecionado ainda sem cota, ou um jogo nas próximas 36 horas. O estado fica em `site/data/creditos.json` e aparece em Definições.
   uma vez por dia (06:15 UTC), o que deve caber no plano gratuito.
 - **ESPN**: é uma API pública mas não documentada oficialmente. Não aceita intervalos de datas, por isso os resultados vêm do calendário de cada equipa e os próximos jogos são pedidos dia a dia (cerca de 600 pedidos e 1 a 2 minutos por execução). Pode mudar sem aviso. Uma liga
   que falhe aparece como "Erro" em *Estado das ligas analisadas*, sem afetar as outras.

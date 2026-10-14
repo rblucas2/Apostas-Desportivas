@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-14T16:26:20+00:00",
+ "atualizado_em": "2026-10-14T21:40:59+00:00",
  "jogos": [
   {
    "id": "401876719",
@@ -387,6 +387,31 @@
    "cota": null
   },
   {
+   "id": "401880214",
+   "selecionado_em": "2026-10-14T21:40:59+00:00",
+   "estado": "pendente",
+   "data": "2026-10-17T14:00Z",
+   "liga": "Championship",
+   "pais": "Inglaterra",
+   "liga_id": "eng.2",
+   "casa": {
+    "nome": "Norwich City",
+    "posicao": 20,
+    "total": 24
+   },
+   "fora": {
+    "nome": "Portsmouth",
+    "posicao": 16,
+    "total": 24
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
    "id": "401884769",
    "selecionado_em": "2026-10-14T16:26:20+00:00",
    "estado": "pendente",
@@ -521,7 +546,7 @@
    },
    "fora": {
     "nome": "Charlton Athletic",
-    "posicao": 12,
+    "posicao": 13,
     "total": 24
    },
    "criterios": [

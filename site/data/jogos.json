@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-14T16:26:20+00:00",
+ "gerado_em": "2026-10-14T21:40:59+00:00",
  "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
@@ -31,8 +31,8 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 17,
-   "selecionados": 1,
+   "jogos_agendados": 13,
+   "selecionados": 2,
    "com_resultados": 24
   },
   {
@@ -40,7 +40,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 23,
+   "jogos_agendados": 24,
    "selecionados": 0,
    "com_resultados": 24
   },
@@ -58,7 +58,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 10,
+   "jogos_agendados": 11,
    "selecionados": 0,
    "com_resultados": 20
   },
@@ -312,7 +312,7 @@
    },
    "fora": {
     "nome": "Charlton Athletic",
-    "posicao": 12,
+    "posicao": 13,
     "total": 24,
     "pontos": 14,
     "jogos": 10,
@@ -523,6 +523,40 @@
     }
    },
    "cotas_antigas": true
+  },
+  {
+   "id": "401880214",
+   "data": "2026-10-17T14:00Z",
+   "casa": {
+    "nome": "Norwich City",
+    "posicao": 20,
+    "total": 24,
+    "pontos": 9,
+    "jogos": 10,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Portsmouth",
+    "posicao": 16,
+    "total": 24,
+    "pontos": 11,
+    "jogos": 9,
+    "forma": "VDEEV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Norwich City com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Championship",
+   "pais": "Inglaterra",
+   "liga_id": "eng.2"
   },
   {
    "id": "401881316",

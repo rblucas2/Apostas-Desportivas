@@ -320,15 +320,17 @@ def fetch_results(slug: str, team_ids) -> list[dict]:
     return list(events.values())
 
 
-def scan_league(liga: dict, cfg: dict, now: dt.datetime) -> tuple[list[dict], dict]:
+def scan_league(liga: dict, cfg: dict, now: dt.datetime) -> tuple[list[dict], dict, dict]:
     slug = liga["espn"]
     st, _ = http_json(ESPN_STANDINGS.format(slug=slug))
     table = parse_standings(st)
     if not table:
         raise ValueError("classificação vazia (a ESPN não tem a época atual desta liga)")
-    results = team_results(fetch_results(slug, table.keys()))
+    past = fetch_results(slug, table.keys())
+    results = team_results(past)
     limit = now + dt.timedelta(days=cfg["dias_a_frente"])
-    fixtures = [e for e in fetch_fixtures(slug, now.date(), cfg["dias_a_frente"])
+    upcoming = fetch_fixtures(slug, now.date(), cfg["dias_a_frente"])
+    fixtures = [e for e in upcoming
                 if e["estado"] == "pre" and now <= parse_date(e["data"]) <= limit
                 and "POSTPONED" not in e["estado_nome"]]
     games = evaluate(fixtures, table, results, cfg)
@@ -338,13 +340,88 @@ def scan_league(liga: dict, cfg: dict, now: dt.datetime) -> tuple[list[dict], di
         g["liga_id"] = slug
     resumo = {"equipas": len(table), "jogos_agendados": len(fixtures), "selecionados": len(games),
               "com_resultados": sum(1 for t in table if results.get(t))}
-    return games, resumo
+    eventos = {e["id"]: e for e in past}
+    eventos.update({e["id"]: e for e in upcoming})
+    return games, resumo, eventos
+
+
+# ---------------------------------------------------------------- histórico
+
+ANULADO = ("POSTPONED", "CANCELED", "CANCELLED", "ABANDONED", "SUSPENDED", "FORFEIT")
+DIAS_SEM_RESULTADO = 10
+
+
+def _bet_odds(g: dict, bookmakers: list[str]) -> dict:
+    cot = g.get("cotas") or {}
+    for bm in bookmakers:
+        if bm in cot:
+            return cot[bm].get("cotas") or {}
+    return {}
+
+
+def update_history(hist: dict, games: list[dict], eventos: dict, ligas_ok: set,
+                   bookmakers: list[str], now: dt.datetime) -> dict:
+    """Regista os jogos selecionados e liquida os que já terminaram.
+
+    Aposta simulada: 1 unidade no favorito (o melhor classificado) à cota da
+    Betclic mais recente antes do jogo. Lucro = cota - 1 se acertar, -1 se falhar.
+    """
+    entries = {e["id"]: e for e in hist.get("jogos", [])}
+    selecionados = {g["id"] for g in games}
+
+    for g in games:
+        e = entries.get(g["id"])
+        if e and e["estado"] != "pendente":
+            continue
+        fav = g["criterios"][0]["favorito"]
+        aposta = "1" if fav == "casa" else "2"
+        odds = _bet_odds(g, bookmakers)
+        e = e or {"id": g["id"], "selecionado_em": now.isoformat(timespec="seconds"), "estado": "pendente"}
+        e.update({
+            "data": g["data"], "liga": g["liga"], "pais": g["pais"], "liga_id": g["liga_id"],
+            "casa": {k: g["casa"][k] for k in ("nome", "posicao", "total")},
+            "fora": {k: g["fora"][k] for k in ("nome", "posicao", "total")},
+            "criterios": sorted({c["tipo"] for c in g["criterios"]}),
+            "favorito": fav, "aposta": aposta,
+        })
+        if odds:  # guarda a cota mais recente; se esta execução não tiver cotas, mantém a anterior
+            e["cotas"] = odds
+            e["cota"] = odds.get(aposta)
+        e.setdefault("cota", None)
+        entries[g["id"]] = e
+
+    for eid, e in list(entries.items()):
+        if e["estado"] != "pendente" or e["liga_id"] not in ligas_ok:
+            continue
+        kickoff = parse_date(e["data"])
+        ev = eventos.get(e["liga_id"], {}).get(eid)
+        if kickoff > now:
+            if eid not in selecionados:  # deixou de cumprir os critérios antes do jogo
+                del entries[eid]
+            continue
+        if ev and ev["terminado"]:
+            gc, gf = ev["golos_casa"], ev["golos_fora"]
+            res = "1" if gc > gf else "2" if gf > gc else "X"
+            acertou = res == e["aposta"]
+            e.update({"estado": "terminado", "golos_casa": gc, "golos_fora": gf, "resultado": res,
+                      "acertou": acertou, "resolvido_em": now.isoformat(timespec="seconds")})
+            e["lucro"] = (round(e["cota"] - 1, 2) if acertou else -1.0) if e.get("cota") else None
+        elif ev and any(k in ev["estado_nome"] for k in ANULADO):
+            e.update({"estado": "anulado", "motivo": ev["estado_nome"]})
+        elif ev and ev["estado"] == "pre" and parse_date(ev["data"]) > now:
+            e["data"] = ev["data"]  # jogo remarcado
+        elif now - kickoff > dt.timedelta(days=DIAS_SEM_RESULTADO):
+            e.update({"estado": "anulado", "motivo": "sem resultado"})
+
+    jogos = sorted(entries.values(), key=lambda e: e["data"], reverse=True)
+    return {"atualizado_em": now.isoformat(timespec="seconds"), "jogos": jogos}
 
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--config", default=str(ROOT / "config.json"))
     ap.add_argument("--out", default=str(ROOT.parent / "site" / "data" / "jogos.json"))
+    ap.add_argument("--historico", help="ficheiro do histórico (por defeito: historico.json ao lado de --out)")
     ap.add_argument("--odds", choices=["auto", "sim", "nao"], default="auto",
                     help="auto = obtém cotas se ODDS_API_KEY estiver definida")
     ap.add_argument("--ligas", help="lista de códigos ESPN separados por vírgula (opcional)")
@@ -365,11 +442,11 @@ def main(argv=None) -> int:
         except (ValueError, KeyError):
             pass
 
-    all_games, estado_ligas = [], []
+    all_games, estado_ligas, eventos = [], [], {}
     for liga in ligas:
         log(f"[{liga['espn']}] {liga['pais']} - {liga['nome']}")
         try:
-            games, resumo = scan_league(liga, cfg, now)
+            games, resumo, eventos[liga["espn"]] = scan_league(liga, cfg, now)
             estado_ligas.append({"liga": liga["nome"], "pais": liga["pais"], "ok": True, **resumo})
             all_games.extend(games)
             log(f"    {resumo}")
@@ -421,6 +498,18 @@ def main(argv=None) -> int:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     log(f"Concluído: {len(all_games)} jogos, {ok}/{len(estado_ligas)} ligas OK -> {out_path}")
+
+    hist_path = Path(args.historico) if args.historico else out_path.with_name("historico.json")
+    hist = {}
+    if hist_path.exists():
+        try:
+            hist = json.loads(hist_path.read_text(encoding="utf-8"))
+        except ValueError:
+            log("aviso: histórico ilegível, a recomeçar")
+    hist = update_history(hist, all_games, eventos, set(eventos), bookmakers, now)
+    hist_path.write_text(json.dumps(hist, ensure_ascii=False, indent=1), encoding="utf-8")
+    n = {k: sum(1 for e in hist["jogos"] if e["estado"] == k) for k in ("pendente", "terminado", "anulado")}
+    log(f"Histórico: {n} -> {hist_path}")
     return 0 if ok else 1
 
 

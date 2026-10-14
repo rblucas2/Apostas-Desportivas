@@ -1,0 +1,43 @@
+name: diag
+on:
+  push:
+    branches: [claude/stoic-hopper-1p6hqs]
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash {0}
+        env:
+          K: ${{ secrets.ODDS_API_KEY }}
+        run: |
+          S=https://site.api.espn.com/apis/v2/sports/soccer
+          B=https://site.api.espn.com/apis/site/v2/sports/soccer
+          for slug in por.2 ned.2 sco.2 ger.3 pol.1 cze.1 cro.1 srb.1 rou.1 fin.1 cyp.1 sui.1 irl.1 uefa.champions uefa.europa uefa.europa.conf; do
+            python3 - "$slug" <<'PY'
+          import json, sys, urllib.request
+          slug = sys.argv[1]
+          def get(u):
+              try:
+                  return json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "x"}), timeout=20))
+              except Exception as e:
+                  return {"_erro": str(e)}
+          st = get(f"https://site.api.espn.com/apis/v2/sports/soccer/{slug}/standings")
+          ch = st.get("children") or []
+          n = sum(len((c.get("standings") or {}).get("entries") or []) for c in ch)
+          season = (st.get("season") or {}).get("displayName") or (ch[0].get("name") if ch else "")
+          gp = []
+          for c in ch:
+              for e in (c.get("standings") or {}).get("entries") or []:
+                  gp += [s.get("value") for s in e.get("stats", []) if s.get("name") == "gamesPlayed"]
+          sb = get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard")
+          lg = (sb.get("leagues") or [{}])[0]
+          print(f"{slug:18} erro={st.get('_erro','')[:40]:40} grupos={len(ch)} equipas={n} jogos_max={max(gp) if gp else '-'} | {lg.get('name','?')} | época {(lg.get('season') or {}).get('displayName','?')} | {season}")
+          PY
+          done
+          echo "== ODDS SPORTS"
+          curl -s -D /tmp/h "https://api.the-odds-api.com/v4/sports?apiKey=$K&all=true" -o /tmp/s
+          grep -i x-requests /tmp/h
+          python3 -c "
+          import json; d=json.load(open('/tmp/s'))
+          for s in d:
+              if s['group']=='Soccer': print(s['key'], '|', s['title'], '|', 'ativo' if s['active'] else 'inativo')"

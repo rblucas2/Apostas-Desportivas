@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-16T11:23:47+00:00",
+ "gerado_em": "2026-10-16T16:39:05+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -94,7 +94,7 @@
    "ok": true,
    "equipas": 18,
    "jogos_agendados": 9,
-   "selecionados": 1,
+   "selecionados": 0,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -281,49 +281,6 @@
  ],
  "jogos": [
   {
-   "id": "401885087",
-   "data": "2026-10-16T16:30Z",
-   "casa": {
-    "nome": "Holstein Kiel",
-    "posicao": 18,
-    "total": 18,
-    "pontos": 4,
-    "jogos": 7,
-    "forma": "DEDED",
-    "serie_derrotas": 1
-   },
-   "fora": {
-    "nome": "Hertha Berlin",
-    "posicao": 1,
-    "total": 18,
-    "pontos": 21,
-    "jogos": 7,
-    "forma": "VVVVV",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "fora",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "2. Bundesliga",
-   "pais": "Alemanha",
-   "liga_id": "ger.2",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 2.13,
-      "1": 2.63,
-      "X": 3.68
-     },
-     "atualizado": "2026-10-16T11:25:01Z"
-    }
-   }
-  },
-  {
    "id": "401888271",
    "data": "2026-10-17T10:30Z",
    "casa": {
@@ -366,7 +323,8 @@
      },
      "atualizado": "2026-10-16T11:25:39Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401880211",
@@ -411,7 +369,8 @@
      },
      "atualizado": "2026-10-16T11:24:17Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401883133",
@@ -456,7 +415,8 @@
      },
      "atualizado": "2026-10-16T11:24:48Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401874760",
@@ -501,7 +461,8 @@
      },
      "atualizado": "2026-10-16T11:24:32Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888378",
@@ -544,7 +505,8 @@
      },
      "atualizado": "2026-10-16T11:25:39Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401884769",
@@ -587,7 +549,8 @@
      },
      "atualizado": "2026-10-16T11:25:40Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401880214",
@@ -632,7 +595,8 @@
      },
      "atualizado": "2026-10-16T11:24:17Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881316",
@@ -707,7 +671,8 @@
      },
      "atualizado": "2026-10-16T11:26:06Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401883155",
@@ -752,7 +717,8 @@
      },
      "atualizado": "2026-10-16T11:24:48Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876431",
@@ -797,7 +763,8 @@
      },
      "atualizado": "2026-10-16T11:24:19Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401874771",
@@ -842,7 +809,8 @@
      },
      "atualizado": "2026-10-16T11:24:32Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888276",
@@ -887,7 +855,8 @@
      },
      "atualizado": "2026-10-16T11:25:39Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881772",
@@ -1066,7 +1035,8 @@
      },
      "atualizado": "2026-10-16T11:25:40Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401874551",

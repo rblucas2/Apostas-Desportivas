@@ -1,6 +1,31 @@
 {
- "atualizado_em": "2026-10-16T16:39:05+00:00",
+ "atualizado_em": "2026-10-16T16:41:46+00:00",
  "jogos": [
+  {
+   "id": "401841272",
+   "selecionado_em": "2026-10-16T16:41:46+00:00",
+   "estado": "pendente",
+   "data": "2026-10-19T23:00Z",
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1",
+   "casa": {
+    "nome": "Corinthians",
+    "posicao": 16,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Vitória",
+    "posicao": 12,
+    "total": 20
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401876719",
    "selecionado_em": "2026-10-14T16:26:20+00:00",
@@ -60,6 +85,31 @@
     "X": 3.08
    },
    "cota": 2.7
+  },
+  {
+   "id": "401841624",
+   "selecionado_em": "2026-10-16T16:41:46+00:00",
+   "estado": "pendente",
+   "data": "2026-10-18T21:00Z",
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1",
+   "casa": {
+    "nome": "Estudiantes de Río Cuarto",
+    "posicao": 15,
+    "total": 15
+   },
+   "fora": {
+    "nome": "Aldosivi",
+    "posicao": 14,
+    "total": 15
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
   },
   {
    "id": "401874551",
@@ -270,6 +320,31 @@
     "X": 3.23
    },
    "cota": 2.3
+  },
+  {
+   "id": "401841621",
+   "selecionado_em": "2026-10-16T16:41:46+00:00",
+   "estado": "pendente",
+   "data": "2026-10-17T20:30Z",
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1",
+   "casa": {
+    "nome": "Independiente Rivadavia",
+    "posicao": 8,
+    "total": 15
+   },
+   "fora": {
+    "nome": "Tigre",
+    "posicao": 12,
+    "total": 15
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
   },
   {
    "id": "401876431",
@@ -595,6 +670,31 @@
     "X": 3.63
    },
    "cota": 1.54
+  },
+  {
+   "id": "401841627",
+   "selecionado_em": "2026-10-16T16:41:46+00:00",
+   "estado": "pendente",
+   "data": "2026-10-17T00:30Z",
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1",
+   "casa": {
+    "nome": "Boca Juniors",
+    "posicao": 3,
+    "total": 15
+   },
+   "fora": {
+    "nome": "Talleres (Córdoba)",
+    "posicao": 15,
+    "total": 15
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
   },
   {
    "id": "401885087",

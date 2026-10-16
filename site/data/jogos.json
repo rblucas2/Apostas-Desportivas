@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-16T16:39:05+00:00",
- "cotas_atualizadas": true,
+ "gerado_em": "2026-10-16T16:41:46+00:00",
+ "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -249,6 +249,26 @@
    "resultados_em_falta": 0
   },
   {
+   "liga": "Série A",
+   "pais": "Brasil",
+   "ok": true,
+   "equipas": 20,
+   "jogos_agendados": 10,
+   "selecionados": 1,
+   "com_resultados": 20,
+   "resultados_em_falta": 0
+  },
+  {
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "ok": true,
+   "equipas": 30,
+   "jogos_agendados": 14,
+   "selecionados": 3,
+   "com_resultados": 30,
+   "resultados_em_falta": 0
+  },
+  {
    "liga": "Liga dos Campeões",
    "pais": "Europa (UEFA)",
    "ok": true,
@@ -280,6 +300,38 @@
   }
  ],
  "jogos": [
+  {
+   "id": "401841627",
+   "data": "2026-10-17T00:30Z",
+   "casa": {
+    "nome": "Boca Juniors",
+    "posicao": 3,
+    "total": 15,
+    "pontos": 21,
+    "jogos": 12,
+    "forma": "EVVVE",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Talleres (Córdoba)",
+    "posicao": 15,
+    "total": 15,
+    "pontos": 9,
+    "jogos": 12,
+    "forma": "EDDVD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1"
+  },
   {
    "id": "401888271",
    "data": "2026-10-17T10:30Z",
@@ -767,6 +819,40 @@
    "cotas_antigas": true
   },
   {
+   "id": "401841621",
+   "data": "2026-10-17T20:30Z",
+   "casa": {
+    "nome": "Independiente Rivadavia",
+    "posicao": 8,
+    "total": 15,
+    "pontos": 18,
+    "jogos": 12,
+    "forma": "DEVVD",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "Tigre",
+    "posicao": 12,
+    "total": 15,
+    "pontos": 12,
+    "jogos": 12,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 5,
+     "favorito": "casa",
+     "texto": "Tigre com 5 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1"
+  },
+  {
    "id": "401874771",
    "data": "2026-10-18T10:30Z",
    "casa": {
@@ -1083,6 +1169,40 @@
    "cotas_antigas": true
   },
   {
+   "id": "401841624",
+   "data": "2026-10-18T21:00Z",
+   "casa": {
+    "nome": "Estudiantes de Río Cuarto",
+    "posicao": 15,
+    "total": 15,
+    "pontos": 6,
+    "jogos": 12,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
+   },
+   "fora": {
+    "nome": "Aldosivi",
+    "posicao": 14,
+    "total": 15,
+    "pontos": 8,
+    "jogos": 12,
+    "forma": "DDVDV",
+    "serie_derrotas": 2
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 5,
+     "favorito": "fora",
+     "texto": "Estudiantes de Río Cuarto com 5 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1"
+  },
+  {
    "id": "401842846",
    "data": "2026-10-19T17:00Z",
    "casa": {
@@ -1173,6 +1293,40 @@
     }
    },
    "cotas_antigas": true
+  },
+  {
+   "id": "401841272",
+   "data": "2026-10-19T23:00Z",
+   "casa": {
+    "nome": "Corinthians",
+    "posicao": 16,
+    "total": 20,
+    "pontos": 32,
+    "jogos": 30,
+    "forma": "DDDDD",
+    "serie_derrotas": 8
+   },
+   "fora": {
+    "nome": "Vitória",
+    "posicao": 12,
+    "total": 20,
+    "pontos": 36,
+    "jogos": 30,
+    "forma": "DVDEV",
+    "serie_derrotas": 1
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 8,
+     "favorito": "fora",
+     "texto": "Corinthians com 8 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1"
   }
  ]
 }

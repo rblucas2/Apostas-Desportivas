@@ -180,6 +180,15 @@ def loss_streak(results: list[str]) -> int:
 
 # ---------------------------------------------------------------- critérios
 
+def better(x: dict, y: dict) -> bool:
+    """x está melhor classificado do que y. Em grupos diferentes (ex.: as duas zonas da liga
+    argentina) as posições não são comparáveis e usam-se os pontos por jogo."""
+    if x["grupo"] == y["grupo"]:
+        return x["posicao"] < y["posicao"]
+    ppg = lambda t: t["pontos"] / t["jogos"] if t["jogos"] else 0
+    return ppg(x) > ppg(y)
+
+
 def evaluate(fixtures, table, results, cfg) -> list[dict]:
     top_n, bottom_n, min_l = cfg["top_n"], cfg["bottom_n"], cfg["derrotas_minimas"]
     out = []
@@ -198,10 +207,10 @@ def evaluate(fixtures, table, results, cfg) -> list[dict]:
                              "texto": f"{top_n} primeiros vs {bottom_n} últimos"})
         sh = loss_streak(results.get(f["casa_id"], []))
         sa = loss_streak(results.get(f["fora_id"], []))
-        if sh >= min_l and a["posicao"] < h["posicao"]:
+        if sh >= min_l and better(a, h):
             crit.append({"tipo": "serie_derrotas", "equipa": "casa", "derrotas": sh, "favorito": "fora",
                          "texto": f"{f['casa']} com {sh} derrotas seguidas vs melhor classificado"})
-        if sa >= min_l and h["posicao"] < a["posicao"]:
+        if sa >= min_l and better(h, a):
             crit.append({"tipo": "serie_derrotas", "equipa": "fora", "derrotas": sa, "favorito": "casa",
                          "texto": f"{f['fora']} com {sa} derrotas seguidas vs melhor classificado"})
         if not crit:

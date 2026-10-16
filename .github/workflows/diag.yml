@@ -6,46 +6,18 @@ jobs:
   d:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - shell: bash {0}
         run: |
+          cp -r site /tmp/site
+          python3 scanner/scan.py --odds nao --ligas bra.1,arg.1 --out /tmp/site/data/jogos.json 2>&1 | grep -v "^    aviso"
           python3 - <<'PY'
-          import json, urllib.request, re
-          def get(u, h=None):
-              try:
-                  req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0", **(h or {})})
-                  with urllib.request.urlopen(req, timeout=25) as r:
-                      return json.load(r)
-              except Exception as e:
-                  return {"_erro": str(e)[:80]}
-          print("=== ESPN (lista completa, filtro por país)")
-          d = get("https://site.api.espn.com/apis/site/v2/leagues/dropdown?sport=soccer&limit=1000")
-          pat = re.compile(r"hungar|sloven|slovak|czech|gambrinus|fortuna|poland|polish|ekstra|ukrain|serbia|argentin|cyprus|cypriot|belarus|brazil|brasil|georgia|finland|finnish|veikkaus", re.I)
-          cands = []
-          for l in d.get("leagues") or []:
-              if pat.search(f"{l.get('name','')} {l.get('abbreviation','')} {l.get('slug','')}"):
-                  cands.append((l.get("slug"), l.get("name")))
-          for slug, nome in cands:
-              st = get(f"https://site.api.espn.com/apis/v2/sports/soccer/{slug}/standings")
-              ch = st.get("children") or []
-              n = sum(len((c.get("standings") or {}).get("entries") or []) for c in ch)
-              gp = [s.get("value") for c in ch for e in (c.get("standings") or {}).get("entries") or [] for s in e.get("stats", []) if s.get("name") == "gamesPlayed"]
-              print(f"  {slug:28} {nome[:40]:40} equipas={n:3} jogos_max={max(gp) if gp else '-'} época={(st.get('season') or {}).get('displayName','?')}")
-          print("=== TheSportsDB (chave gratuita 3)")
-          paises = ["Hungary","Slovenia","Slovakia","Czech Republic","Poland","Ukraine","Serbia","Argentina","Cyprus","Belarus","Brazil","Georgia","Finland"]
-          for p in paises:
-              r = get(f"https://www.thesportsdb.com/api/v1/json/3/search_all_leagues.php?c={p.replace(' ','%20')}&s=Soccer")
-              ls = (r.get("countries") or r.get("countrys") or [])[:3]
-              out = []
-              for l in ls[:1]:
-                  lid = l["idLeague"]
-                  t = get(f"https://www.thesportsdb.com/api/v1/json/3/lookuptable.php?l={lid}&s={l.get('strCurrentSeason','')}")
-                  nx = get(f"https://www.thesportsdb.com/api/v1/json/3/eventsnextleague.php?id={lid}")
-                  ps = get(f"https://www.thesportsdb.com/api/v1/json/3/eventspastleague.php?id={lid}")
-                  out.append(f"{l['strLeague']} id={lid} época={l.get('strCurrentSeason')} tabela={len(t.get('table') or [])} próximos={len(nx.get('events') or [])} passados={len(ps.get('events') or [])}")
-              print(f"  {p:15}", out or r.get("_erro", "nada"))
-          print("=== FotMob")
-          r = get("https://www.fotmob.com/api/allLeagues")
-          print("  allLeagues:", list(r.keys())[:5] if isinstance(r, dict) else type(r))
-          r2 = get("https://www.fotmob.com/api/leagues?id=212")
-          print("  leagues?id=212 (Hungria?):", r2.get("_erro") or list(r2.keys())[:8])
+          import json, sys
+          sys.path.insert(0, "scanner"); import scan
+          d = json.load(open("/tmp/site/data/jogos.json"))
+          for g in d["jogos"]:
+              print(g["data"][:16], g["liga"], "|", g["casa"]["nome"], g["casa"]["posicao"], g["casa"]["forma"], "vs", g["fora"]["nome"], g["fora"]["posicao"], g["fora"]["forma"], [c["texto"] for c in g["criterios"]])
+          import urllib.request
+          st = json.load(urllib.request.urlopen("https://site.api.espn.com/apis/v2/sports/soccer/arg.1/standings"))
+          print("ARG grupos:", [(c.get("name"), len(c["standings"]["entries"])) for c in st.get("children", [])])
           PY

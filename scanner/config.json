@@ -32,6 +32,8 @@
     {"nome": "Superliga", "pais": "Dinamarca", "espn": "den.1", "odds": "soccer_denmark_superliga"},
     {"nome": "Eliteserien", "pais": "Noruega", "espn": "nor.1", "odds": "soccer_norway_eliteserien"},
     {"nome": "Allsvenskan", "pais": "Suécia", "espn": "swe.1", "odds": "soccer_sweden_allsvenskan"},
+    {"nome": "Série A", "pais": "Brasil", "espn": "bra.1", "odds": null},
+    {"nome": "Liga Profesional", "pais": "Argentina", "espn": "arg.1", "odds": null},
     {"nome": "Liga dos Campeões", "pais": "Europa (UEFA)", "espn": "uefa.champions", "odds": "soccer_uefa_champs_league"},
     {"nome": "Liga Europa", "pais": "Europa (UEFA)", "espn": "uefa.europa", "odds": "soccer_uefa_europa_league"},
     {"nome": "Liga Conferência", "pais": "Europa (UEFA)", "espn": "uefa.europa.conf", "odds": "soccer_uefa_europa_conference_league"}

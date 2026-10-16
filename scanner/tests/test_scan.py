@@ -248,3 +248,13 @@ class TestOrcamento(unittest.TestCase):
         recente = {"d": (now - dt.timedelta(hours=2)).isoformat()}
         # a: longe e já com cota -> não; b: perto -> sim; c: sem cota -> sim; d: perto mas consultada há 2 h -> não
         self.assertEqual(scan.leagues_needing_odds(jogos, sports, recente, now), ["b", "c"])
+
+
+class TestGrupos(unittest.TestCase):
+    def test_grupos_diferentes_usam_pontos_por_jogo(self):
+        a = {"grupo": "Zona A", "posicao": 8, "pontos": 20, "jogos": 10}
+        b = {"grupo": "Zona B", "posicao": 2, "pontos": 15, "jogos": 10}
+        self.assertTrue(scan.better(a, b))   # 2,0 pts/jogo > 1,5, apesar de 8.º vs 2.º
+        self.assertFalse(scan.better(b, a))
+        c = {"grupo": "Zona A", "posicao": 3, "pontos": 18, "jogos": 10}
+        self.assertTrue(scan.better(c, a))   # mesmo grupo: conta a posição

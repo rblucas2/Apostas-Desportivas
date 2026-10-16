@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-16T04:31:29+00:00",
+ "gerado_em": "2026-10-16T08:21:22+00:00",
  "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
@@ -15,7 +15,8 @@
    "equipas": 18,
    "jogos_agendados": 1,
    "selecionados": 0,
-   "com_resultados": 18
+   "com_resultados": 18,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Premier League",
@@ -24,7 +25,8 @@
    "equipas": 20,
    "jogos_agendados": 10,
    "selecionados": 0,
-   "com_resultados": 20
+   "com_resultados": 20,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Championship",
@@ -33,7 +35,8 @@
    "equipas": 24,
    "jogos_agendados": 13,
    "selecionados": 2,
-   "com_resultados": 24
+   "com_resultados": 24,
+   "resultados_em_falta": 0
   },
   {
    "liga": "League One",
@@ -42,7 +45,8 @@
    "equipas": 24,
    "jogos_agendados": 23,
    "selecionados": 0,
-   "com_resultados": 24
+   "com_resultados": 24,
+   "resultados_em_falta": 0
   },
   {
    "liga": "League Two",
@@ -51,7 +55,8 @@
    "equipas": 24,
    "jogos_agendados": 24,
    "selecionados": 1,
-   "com_resultados": 24
+   "com_resultados": 24,
+   "resultados_em_falta": 0
   },
   {
    "liga": "LaLiga",
@@ -60,7 +65,8 @@
    "equipas": 20,
    "jogos_agendados": 11,
    "selecionados": 0,
-   "com_resultados": 20
+   "com_resultados": 20,
+   "resultados_em_falta": 0
   },
   {
    "liga": "LaLiga 2",
@@ -69,7 +75,8 @@
    "equipas": 22,
    "jogos_agendados": 11,
    "selecionados": 2,
-   "com_resultados": 22
+   "com_resultados": 22,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Bundesliga",
@@ -78,7 +85,8 @@
    "equipas": 18,
    "jogos_agendados": 9,
    "selecionados": 2,
-   "com_resultados": 18
+   "com_resultados": 18,
+   "resultados_em_falta": 0
   },
   {
    "liga": "2. Bundesliga",
@@ -87,7 +95,8 @@
    "equipas": 18,
    "jogos_agendados": 9,
    "selecionados": 1,
-   "com_resultados": 18
+   "com_resultados": 18,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Serie A",
@@ -96,7 +105,8 @@
    "equipas": 20,
    "jogos_agendados": 10,
    "selecionados": 2,
-   "com_resultados": 20
+   "com_resultados": 20,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Serie B",
@@ -105,7 +115,8 @@
    "equipas": 20,
    "jogos_agendados": 10,
    "selecionados": 0,
-   "com_resultados": 20
+   "com_resultados": 20,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Ligue 1",
@@ -114,7 +125,8 @@
    "equipas": 18,
    "jogos_agendados": 9,
    "selecionados": 1,
-   "com_resultados": 18
+   "com_resultados": 18,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Ligue 2",
@@ -123,7 +135,8 @@
    "equipas": 18,
    "jogos_agendados": 9,
    "selecionados": 1,
-   "com_resultados": 18
+   "com_resultados": 18,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Eredivisie",
@@ -132,7 +145,18 @@
    "equipas": 18,
    "jogos_agendados": 9,
    "selecionados": 1,
-   "com_resultados": 18
+   "com_resultados": 18,
+   "resultados_em_falta": 0
+  },
+  {
+   "liga": "Eerste Divisie",
+   "pais": "Países Baixos",
+   "ok": true,
+   "equipas": 20,
+   "jogos_agendados": 10,
+   "selecionados": 0,
+   "com_resultados": 20,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Pro League",
@@ -141,7 +165,8 @@
    "equipas": 18,
    "jogos_agendados": 0,
    "selecionados": 0,
-   "com_resultados": 18
+   "com_resultados": 18,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Süper Lig",
@@ -150,7 +175,8 @@
    "equipas": 18,
    "jogos_agendados": 9,
    "selecionados": 3,
-   "com_resultados": 18
+   "com_resultados": 18,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Premiership",
@@ -159,7 +185,18 @@
    "equipas": 12,
    "jogos_agendados": 6,
    "selecionados": 0,
-   "com_resultados": 12
+   "com_resultados": 12,
+   "resultados_em_falta": 0
+  },
+  {
+   "liga": "Championship",
+   "pais": "Escócia",
+   "ok": true,
+   "equipas": 10,
+   "jogos_agendados": 6,
+   "selecionados": 0,
+   "com_resultados": 10,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Super League",
@@ -168,7 +205,8 @@
    "equipas": 14,
    "jogos_agendados": 6,
    "selecionados": 0,
-   "com_resultados": 14
+   "com_resultados": 14,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Bundesliga",
@@ -177,7 +215,8 @@
    "equipas": 12,
    "jogos_agendados": 6,
    "selecionados": 2,
-   "com_resultados": 12
+   "com_resultados": 12,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Superliga",
@@ -186,7 +225,8 @@
    "equipas": 12,
    "jogos_agendados": 6,
    "selecionados": 1,
-   "com_resultados": 12
+   "com_resultados": 12,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Eliteserien",
@@ -195,7 +235,8 @@
    "equipas": 16,
    "jogos_agendados": 8,
    "selecionados": 0,
-   "com_resultados": 16
+   "com_resultados": 16,
+   "resultados_em_falta": 0
   },
   {
    "liga": "Allsvenskan",
@@ -204,7 +245,38 @@
    "equipas": 16,
    "jogos_agendados": 8,
    "selecionados": 2,
-   "com_resultados": 16
+   "com_resultados": 16,
+   "resultados_em_falta": 0
+  },
+  {
+   "liga": "Liga dos Campeões",
+   "pais": "Europa (UEFA)",
+   "ok": true,
+   "equipas": 36,
+   "jogos_agendados": 18,
+   "selecionados": 0,
+   "com_resultados": 36,
+   "resultados_em_falta": 0
+  },
+  {
+   "liga": "Liga Europa",
+   "pais": "Europa (UEFA)",
+   "ok": true,
+   "equipas": 36,
+   "jogos_agendados": 18,
+   "selecionados": 0,
+   "com_resultados": 36,
+   "resultados_em_falta": 0
+  },
+  {
+   "liga": "Liga Conferência",
+   "pais": "Europa (UEFA)",
+   "ok": true,
+   "equipas": 36,
+   "jogos_agendados": 18,
+   "selecionados": 0,
+   "com_resultados": 36,
+   "resultados_em_falta": 0
   }
  ],
  "jogos": [

@@ -32,6 +32,7 @@ ESPN_STANDINGS = "https://site.api.espn.com/apis/v2/sports/soccer/{slug}/standin
 ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard"
 ESPN_TEAM_SCHEDULE = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/teams/{team}/schedule"
 ODDS_URL = "https://api.the-odds-api.com/v4/sports/{sport}/odds"
+ODDS_SPORTS_URL = "https://api.the-odds-api.com/v4/sports"
 
 ROOT = Path(__file__).resolve().parent
 UTC = dt.timezone.utc
@@ -284,14 +285,96 @@ def match_odds(game: dict, odds_events: list[dict], bookmakers: list[str]) -> di
     return result or None
 
 
-def fetch_odds(sport: str, api_key: str, bookmakers: list[str]) -> list[dict]:
+def _int_header(headers, name):
+    try:
+        return int(float(headers.get(name)))
+    except (TypeError, ValueError):
+        return None
+
+
+def fetch_odds(sport: str, api_key: str, bookmakers: list[str]) -> tuple[list[dict], int, int | None]:
+    """Devolve (eventos, créditos gastos, créditos restantes)."""
     data, headers = http_json(ODDS_URL.format(sport=sport), {
         "apiKey": api_key, "bookmakers": ",".join(bookmakers), "markets": "h2h", "oddsFormat": "decimal",
     })
-    rem = headers.get("x-requests-remaining")
-    if rem is not None:
-        log(f"    The Odds API: pedidos restantes = {rem}")
-    return data if isinstance(data, list) else []
+    custo = _int_header(headers, "x-requests-last")
+    rem = _int_header(headers, "x-requests-remaining")
+    log(f"    custo = {custo}, créditos restantes = {rem}")
+    return (data if isinstance(data, list) else []), (1 if custo is None else custo), rem
+
+
+def odds_credits(api_key: str) -> int | None:
+    """Créditos restantes, lidos de um pedido gratuito (a lista de desportos não gasta créditos)."""
+    _, headers = http_json(ODDS_SPORTS_URL, {"apiKey": api_key})
+    return _int_header(headers, "x-requests-remaining")
+
+
+# ---------------------------------------------------------------- orçamento de créditos
+
+HORIZONTE_SEM_RENOVACAO = 31  # dias, enquanto não se conhece o dia de renovação dos créditos
+
+
+def days_until_reset(today: dt.date, reset_day: int | None) -> int:
+    """Dias que faltam até à próxima renovação, contando com hoje."""
+    if not reset_day:
+        return HORIZONTE_SEM_RENOVACAO
+    d = min(int(reset_day), 28)
+    nxt = dt.date(today.year, today.month, d)
+    if nxt <= today:
+        y, m = (today.year + 1, 1) if today.month == 12 else (today.year, today.month + 1)
+        nxt = dt.date(y, m, d)
+    return (nxt - today).days
+
+
+def update_budget_state(state: dict, remaining: int | None, today: dt.date, reset_cfg: int | None) -> dict:
+    """Atualiza o estado do orçamento e calcula quantos créditos ainda se podem gastar hoje.
+
+    Garantia: em cada dia gasta-se no máximo (créditos no início do dia) / (dias até à renovação),
+    por isso os créditos nunca acabam antes da renovação.
+    """
+    st = dict(state)
+    hoje = today.isoformat()
+    if st.get("dia") != hoje:
+        st.update({"dia": hoje, "gastos_hoje": 0})
+    if remaining is not None:
+        anterior = st.get("restantes")
+        if anterior is not None and remaining > anterior:  # os créditos subiram: houve renovação
+            st["dia_renovacao_detetado"] = min(today.day, 28)
+            st["gastos_hoje"] = 0
+            log(f"    renovação de créditos detetada (dia {today.day})")
+        st["restantes"] = remaining
+    reset_day = reset_cfg or st.get("dia_renovacao_detetado")
+    dias = days_until_reset(today, reset_day)
+    rest = st.get("restantes") or 0
+    gastos = st.get("gastos_hoje", 0)
+    st.update({
+        "dia_renovacao": reset_day, "dias_ate_renovacao": dias,
+        "orcamento_hoje": max(0, (rest + gastos) // dias),
+    })
+    st["disponivel_agora"] = max(0, st["orcamento_hoje"] - gastos)
+    return st
+
+
+def leagues_needing_odds(games: list[dict], sports: dict, last_fetch: dict, now: dt.datetime,
+                         janela_h: int = 36, intervalo_h: int = 10) -> list[str]:
+    """Ligas a consultar, por prioridade (jogo mais próximo primeiro).
+
+    Uma liga só gasta um crédito se tiver um jogo selecionado ainda sem cota, ou um jogo nas
+    próximas `janela_h` horas e a última consulta tiver mais de `intervalo_h` horas.
+    """
+    prioridade = {}
+    for g in games:
+        slug = g["liga_id"]
+        if slug not in sports:
+            continue
+        kickoff = parse_date(g["data"])
+        sem_cota = not g.get("cotas")
+        ultima = last_fetch.get(slug)
+        recente = ultima and now - parse_date(ultima) < dt.timedelta(hours=intervalo_h)
+        perto = kickoff - now <= dt.timedelta(hours=janela_h)
+        if sem_cota or (perto and not recente):
+            prioridade[slug] = min(prioridade.get(slug, kickoff), kickoff)
+    return sorted(prioridade, key=prioridade.get)
 
 
 # ---------------------------------------------------------------- execução
@@ -339,7 +422,9 @@ def scan_league(liga: dict, cfg: dict, now: dt.datetime) -> tuple[list[dict], di
         g["pais"] = liga["pais"]
         g["liga_id"] = slug
     resumo = {"equipas": len(table), "jogos_agendados": len(fixtures), "selecionados": len(games),
-              "com_resultados": sum(1 for t in table if results.get(t))}
+              "com_resultados": sum(1 for t in table if results.get(t)),
+              # jogos da classificação sem resultado no calendário da equipa (séries de derrotas menos fiáveis)
+              "resultados_em_falta": sum(max(0, table[t]["jogos"] - len(results.get(t, []))) for t in table)}
     eventos = {e["id"]: e for e in past}
     eventos.update({e["id"]: e for e in upcoming})
     return games, resumo, eventos
@@ -454,34 +539,59 @@ def main(argv=None) -> int:
             log(f"    ERRO: {e}")
             estado_ligas.append({"liga": liga["nome"], "pais": liga["pais"], "ok": False, "erro": str(e)[:200]})
 
+    # cotas anteriores (a consulta desta execução, se houver, substitui-as)
+    for g in all_games:
+        if g["id"] in previous and previous[g["id"]].get("cotas"):
+            g["cotas"] = previous[g["id"]]["cotas"]
+            g["cotas_antigas"] = True
+
     api_key = os.environ.get("ODDS_API_KEY", "").strip()
     want_odds = args.odds == "sim" or (args.odds == "auto" and api_key)
     bookmakers = cfg.get("casas_odds", ["betclic_fr"])
     odds_ok = False
+    cred_path = out_path.with_name("creditos.json")
+    cred = {}
+    if cred_path.exists():
+        try:
+            cred = json.loads(cred_path.read_text(encoding="utf-8"))
+        except ValueError:
+            pass
     if want_odds and api_key:
-        sports = {}
-        for l in ligas:
-            if l.get("odds"):
-                sports[l["espn"]] = l["odds"]
-        needed = sorted({g["liga_id"] for g in all_games if g["liga_id"] in sports})
-        for slug in needed:
-            log(f"[cotas] {sports[slug]}")
-            try:
-                oev = fetch_odds(sports[slug], api_key, bookmakers)
-                odds_ok = True
-            except Exception as e:
-                log(f"    ERRO cotas: {e}")
-                continue
-            for g in all_games:
-                if g["liga_id"] == slug:
-                    o = match_odds(g, oev, bookmakers)
-                    if o:
-                        g["cotas"] = o
-    # mantém cotas antigas quando não foram atualizadas nesta execução
-    for g in all_games:
-        if "cotas" not in g and g["id"] in previous and previous[g["id"]].get("cotas"):
-            g["cotas"] = previous[g["id"]]["cotas"]
-            g["cotas_antigas"] = True
+        sports = {l["espn"]: l["odds"] for l in ligas if l.get("odds")}
+        try:
+            restantes = odds_credits(api_key)
+        except Exception as e:
+            log(f"[cotas] não foi possível ler os créditos ({e}); sem cotas nesta execução")
+            restantes = None
+        if restantes is not None:
+            cred = update_budget_state(cred, restantes, now.date(), cfg.get("dia_renovacao_creditos"))
+            fila = leagues_needing_odds(all_games, sports, cred.get("ultima_consulta", {}), now)
+            log(f"[cotas] créditos {cred['restantes']}, renovação em {cred['dias_ate_renovacao']} dias, "
+                f"orçamento hoje {cred['orcamento_hoje']} (disponível {cred['disponivel_agora']}), "
+                f"ligas a consultar {len(fila)}")
+            for slug in fila:
+                if cred["disponivel_agora"] <= 0:
+                    log(f"[cotas] orçamento de hoje esgotado; ficam para depois: {fila[fila.index(slug):]}")
+                    break
+                log(f"[cotas] {sports[slug]}")
+                try:
+                    oev, custo, rem = fetch_odds(sports[slug], api_key, bookmakers)
+                    odds_ok = True
+                except Exception as e:
+                    log(f"    ERRO cotas: {e}")
+                    continue
+                cred["gastos_hoje"] = cred.get("gastos_hoje", 0) + custo
+                cred["disponivel_agora"] = max(0, cred["disponivel_agora"] - custo)
+                if rem is not None:
+                    cred["restantes"] = rem
+                cred.setdefault("ultima_consulta", {})[slug] = now.isoformat(timespec="seconds")
+                for g in all_games:
+                    if g["liga_id"] == slug:
+                        o = match_odds(g, oev, bookmakers)
+                        if o:
+                            g["cotas"] = o
+                            g.pop("cotas_antigas", None)
+            cred["atualizado_em"] = now.isoformat(timespec="seconds")
 
     all_games.sort(key=lambda g: (g["data"], g["pais"], g["liga"]))
     payload = {
@@ -498,6 +608,9 @@ def main(argv=None) -> int:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     log(f"Concluído: {len(all_games)} jogos, {ok}/{len(estado_ligas)} ligas OK -> {out_path}")
+
+    if cred:
+        cred_path.write_text(json.dumps(cred, ensure_ascii=False, indent=1), encoding="utf-8")
 
     hist_path = Path(args.historico) if args.historico else out_path.with_name("historico.json")
     hist = {}

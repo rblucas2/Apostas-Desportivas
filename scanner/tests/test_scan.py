@@ -190,3 +190,61 @@ class TestHistorico(unittest.TestCase):
         h2 = scan.update_history(h, [self.jogo(cotas={"2": 9.9})], {}, set(), self.BM,
                                  self.NOW + dt.timedelta(days=5))
         self.assertEqual(h2["jogos"][0]["cota"], 1.4)
+
+
+class TestOrcamento(unittest.TestCase):
+    def test_dias_ate_renovacao(self):
+        d = dt.date(2026, 10, 14)
+        self.assertEqual(scan.days_until_reset(d, 1), 18)        # 14/10 .. 31/10
+        self.assertEqual(scan.days_until_reset(d, 14), 31)       # hoje é dia de renovação
+        self.assertEqual(scan.days_until_reset(d, 20), 6)
+        self.assertEqual(scan.days_until_reset(dt.date(2026, 12, 30), 1), 2)
+        self.assertEqual(scan.days_until_reset(d, None), scan.HORIZONTE_SEM_RENOVACAO)
+
+    def test_orcamento_nunca_esgota_antes_da_renovacao(self):
+        # simula 60 dias a gastar sempre todo o orçamento disponível, com renovação no dia 1
+        st, restantes, dia = {}, 460, dt.date(2026, 10, 14)
+        for _ in range(60):
+            if dia.day == 1:
+                restantes = 500
+            st = scan.update_budget_state(st, restantes, dia, 1)
+            gasto = st["disponivel_agora"]
+            self.assertLessEqual(gasto, restantes)
+            restantes -= gasto
+            st["gastos_hoje"] += gasto
+            st["restantes"] = restantes
+            if (dia + dt.timedelta(days=1)).day == 1:
+                self.assertGreaterEqual(restantes, 0)
+            else:
+                self.assertGreater(st["orcamento_hoje"], 0)  # ainda há orçamento todos os dias
+            dia += dt.timedelta(days=1)
+
+    def test_sem_dia_conhecido_e_conservador(self):
+        st, restantes, dia = {}, 460, dt.date(2026, 10, 14)
+        for _ in range(45):  # renovação real só a 14/11, que o código não conhece à partida
+            if dia == dt.date(2026, 11, 14):
+                restantes = 500
+            st = scan.update_budget_state(st, restantes, dia, None)
+            self.assertGreater(st["orcamento_hoje"], 0)
+            restantes -= st["disponivel_agora"]
+            st["gastos_hoje"] += st["disponivel_agora"]
+            st["restantes"] = restantes
+            dia += dt.timedelta(days=1)
+        self.assertEqual(st["dia_renovacao_detetado"], 14)
+
+    def test_varias_execucoes_no_mesmo_dia_respeitam_o_orcamento(self):
+        st = scan.update_budget_state({}, 300, dt.date(2026, 10, 14), 1)  # 18 dias -> 16/dia
+        self.assertEqual(st["orcamento_hoje"], 16)
+        st["gastos_hoje"], st["restantes"] = 10, 290
+        st = scan.update_budget_state(st, 290, dt.date(2026, 10, 14), 1)
+        self.assertEqual((st["orcamento_hoje"], st["disponivel_agora"]), (16, 6))
+
+    def test_prioridade_das_ligas(self):
+        now = dt.datetime(2026, 10, 14, 6, tzinfo=dt.timezone.utc)
+        g = lambda liga, horas, cotas=True: {"liga_id": liga, "data": (now + dt.timedelta(hours=horas)).isoformat(),
+                                            **({"cotas": {"betclic_fr": {}}} if cotas else {})}
+        jogos = [g("a", 100), g("b", 20), g("c", 120, cotas=False), g("d", 10), g("x", 5, cotas=False)]
+        sports = {"a": 1, "b": 1, "c": 1, "d": 1}
+        recente = {"d": (now - dt.timedelta(hours=2)).isoformat()}
+        # a: longe e já com cota -> não; b: perto -> sim; c: sem cota -> sim; d: perto mas consultada há 2 h -> não
+        self.assertEqual(scan.leagues_needing_odds(jogos, sports, recente, now), ["b", "c"])

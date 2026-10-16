@@ -5,6 +5,8 @@
   "bottom_n": 3,
   "derrotas_minimas": 4,
   "casas_odds": ["betclic_fr"],
+  "_comment_creditos": "dia do mês em que a The Odds API renova os 500 créditos (ver no painel da conta). null = detetar automaticamente.",
+  "dia_renovacao_creditos": null,
   "ligas": [
     {"nome": "Liga Portugal Betclic", "pais": "Portugal", "espn": "por.1", "odds": "soccer_portugal_primeira_liga"},
     {"nome": "Premier League", "pais": "Inglaterra", "espn": "eng.1", "odds": "soccer_epl"},
@@ -20,13 +22,18 @@
     {"nome": "Ligue 1", "pais": "França", "espn": "fra.1", "odds": "soccer_france_ligue_one"},
     {"nome": "Ligue 2", "pais": "França", "espn": "fra.2", "odds": "soccer_france_ligue_two"},
     {"nome": "Eredivisie", "pais": "Países Baixos", "espn": "ned.1", "odds": "soccer_netherlands_eredivisie"},
+    {"nome": "Eerste Divisie", "pais": "Países Baixos", "espn": "ned.2", "odds": null},
     {"nome": "Pro League", "pais": "Bélgica", "espn": "bel.1", "odds": "soccer_belgium_first_div"},
     {"nome": "Süper Lig", "pais": "Turquia", "espn": "tur.1", "odds": "soccer_turkey_super_league"},
     {"nome": "Premiership", "pais": "Escócia", "espn": "sco.1", "odds": "soccer_spl"},
+    {"nome": "Championship", "pais": "Escócia", "espn": "sco.2", "odds": null},
     {"nome": "Super League", "pais": "Grécia", "espn": "gre.1", "odds": "soccer_greece_super_league"},
     {"nome": "Bundesliga", "pais": "Áustria", "espn": "aut.1", "odds": "soccer_austria_bundesliga"},
     {"nome": "Superliga", "pais": "Dinamarca", "espn": "den.1", "odds": "soccer_denmark_superliga"},
     {"nome": "Eliteserien", "pais": "Noruega", "espn": "nor.1", "odds": "soccer_norway_eliteserien"},
-    {"nome": "Allsvenskan", "pais": "Suécia", "espn": "swe.1", "odds": "soccer_sweden_allsvenskan"}
+    {"nome": "Allsvenskan", "pais": "Suécia", "espn": "swe.1", "odds": "soccer_sweden_allsvenskan"},
+    {"nome": "Liga dos Campeões", "pais": "Europa (UEFA)", "espn": "uefa.champions", "odds": "soccer_uefa_champs_league"},
+    {"nome": "Liga Europa", "pais": "Europa (UEFA)", "espn": "uefa.europa", "odds": "soccer_uefa_europa_league"},
+    {"nome": "Liga Conferência", "pais": "Europa (UEFA)", "espn": "uefa.europa.conf", "odds": "soccer_uefa_europa_conference_league"}
   ]
 }

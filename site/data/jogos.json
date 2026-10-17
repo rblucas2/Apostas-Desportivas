@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-16T21:07:19+00:00",
+ "gerado_em": "2026-10-17T04:25:05+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 14,
+   "jogos_agendados": 15,
    "selecionados": 3,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -301,38 +301,6 @@
  ],
  "jogos": [
   {
-   "id": "401841627",
-   "data": "2026-10-17T00:30Z",
-   "casa": {
-    "nome": "Boca Juniors",
-    "posicao": 3,
-    "total": 15,
-    "pontos": 21,
-    "jogos": 12,
-    "forma": "EVVVE",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Talleres (Córdoba)",
-    "posicao": 15,
-    "total": 15,
-    "pontos": 9,
-    "jogos": 12,
-    "forma": "EDDVD",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Liga Profesional",
-   "pais": "Argentina",
-   "liga_id": "arg.1"
-  },
-  {
    "id": "401888271",
    "data": "2026-10-17T10:30Z",
    "casa": {
@@ -369,14 +337,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.54,
+      "1": 1.57,
       "2": 5.25,
-      "X": 3.63
+      "X": 3.68
      },
-     "atualizado": "2026-10-16T11:25:39Z"
+     "atualizado": "2026-10-17T04:23:04Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401880211",
@@ -416,13 +383,12 @@
      "titulo": "Betclic (FR)",
      "cotas": {
       "2": 2.67,
-      "1": 2.32,
-      "X": 3.18
+      "1": 2.38,
+      "X": 3.28
      },
-     "atualizado": "2026-10-16T11:24:17Z"
+     "atualizado": "2026-10-17T04:24:45Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401883133",
@@ -461,14 +427,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.95,
-      "1": 3.27,
-      "X": 3.32
+      "2": 1.92,
+      "1": 3.45,
+      "X": 3.45
      },
-     "atualizado": "2026-10-16T11:24:48Z"
+     "atualizado": "2026-10-17T04:25:35Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401874760",
@@ -507,14 +472,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.68,
-      "1": 4.45,
-      "X": 3.85
+      "2": 1.67,
+      "1": 4.65,
+      "X": 3.9
      },
-     "atualizado": "2026-10-16T11:24:32Z"
+     "atualizado": "2026-10-17T04:23:27Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401888378",
@@ -551,14 +515,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.8,
-      "2": 3.78,
-      "X": 3.33
+      "1": 1.81,
+      "2": 3.9,
+      "X": 3.43
      },
-     "atualizado": "2026-10-16T11:25:39Z"
+     "atualizado": "2026-10-17T04:23:04Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401884769",
@@ -601,7 +564,8 @@
      },
      "atualizado": "2026-10-16T21:08:20Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401880214",
@@ -640,14 +604,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.68,
-      "2": 4.05,
-      "X": 3.6
+      "1": 1.83,
+      "2": 3.68,
+      "X": 3.55
      },
-     "atualizado": "2026-10-16T11:24:17Z"
+     "atualizado": "2026-10-17T04:24:45Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401881316",
@@ -716,14 +679,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 7.5,
-      "2": 1.22,
-      "X": 6.0
+      "1": 7.75,
+      "2": 1.24,
+      "X": 6.25
      },
-     "atualizado": "2026-10-16T11:26:06Z"
+     "atualizado": "2026-10-17T04:25:06Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401883155",
@@ -766,10 +728,9 @@
       "1": 1.85,
       "X": 3.32
      },
-     "atualizado": "2026-10-16T11:24:48Z"
+     "atualizado": "2026-10-17T04:25:35Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401876431",
@@ -808,14 +769,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.78,
-      "1": 3.8,
-      "X": 3.9
+      "2": 1.8,
+      "1": 3.7,
+      "X": 3.93
      },
-     "atualizado": "2026-10-16T11:24:19Z"
+     "atualizado": "2026-10-17T04:22:43Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401841621",
@@ -892,10 +852,9 @@
       "1": 1.84,
       "X": 3.43
      },
-     "atualizado": "2026-10-16T11:24:32Z"
+     "atualizado": "2026-10-17T04:23:27Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401888276",
@@ -938,10 +897,9 @@
       "2": 2.65,
       "X": 3.23
      },
-     "atualizado": "2026-10-16T11:25:39Z"
+     "atualizado": "2026-10-17T04:23:04Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401881772",
@@ -978,14 +936,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.32,
-      "2": 6.1,
-      "X": 4.6
+      "1": 1.33,
+      "2": 5.9,
+      "X": 4.55
      },
-     "atualizado": "2026-10-14T15:20:16Z"
+     "atualizado": "2026-10-17T04:27:03Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401881769",
@@ -1024,14 +981,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.17,
-      "2": 2.6,
-      "X": 3.4
+      "1": 2.22,
+      "2": 2.58,
+      "X": 3.33
      },
-     "atualizado": "2026-10-14T15:20:16Z"
+     "atualizado": "2026-10-17T04:27:03Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401842845",
@@ -1068,14 +1024,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 8.5,
-      "2": 1.19,
-      "X": 5.6
+      "1": 8.75,
+      "2": 1.2,
+      "X": 5.9
      },
-     "atualizado": "2026-10-14T15:19:21Z"
+     "atualizado": "2026-10-17T04:25:05Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401884768",
@@ -1120,7 +1075,8 @@
      },
      "atualizado": "2026-10-16T21:08:20Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401874551",
@@ -1157,14 +1113,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 4.35,
-      "1": 1.55,
-      "X": 3.78
+      "2": 4.45,
+      "1": 1.56,
+      "X": 3.9
      },
-     "atualizado": "2026-10-14T15:19:06Z"
+     "atualizado": "2026-10-17T04:26:11Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401841624",
@@ -1241,10 +1196,9 @@
       "2": 2.23,
       "X": 3.08
      },
-     "atualizado": "2026-10-14T15:19:21Z"
+     "atualizado": "2026-10-17T04:25:05Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401876719",
@@ -1369,7 +1323,42 @@
      },
      "atualizado": "2026-10-16T21:08:20Z"
     }
-   }
+   },
+   "cotas_antigas": true
+  },
+  {
+   "id": "401841643",
+   "data": "2026-10-24T00:15Z",
+   "casa": {
+    "nome": "Tigre",
+    "posicao": 12,
+    "total": 15,
+    "pontos": 12,
+    "jogos": 12,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
+   },
+   "fora": {
+    "nome": "Atlético Tucumán",
+    "posicao": 10,
+    "total": 15,
+    "pontos": 14,
+    "jogos": 12,
+    "forma": "EDDDV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 5,
+     "favorito": "fora",
+     "texto": "Tigre com 5 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1"
   }
  ]
 }

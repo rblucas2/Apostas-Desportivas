@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-17T04:25:05+00:00",
+ "gerado_em": "2026-10-17T10:43:12+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -301,51 +301,6 @@
  ],
  "jogos": [
   {
-   "id": "401888271",
-   "data": "2026-10-17T10:30Z",
-   "casa": {
-    "nome": "Erzurum BB",
-    "posicao": 14,
-    "total": 18,
-    "pontos": 8,
-    "jogos": 7,
-    "forma": "EVDVE",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Eyupspor",
-    "posicao": 18,
-    "total": 18,
-    "pontos": 3,
-    "jogos": 7,
-    "forma": "DDDDV",
-    "serie_derrotas": 4
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 4,
-     "favorito": "casa",
-     "texto": "Eyupspor com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Süper Lig",
-   "pais": "Turquia",
-   "liga_id": "tur.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "1": 1.57,
-      "2": 5.25,
-      "X": 3.68
-     },
-     "atualizado": "2026-10-17T04:23:04Z"
-    }
-   }
-  },
-  {
    "id": "401880211",
    "data": "2026-10-17T11:30Z",
    "casa": {
@@ -388,7 +343,8 @@
      },
      "atualizado": "2026-10-17T04:24:45Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401883133",
@@ -433,7 +389,8 @@
      },
      "atualizado": "2026-10-17T04:25:35Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401874760",
@@ -478,7 +435,8 @@
      },
      "atualizado": "2026-10-17T04:23:27Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888378",
@@ -515,11 +473,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.81,
-      "2": 3.9,
-      "X": 3.43
+      "1": 1.79,
+      "2": 4.05,
+      "X": 3.37
      },
-     "atualizado": "2026-10-17T04:23:04Z"
+     "atualizado": "2026-10-17T10:42:12Z"
     }
    }
   },
@@ -558,14 +516,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.54,
-      "1": 5.0,
-      "X": 4.35
+      "2": 1.51,
+      "1": 5.6,
+      "X": 4.4
      },
-     "atualizado": "2026-10-16T21:08:20Z"
+     "atualizado": "2026-10-17T10:43:11Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401880214",
@@ -610,7 +567,8 @@
      },
      "atualizado": "2026-10-17T04:24:45Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881316",
@@ -685,7 +643,8 @@
      },
      "atualizado": "2026-10-17T04:25:06Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401883155",
@@ -730,7 +689,8 @@
      },
      "atualizado": "2026-10-17T04:25:35Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876431",
@@ -775,7 +735,8 @@
      },
      "atualizado": "2026-10-17T04:22:43Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401841621",
@@ -854,7 +815,8 @@
      },
      "atualizado": "2026-10-17T04:23:27Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888276",
@@ -897,7 +859,7 @@
       "2": 2.65,
       "X": 3.23
      },
-     "atualizado": "2026-10-17T04:23:04Z"
+     "atualizado": "2026-10-17T10:42:12Z"
     }
    }
   },
@@ -942,7 +904,8 @@
      },
      "atualizado": "2026-10-17T04:27:03Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881769",
@@ -987,7 +950,8 @@
      },
      "atualizado": "2026-10-17T04:27:03Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401842845",
@@ -1030,7 +994,8 @@
      },
      "atualizado": "2026-10-17T04:25:05Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401884768",
@@ -1069,14 +1034,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 3.0,
+      "1": 2.98,
       "2": 2.05,
       "X": 3.9
      },
-     "atualizado": "2026-10-16T21:08:20Z"
+     "atualizado": "2026-10-17T10:43:11Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401874551",
@@ -1119,7 +1083,8 @@
      },
      "atualizado": "2026-10-17T04:26:11Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401841624",
@@ -1198,7 +1163,8 @@
      },
      "atualizado": "2026-10-17T04:25:05Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876719",
@@ -1321,10 +1287,9 @@
       "1": 1.34,
       "X": 5.4
      },
-     "atualizado": "2026-10-16T21:08:20Z"
+     "atualizado": "2026-10-17T10:43:11Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401841643",
@@ -1359,6 +1324,40 @@
    "liga": "Liga Profesional",
    "pais": "Argentina",
    "liga_id": "arg.1"
+  },
+  {
+   "id": "401888269",
+   "data": "2026-10-24T10:30Z",
+   "casa": {
+    "nome": "Eyupspor",
+    "posicao": 18,
+    "total": 18,
+    "pontos": 3,
+    "jogos": 7,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Kasimpasa",
+    "posicao": 9,
+    "total": 18,
+    "pontos": 10,
+    "jogos": 7,
+    "forma": "DEVEE",
+    "serie_derrotas": 1
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Eyupspor com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1"
   }
  ]
 }

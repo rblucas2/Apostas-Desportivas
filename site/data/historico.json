@@ -1,6 +1,31 @@
 {
- "atualizado_em": "2026-10-17T04:25:05+00:00",
+ "atualizado_em": "2026-10-17T10:43:12+00:00",
  "jogos": [
+  {
+   "id": "401888269",
+   "selecionado_em": "2026-10-17T10:43:12+00:00",
+   "estado": "pendente",
+   "data": "2026-10-24T10:30Z",
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1",
+   "casa": {
+    "nome": "Eyupspor",
+    "posicao": 18,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Kasimpasa",
+    "posicao": 9,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401841643",
    "selecionado_em": "2026-10-17T04:25:05+00:00",
@@ -220,7 +245,7 @@
    "favorito": "fora",
    "aposta": "2",
    "cotas": {
-    "1": 3.0,
+    "1": 2.98,
     "2": 2.05,
     "X": 3.9
    },
@@ -570,11 +595,11 @@
    "favorito": "fora",
    "aposta": "2",
    "cotas": {
-    "2": 1.54,
-    "1": 5.0,
-    "X": 4.35
+    "2": 1.51,
+    "1": 5.6,
+    "X": 4.4
    },
-   "cota": 1.54
+   "cota": 1.51
   },
   {
    "id": "401874760",
@@ -630,11 +655,11 @@
    "favorito": "casa",
    "aposta": "1",
    "cotas": {
-    "1": 1.81,
-    "2": 3.9,
-    "X": 3.43
+    "1": 1.79,
+    "2": 4.05,
+    "X": 3.37
    },
-   "cota": 1.81
+   "cota": 1.79
   },
   {
    "id": "401883133",

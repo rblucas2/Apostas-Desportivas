@@ -1,6 +1,107 @@
 {
- "atualizado_em": "2026-10-17T15:34:25+00:00",
+ "atualizado_em": "2026-10-17T20:36:16+00:00",
  "jogos": [
+  {
+   "id": "401841631",
+   "selecionado_em": "2026-10-17T20:36:16+00:00",
+   "estado": "pendente",
+   "data": "2026-10-24T20:00Z",
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1",
+   "casa": {
+    "nome": "Talleres (Córdoba)",
+    "posicao": 15,
+    "total": 15
+   },
+   "fora": {
+    "nome": "Defensa y Justicia",
+    "posicao": 3,
+    "total": 15
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401874955",
+   "selecionado_em": "2026-10-17T20:36:16+00:00",
+   "estado": "pendente",
+   "data": "2026-10-24T18:45Z",
+   "liga": "Serie A",
+   "pais": "Itália",
+   "liga_id": "ita.1",
+   "casa": {
+    "nome": "Lazio",
+    "posicao": 2,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Parma",
+    "posicao": 18,
+    "total": 20
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401883150",
+   "selecionado_em": "2026-10-17T20:36:16+00:00",
+   "estado": "pendente",
+   "data": "2026-10-24T16:30Z",
+   "liga": "LaLiga 2",
+   "pais": "Espanha",
+   "liga_id": "esp.2",
+   "casa": {
+    "nome": "Las Palmas",
+    "posicao": 16,
+    "total": 22
+   },
+   "fora": {
+    "nome": "Real Sociedad II",
+    "posicao": 19,
+    "total": 22
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401888375",
+   "selecionado_em": "2026-10-17T20:36:16+00:00",
+   "estado": "pendente",
+   "data": "2026-10-24T16:00Z",
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1",
+   "casa": {
+    "nome": "Samsunspor",
+    "posicao": 17,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Amed SFK",
+    "posicao": 2,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas",
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401842850",
    "selecionado_em": "2026-10-17T15:34:25+00:00",
@@ -86,7 +187,7 @@
    "liga_id": "aut.1",
    "casa": {
     "nome": "TSV Hartberg",
-    "posicao": 5,
+    "posicao": 6,
     "total": 12
    },
    "fora": {
@@ -141,7 +242,7 @@
    },
    "fora": {
     "nome": "Mallorca",
-    "posicao": 4,
+    "posicao": 5,
     "total": 22
    },
    "criterios": [
@@ -191,7 +292,7 @@
    "liga_id": "sco.1",
    "casa": {
     "nome": "St Mirren",
-    "posicao": 7,
+    "posicao": 8,
     "total": 12
    },
    "fora": {
@@ -221,14 +322,65 @@
    },
    "fora": {
     "nome": "Stockport County",
-    "posicao": 3,
+    "posicao": 2,
     "total": 24
    },
    "criterios": [
+    "serie_derrotas",
     "top_vs_bottom"
    ],
    "favorito": "fora",
    "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401881294",
+   "selecionado_em": "2026-10-17T20:36:16+00:00",
+   "estado": "pendente",
+   "data": "2026-10-24T14:00Z",
+   "liga": "League Two",
+   "pais": "Inglaterra",
+   "liga_id": "eng.4",
+   "casa": {
+    "nome": "Gillingham",
+    "posicao": 6,
+    "total": 24
+   },
+   "fora": {
+    "nome": "Grimsby Town",
+    "posicao": 15,
+    "total": 24
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401843372",
+   "selecionado_em": "2026-10-17T20:36:16+00:00",
+   "estado": "pendente",
+   "data": "2026-10-24T14:00Z",
+   "liga": "Eliteserien",
+   "pais": "Noruega",
+   "liga_id": "nor.1",
+   "casa": {
+    "nome": "Bodo/Glimt",
+    "posicao": 1,
+    "total": 16
+   },
+   "fora": {
+    "nome": "Vålerenga",
+    "posicao": 14,
+    "total": 16
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
    "cota": null
   },
   {
@@ -266,7 +418,7 @@
    "liga_id": "eng.2",
    "casa": {
     "nome": "Charlton Athletic",
-    "posicao": 13,
+    "posicao": 17,
     "total": 24
    },
    "fora": {
@@ -276,6 +428,31 @@
    },
    "criterios": [
     "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401880772",
+   "selecionado_em": "2026-10-17T20:36:16+00:00",
+   "estado": "pendente",
+   "data": "2026-10-24T11:30Z",
+   "liga": "League One",
+   "pais": "Inglaterra",
+   "liga_id": "eng.3",
+   "casa": {
+    "nome": "Huddersfield Town",
+    "posicao": 3,
+    "total": 24
+   },
+   "fora": {
+    "nome": "Wigan Athletic",
+    "posicao": 24,
+    "total": 24
+   },
+   "criterios": [
+    "top_vs_bottom"
    ],
    "favorito": "casa",
    "aposta": "1",
@@ -360,6 +537,56 @@
     "X": 5.4
    },
    "cota": 1.34
+  },
+  {
+   "id": "401880782",
+   "selecionado_em": "2026-10-17T20:36:16+00:00",
+   "estado": "pendente",
+   "data": "2026-10-20T18:45Z",
+   "liga": "League One",
+   "pais": "Inglaterra",
+   "liga_id": "eng.3",
+   "casa": {
+    "nome": "Notts County",
+    "posicao": 23,
+    "total": 24
+   },
+   "fora": {
+    "nome": "Sheffield Wednesday",
+    "posicao": 6,
+    "total": 24
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401881304",
+   "selecionado_em": "2026-10-17T20:36:16+00:00",
+   "estado": "pendente",
+   "data": "2026-10-20T18:45Z",
+   "liga": "League Two",
+   "pais": "Inglaterra",
+   "liga_id": "eng.4",
+   "casa": {
+    "nome": "Rochdale",
+    "posicao": 13,
+    "total": 24
+   },
+   "fora": {
+    "nome": "Grimsby Town",
+    "posicao": 15,
+    "total": 24
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
   },
   {
    "id": "401841272",
@@ -571,7 +798,7 @@
    "liga_id": "aut.1",
    "casa": {
     "nome": "RB Salzburg",
-    "posicao": 2,
+    "posicao": 3,
     "total": 12
    },
    "fora": {
@@ -739,7 +966,7 @@
   {
    "id": "401883155",
    "selecionado_em": "2026-10-14T16:26:20+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-17T16:30Z",
    "liga": "LaLiga 2",
    "pais": "Espanha",
@@ -764,12 +991,18 @@
     "1": 1.9,
     "X": 3.35
    },
-   "cota": 1.9
+   "cota": 1.9,
+   "golos_casa": 2,
+   "golos_fora": 1,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-10-17T20:36:16+00:00",
+   "lucro": 0.9
   },
   {
    "id": "401875582",
    "selecionado_em": "2026-10-14T16:26:20+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-17T14:30Z",
    "liga": "Eredivisie",
    "pais": "Países Baixos",
@@ -794,12 +1027,18 @@
     "2": 1.24,
     "X": 6.25
    },
-   "cota": 1.24
+   "cota": 1.24,
+   "golos_casa": 2,
+   "golos_fora": 1,
+   "resultado": "1",
+   "acertou": false,
+   "resolvido_em": "2026-10-17T20:36:16+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401881316",
    "selecionado_em": "2026-10-14T16:26:20+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-17T14:00Z",
    "liga": "League Two",
    "pais": "Inglaterra",
@@ -819,12 +1058,18 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": null,
+   "golos_casa": 2,
+   "golos_fora": 1,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-10-17T20:36:16+00:00",
+   "lucro": null
   },
   {
    "id": "401880214",
    "selecionado_em": "2026-10-14T21:40:59+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-17T14:00Z",
    "liga": "Championship",
    "pais": "Inglaterra",
@@ -849,7 +1094,13 @@
     "1": 1.83,
     "2": 3.68,
     "X": 3.55
-   }
+   },
+   "golos_casa": 0,
+   "golos_fora": 1,
+   "resultado": "2",
+   "acertou": true,
+   "resolvido_em": "2026-10-17T20:36:16+00:00",
+   "lucro": 2.68
   },
   {
    "id": "401884769",

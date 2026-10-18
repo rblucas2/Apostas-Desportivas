@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-17T20:36:16+00:00",
- "cotas_atualizadas": false,
+ "gerado_em": "2026-10-18T04:33:01+00:00",
+ "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -104,7 +104,7 @@
    "ok": true,
    "equipas": 20,
    "jogos_agendados": 11,
-   "selecionados": 2,
+   "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -144,7 +144,7 @@
    "ok": true,
    "equipas": 18,
    "jogos_agendados": 9,
-   "selecionados": 0,
+   "selecionados": 1,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -254,7 +254,7 @@
    "ok": true,
    "equipas": 20,
    "jogos_agendados": 13,
-   "selecionados": 1,
+   "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -264,7 +264,7 @@
    "ok": true,
    "equipas": 30,
    "jogos_agendados": 14,
-   "selecionados": 3,
+   "selecionados": 2,
    "com_resultados": 30,
    "resultados_em_falta": 0
   },
@@ -337,14 +337,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 4.1,
-      "1": 1.84,
-      "X": 3.43
+      "2": 4.35,
+      "1": 1.79,
+      "X": 3.53
      },
-     "atualizado": "2026-10-17T04:23:27Z"
+     "atualizado": "2026-10-18T04:33:09Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401888276",
@@ -383,14 +382,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.3,
-      "2": 2.65,
-      "X": 3.23
+      "1": 2.28,
+      "2": 2.82,
+      "X": 3.27
      },
-     "atualizado": "2026-10-17T10:42:12Z"
+     "atualizado": "2026-10-18T04:32:49Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401881772",
@@ -427,14 +425,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.33,
-      "2": 5.9,
-      "X": 4.55
+      "1": 1.32,
+      "2": 6.5,
+      "X": 4.8
      },
-     "atualizado": "2026-10-17T04:27:03Z"
+     "atualizado": "2026-10-18T04:33:14Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401881769",
@@ -473,14 +470,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.22,
-      "2": 2.58,
-      "X": 3.33
+      "1": 2.25,
+      "2": 2.62,
+      "X": 3.4
      },
-     "atualizado": "2026-10-17T04:27:03Z"
+     "atualizado": "2026-10-18T04:33:14Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401842845",
@@ -517,14 +513,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 8.75,
-      "2": 1.2,
-      "X": 5.9
+      "1": 9.25,
+      "2": 1.21,
+      "X": 6.1
      },
-     "atualizado": "2026-10-17T04:25:05Z"
+     "atualizado": "2026-10-18T04:33:24Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401884768",
@@ -563,14 +558,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.98,
+      "1": 3.05,
       "2": 2.05,
-      "X": 3.9
+      "X": 3.93
      },
-     "atualizado": "2026-10-17T10:43:11Z"
+     "atualizado": "2026-10-18T04:32:45Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401874551",
@@ -607,14 +601,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 4.45,
-      "1": 1.56,
-      "X": 3.9
+      "2": 4.85,
+      "1": 1.54,
+      "X": 4.05
      },
-     "atualizado": "2026-10-17T04:26:11Z"
+     "atualizado": "2026-10-18T04:32:48Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401841624",
@@ -687,14 +680,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.7,
-      "2": 2.23,
-      "X": 3.08
+      "1": 2.75,
+      "2": 2.28,
+      "X": 3.15
      },
-     "atualizado": "2026-10-17T04:25:05Z"
+     "atualizado": "2026-10-18T04:33:24Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401876719",
@@ -733,14 +725,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 2.45,
-      "1": 2.7,
-      "X": 2.83
+      "2": 2.42,
+      "1": 2.77,
+      "X": 2.98
      },
-     "atualizado": "2026-10-14T15:18:53Z"
+     "atualizado": "2026-10-18T04:32:33Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401841272",
@@ -756,7 +747,7 @@
    },
    "fora": {
     "nome": "Vitória",
-    "posicao": 12,
+    "posicao": 13,
     "total": 20,
     "pontos": 36,
     "jogos": 30,
@@ -885,44 +876,9 @@
       "1": 1.34,
       "X": 5.4
      },
-     "atualizado": "2026-10-17T10:43:11Z"
+     "atualizado": "2026-10-18T04:32:45Z"
     }
-   },
-   "cotas_antigas": true
-  },
-  {
-   "id": "401841643",
-   "data": "2026-10-24T00:15Z",
-   "casa": {
-    "nome": "Tigre",
-    "posicao": 12,
-    "total": 15,
-    "pontos": 12,
-    "jogos": 12,
-    "forma": "DDDDD",
-    "serie_derrotas": 5
-   },
-   "fora": {
-    "nome": "Atlético Tucumán",
-    "posicao": 10,
-    "total": 15,
-    "pontos": 14,
-    "jogos": 12,
-    "forma": "EDDDV",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 5,
-     "favorito": "fora",
-     "texto": "Tigre com 5 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Liga Profesional",
-   "pais": "Argentina",
-   "liga_id": "arg.1"
+   }
   },
   {
    "id": "401888269",
@@ -956,7 +912,18 @@
    ],
    "liga": "Süper Lig",
    "pais": "Turquia",
-   "liga_id": "tur.1"
+   "liga_id": "tur.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 2.98,
+      "2": 2.12,
+      "X": 3.02
+     },
+     "atualizado": "2026-10-18T04:32:49Z"
+    }
+   }
   },
   {
    "id": "401880205",
@@ -990,7 +957,18 @@
    ],
    "liga": "Championship",
    "pais": "Inglaterra",
-   "liga_id": "eng.2"
+   "liga_id": "eng.2",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 3.3,
+      "2": 1.8,
+      "X": 3.37
+     },
+     "atualizado": "2026-10-18T04:31:51Z"
+    }
+   }
   },
   {
    "id": "401880772",
@@ -1090,7 +1068,18 @@
    ],
    "liga": "Pro League",
    "pais": "Bélgica",
-   "liga_id": "bel.1"
+   "liga_id": "bel.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 1.84,
+      "1": 3.2,
+      "X": 3.53
+     },
+     "atualizado": "2026-10-18T04:31:53Z"
+    }
+   }
   },
   {
    "id": "401878357",
@@ -1108,9 +1097,9 @@
     "nome": "Dundee",
     "posicao": 4,
     "total": 12,
-    "pontos": 13,
-    "jogos": 8,
-    "forma": "VVDED",
+    "pontos": 14,
+    "jogos": 9,
+    "forma": "EVVDE",
     "serie_derrotas": 0
    },
    "criterios": [
@@ -1229,7 +1218,18 @@
    ],
    "liga": "Eliteserien",
    "pais": "Noruega",
-   "liga_id": "nor.1"
+   "liga_id": "nor.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 1.14,
+      "2": 9.5,
+      "X": 6.25
+     },
+     "atualizado": "2026-10-18T04:32:47Z"
+    }
+   }
   },
   {
    "id": "401883151",
@@ -1341,14 +1341,25 @@
    ],
    "liga": "Bundesliga",
    "pais": "Áustria",
-   "liga_id": "aut.1"
+   "liga_id": "aut.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 2.2,
+      "2": 2.57,
+      "X": 3.38
+     },
+     "atualizado": "2026-10-18T04:33:14Z"
+    }
+   }
   },
   {
    "id": "401876423",
    "data": "2026-10-24T15:15Z",
    "casa": {
     "nome": "Toulouse",
-    "posicao": 7,
+    "posicao": 9,
     "total": 18,
     "pontos": 9,
     "jogos": 7,
@@ -1360,22 +1371,33 @@
     "posicao": 17,
     "total": 18,
     "pontos": 4,
-    "jogos": 6,
-    "forma": "DDDDV",
-    "serie_derrotas": 4
+    "jogos": 7,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
    },
    "criterios": [
     {
      "tipo": "serie_derrotas",
      "equipa": "fora",
-     "derrotas": 4,
+     "derrotas": 5,
      "favorito": "casa",
-     "texto": "Troyes com 4 derrotas seguidas vs melhor classificado"
+     "texto": "Troyes com 5 derrotas seguidas vs melhor classificado"
     }
    ],
    "liga": "Ligue 1",
    "pais": "França",
-   "liga_id": "fra.1"
+   "liga_id": "fra.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 1.59,
+      "2": 4.55,
+      "X": 3.95
+     },
+     "atualizado": "2026-10-18T04:32:31Z"
+    }
+   }
   },
   {
    "id": "401842850",
@@ -1407,7 +1429,18 @@
    ],
    "liga": "Allsvenskan",
    "pais": "Suécia",
-   "liga_id": "swe.1"
+   "liga_id": "swe.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 1.09,
+      "2": 13.25,
+      "X": 7.0
+     },
+     "atualizado": "2026-10-18T04:33:24Z"
+    }
+   }
   },
   {
    "id": "401842855",
@@ -1441,7 +1474,18 @@
    ],
    "liga": "Allsvenskan",
    "pais": "Suécia",
-   "liga_id": "swe.1"
+   "liga_id": "swe.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 3.28,
+      "1": 1.85,
+      "X": 3.38
+     },
+     "atualizado": "2026-10-18T04:33:24Z"
+    }
+   }
   },
   {
    "id": "401888375",
@@ -1480,7 +1524,18 @@
    ],
    "liga": "Süper Lig",
    "pais": "Turquia",
-   "liga_id": "tur.1"
+   "liga_id": "tur.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 2.6,
+      "1": 2.27,
+      "X": 3.18
+     },
+     "atualizado": "2026-10-18T04:32:49Z"
+    }
+   }
   },
   {
    "id": "401883150",
@@ -1490,9 +1545,9 @@
     "posicao": 16,
     "total": 22,
     "pontos": 11,
-    "jogos": 9,
-    "forma": "DEDDV",
-    "serie_derrotas": 1
+    "jogos": 10,
+    "forma": "DDEDD",
+    "serie_derrotas": 2
    },
    "fora": {
     "nome": "Real Sociedad II",
@@ -1517,36 +1572,38 @@
    "liga_id": "esp.2"
   },
   {
-   "id": "401874955",
-   "data": "2026-10-24T18:45Z",
+   "id": "401875572",
+   "data": "2026-10-24T16:45Z",
    "casa": {
-    "nome": "Lazio",
-    "posicao": 2,
-    "total": 20,
-    "pontos": 16,
-    "jogos": 6,
-    "forma": "VVEVV",
-    "serie_derrotas": 0
+    "nome": "Willem II",
+    "posicao": 18,
+    "total": 18,
+    "pontos": 2,
+    "jogos": 9,
+    "forma": "DDDDE",
+    "serie_derrotas": 4
    },
    "fora": {
-    "nome": "Parma",
-    "posicao": 18,
-    "total": 20,
-    "pontos": 4,
-    "jogos": 6,
-    "forma": "DVDED",
-    "serie_derrotas": 1
+    "nome": "SC Cambuur",
+    "posicao": 13,
+    "total": 18,
+    "pontos": 8,
+    "jogos": 8,
+    "forma": "VEVED",
+    "serie_derrotas": 0
    },
    "criterios": [
     {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Willem II com 4 derrotas seguidas vs melhor classificado"
     }
    ],
-   "liga": "Serie A",
-   "pais": "Itália",
-   "liga_id": "ita.1"
+   "liga": "Eredivisie",
+   "pais": "Países Baixos",
+   "liga_id": "ned.1"
   },
   {
    "id": "401841631",
@@ -1579,6 +1636,40 @@
    "liga": "Liga Profesional",
    "pais": "Argentina",
    "liga_id": "arg.1"
+  },
+  {
+   "id": "401841281",
+   "data": "2026-10-24T21:30Z",
+   "casa": {
+    "nome": "Vasco da Gama",
+    "posicao": 15,
+    "total": 20,
+    "pontos": 35,
+    "jogos": 30,
+    "forma": "DEVVV",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "Corinthians",
+    "posicao": 16,
+    "total": 20,
+    "pontos": 32,
+    "jogos": 30,
+    "forma": "DDDDD",
+    "serie_derrotas": 8
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 8,
+     "favorito": "casa",
+     "texto": "Corinthians com 8 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1"
   }
  ]
 }

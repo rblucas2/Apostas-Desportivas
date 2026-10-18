@@ -1,6 +1,31 @@
 {
- "atualizado_em": "2026-10-17T20:36:16+00:00",
+ "atualizado_em": "2026-10-18T04:33:01+00:00",
  "jogos": [
+  {
+   "id": "401841281",
+   "selecionado_em": "2026-10-18T04:33:01+00:00",
+   "estado": "pendente",
+   "data": "2026-10-24T21:30Z",
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1",
+   "casa": {
+    "nome": "Vasco da Gama",
+    "posicao": 15,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Corinthians",
+    "posicao": 16,
+    "total": 20
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
   {
    "id": "401841631",
    "selecionado_em": "2026-10-17T20:36:16+00:00",
@@ -27,28 +52,28 @@
    "cota": null
   },
   {
-   "id": "401874955",
-   "selecionado_em": "2026-10-17T20:36:16+00:00",
+   "id": "401875572",
+   "selecionado_em": "2026-10-18T04:33:01+00:00",
    "estado": "pendente",
-   "data": "2026-10-24T18:45Z",
-   "liga": "Serie A",
-   "pais": "Itália",
-   "liga_id": "ita.1",
+   "data": "2026-10-24T16:45Z",
+   "liga": "Eredivisie",
+   "pais": "Países Baixos",
+   "liga_id": "ned.1",
    "casa": {
-    "nome": "Lazio",
-    "posicao": 2,
-    "total": 20
+    "nome": "Willem II",
+    "posicao": 18,
+    "total": 18
    },
    "fora": {
-    "nome": "Parma",
-    "posicao": 18,
-    "total": 20
+    "nome": "SC Cambuur",
+    "posicao": 13,
+    "total": 18
    },
    "criterios": [
-    "top_vs_bottom"
+    "serie_derrotas"
    ],
-   "favorito": "casa",
-   "aposta": "1",
+   "favorito": "fora",
+   "aposta": "2",
    "cota": null
   },
   {
@@ -100,7 +125,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": 2.6,
+   "cotas": {
+    "2": 2.6,
+    "1": 2.27,
+    "X": 3.18
+   }
   },
   {
    "id": "401842850",
@@ -125,7 +155,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 1.09,
+   "cotas": {
+    "1": 1.09,
+    "2": 13.25,
+    "X": 7.0
+   }
   },
   {
    "id": "401842855",
@@ -150,7 +185,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": 3.28,
+   "cotas": {
+    "2": 3.28,
+    "1": 1.85,
+    "X": 3.38
+   }
   },
   {
    "id": "401876423",
@@ -162,7 +202,7 @@
    "liga_id": "fra.1",
    "casa": {
     "nome": "Toulouse",
-    "posicao": 7,
+    "posicao": 9,
     "total": 18
    },
    "fora": {
@@ -175,7 +215,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 1.59,
+   "cotas": {
+    "1": 1.59,
+    "2": 4.55,
+    "X": 3.95
+   }
   },
   {
    "id": "401881764",
@@ -200,7 +245,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 2.2,
+   "cotas": {
+    "1": 2.2,
+    "2": 2.57,
+    "X": 3.38
+   }
   },
   {
    "id": "401875875",
@@ -280,7 +330,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": 1.84,
+   "cotas": {
+    "2": 1.84,
+    "1": 3.2,
+    "X": 3.53
+   }
   },
   {
    "id": "401878357",
@@ -381,7 +436,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 1.14,
+   "cotas": {
+    "1": 1.14,
+    "2": 9.5,
+    "X": 6.25
+   }
   },
   {
    "id": "401876716",
@@ -431,7 +491,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 3.3,
+   "cotas": {
+    "1": 3.3,
+    "2": 1.8,
+    "X": 3.37
+   }
   },
   {
    "id": "401880772",
@@ -481,32 +546,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
-  },
-  {
-   "id": "401841643",
-   "selecionado_em": "2026-10-17T04:25:05+00:00",
-   "estado": "pendente",
-   "data": "2026-10-24T00:15Z",
-   "liga": "Liga Profesional",
-   "pais": "Argentina",
-   "liga_id": "arg.1",
-   "casa": {
-    "nome": "Tigre",
-    "posicao": 12,
-    "total": 15
-   },
-   "fora": {
-    "nome": "Atlético Tucumán",
-    "posicao": 10,
-    "total": 15
-   },
-   "criterios": [
-    "serie_derrotas"
-   ],
-   "favorito": "fora",
-   "aposta": "2",
-   "cota": null
+   "cota": 2.12,
+   "cotas": {
+    "1": 2.98,
+    "2": 2.12,
+    "X": 3.02
+   }
   },
   {
    "id": "401884761",
@@ -603,7 +648,7 @@
    },
    "fora": {
     "nome": "Vitória",
-    "posicao": 12,
+    "posicao": 13,
     "total": 20
    },
    "criterios": [
@@ -637,11 +682,11 @@
    "favorito": "fora",
    "aposta": "2",
    "cotas": {
-    "2": 2.45,
-    "1": 2.7,
-    "X": 2.83
+    "2": 2.42,
+    "1": 2.77,
+    "X": 2.98
    },
-   "cota": 2.45
+   "cota": 2.42
   },
   {
    "id": "401842846",
@@ -667,11 +712,11 @@
    "favorito": "casa",
    "aposta": "1",
    "cotas": {
-    "1": 2.7,
-    "2": 2.23,
-    "X": 3.08
+    "1": 2.75,
+    "2": 2.28,
+    "X": 3.15
    },
-   "cota": 2.7
+   "cota": 2.75
   },
   {
    "id": "401841624",
@@ -722,11 +767,11 @@
    "favorito": "casa",
    "aposta": "1",
    "cotas": {
-    "2": 4.45,
-    "1": 1.56,
-    "X": 3.9
+    "2": 4.85,
+    "1": 1.54,
+    "X": 4.05
    },
-   "cota": 1.56
+   "cota": 1.54
   },
   {
    "id": "401884768",
@@ -752,9 +797,9 @@
    "favorito": "fora",
    "aposta": "2",
    "cotas": {
-    "1": 2.98,
+    "1": 3.05,
     "2": 2.05,
-    "X": 3.9
+    "X": 3.93
    },
    "cota": 2.05
   },
@@ -782,11 +827,11 @@
    "favorito": "fora",
    "aposta": "2",
    "cotas": {
-    "1": 8.75,
-    "2": 1.2,
-    "X": 5.9
+    "1": 9.25,
+    "2": 1.21,
+    "X": 6.1
    },
-   "cota": 1.2
+   "cota": 1.21
   },
   {
    "id": "401881772",
@@ -812,11 +857,11 @@
    "favorito": "casa",
    "aposta": "1",
    "cotas": {
-    "1": 1.33,
-    "2": 5.9,
-    "X": 4.55
+    "1": 1.32,
+    "2": 6.5,
+    "X": 4.8
    },
-   "cota": 1.33
+   "cota": 1.32
   },
   {
    "id": "401881769",
@@ -842,11 +887,11 @@
    "favorito": "fora",
    "aposta": "2",
    "cotas": {
-    "1": 2.22,
-    "2": 2.58,
-    "X": 3.33
+    "1": 2.25,
+    "2": 2.62,
+    "X": 3.4
    },
-   "cota": 2.58
+   "cota": 2.62
   },
   {
    "id": "401874771",
@@ -872,11 +917,11 @@
    "favorito": "fora",
    "aposta": "2",
    "cotas": {
-    "2": 4.1,
-    "1": 1.84,
-    "X": 3.43
+    "2": 4.35,
+    "1": 1.79,
+    "X": 3.53
    },
-   "cota": 4.1
+   "cota": 4.35
   },
   {
    "id": "401888276",
@@ -902,16 +947,16 @@
    "favorito": "casa",
    "aposta": "1",
    "cotas": {
-    "1": 2.3,
-    "2": 2.65,
-    "X": 3.23
+    "1": 2.28,
+    "2": 2.82,
+    "X": 3.27
    },
-   "cota": 2.3
+   "cota": 2.28
   },
   {
    "id": "401841621",
    "selecionado_em": "2026-10-16T16:41:46+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-17T20:30Z",
    "liga": "Liga Profesional",
    "pais": "Argentina",
@@ -931,12 +976,18 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": null,
+   "golos_casa": 2,
+   "golos_fora": 2,
+   "resultado": "X",
+   "acertou": false,
+   "resolvido_em": "2026-10-18T04:33:01+00:00",
+   "lucro": null
   },
   {
    "id": "401876431",
    "selecionado_em": "2026-10-14T16:26:20+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-17T18:45Z",
    "liga": "Ligue 1",
    "pais": "França",
@@ -961,7 +1012,13 @@
     "1": 3.7,
     "X": 3.93
    },
-   "cota": 1.8
+   "cota": 1.8,
+   "golos_casa": 1,
+   "golos_fora": 3,
+   "resultado": "2",
+   "acertou": true,
+   "resolvido_em": "2026-10-18T04:33:01+00:00",
+   "lucro": 0.8
   },
   {
    "id": "401883155",

@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-18T20:42:41+00:00",
- "cotas_atualizadas": false,
+ "gerado_em": "2026-10-19T04:39:59+00:00",
+ "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -116,7 +116,7 @@
    "jogos_agendados": 10,
    "selecionados": 0,
    "com_resultados": 20,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "Ligue 1",
@@ -206,7 +206,7 @@
    "jogos_agendados": 7,
    "selecionados": 2,
    "com_resultados": 14,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "Bundesliga",
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 11,
+   "jogos_agendados": 9,
    "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -264,7 +264,7 @@
    "ok": true,
    "equipas": 30,
    "jogos_agendados": 15,
-   "selecionados": 3,
+   "selecionados": 2,
    "com_resultados": 30,
    "resultados_em_falta": 0
   },
@@ -300,40 +300,6 @@
   }
  ],
  "jogos": [
-  {
-   "id": "401841624",
-   "data": "2026-10-18T21:00Z",
-   "casa": {
-    "nome": "Estudiantes de Río Cuarto",
-    "posicao": 15,
-    "total": 15,
-    "pontos": 6,
-    "jogos": 12,
-    "forma": "DDDDD",
-    "serie_derrotas": 5
-   },
-   "fora": {
-    "nome": "Aldosivi",
-    "posicao": 14,
-    "total": 15,
-    "pontos": 8,
-    "jogos": 12,
-    "forma": "DDVDV",
-    "serie_derrotas": 2
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 5,
-     "favorito": "fora",
-     "texto": "Estudiantes de Río Cuarto com 5 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Liga Profesional",
-   "pais": "Argentina",
-   "liga_id": "arg.1"
-  },
   {
    "id": "401842846",
    "data": "2026-10-19T17:00Z",
@@ -375,10 +341,9 @@
       "2": 2.28,
       "X": 3.15
      },
-     "atualizado": "2026-10-18T04:33:24Z"
+     "atualizado": "2026-10-19T04:40:44Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401876719",
@@ -417,14 +382,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 2.42,
-      "1": 2.77,
-      "X": 2.98
+      "2": 2.2,
+      "1": 2.83,
+      "X": 3.28
      },
-     "atualizado": "2026-10-18T04:32:33Z"
+     "atualizado": "2026-10-19T04:39:54Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401841272",
@@ -558,7 +522,18 @@
    ],
    "liga": "2. Bundesliga",
    "pais": "Alemanha",
-   "liga_id": "ger.2"
+   "liga_id": "ger.2",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 2.77,
+      "2": 2.07,
+      "X": 3.4
+     },
+     "atualizado": "2026-10-19T04:39:35Z"
+    }
+   }
   },
   {
    "id": "401884761",
@@ -954,14 +929,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 3.28,
-      "2": 2.05,
-      "X": 3.03
+      "1": 3.05,
+      "2": 2.15,
+      "X": 3.05
      },
-     "atualizado": "2026-10-17T15:34:48Z"
+     "atualizado": "2026-10-19T04:39:43Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401875875",
@@ -1122,14 +1096,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.09,
-      "2": 13.25,
-      "X": 7.0
+      "1": 1.1,
+      "2": 11.25,
+      "X": 6.9
      },
-     "atualizado": "2026-10-18T04:33:24Z"
+     "atualizado": "2026-10-19T04:40:44Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401842855",
@@ -1172,10 +1145,9 @@
       "1": 1.85,
       "X": 3.38
      },
-     "atualizado": "2026-10-18T04:33:24Z"
+     "atualizado": "2026-10-19T04:40:44Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401888375",
@@ -1260,7 +1232,18 @@
    ],
    "liga": "LaLiga 2",
    "pais": "Espanha",
-   "liga_id": "esp.2"
+   "liga_id": "esp.2",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 1.72,
+      "2": 3.9,
+      "X": 3.53
+     },
+     "atualizado": "2026-10-19T04:39:43Z"
+    }
+   }
   },
   {
    "id": "401875572",
@@ -1294,7 +1277,18 @@
    ],
    "liga": "Eredivisie",
    "pais": "Países Baixos",
-   "liga_id": "ned.1"
+   "liga_id": "ned.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 2.53,
+      "1": 2.3,
+      "X": 3.47
+     },
+     "atualizado": "2026-10-19T04:41:01Z"
+    }
+   }
   },
   {
    "id": "401896744",
@@ -1328,7 +1322,18 @@
    ],
    "liga": "Super League",
    "pais": "Grécia",
-   "liga_id": "gre.1"
+   "liga_id": "gre.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 1.09,
+      "2": 14.25,
+      "X": 6.6
+     },
+     "atualizado": "2026-10-19T04:39:40Z"
+    }
+   }
   },
   {
    "id": "401841631",
@@ -1426,7 +1431,18 @@
    ],
    "liga": "Serie A",
    "pais": "Itália",
-   "liga_id": "ita.1"
+   "liga_id": "ita.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 6.5,
+      "1": 1.34,
+      "X": 5.0
+     },
+     "atualizado": "2026-10-19T04:39:35Z"
+    }
+   }
   },
   {
    "id": "401878360",
@@ -1490,7 +1506,18 @@
    ],
    "liga": "Superliga",
    "pais": "Dinamarca",
-   "liga_id": "den.1"
+   "liga_id": "den.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 1.33,
+      "2": 6.25,
+      "X": 4.4
+     },
+     "atualizado": "2026-10-19T04:39:34Z"
+    }
+   }
   },
   {
    "id": "401878359",
@@ -1563,7 +1590,18 @@
    ],
    "liga": "LaLiga 2",
    "pais": "Espanha",
-   "liga_id": "esp.2"
+   "liga_id": "esp.2",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 2.07,
+      "2": 3.05,
+      "X": 3.23
+     },
+     "atualizado": "2026-10-19T04:39:43Z"
+    }
+   }
   },
   {
    "id": "401896741",
@@ -1595,7 +1633,18 @@
    ],
    "liga": "Super League",
    "pais": "Grécia",
-   "liga_id": "gre.1"
+   "liga_id": "gre.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 1.3,
+      "1": 7.0,
+      "X": 4.35
+     },
+     "atualizado": "2026-10-19T04:39:40Z"
+    }
+   }
   },
   {
    "id": "401843370",
@@ -1629,7 +1678,18 @@
    ],
    "liga": "Eliteserien",
    "pais": "Noruega",
-   "liga_id": "nor.1"
+   "liga_id": "nor.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 2.8,
+      "1": 2.12,
+      "X": 3.2
+     },
+     "atualizado": "2026-10-19T04:39:15Z"
+    }
+   }
   },
   {
    "id": "401878764",
@@ -1663,7 +1723,18 @@
    ],
    "liga": "Premier League",
    "pais": "Inglaterra",
-   "liga_id": "eng.1"
+   "liga_id": "eng.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 2.35,
+      "1": 2.77,
+      "X": 3.2
+     },
+     "atualizado": "2026-10-19T04:39:47Z"
+    }
+   }
   },
   {
    "id": "401874553",
@@ -1695,28 +1766,39 @@
    ],
    "liga": "Superliga",
    "pais": "Dinamarca",
-   "liga_id": "den.1"
+   "liga_id": "den.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 2.32,
+      "2": 2.5,
+      "X": 3.25
+     },
+     "atualizado": "2026-10-19T04:39:34Z"
+    }
+   }
   },
   {
    "id": "401841629",
    "data": "2026-10-25T17:45Z",
    "casa": {
     "nome": "Aldosivi",
-    "posicao": 14,
+    "posicao": 15,
     "total": 15,
     "pontos": 8,
-    "jogos": 12,
-    "forma": "DDVDV",
-    "serie_derrotas": 2
+    "jogos": 13,
+    "forma": "DDDVD",
+    "serie_derrotas": 3
    },
    "fora": {
     "nome": "Belgrano (Córdoba)",
     "posicao": 3,
     "total": 15,
     "pontos": 22,
-    "jogos": 12,
-    "forma": "VVVEE",
-    "serie_derrotas": 0
+    "jogos": 13,
+    "forma": "DVVVE",
+    "serie_derrotas": 1
    },
    "criterios": [
     {
@@ -1795,7 +1877,18 @@
    ],
    "liga": "Serie A",
    "pais": "Itália",
-   "liga_id": "ita.1"
+   "liga_id": "ita.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 1.62,
+      "1": 4.75,
+      "X": 3.68
+     },
+     "atualizado": "2026-10-19T04:39:35Z"
+    }
+   }
   }
  ]
 }

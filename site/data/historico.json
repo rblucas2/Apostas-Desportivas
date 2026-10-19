@@ -1,6 +1,31 @@
 {
- "atualizado_em": "2026-10-19T13:14:01+00:00",
+ "atualizado_em": "2026-10-19T22:21:15+00:00",
  "jogos": [
+  {
+   "id": "401841630",
+   "selecionado_em": "2026-10-19T22:21:15+00:00",
+   "estado": "pendente",
+   "data": "2026-10-26T22:00Z",
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1",
+   "casa": {
+    "nome": "Unión (Santa Fe)",
+    "posicao": 11,
+    "total": 15
+   },
+   "fora": {
+    "nome": "Estudiantes de La Plata",
+    "posicao": 10,
+    "total": 15
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401874779",
    "selecionado_em": "2026-10-18T20:42:41+00:00",
@@ -11,7 +36,7 @@
    "liga_id": "ita.1",
    "casa": {
     "nome": "Udinese",
-    "posicao": 17,
+    "posicao": 16,
     "total": 20
    },
    "fora": {
@@ -46,7 +71,7 @@
    },
    "fora": {
     "nome": "Braga",
-    "posicao": 7,
+    "posicao": 8,
     "total": 18
    },
    "criterios": [
@@ -121,7 +146,7 @@
    "liga_id": "eng.1",
    "casa": {
     "nome": "Sunderland",
-    "posicao": 19,
+    "posicao": 20,
     "total": 20
    },
    "fora": {
@@ -327,7 +352,7 @@
    },
    "fora": {
     "nome": "Fiorentina",
-    "posicao": 19,
+    "posicao": 18,
     "total": 20
    },
    "criterios": [
@@ -390,6 +415,31 @@
    ],
    "favorito": "fora",
    "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401874955",
+   "selecionado_em": "2026-10-19T22:21:15+00:00",
+   "estado": "pendente",
+   "data": "2026-10-24T18:45Z",
+   "liga": "Serie A",
+   "pais": "Itália",
+   "liga_id": "ita.1",
+   "casa": {
+    "nome": "Lazio",
+    "posicao": 2,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Parma",
+    "posicao": 19,
+    "total": 20
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
    "cota": null
   },
   {
@@ -544,36 +594,6 @@
    }
   },
   {
-   "id": "401842855",
-   "selecionado_em": "2026-10-17T15:34:25+00:00",
-   "estado": "pendente",
-   "data": "2026-10-24T15:30Z",
-   "liga": "Allsvenskan",
-   "pais": "Suécia",
-   "liga_id": "swe.1",
-   "casa": {
-    "nome": "Kalmar FF",
-    "posicao": 14,
-    "total": 16
-   },
-   "fora": {
-    "nome": "IF Brommapojkarna",
-    "posicao": 11,
-    "total": 16
-   },
-   "criterios": [
-    "serie_derrotas"
-   ],
-   "favorito": "fora",
-   "aposta": "2",
-   "cota": 3.28,
-   "cotas": {
-    "2": 3.28,
-    "1": 1.85,
-    "X": 3.38
-   }
-  },
-  {
    "id": "401876423",
    "selecionado_em": "2026-10-17T15:34:25+00:00",
    "estado": "pendente",
@@ -643,7 +663,7 @@
    "liga_id": "ned.2",
    "casa": {
     "nome": "FC Dordrecht",
-    "posicao": 19,
+    "posicao": 18,
     "total": 20
    },
    "fora": {
@@ -1042,7 +1062,7 @@
   {
    "id": "401876719",
    "selecionado_em": "2026-10-14T16:26:20+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-19T18:45Z",
    "liga": "Ligue 2",
    "pais": "França",
@@ -1067,12 +1087,18 @@
     "1": 2.83,
     "X": 3.28
    },
-   "cota": 2.2
+   "cota": 2.2,
+   "golos_casa": 0,
+   "golos_fora": 3,
+   "resultado": "2",
+   "acertou": true,
+   "resolvido_em": "2026-10-19T22:21:15+00:00",
+   "lucro": 1.2
   },
   {
    "id": "401842846",
    "selecionado_em": "2026-10-14T16:26:20+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-19T17:00Z",
    "liga": "Allsvenskan",
    "pais": "Suécia",
@@ -1097,7 +1123,13 @@
     "2": 2.28,
     "X": 3.15
    },
-   "cota": 2.75
+   "cota": 2.75,
+   "golos_casa": 1,
+   "golos_fora": 2,
+   "resultado": "2",
+   "acertou": false,
+   "resolvido_em": "2026-10-19T22:21:15+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401841624",

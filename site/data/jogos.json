@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-19T13:14:01+00:00",
+ "gerado_em": "2026-10-19T22:21:15+00:00",
  "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
@@ -23,7 +23,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 11,
+   "jogos_agendados": 10,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -53,7 +53,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 23,
+   "jogos_agendados": 24,
    "selecionados": 2,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -103,8 +103,8 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 12,
-   "selecionados": 2,
+   "jogos_agendados": 10,
+   "selecionados": 3,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -134,7 +134,7 @@
    "ok": true,
    "equipas": 18,
    "jogos_agendados": 9,
-   "selecionados": 2,
+   "selecionados": 1,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -153,7 +153,7 @@
    "pais": "Países Baixos",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 13,
+   "jogos_agendados": 10,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -173,7 +173,7 @@
    "pais": "Turquia",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 7,
+   "jogos_agendados": 9,
    "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -243,8 +243,8 @@
    "pais": "Suécia",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 9,
-   "selecionados": 3,
+   "jogos_agendados": 8,
+   "selecionados": 1,
    "com_resultados": 16,
    "resultados_em_falta": 0
   },
@@ -263,8 +263,8 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 15,
-   "selecionados": 2,
+   "jogos_agendados": 14,
+   "selecionados": 3,
    "com_resultados": 30,
    "resultados_em_falta": 0
   },
@@ -300,98 +300,6 @@
   }
  ],
  "jogos": [
-  {
-   "id": "401842846",
-   "data": "2026-10-19T17:00Z",
-   "casa": {
-    "nome": "Degerfors IF",
-    "posicao": 13,
-    "total": 16,
-    "pontos": 20,
-    "jogos": 23,
-    "forma": "EDDVD",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Kalmar FF",
-    "posicao": 14,
-    "total": 16,
-    "pontos": 19,
-    "jogos": 23,
-    "forma": "DDDDD",
-    "serie_derrotas": 5
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 5,
-     "favorito": "casa",
-     "texto": "Kalmar FF com 5 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Allsvenskan",
-   "pais": "Suécia",
-   "liga_id": "swe.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "1": 2.75,
-      "2": 2.28,
-      "X": 3.15
-     },
-     "atualizado": "2026-10-19T04:40:44Z"
-    }
-   },
-   "cotas_antigas": true
-  },
-  {
-   "id": "401876719",
-   "data": "2026-10-19T18:45Z",
-   "casa": {
-    "nome": "Rodez Aveyron",
-    "posicao": 17,
-    "total": 18,
-    "pontos": 7,
-    "jogos": 8,
-    "forma": "DDDDE",
-    "serie_derrotas": 4
-   },
-   "fora": {
-    "nome": "Montpellier",
-    "posicao": 5,
-    "total": 18,
-    "pontos": 15,
-    "jogos": 8,
-    "forma": "VEVDE",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 4,
-     "favorito": "fora",
-     "texto": "Rodez Aveyron com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Ligue 2",
-   "pais": "França",
-   "liga_id": "fra.2",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 2.2,
-      "1": 2.83,
-      "X": 3.28
-     },
-     "atualizado": "2026-10-19T04:39:54Z"
-    }
-   },
-   "cotas_antigas": true
-  },
   {
    "id": "401841272",
    "data": "2026-10-19T23:00Z",
@@ -725,17 +633,17 @@
     "posicao": 17,
     "total": 18,
     "pontos": 7,
-    "jogos": 8,
-    "forma": "DDDDE",
-    "serie_derrotas": 4
+    "jogos": 9,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
    },
    "criterios": [
     {
      "tipo": "serie_derrotas",
      "equipa": "fora",
-     "derrotas": 4,
+     "derrotas": 5,
      "favorito": "casa",
-     "texto": "Rodez Aveyron com 4 derrotas seguidas vs melhor classificado"
+     "texto": "Rodez Aveyron com 5 derrotas seguidas vs melhor classificado"
     }
    ],
    "liga": "Ligue 2",
@@ -946,12 +854,12 @@
    "data": "2026-10-24T14:30Z",
    "casa": {
     "nome": "FC Dordrecht",
-    "posicao": 19,
+    "posicao": 18,
     "total": 20,
-    "pontos": 8,
-    "jogos": 10,
-    "forma": "DEVDD",
-    "serie_derrotas": 1
+    "pontos": 11,
+    "jogos": 11,
+    "forma": "VDEVD",
+    "serie_derrotas": 0
    },
    "fora": {
     "nome": "VVV-Venlo",
@@ -1103,52 +1011,6 @@
       "1": 1.1,
       "2": 11.25,
       "X": 6.9
-     },
-     "atualizado": "2026-10-19T04:40:44Z"
-    }
-   },
-   "cotas_antigas": true
-  },
-  {
-   "id": "401842855",
-   "data": "2026-10-24T15:30Z",
-   "casa": {
-    "nome": "Kalmar FF",
-    "posicao": 14,
-    "total": 16,
-    "pontos": 19,
-    "jogos": 23,
-    "forma": "DDDDD",
-    "serie_derrotas": 5
-   },
-   "fora": {
-    "nome": "IF Brommapojkarna",
-    "posicao": 11,
-    "total": 16,
-    "pontos": 30,
-    "jogos": 24,
-    "forma": "DVDDV",
-    "serie_derrotas": 1
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 5,
-     "favorito": "fora",
-     "texto": "Kalmar FF com 5 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Allsvenskan",
-   "pais": "Suécia",
-   "liga_id": "swe.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 3.28,
-      "1": 1.85,
-      "X": 3.38
      },
      "atualizado": "2026-10-19T04:40:44Z"
     }
@@ -1345,6 +1207,38 @@
    "cotas_antigas": true
   },
   {
+   "id": "401874955",
+   "data": "2026-10-24T18:45Z",
+   "casa": {
+    "nome": "Lazio",
+    "posicao": 2,
+    "total": 20,
+    "pontos": 19,
+    "jogos": 7,
+    "forma": "VVVEV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Parma",
+    "posicao": 19,
+    "total": 20,
+    "pontos": 4,
+    "jogos": 7,
+    "forma": "DDVDE",
+    "serie_derrotas": 2
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Serie A",
+   "pais": "Itália",
+   "liga_id": "ita.1"
+  },
+  {
    "id": "401841631",
    "data": "2026-10-24T20:00Z",
    "casa": {
@@ -1424,7 +1318,7 @@
    },
    "fora": {
     "nome": "Fiorentina",
-    "posicao": 19,
+    "posicao": 18,
     "total": 20,
     "pontos": 4,
     "jogos": 7,
@@ -1493,9 +1387,9 @@
     "nome": "FC Midtjylland",
     "posicao": 2,
     "total": 12,
-    "pontos": 22,
-    "jogos": 10,
-    "forma": "VEVEV",
+    "pontos": 25,
+    "jogos": 11,
+    "forma": "VVEVE",
     "serie_derrotas": 0
    },
    "fora": {
@@ -1710,7 +1604,7 @@
    "data": "2026-10-25T16:30Z",
    "casa": {
     "nome": "Sunderland",
-    "posicao": 19,
+    "posicao": 20,
     "total": 20,
     "pontos": 4,
     "jogos": 7,
@@ -1768,9 +1662,9 @@
     "posicao": 3,
     "total": 12,
     "pontos": 20,
-    "jogos": 10,
-    "forma": "VVEDV",
-    "serie_derrotas": 0
+    "jogos": 11,
+    "forma": "DVVED",
+    "serie_derrotas": 1
    },
    "criterios": [
     {
@@ -1841,12 +1735,12 @@
    },
    "fora": {
     "nome": "Braga",
-    "posicao": 7,
+    "posicao": 8,
     "total": 18,
     "pontos": 11,
-    "jogos": 7,
-    "forma": "DEVDV",
-    "serie_derrotas": 1
+    "jogos": 8,
+    "forma": "DDEVD",
+    "serie_derrotas": 2
    },
    "criterios": [
     {
@@ -1866,7 +1760,7 @@
    "data": "2026-10-25T19:45Z",
    "casa": {
     "nome": "Udinese",
-    "posicao": 17,
+    "posicao": 16,
     "total": 20,
     "pontos": 4,
     "jogos": 7,
@@ -1906,6 +1800,40 @@
     }
    },
    "cotas_antigas": true
+  },
+  {
+   "id": "401841630",
+   "data": "2026-10-26T22:00Z",
+   "casa": {
+    "nome": "Unión (Santa Fe)",
+    "posicao": 11,
+    "total": 15,
+    "pontos": 13,
+    "jogos": 12,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Estudiantes de La Plata",
+    "posicao": 10,
+    "total": 15,
+    "pontos": 14,
+    "jogos": 13,
+    "forma": "DEVDV",
+    "serie_derrotas": 1
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Unión (Santa Fe) com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1"
   }
  ]
 }

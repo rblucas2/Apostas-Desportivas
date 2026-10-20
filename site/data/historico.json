@@ -1,31 +1,6 @@
 {
- "atualizado_em": "2026-10-19T22:21:15+00:00",
+ "atualizado_em": "2026-10-20T04:50:25+00:00",
  "jogos": [
-  {
-   "id": "401841630",
-   "selecionado_em": "2026-10-19T22:21:15+00:00",
-   "estado": "pendente",
-   "data": "2026-10-26T22:00Z",
-   "liga": "Liga Profesional",
-   "pais": "Argentina",
-   "liga_id": "arg.1",
-   "casa": {
-    "nome": "Unión (Santa Fe)",
-    "posicao": 11,
-    "total": 15
-   },
-   "fora": {
-    "nome": "Estudiantes de La Plata",
-    "posicao": 10,
-    "total": 15
-   },
-   "criterios": [
-    "serie_derrotas"
-   ],
-   "favorito": "fora",
-   "aposta": "2",
-   "cota": null
-  },
   {
    "id": "401874779",
    "selecionado_em": "2026-10-18T20:42:41+00:00",
@@ -49,11 +24,11 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": 1.62,
+   "cota": 1.58,
    "cotas": {
-    "2": 1.62,
-    "1": 4.75,
-    "X": 3.68
+    "2": 1.58,
+    "1": 4.95,
+    "X": 3.75
    }
   },
   {
@@ -79,7 +54,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": 1.49,
+   "cotas": {
+    "2": 1.49,
+    "1": 5.25,
+    "X": 3.85
+   }
   },
   {
    "id": "401841629",
@@ -360,37 +340,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": 1.34,
+   "cota": 1.32,
    "cotas": {
-    "2": 6.5,
-    "1": 1.34,
-    "X": 5.0
+    "2": 6.75,
+    "1": 1.32,
+    "X": 5.1
    }
-  },
-  {
-   "id": "401841281",
-   "selecionado_em": "2026-10-18T04:33:01+00:00",
-   "estado": "pendente",
-   "data": "2026-10-24T21:30Z",
-   "liga": "Série A",
-   "pais": "Brasil",
-   "liga_id": "bra.1",
-   "casa": {
-    "nome": "Vasco da Gama",
-    "posicao": 15,
-    "total": 20
-   },
-   "fora": {
-    "nome": "Corinthians",
-    "posicao": 16,
-    "total": 20
-   },
-   "criterios": [
-    "serie_derrotas"
-   ],
-   "favorito": "casa",
-   "aposta": "1",
-   "cota": null
   },
   {
    "id": "401841631",
@@ -440,7 +395,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 1.41,
+   "cotas": {
+    "1": 1.41,
+    "2": 6.5,
+    "X": 4.25
+   }
   },
   {
    "id": "401896744",
@@ -837,7 +797,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 1.88,
+   "cotas": {
+    "1": 1.88,
+    "2": 3.1,
+    "X": 3.8
+   }
   },
   {
    "id": "401880205",
@@ -1037,7 +1002,7 @@
   {
    "id": "401841272",
    "selecionado_em": "2026-10-16T16:41:46+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-19T23:00Z",
    "liga": "Série A",
    "pais": "Brasil",
@@ -1057,7 +1022,13 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": null,
+   "golos_casa": 1,
+   "golos_fora": 1,
+   "resultado": "X",
+   "acertou": false,
+   "resolvido_em": "2026-10-20T04:50:25+00:00",
+   "lucro": null
   },
   {
    "id": "401876719",

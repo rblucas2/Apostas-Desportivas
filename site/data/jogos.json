@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-20T17:03:17+00:00",
+ "gerado_em": "2026-10-20T21:37:05+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -33,7 +33,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 13,
+   "jogos_agendados": 12,
    "selecionados": 1,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -43,20 +43,20 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 24,
-   "selecionados": 3,
+   "jogos_agendados": 18,
+   "selecionados": 1,
    "com_resultados": 24,
-   "resultados_em_falta": 0
+   "resultados_em_falta": 16
   },
   {
    "liga": "League Two",
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 24,
-   "selecionados": 2,
+   "jogos_agendados": 13,
+   "selecionados": 1,
    "com_resultados": 24,
-   "resultados_em_falta": 0
+   "resultados_em_falta": 24
   },
   {
    "liga": "LaLiga",
@@ -103,7 +103,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 10,
+   "jogos_agendados": 13,
    "selecionados": 3,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -113,7 +113,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 10,
+   "jogos_agendados": 17,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -196,7 +196,7 @@
    "jogos_agendados": 6,
    "selecionados": 0,
    "com_resultados": 10,
-   "resultados_em_falta": 0
+   "resultados_em_falta": 2
   },
   {
    "liga": "Super League",
@@ -243,7 +243,7 @@
    "pais": "Suécia",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 8,
+   "jogos_agendados": 9,
    "selecionados": 1,
    "com_resultados": 16,
    "resultados_em_falta": 0
@@ -273,7 +273,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 16,
+   "jogos_agendados": 9,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -300,74 +300,6 @@
   }
  ],
  "jogos": [
-  {
-   "id": "401880782",
-   "data": "2026-10-20T18:45Z",
-   "casa": {
-    "nome": "Notts County",
-    "posicao": 23,
-    "total": 24,
-    "pontos": 7,
-    "jogos": 9,
-    "forma": "DDDDE",
-    "serie_derrotas": 4
-   },
-   "fora": {
-    "nome": "Sheffield Wednesday",
-    "posicao": 6,
-    "total": 24,
-    "pontos": 18,
-    "jogos": 9,
-    "forma": "VEEEV",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 4,
-     "favorito": "fora",
-     "texto": "Notts County com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "League One",
-   "pais": "Inglaterra",
-   "liga_id": "eng.3"
-  },
-  {
-   "id": "401881304",
-   "data": "2026-10-20T18:45Z",
-   "casa": {
-    "nome": "Rochdale",
-    "posicao": 13,
-    "total": 24,
-    "pontos": 14,
-    "jogos": 11,
-    "forma": "DEVVV",
-    "serie_derrotas": 1
-   },
-   "fora": {
-    "nome": "Grimsby Town",
-    "posicao": 15,
-    "total": 24,
-    "pontos": 13,
-    "jogos": 11,
-    "forma": "DDDDV",
-    "serie_derrotas": 4
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 4,
-     "favorito": "casa",
-     "texto": "Grimsby Town com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "League Two",
-   "pais": "Inglaterra",
-   "liga_id": "eng.4"
-  },
   {
    "id": "401885079",
    "data": "2026-10-23T16:30Z",
@@ -555,10 +487,10 @@
    "data": "2026-10-24T11:30Z",
    "casa": {
     "nome": "Huddersfield Town",
-    "posicao": 3,
+    "posicao": 2,
     "total": 24,
-    "pontos": 19,
-    "jogos": 10,
+    "pontos": 22,
+    "jogos": 11,
     "forma": "VEVDE",
     "serie_derrotas": 0
    },
@@ -567,9 +499,9 @@
     "posicao": 24,
     "total": 24,
     "pontos": 7,
-    "jogos": 9,
-    "forma": "VDDED",
-    "serie_derrotas": 0
+    "jogos": 10,
+    "forma": "DVDDE",
+    "serie_derrotas": 1
    },
    "criterios": [
     {
@@ -709,62 +641,23 @@
    "liga_id": "sco.1"
   },
   {
-   "id": "401880770",
-   "data": "2026-10-24T14:00Z",
-   "casa": {
-    "nome": "Notts County",
-    "posicao": 23,
-    "total": 24,
-    "pontos": 7,
-    "jogos": 9,
-    "forma": "DDDDE",
-    "serie_derrotas": 4
-   },
-   "fora": {
-    "nome": "Stockport County",
-    "posicao": 2,
-    "total": 24,
-    "pontos": 19,
-    "jogos": 10,
-    "forma": "VVVED",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "fora",
-     "texto": "3 primeiros vs 3 últimos"
-    },
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 4,
-     "favorito": "fora",
-     "texto": "Notts County com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "League One",
-   "pais": "Inglaterra",
-   "liga_id": "eng.3"
-  },
-  {
    "id": "401881294",
    "data": "2026-10-24T14:00Z",
    "casa": {
     "nome": "Gillingham",
-    "posicao": 6,
+    "posicao": 7,
     "total": 24,
-    "pontos": 16,
-    "jogos": 11,
+    "pontos": 17,
+    "jogos": 12,
     "forma": "DVEDV",
     "serie_derrotas": 1
    },
    "fora": {
     "nome": "Grimsby Town",
-    "posicao": 15,
+    "posicao": 17,
     "total": 24,
-    "pontos": 13,
-    "jogos": 11,
+    "pontos": 14,
+    "jogos": 12,
     "forma": "DDDDV",
     "serie_derrotas": 4
    },

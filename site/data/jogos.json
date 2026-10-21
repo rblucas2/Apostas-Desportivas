@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-21T04:45:42+00:00",
+ "gerado_em": "2026-10-21T11:48:31+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -799,52 +799,6 @@
    "cotas_antigas": true
   },
   {
-   "id": "401876423",
-   "data": "2026-10-24T15:15Z",
-   "casa": {
-    "nome": "Toulouse",
-    "posicao": 11,
-    "total": 18,
-    "pontos": 9,
-    "jogos": 7,
-    "forma": "VEVED",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Troyes",
-    "posicao": 17,
-    "total": 18,
-    "pontos": 4,
-    "jogos": 7,
-    "forma": "DDDDD",
-    "serie_derrotas": 5
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 5,
-     "favorito": "casa",
-     "texto": "Troyes com 5 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Ligue 1",
-   "pais": "França",
-   "liga_id": "fra.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "1": 1.59,
-      "2": 4.55,
-      "X": 3.95
-     },
-     "atualizado": "2026-10-18T04:32:31Z"
-    }
-   },
-   "cotas_antigas": true
-  },
-  {
    "id": "401842850",
    "data": "2026-10-24T15:30Z",
    "casa": {
@@ -1444,6 +1398,52 @@
       "X": 3.2
      },
      "atualizado": "2026-10-19T04:39:15Z"
+    }
+   },
+   "cotas_antigas": true
+  },
+  {
+   "id": "401876423",
+   "data": "2026-10-25T16:15Z",
+   "casa": {
+    "nome": "Toulouse",
+    "posicao": 11,
+    "total": 18,
+    "pontos": 9,
+    "jogos": 7,
+    "forma": "VEVED",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Troyes",
+    "posicao": 17,
+    "total": 18,
+    "pontos": 4,
+    "jogos": 7,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 5,
+     "favorito": "casa",
+     "texto": "Troyes com 5 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 1.59,
+      "2": 4.55,
+      "X": 3.95
+     },
+     "atualizado": "2026-10-18T04:32:31Z"
     }
    },
    "cotas_antigas": true

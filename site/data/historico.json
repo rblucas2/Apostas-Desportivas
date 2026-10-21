@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-21T04:45:42+00:00",
+ "atualizado_em": "2026-10-21T11:48:31+00:00",
  "jogos": [
   {
    "id": "401874779",
@@ -144,6 +144,36 @@
     "2": 2.35,
     "1": 2.77,
     "X": 3.2
+   }
+  },
+  {
+   "id": "401876423",
+   "selecionado_em": "2026-10-17T15:34:25+00:00",
+   "estado": "pendente",
+   "data": "2026-10-25T16:15Z",
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1",
+   "casa": {
+    "nome": "Toulouse",
+    "posicao": 11,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Troyes",
+    "posicao": 17,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": 1.59,
+   "cotas": {
+    "1": 1.59,
+    "2": 4.55,
+    "X": 3.95
    }
   },
   {
@@ -551,36 +581,6 @@
     "1": 1.1,
     "2": 11.25,
     "X": 6.9
-   }
-  },
-  {
-   "id": "401876423",
-   "selecionado_em": "2026-10-17T15:34:25+00:00",
-   "estado": "pendente",
-   "data": "2026-10-24T15:15Z",
-   "liga": "Ligue 1",
-   "pais": "França",
-   "liga_id": "fra.1",
-   "casa": {
-    "nome": "Toulouse",
-    "posicao": 11,
-    "total": 18
-   },
-   "fora": {
-    "nome": "Troyes",
-    "posicao": 17,
-    "total": 18
-   },
-   "criterios": [
-    "serie_derrotas"
-   ],
-   "favorito": "casa",
-   "aposta": "1",
-   "cota": 1.59,
-   "cotas": {
-    "1": 1.59,
-    "2": 4.55,
-    "X": 3.95
    }
   },
   {

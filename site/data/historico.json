@@ -1,6 +1,56 @@
 {
- "atualizado_em": "2026-10-21T17:11:42+00:00",
+ "atualizado_em": "2026-10-21T21:42:25+00:00",
  "jogos": [
+  {
+   "id": "401878352",
+   "selecionado_em": "2026-10-21T21:42:25+00:00",
+   "estado": "pendente",
+   "data": "2026-10-28T19:45Z",
+   "liga": "Premiership",
+   "pais": "Escócia",
+   "liga_id": "sco.1",
+   "casa": {
+    "nome": "St Johnstone",
+    "posicao": 5,
+    "total": 12
+   },
+   "fora": {
+    "nome": "Motherwell",
+    "posicao": 10,
+    "total": 12
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401874773",
+   "selecionado_em": "2026-10-21T21:42:25+00:00",
+   "estado": "pendente",
+   "data": "2026-10-28T17:30Z",
+   "liga": "Serie A",
+   "pais": "Itália",
+   "liga_id": "ita.1",
+   "casa": {
+    "nome": "Venezia",
+    "posicao": 20,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Internazionale",
+    "posicao": 1,
+    "total": 20
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401874779",
    "selecionado_em": "2026-10-18T20:42:41+00:00",

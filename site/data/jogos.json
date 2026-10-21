@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-21T17:11:42+00:00",
+ "gerado_em": "2026-10-21T21:42:25+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -43,7 +43,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 18,
+   "jogos_agendados": 17,
    "selecionados": 1,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -63,7 +63,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 11,
+   "jogos_agendados": 10,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -103,8 +103,8 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 13,
-   "selecionados": 3,
+   "jogos_agendados": 18,
+   "selecionados": 4,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -113,7 +113,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 17,
+   "jogos_agendados": 20,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -183,8 +183,8 @@
    "pais": "Escócia",
    "ok": true,
    "equipas": 12,
-   "jogos_agendados": 6,
-   "selecionados": 3,
+   "jogos_agendados": 12,
+   "selecionados": 4,
    "com_resultados": 12,
    "resultados_em_falta": 0
   },
@@ -243,7 +243,7 @@
    "pais": "Suécia",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 9,
+   "jogos_agendados": 13,
    "selecionados": 1,
    "com_resultados": 16,
    "resultados_em_falta": 0
@@ -273,7 +273,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 7,
+   "jogos_agendados": 0,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -1661,6 +1661,72 @@
     }
    },
    "cotas_antigas": true
+  },
+  {
+   "id": "401874773",
+   "data": "2026-10-28T17:30Z",
+   "casa": {
+    "nome": "Venezia",
+    "posicao": 20,
+    "total": 20,
+    "pontos": 3,
+    "jogos": 7,
+    "forma": "VDDDD",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Internazionale",
+    "posicao": 1,
+    "total": 20,
+    "pontos": 19,
+    "jogos": 7,
+    "forma": "VVEVV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Serie A",
+   "pais": "Itália",
+   "liga_id": "ita.1"
+  },
+  {
+   "id": "401878352",
+   "data": "2026-10-28T19:45Z",
+   "casa": {
+    "nome": "St Johnstone",
+    "posicao": 5,
+    "total": 12,
+    "pontos": 12,
+    "jogos": 9,
+    "forma": "EVEDV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Motherwell",
+    "posicao": 10,
+    "total": 12,
+    "pontos": 8,
+    "jogos": 9,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 5,
+     "favorito": "casa",
+     "texto": "Motherwell com 5 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Premiership",
+   "pais": "Escócia",
+   "liga_id": "sco.1"
   }
  ]
 }

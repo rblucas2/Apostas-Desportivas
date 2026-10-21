@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-20T21:37:05+00:00",
+ "atualizado_em": "2026-10-21T04:45:42+00:00",
  "jogos": [
   {
    "id": "401874779",
@@ -724,31 +724,6 @@
    "cota": null
   },
   {
-   "id": "401881294",
-   "selecionado_em": "2026-10-17T20:36:16+00:00",
-   "estado": "pendente",
-   "data": "2026-10-24T14:00Z",
-   "liga": "League Two",
-   "pais": "Inglaterra",
-   "liga_id": "eng.4",
-   "casa": {
-    "nome": "Gillingham",
-    "posicao": 7,
-    "total": 24
-   },
-   "fora": {
-    "nome": "Grimsby Town",
-    "posicao": 17,
-    "total": 24
-   },
-   "criterios": [
-    "serie_derrotas"
-   ],
-   "favorito": "casa",
-   "aposta": "1",
-   "cota": null
-  },
-  {
    "id": "401876716",
    "selecionado_em": "2026-10-17T15:34:25+00:00",
    "estado": "pendente",
@@ -831,6 +806,31 @@
    ],
    "favorito": "casa",
    "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401881299",
+   "selecionado_em": "2026-10-21T04:45:42+00:00",
+   "estado": "pendente",
+   "data": "2026-10-24T11:30Z",
+   "liga": "League Two",
+   "pais": "Inglaterra",
+   "liga_id": "eng.4",
+   "casa": {
+    "nome": "Bristol Rovers",
+    "posicao": 16,
+    "total": 24
+   },
+   "fora": {
+    "nome": "Swindon Town",
+    "posicao": 15,
+    "total": 24
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
    "cota": null
   },
   {

@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-20T21:37:05+00:00",
+ "gerado_em": "2026-10-21T04:45:42+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -46,7 +46,7 @@
    "jogos_agendados": 18,
    "selecionados": 1,
    "com_resultados": 24,
-   "resultados_em_falta": 16
+   "resultados_em_falta": 0
   },
   {
    "liga": "League Two",
@@ -56,7 +56,7 @@
    "jogos_agendados": 13,
    "selecionados": 1,
    "com_resultados": 24,
-   "resultados_em_falta": 24
+   "resultados_em_falta": 0
   },
   {
    "liga": "LaLiga",
@@ -196,7 +196,7 @@
    "jogos_agendados": 6,
    "selecionados": 0,
    "com_resultados": 10,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "Super League",
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 14,
+   "jogos_agendados": 15,
    "selecionados": 2,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -491,7 +491,7 @@
     "total": 24,
     "pontos": 22,
     "jogos": 11,
-    "forma": "VEVDE",
+    "forma": "VVEVD",
     "serie_derrotas": 0
    },
    "fora": {
@@ -513,6 +513,40 @@
    "liga": "League One",
    "pais": "Inglaterra",
    "liga_id": "eng.3"
+  },
+  {
+   "id": "401881299",
+   "data": "2026-10-24T11:30Z",
+   "casa": {
+    "nome": "Bristol Rovers",
+    "posicao": 16,
+    "total": 24,
+    "pontos": 15,
+    "jogos": 12,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Swindon Town",
+    "posicao": 15,
+    "total": 24,
+    "pontos": 15,
+    "jogos": 12,
+    "forma": "VEDDE",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Bristol Rovers com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "League Two",
+   "pais": "Inglaterra",
+   "liga_id": "eng.4"
   },
   {
    "id": "401876716",
@@ -639,40 +673,6 @@
    "liga": "Premiership",
    "pais": "Escócia",
    "liga_id": "sco.1"
-  },
-  {
-   "id": "401881294",
-   "data": "2026-10-24T14:00Z",
-   "casa": {
-    "nome": "Gillingham",
-    "posicao": 7,
-    "total": 24,
-    "pontos": 17,
-    "jogos": 12,
-    "forma": "DVEDV",
-    "serie_derrotas": 1
-   },
-   "fora": {
-    "nome": "Grimsby Town",
-    "posicao": 17,
-    "total": 24,
-    "pontos": 14,
-    "jogos": 12,
-    "forma": "DDDDV",
-    "serie_derrotas": 4
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 4,
-     "favorito": "casa",
-     "texto": "Grimsby Town com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "League Two",
-   "pais": "Inglaterra",
-   "liga_id": "eng.4"
   },
   {
    "id": "401883151",

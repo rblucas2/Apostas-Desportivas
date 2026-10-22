@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-21T21:42:25+00:00",
+ "gerado_em": "2026-10-22T04:44:10+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 10,
+   "jogos_agendados": 15,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -335,14 +335,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.77,
-      "2": 2.07,
-      "X": 3.4
+      "1": 2.92,
+      "2": 1.98,
+      "X": 3.53
      },
-     "atualizado": "2026-10-19T04:39:35Z"
+     "atualizado": "2026-10-22T04:46:22Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401884761",
@@ -1066,14 +1065,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.41,
-      "2": 6.5,
-      "X": 4.25
+      "1": 1.35,
+      "2": 6.9,
+      "X": 4.2
      },
-     "atualizado": "2026-10-20T04:49:27Z"
+     "atualizado": "2026-10-22T04:45:38Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401841631",
@@ -1142,14 +1140,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 6.75,
-      "1": 1.32,
+      "2": 6.9,
+      "1": 1.28,
       "X": 5.1
      },
-     "atualizado": "2026-10-20T04:49:27Z"
+     "atualizado": "2026-10-22T04:45:38Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401878360",
@@ -1653,14 +1650,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.58,
-      "1": 4.95,
-      "X": 3.75
+      "2": 1.57,
+      "1": 4.8,
+      "X": 3.65
      },
-     "atualizado": "2026-10-20T04:49:27Z"
+     "atualizado": "2026-10-22T04:45:38Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401874773",
@@ -1692,7 +1688,18 @@
    ],
    "liga": "Serie A",
    "pais": "Itália",
-   "liga_id": "ita.1"
+   "liga_id": "ita.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 1.25,
+      "1": 7.0,
+      "X": 5.5
+     },
+     "atualizado": "2026-10-22T04:45:38Z"
+    }
+   }
   },
   {
    "id": "401878352",

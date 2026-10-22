@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-22T17:10:21+00:00",
- "cotas_atualizadas": true,
+ "gerado_em": "2026-10-22T21:35:13+00:00",
+ "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -103,7 +103,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 18,
+   "jogos_agendados": 20,
    "selecionados": 4,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -243,7 +243,7 @@
    "pais": "Suécia",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 13,
+   "jogos_agendados": 16,
    "selecionados": 1,
    "com_resultados": 16,
    "resultados_em_falta": 0
@@ -283,7 +283,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 10,
+   "jogos_agendados": 0,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -293,10 +293,10 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 8,
+   "jogos_agendados": 0,
    "selecionados": 0,
    "com_resultados": 36,
-   "resultados_em_falta": 0
+   "resultados_em_falta": 12
   }
  ],
  "jogos": [
@@ -341,7 +341,8 @@
      },
      "atualizado": "2026-10-22T17:11:09Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401884761",

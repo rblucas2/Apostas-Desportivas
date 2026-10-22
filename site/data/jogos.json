@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-22T11:51:49+00:00",
+ "gerado_em": "2026-10-22T17:10:21+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -283,7 +283,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 18,
+   "jogos_agendados": 10,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -293,7 +293,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 18,
+   "jogos_agendados": 8,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -335,14 +335,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.92,
-      "2": 1.98,
-      "X": 3.53
+      "1": 2.9,
+      "2": 1.97,
+      "X": 3.6
      },
-     "atualizado": "2026-10-22T04:46:22Z"
+     "atualizado": "2026-10-22T17:11:09Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401884761",
@@ -387,7 +386,8 @@
      },
      "atualizado": "2026-10-22T11:51:20Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888269",

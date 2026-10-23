@@ -1,6 +1,81 @@
 {
- "atualizado_em": "2026-10-23T17:06:25+00:00",
+ "atualizado_em": "2026-10-23T21:24:17+00:00",
  "jogos": [
+  {
+   "id": "401885408",
+   "selecionado_em": "2026-10-23T21:24:17+00:00",
+   "estado": "pendente",
+   "data": "2026-10-30T20:15Z",
+   "liga": "Liga Portugal Betclic",
+   "pais": "Portugal",
+   "liga_id": "por.1",
+   "casa": {
+    "nome": "Casa Pia",
+    "posicao": 17,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Sporting CP",
+    "posicao": 3,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401876701",
+   "selecionado_em": "2026-10-23T21:24:17+00:00",
+   "estado": "pendente",
+   "data": "2026-10-30T19:00Z",
+   "liga": "Ligue 2",
+   "pais": "França",
+   "liga_id": "fra.2",
+   "casa": {
+    "nome": "Rodez Aveyron",
+    "posicao": 17,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Dunkerque",
+    "posicao": 10,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401876421",
+   "selecionado_em": "2026-10-23T21:24:17+00:00",
+   "estado": "pendente",
+   "data": "2026-10-30T18:00Z",
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1",
+   "casa": {
+    "nome": "Le Havre AC",
+    "posicao": 18,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Paris Saint-Germain",
+    "posicao": 2,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401888259",
    "selecionado_em": "2026-10-23T17:06:25+00:00",
@@ -261,7 +336,7 @@
    "liga_id": "fra.1",
    "casa": {
     "nome": "Toulouse",
-    "posicao": 11,
+    "posicao": 12,
     "total": 18
    },
    "fora": {
@@ -538,6 +613,31 @@
    }
   },
   {
+   "id": "401881765",
+   "selecionado_em": "2026-10-23T21:24:17+00:00",
+   "estado": "pendente",
+   "data": "2026-10-24T17:30Z",
+   "liga": "Bundesliga",
+   "pais": "Áustria",
+   "liga_id": "aut.1",
+   "casa": {
+    "nome": "Rapid Vienna",
+    "posicao": 1,
+    "total": 12
+   },
+   "fora": {
+    "nome": "Austria Lustenau",
+    "posicao": 10,
+    "total": 12
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
    "id": "401896744",
    "selecionado_em": "2026-10-18T20:42:41+00:00",
    "estado": "pendente",
@@ -719,31 +819,6 @@
    }
   },
   {
-   "id": "401875875",
-   "selecionado_em": "2026-10-17T15:34:25+00:00",
-   "estado": "pendente",
-   "data": "2026-10-24T14:30Z",
-   "liga": "Eerste Divisie",
-   "pais": "Países Baixos",
-   "liga_id": "ned.2",
-   "casa": {
-    "nome": "FC Dordrecht",
-    "posicao": 18,
-    "total": 20
-   },
-   "fora": {
-    "nome": "VVV-Venlo",
-    "posicao": 3,
-    "total": 20
-   },
-   "criterios": [
-    "top_vs_bottom"
-   ],
-   "favorito": "fora",
-   "aposta": "2",
-   "cota": null
-  },
-  {
    "id": "401883151",
    "selecionado_em": "2026-10-17T15:34:25+00:00",
    "estado": "pendente",
@@ -758,7 +833,7 @@
    },
    "fora": {
     "nome": "Mallorca",
-    "posicao": 6,
+    "posicao": 7,
     "total": 22
    },
    "criterios": [
@@ -868,7 +943,7 @@
    "liga_id": "eng.2",
    "casa": {
     "nome": "Charlton Athletic",
-    "posicao": 17,
+    "posicao": 16,
     "total": 24
    },
    "fora": {
@@ -953,7 +1028,7 @@
    },
    "fora": {
     "nome": "Kasimpasa",
-    "posicao": 7,
+    "posicao": 8,
     "total": 18
    },
    "criterios": [
@@ -971,7 +1046,7 @@
   {
    "id": "401884761",
    "selecionado_em": "2026-10-16T21:07:19+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-23T18:30Z",
    "liga": "Bundesliga",
    "pais": "Alemanha",
@@ -996,12 +1071,18 @@
     "1": 1.3,
     "X": 5.6
    },
-   "cota": 1.3
+   "cota": 1.3,
+   "golos_casa": 2,
+   "golos_fora": 3,
+   "resultado": "2",
+   "acertou": false,
+   "resolvido_em": "2026-10-23T21:24:17+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401885079",
    "selecionado_em": "2026-10-18T15:52:09+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-23T16:30Z",
    "liga": "2. Bundesliga",
    "pais": "Alemanha",
@@ -1026,7 +1107,13 @@
     "1": 3.22,
     "2": 1.84,
     "X": 3.75
-   }
+   },
+   "golos_casa": 1,
+   "golos_fora": 1,
+   "resultado": "X",
+   "acertou": false,
+   "resolvido_em": "2026-10-23T21:24:17+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401880782",

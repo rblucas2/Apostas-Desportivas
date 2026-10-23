@@ -1,6 +1,31 @@
 {
- "atualizado_em": "2026-10-23T11:38:00+00:00",
+ "atualizado_em": "2026-10-23T17:06:25+00:00",
  "jogos": [
+  {
+   "id": "401888259",
+   "selecionado_em": "2026-10-23T17:06:25+00:00",
+   "estado": "pendente",
+   "data": "2026-10-30T17:00Z",
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1",
+   "casa": {
+    "nome": "Konyaspor",
+    "posicao": 16,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Galatasaray",
+    "posicao": 1,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401841290",
    "selecionado_em": "2026-10-23T04:48:38+00:00",

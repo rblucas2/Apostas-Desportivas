@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-23T04:48:38+00:00",
- "cotas_atualizadas": true,
+ "gerado_em": "2026-10-23T11:38:00+00:00",
+ "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -341,7 +341,8 @@
      },
      "atualizado": "2026-10-23T04:47:45Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401884761",
@@ -386,7 +387,8 @@
      },
      "atualizado": "2026-10-23T04:48:18Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888269",
@@ -431,7 +433,8 @@
      },
      "atualizado": "2026-10-23T04:43:16Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401880205",
@@ -476,7 +479,8 @@
      },
      "atualizado": "2026-10-23T04:48:41Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401880772",
@@ -587,7 +591,8 @@
      },
      "atualizado": "2026-10-23T04:46:18Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878968",
@@ -632,7 +637,8 @@
      },
      "atualizado": "2026-10-23T04:47:49Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878357",
@@ -711,7 +717,8 @@
      },
      "atualizado": "2026-10-23T04:47:45Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401875875",
@@ -788,7 +795,8 @@
      },
      "atualizado": "2026-10-23T04:49:13Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401842850",
@@ -882,7 +890,8 @@
      },
      "atualizado": "2026-10-23T04:43:16Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401883150",
@@ -927,7 +936,8 @@
      },
      "atualizado": "2026-10-23T04:47:45Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401875572",
@@ -1299,7 +1309,8 @@
      },
      "atualizado": "2026-10-23T04:47:45Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401896741",

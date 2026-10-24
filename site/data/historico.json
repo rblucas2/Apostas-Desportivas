@@ -1,6 +1,132 @@
 {
- "atualizado_em": "2026-10-24T15:56:28+00:00",
+ "atualizado_em": "2026-10-24T20:48:53+00:00",
  "jogos": [
+  {
+   "id": "401885404",
+   "selecionado_em": "2026-10-24T20:48:53+00:00",
+   "estado": "pendente",
+   "data": "2026-10-31T20:30Z",
+   "liga": "Liga Portugal Betclic",
+   "pais": "Portugal",
+   "liga_id": "por.1",
+   "casa": {
+    "nome": "FC Porto",
+    "posicao": 1,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Estoril",
+    "posicao": 18,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401883126",
+   "selecionado_em": "2026-10-24T20:48:53+00:00",
+   "estado": "pendente",
+   "data": "2026-10-31T20:00Z",
+   "liga": "LaLiga 2",
+   "pais": "Espanha",
+   "liga_id": "esp.2",
+   "casa": {
+    "nome": "Albacete",
+    "posicao": 22,
+    "total": 22
+   },
+   "fora": {
+    "nome": "CD Sabadell",
+    "posicao": 10,
+    "total": 22
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401876413",
+   "selecionado_em": "2026-10-24T20:48:53+00:00",
+   "estado": "pendente",
+   "data": "2026-10-31T19:45Z",
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1",
+   "casa": {
+    "nome": "Troyes",
+    "posicao": 17,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Le Mans",
+    "posicao": 16,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401875564",
+   "selecionado_em": "2026-10-24T20:48:53+00:00",
+   "estado": "pendente",
+   "data": "2026-10-31T17:45Z",
+   "liga": "Eredivisie",
+   "pais": "Países Baixos",
+   "liga_id": "ned.1",
+   "casa": {
+    "nome": "PSV Eindhoven",
+    "posicao": 3,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Willem II",
+    "posicao": 18,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas",
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401874990",
+   "selecionado_em": "2026-10-24T20:48:53+00:00",
+   "estado": "pendente",
+   "data": "2026-10-31T17:00Z",
+   "liga": "Serie A",
+   "pais": "Itália",
+   "liga_id": "ita.1",
+   "casa": {
+    "nome": "Udinese",
+    "posicao": 16,
+    "total": 20
+   },
+   "fora": {
+    "nome": "AS Roma",
+    "posicao": 3,
+    "total": 20
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401878536",
    "selecionado_em": "2026-10-24T15:56:28+00:00",
@@ -20,6 +146,7 @@
     "total": 10
    },
    "criterios": [
+    "serie_derrotas",
     "top_vs_bottom"
    ],
    "favorito": "fora",
@@ -102,6 +229,31 @@
    "cota": null
   },
   {
+   "id": "401880766",
+   "selecionado_em": "2026-10-24T20:48:53+00:00",
+   "estado": "pendente",
+   "data": "2026-10-31T15:00Z",
+   "liga": "League One",
+   "pais": "Inglaterra",
+   "liga_id": "eng.3",
+   "casa": {
+    "nome": "Barnsley",
+    "posicao": 23,
+    "total": 24
+   },
+   "fora": {
+    "nome": "Oxford United",
+    "posicao": 7,
+    "total": 24
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
    "id": "401883145",
    "selecionado_em": "2026-10-24T15:56:28+00:00",
    "estado": "pendente",
@@ -116,7 +268,7 @@
    },
    "fora": {
     "nome": "Girona",
-    "posicao": 6,
+    "posicao": 4,
     "total": 22
    },
    "criterios": [
@@ -161,7 +313,7 @@
    "liga_id": "por.1",
    "casa": {
     "nome": "Casa Pia",
-    "posicao": 17,
+    "posicao": 16,
     "total": 18
    },
    "fora": {
@@ -216,7 +368,7 @@
    },
    "fora": {
     "nome": "Galatasaray",
-    "posicao": 1,
+    "posicao": 2,
     "total": 18
    },
    "criterios": [
@@ -271,7 +423,7 @@
    },
    "fora": {
     "nome": "Internazionale",
-    "posicao": 1,
+    "posicao": 2,
     "total": 20
    },
    "criterios": [
@@ -376,7 +528,7 @@
    "liga_id": "por.1",
    "casa": {
     "nome": "C.D. Nacional",
-    "posicao": 16,
+    "posicao": 17,
     "total": 18
    },
    "fora": {
@@ -531,7 +683,7 @@
    },
    "fora": {
     "nome": "KFUM Oslo",
-    "posicao": 9,
+    "posicao": 10,
     "total": 16
    },
    "criterios": [
@@ -667,7 +819,7 @@
    "liga_id": "ita.1",
    "casa": {
     "nome": "Internazionale",
-    "posicao": 1,
+    "posicao": 2,
     "total": 20
    },
    "fora": {
@@ -715,7 +867,7 @@
   {
    "id": "401874955",
    "selecionado_em": "2026-10-19T22:21:15+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T18:45Z",
    "liga": "Serie A",
    "pais": "Itália",
@@ -740,12 +892,18 @@
     "1": 1.35,
     "2": 6.9,
     "X": 4.2
-   }
+   },
+   "golos_casa": 2,
+   "golos_fora": 1,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-10-24T20:48:53+00:00",
+   "lucro": 0.35
   },
   {
    "id": "401881765",
    "selecionado_em": "2026-10-23T21:24:17+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T17:30Z",
    "liga": "Bundesliga",
    "pais": "Áustria",
@@ -770,12 +928,18 @@
     "2": 9.5,
     "1": 1.15,
     "X": 6.25
-   }
+   },
+   "golos_casa": 5,
+   "golos_fora": 1,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-10-24T20:48:53+00:00",
+   "lucro": 0.15
   },
   {
    "id": "401896744",
    "selecionado_em": "2026-10-18T20:42:41+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T17:00Z",
    "liga": "Super League",
    "pais": "Grécia",
@@ -800,12 +964,18 @@
     "1": 1.09,
     "2": 14.25,
     "X": 6.6
-   }
+   },
+   "golos_casa": 5,
+   "golos_fora": 0,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-10-24T20:48:53+00:00",
+   "lucro": 0.09
   },
   {
    "id": "401875572",
    "selecionado_em": "2026-10-18T04:33:01+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T16:45Z",
    "liga": "Eredivisie",
    "pais": "Países Baixos",
@@ -830,12 +1000,18 @@
     "2": 2.3,
     "1": 2.47,
     "X": 3.55
-   }
+   },
+   "golos_casa": 1,
+   "golos_fora": 6,
+   "resultado": "2",
+   "acertou": true,
+   "resolvido_em": "2026-10-24T20:48:53+00:00",
+   "lucro": 1.3
   },
   {
    "id": "401883150",
    "selecionado_em": "2026-10-17T20:36:16+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T16:30Z",
    "liga": "LaLiga 2",
    "pais": "Espanha",
@@ -860,12 +1036,18 @@
     "1": 1.93,
     "2": 3.42,
     "X": 3.45
-   }
+   },
+   "golos_casa": 1,
+   "golos_fora": 0,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-10-24T20:48:53+00:00",
+   "lucro": 0.93
   },
   {
    "id": "401888375",
    "selecionado_em": "2026-10-17T20:36:16+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T16:00Z",
    "liga": "Süper Lig",
    "pais": "Turquia",
@@ -891,12 +1073,18 @@
     "2": 2.0,
     "1": 3.28,
     "X": 3.4
-   }
+   },
+   "golos_casa": 1,
+   "golos_fora": 2,
+   "resultado": "2",
+   "acertou": true,
+   "resolvido_em": "2026-10-24T20:48:53+00:00",
+   "lucro": 1.0
   },
   {
    "id": "401842850",
    "selecionado_em": "2026-10-17T15:34:25+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T15:30Z",
    "liga": "Allsvenskan",
    "pais": "Suécia",
@@ -921,12 +1109,18 @@
     "1": 1.14,
     "2": 12.0,
     "X": 7.25
-   }
+   },
+   "golos_casa": 2,
+   "golos_fora": 2,
+   "resultado": "X",
+   "acertou": false,
+   "resolvido_em": "2026-10-24T20:48:53+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401881764",
    "selecionado_em": "2026-10-17T15:34:25+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T15:00Z",
    "liga": "Bundesliga",
    "pais": "Áustria",
@@ -951,12 +1145,18 @@
     "1": 1.95,
     "2": 3.13,
     "X": 3.48
-   }
+   },
+   "golos_casa": 1,
+   "golos_fora": 0,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-10-24T20:48:53+00:00",
+   "lucro": 0.95
   },
   {
    "id": "401883151",
    "selecionado_em": "2026-10-17T15:34:25+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T14:15Z",
    "liga": "LaLiga 2",
    "pais": "Espanha",
@@ -981,7 +1181,13 @@
     "2": 2.22,
     "X": 3.08
    },
-   "cota": 2.22
+   "cota": 2.22,
+   "golos_casa": 1,
+   "golos_fora": 1,
+   "resultado": "X",
+   "acertou": false,
+   "resolvido_em": "2026-10-24T20:48:53+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401878968",

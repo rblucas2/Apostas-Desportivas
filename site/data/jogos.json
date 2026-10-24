@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-24T04:35:53+00:00",
- "cotas_atualizadas": true,
+ "gerado_em": "2026-10-24T10:59:00+00:00",
+ "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -174,7 +174,7 @@
    "ok": true,
    "equipas": 18,
    "jogos_agendados": 9,
-   "selecionados": 3,
+   "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -301,51 +301,6 @@
  ],
  "jogos": [
   {
-   "id": "401888269",
-   "data": "2026-10-24T10:30Z",
-   "casa": {
-    "nome": "Eyupspor",
-    "posicao": 18,
-    "total": 18,
-    "pontos": 3,
-    "jogos": 8,
-    "forma": "DDDDD",
-    "serie_derrotas": 5
-   },
-   "fora": {
-    "nome": "Kasimpasa",
-    "posicao": 8,
-    "total": 18,
-    "pontos": 13,
-    "jogos": 8,
-    "forma": "VDEVE",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 5,
-     "favorito": "fora",
-     "texto": "Eyupspor com 5 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Süper Lig",
-   "pais": "Turquia",
-   "liga_id": "tur.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "1": 5.1,
-      "2": 1.57,
-      "X": 3.73
-     },
-     "atualizado": "2026-10-24T04:34:59Z"
-    }
-   }
-  },
-  {
    "id": "401880205",
    "data": "2026-10-24T11:30Z",
    "casa": {
@@ -388,7 +343,8 @@
      },
      "atualizado": "2026-10-24T04:34:35Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401880772",
@@ -499,7 +455,8 @@
      },
      "atualizado": "2026-10-24T04:35:42Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878968",
@@ -544,7 +501,8 @@
      },
      "atualizado": "2026-10-24T04:35:18Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878357",
@@ -623,7 +581,8 @@
      },
      "atualizado": "2026-10-24T04:32:36Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881764",
@@ -668,7 +627,8 @@
      },
      "atualizado": "2026-10-24T04:34:05Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401842850",
@@ -711,7 +671,8 @@
      },
      "atualizado": "2026-10-24T04:36:43Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888375",
@@ -761,7 +722,8 @@
      },
      "atualizado": "2026-10-24T04:34:59Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401883150",
@@ -806,7 +768,8 @@
      },
      "atualizado": "2026-10-24T04:32:36Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401875572",
@@ -851,7 +814,8 @@
      },
      "atualizado": "2026-10-24T04:35:18Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401896744",
@@ -940,7 +904,8 @@
      },
      "atualizado": "2026-10-24T04:34:05Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401874955",
@@ -1220,7 +1185,8 @@
      },
      "atualizado": "2026-10-24T04:32:36Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401896741",
@@ -1691,7 +1657,8 @@
      },
      "atualizado": "2026-10-24T04:34:59Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876421",

@@ -1,6 +1,131 @@
 {
- "atualizado_em": "2026-10-24T10:59:00+00:00",
+ "atualizado_em": "2026-10-24T15:56:28+00:00",
  "jogos": [
+  {
+   "id": "401878536",
+   "selecionado_em": "2026-10-24T15:56:28+00:00",
+   "estado": "pendente",
+   "data": "2026-10-31T15:00Z",
+   "liga": "Championship",
+   "pais": "Escócia",
+   "liga_id": "sco.2",
+   "casa": {
+    "nome": "Arbroath",
+    "posicao": 8,
+    "total": 10
+   },
+   "fora": {
+    "nome": "Raith Rovers",
+    "posicao": 3,
+    "total": 10
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401878533",
+   "selecionado_em": "2026-10-24T15:56:28+00:00",
+   "estado": "pendente",
+   "data": "2026-10-31T15:00Z",
+   "liga": "Championship",
+   "pais": "Escócia",
+   "liga_id": "sco.2",
+   "casa": {
+    "nome": "Partick Thistle",
+    "posicao": 1,
+    "total": 10
+   },
+   "fora": {
+    "nome": "Greenock Morton",
+    "posicao": 9,
+    "total": 10
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401878346",
+   "selecionado_em": "2026-10-24T15:56:28+00:00",
+   "estado": "pendente",
+   "data": "2026-10-31T15:00Z",
+   "liga": "Premiership",
+   "pais": "Escócia",
+   "liga_id": "sco.1",
+   "casa": {
+    "nome": "Motherwell",
+    "posicao": 10,
+    "total": 12
+   },
+   "fora": {
+    "nome": "St Mirren",
+    "posicao": 6,
+    "total": 12
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401879247",
+   "selecionado_em": "2026-10-24T15:56:28+00:00",
+   "estado": "pendente",
+   "data": "2026-10-31T15:00Z",
+   "liga": "Premier League",
+   "pais": "Inglaterra",
+   "liga_id": "eng.1",
+   "casa": {
+    "nome": "Coventry City",
+    "posicao": 19,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Sunderland",
+    "posicao": 20,
+    "total": 20
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401883145",
+   "selecionado_em": "2026-10-24T15:56:28+00:00",
+   "estado": "pendente",
+   "data": "2026-10-31T13:00Z",
+   "liga": "LaLiga 2",
+   "pais": "Espanha",
+   "liga_id": "esp.2",
+   "casa": {
+    "nome": "Real Sociedad II",
+    "posicao": 19,
+    "total": 22
+   },
+   "fora": {
+    "nome": "Girona",
+    "posicao": 6,
+    "total": 22
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401841655",
    "selecionado_em": "2026-10-24T04:35:53+00:00",
@@ -46,31 +171,6 @@
    },
    "criterios": [
     "top_vs_bottom"
-   ],
-   "favorito": "fora",
-   "aposta": "2",
-   "cota": null
-  },
-  {
-   "id": "401876701",
-   "selecionado_em": "2026-10-23T21:24:17+00:00",
-   "estado": "pendente",
-   "data": "2026-10-30T19:00Z",
-   "liga": "Ligue 2",
-   "pais": "França",
-   "liga_id": "fra.2",
-   "casa": {
-    "nome": "Rodez Aveyron",
-    "posicao": 17,
-    "total": 18
-   },
-   "fora": {
-    "nome": "Dunkerque",
-    "posicao": 10,
-    "total": 18
-   },
-   "criterios": [
-    "serie_derrotas"
    ],
    "favorito": "fora",
    "aposta": "2",
@@ -141,7 +241,7 @@
    "liga_id": "sco.1",
    "casa": {
     "nome": "St Johnstone",
-    "posicao": 5,
+    "posicao": 8,
     "total": 12
    },
    "fora": {
@@ -187,6 +287,31 @@
    }
   },
   {
+   "id": "401899573",
+   "selecionado_em": "2026-10-24T15:56:28+00:00",
+   "estado": "pendente",
+   "data": "2026-10-27T19:00Z",
+   "liga": "Serie B",
+   "pais": "Itália",
+   "liga_id": "ita.2",
+   "casa": {
+    "nome": "Mantova",
+    "posicao": 2,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Cremonese",
+    "posicao": 18,
+    "total": 20
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
    "id": "401841635",
    "selecionado_em": "2026-10-24T04:35:53+00:00",
    "estado": "pendente",
@@ -226,7 +351,7 @@
    },
    "fora": {
     "nome": "AC Milan",
-    "posicao": 4,
+    "posicao": 5,
     "total": 20
    },
    "criterios": [
@@ -316,7 +441,7 @@
    },
    "fora": {
     "nome": "Leeds United",
-    "posicao": 7,
+    "posicao": 8,
     "total": 20
    },
    "criterios": [
@@ -436,7 +561,7 @@
    },
    "fora": {
     "nome": "Eldense",
-    "posicao": 11,
+    "posicao": 12,
     "total": 22
    },
    "criterios": [
@@ -861,7 +986,7 @@
   {
    "id": "401878968",
    "selecionado_em": "2026-10-17T15:34:25+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T14:00Z",
    "liga": "Pro League",
    "pais": "Bélgica",
@@ -886,12 +1011,18 @@
     "2": 1.77,
     "1": 3.8,
     "X": 3.68
-   }
+   },
+   "golos_casa": 3,
+   "golos_fora": 0,
+   "resultado": "1",
+   "acertou": false,
+   "resolvido_em": "2026-10-24T15:56:28+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401878357",
    "selecionado_em": "2026-10-17T15:34:25+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T14:00Z",
    "liga": "Premiership",
    "pais": "Escócia",
@@ -911,12 +1042,18 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": null,
+   "golos_casa": 2,
+   "golos_fora": 1,
+   "resultado": "1",
+   "acertou": false,
+   "resolvido_em": "2026-10-24T15:56:28+00:00",
+   "lucro": null
   },
   {
    "id": "401876716",
    "selecionado_em": "2026-10-17T15:34:25+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T12:00Z",
    "liga": "Ligue 2",
    "pais": "França",
@@ -941,12 +1078,18 @@
     "1": 2.0,
     "2": 3.08,
     "X": 3.63
-   }
+   },
+   "golos_casa": 1,
+   "golos_fora": 2,
+   "resultado": "2",
+   "acertou": false,
+   "resolvido_em": "2026-10-24T15:56:28+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401880205",
    "selecionado_em": "2026-10-17T15:34:25+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T11:30Z",
    "liga": "Championship",
    "pais": "Inglaterra",
@@ -971,12 +1114,18 @@
     "1": 3.08,
     "2": 2.03,
     "X": 3.3
-   }
+   },
+   "golos_casa": 1,
+   "golos_fora": 3,
+   "resultado": "2",
+   "acertou": false,
+   "resolvido_em": "2026-10-24T15:56:28+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401880772",
    "selecionado_em": "2026-10-17T20:36:16+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T11:30Z",
    "liga": "League One",
    "pais": "Inglaterra",
@@ -996,12 +1145,18 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": null,
+   "golos_casa": 2,
+   "golos_fora": 1,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-10-24T15:56:28+00:00",
+   "lucro": null
   },
   {
    "id": "401881299",
    "selecionado_em": "2026-10-21T04:45:42+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T11:30Z",
    "liga": "League Two",
    "pais": "Inglaterra",
@@ -1021,12 +1176,18 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": null,
+   "golos_casa": 0,
+   "golos_fora": 0,
+   "resultado": "X",
+   "acertou": false,
+   "resolvido_em": "2026-10-24T15:56:28+00:00",
+   "lucro": null
   },
   {
    "id": "401888269",
    "selecionado_em": "2026-10-17T10:43:12+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-24T10:30Z",
    "liga": "Süper Lig",
    "pais": "Turquia",
@@ -1051,7 +1212,13 @@
     "1": 5.1,
     "2": 1.57,
     "X": 3.73
-   }
+   },
+   "golos_casa": 0,
+   "golos_fora": 1,
+   "resultado": "2",
+   "acertou": true,
+   "resolvido_em": "2026-10-24T15:56:28+00:00",
+   "lucro": 0.57
   },
   {
    "id": "401884761",

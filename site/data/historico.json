@@ -1,6 +1,31 @@
 {
- "atualizado_em": "2026-10-23T21:24:17+00:00",
+ "atualizado_em": "2026-10-24T04:35:53+00:00",
  "jogos": [
+  {
+   "id": "401841655",
+   "selecionado_em": "2026-10-24T04:35:53+00:00",
+   "estado": "pendente",
+   "data": "2026-10-30T22:00Z",
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1",
+   "casa": {
+    "nome": "Estudiantes de Río Cuarto",
+    "posicao": 14,
+    "total": 15
+   },
+   "fora": {
+    "nome": "Gimnasia La Plata",
+    "posicao": 3,
+    "total": 15
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401885408",
    "selecionado_em": "2026-10-23T21:24:17+00:00",
@@ -99,32 +124,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
-  },
-  {
-   "id": "401841290",
-   "selecionado_em": "2026-10-23T04:48:38+00:00",
-   "estado": "pendente",
-   "data": "2026-10-30T00:30Z",
-   "liga": "Série A",
-   "pais": "Brasil",
-   "liga_id": "bra.1",
-   "casa": {
-    "nome": "Grêmio",
-    "posicao": 18,
-    "total": 20
-   },
-   "fora": {
-    "nome": "Athletico-PR",
-    "posicao": 3,
-    "total": 20
-   },
-   "criterios": [
-    "top_vs_bottom"
-   ],
-   "favorito": "fora",
-   "aposta": "2",
-   "cota": null
+   "cota": 1.52,
+   "cotas": {
+    "2": 1.52,
+    "1": 4.5,
+    "X": 3.83
+   }
   },
   {
    "id": "401878352",
@@ -180,6 +185,31 @@
     "1": 7.0,
     "X": 5.5
    }
+  },
+  {
+   "id": "401841635",
+   "selecionado_em": "2026-10-24T04:35:53+00:00",
+   "estado": "pendente",
+   "data": "2026-10-27T00:15Z",
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1",
+   "casa": {
+    "nome": "Instituto (Córdoba)",
+    "posicao": 1,
+    "total": 15
+   },
+   "fora": {
+    "nome": "Deportivo Riestra",
+    "posicao": 13,
+    "total": 15
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
   },
   {
    "id": "401874779",
@@ -240,31 +270,6 @@
     "1": 5.25,
     "X": 3.85
    }
-  },
-  {
-   "id": "401841629",
-   "selecionado_em": "2026-10-18T20:42:41+00:00",
-   "estado": "pendente",
-   "data": "2026-10-25T17:45Z",
-   "liga": "Liga Profesional",
-   "pais": "Argentina",
-   "liga_id": "arg.1",
-   "casa": {
-    "nome": "Aldosivi",
-    "posicao": 15,
-    "total": 15
-   },
-   "fora": {
-    "nome": "Belgrano (Córdoba)",
-    "posicao": 3,
-    "total": 15
-   },
-   "criterios": [
-    "top_vs_bottom"
-   ],
-   "favorito": "fora",
-   "aposta": "2",
-   "cota": null
   },
   {
    "id": "401874553",
@@ -443,7 +448,7 @@
    "cotas": {
     "1": 2.08,
     "2": 2.97,
-    "X": 3.28
+    "X": 3.3
    }
   },
   {
@@ -635,7 +640,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 1.15,
+   "cotas": {
+    "2": 9.5,
+    "1": 1.15,
+    "X": 6.25
+   }
   },
   {
    "id": "401896744",
@@ -690,11 +700,11 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": 2.53,
+   "cota": 2.3,
    "cotas": {
-    "2": 2.53,
-    "1": 2.3,
-    "X": 3.47
+    "2": 2.3,
+    "1": 2.47,
+    "X": 3.55
    }
   },
   {
@@ -720,11 +730,11 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": 1.92,
+   "cota": 1.93,
    "cotas": {
-    "1": 1.92,
-    "2": 3.32,
-    "X": 3.35
+    "1": 1.93,
+    "2": 3.42,
+    "X": 3.45
    }
   },
   {
@@ -751,10 +761,10 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": 1.9,
+   "cota": 2.0,
    "cotas": {
-    "2": 1.9,
-    "1": 3.33,
+    "2": 2.0,
+    "1": 3.28,
     "X": 3.4
    }
   },
@@ -781,11 +791,11 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": 1.1,
+   "cota": 1.14,
    "cotas": {
-    "1": 1.1,
-    "2": 11.25,
-    "X": 6.9
+    "1": 1.14,
+    "2": 12.0,
+    "X": 7.25
    }
   },
   {
@@ -811,11 +821,11 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": 2.0,
+   "cota": 1.95,
    "cotas": {
-    "1": 2.0,
-    "2": 2.92,
-    "X": 3.35
+    "1": 1.95,
+    "2": 3.13,
+    "X": 3.48
    }
   },
   {
@@ -842,11 +852,11 @@
    "favorito": "fora",
    "aposta": "2",
    "cotas": {
-    "1": 3.05,
-    "2": 2.15,
-    "X": 3.07
+    "1": 3.08,
+    "2": 2.22,
+    "X": 3.08
    },
-   "cota": 2.15
+   "cota": 2.22
   },
   {
    "id": "401878968",
@@ -871,11 +881,11 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": 1.74,
+   "cota": 1.77,
    "cotas": {
-    "2": 1.74,
-    "1": 3.73,
-    "X": 3.6
+    "2": 1.77,
+    "1": 3.8,
+    "X": 3.68
    }
   },
   {
@@ -926,11 +936,11 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": 1.95,
+   "cota": 2.0,
    "cotas": {
-    "1": 1.95,
-    "2": 3.05,
-    "X": 3.6
+    "1": 2.0,
+    "2": 3.08,
+    "X": 3.63
    }
   },
   {
@@ -956,11 +966,11 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": 2.92,
+   "cota": 3.08,
    "cotas": {
-    "1": 2.92,
-    "2": 2.05,
-    "X": 3.22
+    "1": 3.08,
+    "2": 2.03,
+    "X": 3.3
    }
   },
   {
@@ -1036,11 +1046,11 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": 1.49,
+   "cota": 1.57,
    "cotas": {
-    "1": 5.4,
-    "2": 1.49,
-    "X": 3.8
+    "1": 5.1,
+    "2": 1.57,
+    "X": 3.73
    }
   },
   {

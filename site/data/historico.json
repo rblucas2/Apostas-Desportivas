@@ -1,6 +1,32 @@
 {
- "atualizado_em": "2026-10-25T04:40:18+00:00",
+ "atualizado_em": "2026-10-25T11:27:50+00:00",
  "jogos": [
+  {
+   "id": "401888374",
+   "selecionado_em": "2026-10-25T11:27:50+00:00",
+   "estado": "pendente",
+   "data": "2026-11-01T10:30Z",
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1",
+   "casa": {
+    "nome": "Amed SFK",
+    "posicao": 1,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Eyupspor",
+    "posicao": 18,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas",
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
   {
    "id": "401885404",
    "selecionado_em": "2026-10-24T20:48:53+00:00",

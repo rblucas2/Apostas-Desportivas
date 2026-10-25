@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-24T20:48:53+00:00",
- "cotas_atualizadas": false,
+ "gerado_em": "2026-10-25T04:40:18+00:00",
+ "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -126,7 +126,7 @@
    "jogos_agendados": 13,
    "selecionados": 3,
    "com_resultados": 18,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "Ligue 2",
@@ -136,7 +136,7 @@
    "jogos_agendados": 10,
    "selecionados": 0,
    "com_resultados": 18,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "Eredivisie",
@@ -164,9 +164,9 @@
    "ok": true,
    "equipas": 18,
    "jogos_agendados": 9,
-   "selecionados": 0,
+   "selecionados": 1,
    "com_resultados": 18,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "Süper Lig",
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 16,
+   "jogos_agendados": 12,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -335,14 +335,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 6.9,
-      "1": 1.28,
-      "X": 5.1
+      "2": 7.25,
+      "1": 1.3,
+      "X": 5.5
      },
-     "atualizado": "2026-10-22T04:45:38Z"
+     "atualizado": "2026-10-25T04:41:06Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401878360",
@@ -411,14 +410,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.33,
-      "2": 6.25,
-      "X": 4.4
+      "1": 1.38,
+      "2": 6.0,
+      "X": 4.8
      },
-     "atualizado": "2026-10-19T04:39:34Z"
+     "atualizado": "2026-10-25T04:42:32Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401878359",
@@ -496,14 +494,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.08,
-      "2": 2.97,
+      "1": 2.25,
+      "2": 2.85,
       "X": 3.3
      },
-     "atualizado": "2026-10-24T04:32:36Z"
+     "atualizado": "2026-10-25T04:41:31Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401896741",
@@ -540,14 +537,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.3,
-      "1": 7.0,
-      "X": 4.35
+      "2": 1.29,
+      "1": 7.5,
+      "X": 4.75
      },
-     "atualizado": "2026-10-19T04:39:40Z"
+     "atualizado": "2026-10-25T04:41:13Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401843370",
@@ -586,14 +582,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 2.8,
-      "1": 2.12,
-      "X": 3.2
+      "2": 2.77,
+      "1": 2.25,
+      "X": 3.4
      },
-     "atualizado": "2026-10-19T04:39:15Z"
+     "atualizado": "2026-10-25T04:42:06Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401876423",
@@ -632,14 +627,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.59,
-      "2": 4.55,
-      "X": 3.95
+      "1": 1.5,
+      "2": 5.4,
+      "X": 4.15
      },
-     "atualizado": "2026-10-18T04:32:31Z"
+     "atualizado": "2026-10-25T04:42:33Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401878764",
@@ -678,14 +672,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 2.35,
-      "1": 2.77,
-      "X": 3.2
+      "2": 2.4,
+      "1": 2.87,
+      "X": 3.1
      },
-     "atualizado": "2026-10-19T04:39:47Z"
+     "atualizado": "2026-10-25T04:41:04Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401874553",
@@ -722,14 +715,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.32,
-      "2": 2.5,
-      "X": 3.25
+      "1": 2.3,
+      "2": 2.53,
+      "X": 3.45
      },
-     "atualizado": "2026-10-19T04:39:34Z"
+     "atualizado": "2026-10-25T04:42:32Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401885416",
@@ -768,14 +760,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.49,
-      "1": 5.25,
-      "X": 3.85
+      "2": 1.52,
+      "1": 5.4,
+      "X": 3.9
      },
-     "atualizado": "2026-10-20T04:51:44Z"
+     "atualizado": "2026-10-25T04:42:29Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401874779",
@@ -814,14 +805,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.57,
-      "1": 4.8,
-      "X": 3.65
+      "2": 1.71,
+      "1": 4.35,
+      "X": 3.53
      },
-     "atualizado": "2026-10-22T04:45:38Z"
+     "atualizado": "2026-10-25T04:41:06Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401841635",
@@ -885,7 +875,18 @@
    ],
    "liga": "Serie B",
    "pais": "Itália",
-   "liga_id": "ita.2"
+   "liga_id": "ita.2",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 2.78,
+      "1": 2.17,
+      "X": 3.12
+     },
+     "atualizado": "2026-10-25T04:42:36Z"
+    }
+   }
   },
   {
    "id": "401874773",
@@ -922,14 +923,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.25,
-      "1": 7.0,
-      "X": 5.5
+      "2": 1.26,
+      "1": 7.5,
+      "X": 5.75
      },
-     "atualizado": "2026-10-22T04:45:38Z"
+     "atualizado": "2026-10-25T04:41:06Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401878352",
@@ -1039,7 +1039,63 @@
    ],
    "liga": "Ligue 1",
    "pais": "França",
-   "liga_id": "fra.1"
+   "liga_id": "fra.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 8.75,
+      "2": 1.19,
+      "X": 6.0
+     },
+     "atualizado": "2026-10-25T04:42:33Z"
+    }
+   }
+  },
+  {
+   "id": "401878956",
+   "data": "2026-10-30T19:45Z",
+   "casa": {
+    "nome": "Zulte-Waregem",
+    "posicao": 10,
+    "total": 18,
+    "pontos": 11,
+    "jogos": 9,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Club Brugge",
+    "posicao": 2,
+    "total": 18,
+    "pontos": 21,
+    "jogos": 8,
+    "forma": "VVVVD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Zulte-Waregem com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Pro League",
+   "pais": "Bélgica",
+   "liga_id": "bel.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 1.51,
+      "1": 4.5,
+      "X": 3.9
+     },
+     "atualizado": "2026-10-25T04:41:04Z"
+    }
+   }
   },
   {
    "id": "401885408",
@@ -1137,7 +1193,18 @@
    ],
    "liga": "LaLiga 2",
    "pais": "Espanha",
-   "liga_id": "esp.2"
+   "liga_id": "esp.2",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 1.94,
+      "1": 3.07,
+      "X": 3.6
+     },
+     "atualizado": "2026-10-25T04:41:31Z"
+    }
+   }
   },
   {
    "id": "401878536",
@@ -1310,7 +1377,18 @@
    ],
    "liga": "Premier League",
    "pais": "Inglaterra",
-   "liga_id": "eng.1"
+   "liga_id": "eng.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 2.62,
+      "2": 2.35,
+      "X": 3.22
+     },
+     "atualizado": "2026-10-25T04:41:04Z"
+    }
+   }
   },
   {
    "id": "401874990",
@@ -1417,7 +1495,18 @@
    ],
    "liga": "Ligue 1",
    "pais": "França",
-   "liga_id": "fra.1"
+   "liga_id": "fra.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 3.05,
+      "1": 2.0,
+      "X": 3.4
+     },
+     "atualizado": "2026-10-25T04:42:33Z"
+    }
+   }
   },
   {
    "id": "401883126",
@@ -1451,7 +1540,18 @@
    ],
    "liga": "LaLiga 2",
    "pais": "Espanha",
-   "liga_id": "esp.2"
+   "liga_id": "esp.2",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 2.6,
+      "2": 2.45,
+      "X": 3.08
+     },
+     "atualizado": "2026-10-25T04:41:31Z"
+    }
+   }
   },
   {
    "id": "401885404",
@@ -1460,8 +1560,8 @@
     "nome": "FC Porto",
     "posicao": 1,
     "total": 18,
-    "pontos": 24,
-    "jogos": 8,
+    "pontos": 27,
+    "jogos": 9,
     "forma": "VVVVV",
     "serie_derrotas": 0
    },
@@ -1483,7 +1583,18 @@
    ],
    "liga": "Liga Portugal Betclic",
    "pais": "Portugal",
-   "liga_id": "por.1"
+   "liga_id": "por.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 12.25,
+      "1": 1.14,
+      "X": 6.25
+     },
+     "atualizado": "2026-10-25T04:42:29Z"
+    }
+   }
   }
  ]
 }

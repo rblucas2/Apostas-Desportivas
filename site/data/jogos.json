@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-25T16:18:08+00:00",
+ "gerado_em": "2026-10-25T20:50:30+00:00",
  "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
@@ -14,7 +14,7 @@
    "ok": true,
    "equipas": 18,
    "jogos_agendados": 8,
-   "selecionados": 4,
+   "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -24,7 +24,7 @@
    "ok": true,
    "equipas": 20,
    "jogos_agendados": 9,
-   "selecionados": 2,
+   "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -73,8 +73,8 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 22,
-   "jogos_agendados": 8,
-   "selecionados": 2,
+   "jogos_agendados": 9,
+   "selecionados": 1,
    "com_resultados": 22,
    "resultados_em_falta": 0
   },
@@ -96,7 +96,7 @@
    "jogos_agendados": 9,
    "selecionados": 0,
    "com_resultados": 18,
-   "resultados_em_falta": 6
+   "resultados_em_falta": 0
   },
   {
    "liga": "Serie A",
@@ -104,7 +104,7 @@
    "ok": true,
    "equipas": 20,
    "jogos_agendados": 18,
-   "selecionados": 3,
+   "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -113,7 +113,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 19,
+   "jogos_agendados": 20,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -123,8 +123,8 @@
    "pais": "França",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 9,
-   "selecionados": 1,
+   "jogos_agendados": 10,
+   "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -143,7 +143,7 @@
    "pais": "Países Baixos",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 10,
+   "jogos_agendados": 9,
    "selecionados": 1,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -166,7 +166,7 @@
    "jogos_agendados": 9,
    "selecionados": 1,
    "com_resultados": 18,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "Süper Lig",
@@ -206,7 +206,7 @@
    "jogos_agendados": 5,
    "selecionados": 1,
    "com_resultados": 14,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "Bundesliga",
@@ -224,9 +224,9 @@
    "ok": true,
    "equipas": 12,
    "jogos_agendados": 6,
-   "selecionados": 1,
+   "selecionados": 0,
    "com_resultados": 12,
-   "resultados_em_falta": 4
+   "resultados_em_falta": 0
   },
   {
    "liga": "Eliteserien",
@@ -234,7 +234,7 @@
    "ok": true,
    "equipas": 16,
    "jogos_agendados": 8,
-   "selecionados": 1,
+   "selecionados": 0,
    "com_resultados": 16,
    "resultados_em_falta": 0
   },
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 15,
+   "jogos_agendados": 14,
    "selecionados": 2,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -300,188 +300,6 @@
   }
  ],
  "jogos": [
-  {
-   "id": "401878764",
-   "data": "2026-10-25T16:30Z",
-   "casa": {
-    "nome": "Sunderland",
-    "posicao": 20,
-    "total": 20,
-    "pontos": 4,
-    "jogos": 7,
-    "forma": "DDDDE",
-    "serie_derrotas": 4
-   },
-   "fora": {
-    "nome": "Leeds United",
-    "posicao": 9,
-    "total": 20,
-    "pontos": 10,
-    "jogos": 7,
-    "forma": "EDEVE",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 4,
-     "favorito": "fora",
-     "texto": "Sunderland com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Premier League",
-   "pais": "Inglaterra",
-   "liga_id": "eng.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 2.4,
-      "1": 2.87,
-      "X": 3.1
-     },
-     "atualizado": "2026-10-25T04:41:04Z"
-    }
-   },
-   "cotas_antigas": true
-  },
-  {
-   "id": "401874553",
-   "data": "2026-10-25T17:00Z",
-   "casa": {
-    "nome": "AGF",
-    "posicao": 10,
-    "total": 12,
-    "pontos": 9,
-    "jogos": 11,
-    "forma": "EVEDE",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Viborg FF",
-    "posicao": 3,
-    "total": 12,
-    "pontos": 20,
-    "jogos": 11,
-    "forma": "DVVED",
-    "serie_derrotas": 1
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "fora",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Superliga",
-   "pais": "Dinamarca",
-   "liga_id": "den.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "1": 2.3,
-      "2": 2.53,
-      "X": 3.45
-     },
-     "atualizado": "2026-10-25T04:42:32Z"
-    }
-   },
-   "cotas_antigas": true
-  },
-  {
-   "id": "401885416",
-   "data": "2026-10-25T18:00Z",
-   "casa": {
-    "nome": "C.D. Nacional",
-    "posicao": 17,
-    "total": 18,
-    "pontos": 4,
-    "jogos": 8,
-    "forma": "DDDDD",
-    "serie_derrotas": 6
-   },
-   "fora": {
-    "nome": "Braga",
-    "posicao": 8,
-    "total": 18,
-    "pontos": 11,
-    "jogos": 8,
-    "forma": "DDEVD",
-    "serie_derrotas": 2
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 6,
-     "favorito": "fora",
-     "texto": "C.D. Nacional com 6 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Liga Portugal Betclic",
-   "pais": "Portugal",
-   "liga_id": "por.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 1.52,
-      "1": 5.4,
-      "X": 3.9
-     },
-     "atualizado": "2026-10-25T04:42:29Z"
-    }
-   },
-   "cotas_antigas": true
-  },
-  {
-   "id": "401874779",
-   "data": "2026-10-25T19:45Z",
-   "casa": {
-    "nome": "Udinese",
-    "posicao": 17,
-    "total": 20,
-    "pontos": 4,
-    "jogos": 7,
-    "forma": "DDDDD",
-    "serie_derrotas": 5
-   },
-   "fora": {
-    "nome": "AC Milan",
-    "posicao": 5,
-    "total": 20,
-    "pontos": 15,
-    "jogos": 7,
-    "forma": "VEVEE",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 5,
-     "favorito": "fora",
-     "texto": "Udinese com 5 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Serie A",
-   "pais": "Itália",
-   "liga_id": "ita.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 1.71,
-      "1": 4.35,
-      "X": 3.53
-     },
-     "atualizado": "2026-10-25T04:41:06Z"
-    }
-   },
-   "cotas_antigas": true
-  },
   {
    "id": "401841635",
    "data": "2026-10-27T00:15Z",
@@ -637,6 +455,40 @@
    "liga_id": "sco.1"
   },
   {
+   "id": "401876421",
+   "data": "2026-10-30T18:00Z",
+   "casa": {
+    "nome": "Le Havre AC",
+    "posicao": 18,
+    "total": 18,
+    "pontos": 2,
+    "jogos": 8,
+    "forma": "DDDDE",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Paris Saint-Germain",
+    "posicao": 5,
+    "total": 18,
+    "pontos": 14,
+    "jogos": 7,
+    "forma": "VVVVD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Le Havre AC com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1"
+  },
+  {
    "id": "401878956",
    "data": "2026-10-30T19:45Z",
    "casa": {
@@ -652,9 +504,9 @@
     "nome": "Club Brugge",
     "posicao": 2,
     "total": 18,
-    "pontos": 21,
-    "jogos": 8,
-    "forma": "VVVVD",
+    "pontos": 24,
+    "jogos": 9,
+    "forma": "VVVVV",
     "serie_derrotas": 0
    },
    "criterios": [
@@ -687,7 +539,7 @@
    "data": "2026-10-30T20:15Z",
    "casa": {
     "nome": "Casa Pia",
-    "posicao": 16,
+    "posicao": 17,
     "total": 18,
     "pontos": 7,
     "jogos": 9,
@@ -719,7 +571,7 @@
    "data": "2026-10-30T22:00Z",
    "casa": {
     "nome": "Estudiantes de Río Cuarto",
-    "posicao": 14,
+    "posicao": 15,
     "total": 15,
     "pontos": 9,
     "jogos": 13,
@@ -751,7 +603,7 @@
    "data": "2026-10-31T13:00Z",
    "casa": {
     "nome": "Real Sociedad II",
-    "posicao": 19,
+    "posicao": 20,
     "total": 22,
     "pontos": 8,
     "jogos": 11,
@@ -932,52 +784,6 @@
    "liga_id": "eng.3"
   },
   {
-   "id": "401879247",
-   "data": "2026-10-31T15:00Z",
-   "casa": {
-    "nome": "Coventry City",
-    "posicao": 19,
-    "total": 20,
-    "pontos": 6,
-    "jogos": 8,
-    "forma": "DDVVD",
-    "serie_derrotas": 2
-   },
-   "fora": {
-    "nome": "Sunderland",
-    "posicao": 20,
-    "total": 20,
-    "pontos": 4,
-    "jogos": 7,
-    "forma": "DDDDE",
-    "serie_derrotas": 4
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 4,
-     "favorito": "casa",
-     "texto": "Sunderland com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Premier League",
-   "pais": "Inglaterra",
-   "liga_id": "eng.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "1": 2.62,
-      "2": 2.35,
-      "X": 3.22
-     },
-     "atualizado": "2026-10-25T04:41:04Z"
-    }
-   },
-   "cotas_antigas": true
-  },
-  {
    "id": "401874990",
    "data": "2026-10-31T17:00Z",
    "casa": {
@@ -1016,7 +822,7 @@
    "data": "2026-10-31T17:45Z",
    "casa": {
     "nome": "PSV Eindhoven",
-    "posicao": 3,
+    "posicao": 4,
     "total": 18,
     "pontos": 20,
     "jogos": 10,
@@ -1034,11 +840,6 @@
    },
    "criterios": [
     {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
-    },
-    {
      "tipo": "serie_derrotas",
      "equipa": "fora",
      "derrotas": 5,
@@ -1049,98 +850,6 @@
    "liga": "Eredivisie",
    "pais": "Países Baixos",
    "liga_id": "ned.1"
-  },
-  {
-   "id": "401876413",
-   "data": "2026-10-31T19:45Z",
-   "casa": {
-    "nome": "Troyes",
-    "posicao": 17,
-    "total": 18,
-    "pontos": 4,
-    "jogos": 7,
-    "forma": "DDDDD",
-    "serie_derrotas": 5
-   },
-   "fora": {
-    "nome": "Le Mans",
-    "posicao": 16,
-    "total": 18,
-    "pontos": 6,
-    "jogos": 7,
-    "forma": "DDVEE",
-    "serie_derrotas": 2
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 5,
-     "favorito": "fora",
-     "texto": "Troyes com 5 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Ligue 1",
-   "pais": "França",
-   "liga_id": "fra.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 3.05,
-      "1": 2.0,
-      "X": 3.4
-     },
-     "atualizado": "2026-10-25T04:42:33Z"
-    }
-   },
-   "cotas_antigas": true
-  },
-  {
-   "id": "401883126",
-   "data": "2026-10-31T20:00Z",
-   "casa": {
-    "nome": "Albacete",
-    "posicao": 22,
-    "total": 22,
-    "pontos": 1,
-    "jogos": 10,
-    "forma": "DDDDD",
-    "serie_derrotas": 5
-   },
-   "fora": {
-    "nome": "CD Sabadell",
-    "posicao": 10,
-    "total": 22,
-    "pontos": 17,
-    "jogos": 11,
-    "forma": "EDVEE",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 5,
-     "favorito": "fora",
-     "texto": "Albacete com 5 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "LaLiga 2",
-   "pais": "Espanha",
-   "liga_id": "esp.2",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "1": 2.6,
-      "2": 2.45,
-      "X": 3.08
-     },
-     "atualizado": "2026-10-25T04:41:31Z"
-    }
-   },
-   "cotas_antigas": true
   },
   {
    "id": "401885404",
@@ -1159,15 +868,22 @@
     "posicao": 18,
     "total": 18,
     "pontos": 2,
-    "jogos": 8,
-    "forma": "DDDED",
-    "serie_derrotas": 3
+    "jogos": 9,
+    "forma": "DDDDE",
+    "serie_derrotas": 4
    },
    "criterios": [
     {
      "tipo": "top_vs_bottom",
      "favorito": "casa",
      "texto": "3 primeiros vs 3 últimos"
+    },
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 4,
+     "favorito": "casa",
+     "texto": "Estoril com 4 derrotas seguidas vs melhor classificado"
     }
    ],
    "liga": "Liga Portugal Betclic",
@@ -1230,7 +946,7 @@
    "data": "2026-11-01T13:00Z",
    "casa": {
     "nome": "Djurgården",
-    "posicao": 2,
+    "posicao": 3,
     "total": 16,
     "pontos": 48,
     "jogos": 25,
@@ -1262,7 +978,7 @@
    "data": "2026-11-01T13:00Z",
    "casa": {
     "nome": "Istanbul Basaksehir",
-    "posicao": 11,
+    "posicao": 12,
     "total": 18,
     "pontos": 11,
     "jogos": 8,
@@ -1332,9 +1048,9 @@
     "nome": "RB Salzburg",
     "posicao": 2,
     "total": 12,
-    "pontos": 21,
-    "jogos": 9,
-    "forma": "VEVEV",
+    "pontos": 24,
+    "jogos": 10,
+    "forma": "VVEVE",
     "serie_derrotas": 0
    },
    "fora": {
@@ -1392,38 +1108,38 @@
    "liga_id": "aut.1"
   },
   {
-   "id": "401885410",
-   "data": "2026-11-01T15:30Z",
+   "id": "401876414",
+   "data": "2026-11-01T14:00Z",
    "casa": {
-    "nome": "Arouca",
-    "posicao": 5,
+    "nome": "Strasbourg",
+    "posicao": 16,
     "total": 18,
-    "pontos": 17,
-    "jogos": 9,
-    "forma": "VVEDE",
-    "serie_derrotas": 0
+    "pontos": 7,
+    "jogos": 8,
+    "forma": "DDDDE",
+    "serie_derrotas": 4
    },
    "fora": {
-    "nome": "C.D. Nacional",
-    "posicao": 17,
+    "nome": "AJ Auxerre",
+    "posicao": 12,
     "total": 18,
-    "pontos": 4,
+    "pontos": 10,
     "jogos": 8,
-    "forma": "DDDDD",
-    "serie_derrotas": 6
+    "forma": "EVDVV",
+    "serie_derrotas": 0
    },
    "criterios": [
     {
      "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 6,
-     "favorito": "casa",
-     "texto": "C.D. Nacional com 6 derrotas seguidas vs melhor classificado"
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Strasbourg com 4 derrotas seguidas vs melhor classificado"
     }
    ],
-   "liga": "Liga Portugal Betclic",
-   "pais": "Portugal",
-   "liga_id": "por.1"
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1"
   },
   {
    "id": "401896735",
@@ -1439,12 +1155,12 @@
    },
    "fora": {
     "nome": "OFI Crete",
-    "posicao": 7,
+    "posicao": 6,
     "total": 14,
-    "pontos": 10,
-    "jogos": 7,
-    "forma": "DDEVV",
-    "serie_derrotas": 2
+    "pontos": 13,
+    "jogos": 8,
+    "forma": "VDDEV",
+    "serie_derrotas": 0
    },
    "criterios": [
     {
@@ -1458,40 +1174,6 @@
    "liga": "Super League",
    "pais": "Grécia",
    "liga_id": "gre.1"
-  },
-  {
-   "id": "401843471",
-   "data": "2026-11-01T16:00Z",
-   "casa": {
-    "nome": "Sarpsborg FK",
-    "posicao": 11,
-    "total": 16,
-    "pontos": 28,
-    "jogos": 23,
-    "forma": "DVDEE",
-    "serie_derrotas": 1
-   },
-   "fora": {
-    "nome": "Kristiansund BK",
-    "posicao": 15,
-    "total": 16,
-    "pontos": 19,
-    "jogos": 23,
-    "forma": "DDDDV",
-    "serie_derrotas": 4
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 4,
-     "favorito": "casa",
-     "texto": "Kristiansund BK com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Eliteserien",
-   "pais": "Noruega",
-   "liga_id": "nor.1"
   },
   {
    "id": "401881758",

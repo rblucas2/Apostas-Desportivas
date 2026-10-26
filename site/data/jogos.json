@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-26T04:46:14+00:00",
- "cotas_atualizadas": true,
+ "gerado_em": "2026-10-26T13:01:28+00:00",
+ "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -417,7 +417,8 @@
      },
      "atualizado": "2026-10-26T04:47:19Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878352",
@@ -496,7 +497,8 @@
      },
      "atualizado": "2026-10-26T04:49:20Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878956",
@@ -585,7 +587,8 @@
      },
      "atualizado": "2026-10-26T04:47:40Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401841655",
@@ -847,7 +850,8 @@
      },
      "atualizado": "2026-10-26T04:47:19Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401875564",
@@ -936,7 +940,8 @@
      },
      "atualizado": "2026-10-26T04:47:40Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888374",
@@ -986,7 +991,8 @@
      },
      "atualizado": "2026-10-26T04:48:38Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401842872",
@@ -1029,7 +1035,8 @@
      },
      "atualizado": "2026-10-26T04:47:17Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888261",
@@ -1074,7 +1081,8 @@
      },
      "atualizado": "2026-10-26T04:48:38Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888263",
@@ -1119,7 +1127,8 @@
      },
      "atualizado": "2026-10-26T04:48:38Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881761",
@@ -1162,7 +1171,8 @@
      },
      "atualizado": "2026-10-26T04:49:08Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881759",
@@ -1207,7 +1217,8 @@
      },
      "atualizado": "2026-10-26T04:49:08Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876414",
@@ -1252,7 +1263,8 @@
      },
      "atualizado": "2026-10-26T04:49:20Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401896735",
@@ -1297,7 +1309,8 @@
      },
      "atualizado": "2026-10-26T04:47:45Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881758",
@@ -1340,7 +1353,8 @@
      },
      "atualizado": "2026-10-26T04:49:08Z"
     }
-   }
+   },
+   "cotas_antigas": true
   }
  ]
 }

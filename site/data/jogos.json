@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-26T13:01:28+00:00",
+ "gerado_em": "2026-10-26T22:39:44+00:00",
  "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
@@ -13,7 +13,7 @@
    "pais": "Portugal",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 8,
+   "jogos_agendados": 9,
    "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -23,7 +23,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 9,
+   "jogos_agendados": 10,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -53,7 +53,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 14,
+   "jogos_agendados": 13,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -73,7 +73,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 22,
-   "jogos_agendados": 9,
+   "jogos_agendados": 11,
    "selecionados": 1,
    "com_resultados": 22,
    "resultados_em_falta": 0
@@ -103,7 +103,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 18,
+   "jogos_agendados": 20,
    "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -123,7 +123,7 @@
    "pais": "França",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 10,
+   "jogos_agendados": 9,
    "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -133,7 +133,7 @@
    "pais": "França",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 10,
+   "jogos_agendados": 9,
    "selecionados": 0,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -153,8 +153,8 @@
    "pais": "Países Baixos",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 6,
-   "selecionados": 0,
+   "jogos_agendados": 10,
+   "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -173,7 +173,7 @@
    "pais": "Turquia",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 11,
+   "jogos_agendados": 9,
    "selecionados": 3,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -203,7 +203,7 @@
    "pais": "Grécia",
    "ok": true,
    "equipas": 14,
-   "jogos_agendados": 5,
+   "jogos_agendados": 7,
    "selecionados": 1,
    "com_resultados": 14,
    "resultados_em_falta": 0
@@ -224,7 +224,7 @@
    "ok": true,
    "equipas": 12,
    "jogos_agendados": 6,
-   "selecionados": 0,
+   "selecionados": 1,
    "com_resultados": 12,
    "resultados_em_falta": 0
   },
@@ -243,7 +243,7 @@
    "pais": "Suécia",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 13,
+   "jogos_agendados": 15,
    "selecionados": 1,
    "com_resultados": 16,
    "resultados_em_falta": 0
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 12,
+   "jogos_agendados": 11,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 14,
+   "jogos_agendados": 15,
    "selecionados": 2,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -468,14 +468,19 @@
    },
    "fora": {
     "nome": "Paris Saint-Germain",
-    "posicao": 5,
+    "posicao": 1,
     "total": 18,
-    "pontos": 14,
-    "jogos": 7,
-    "forma": "VVVVD",
+    "pontos": 17,
+    "jogos": 8,
+    "forma": "VVVVV",
     "serie_derrotas": 0
    },
    "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    },
     {
      "tipo": "serie_derrotas",
      "equipa": "casa",
@@ -948,7 +953,7 @@
    "data": "2026-11-01T10:30Z",
    "casa": {
     "nome": "Amed SFK",
-    "posicao": 1,
+    "posicao": 2,
     "total": 18,
     "pontos": 20,
     "jogos": 9,
@@ -1046,9 +1051,9 @@
     "posicao": 12,
     "total": 18,
     "pontos": 11,
-    "jogos": 8,
-    "forma": "VEVDD",
-    "serie_derrotas": 0
+    "jogos": 9,
+    "forma": "DVEVD",
+    "serie_derrotas": 1
    },
    "fora": {
     "nome": "Samsunspor",
@@ -1089,11 +1094,11 @@
    "data": "2026-11-01T13:00Z",
    "casa": {
     "nome": "Trabzonspor",
-    "posicao": 4,
+    "posicao": 3,
     "total": 18,
-    "pontos": 16,
-    "jogos": 8,
-    "forma": "VVVDV",
+    "pontos": 19,
+    "jogos": 9,
+    "forma": "VVVVD",
     "serie_derrotas": 0
    },
    "fora": {
@@ -1355,6 +1360,72 @@
     }
    },
    "cotas_antigas": true
+  },
+  {
+   "id": "401874494",
+   "data": "2026-11-02T18:00Z",
+   "casa": {
+    "nome": "Sønderjyske Fodbold",
+    "posicao": 12,
+    "total": 12,
+    "pontos": 8,
+    "jogos": 12,
+    "forma": "DVDVE",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "F.C. København",
+    "posicao": 2,
+    "total": 12,
+    "pontos": 26,
+    "jogos": 12,
+    "forma": "EEDVV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Superliga",
+   "pais": "Dinamarca",
+   "liga_id": "den.1"
+  },
+  {
+   "id": "401875866",
+   "data": "2026-11-02T19:00Z",
+   "casa": {
+    "nome": "Jong FC Utrecht",
+    "posicao": 20,
+    "total": 20,
+    "pontos": 7,
+    "jogos": 12,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "FC Dordrecht",
+    "posicao": 18,
+    "total": 20,
+    "pontos": 11,
+    "jogos": 12,
+    "forma": "DVDEV",
+    "serie_derrotas": 1
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Jong FC Utrecht com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Eerste Divisie",
+   "pais": "Países Baixos",
+   "liga_id": "ned.2"
   }
  ]
 }

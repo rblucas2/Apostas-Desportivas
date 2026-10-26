@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-10-25T20:50:30+00:00",
+ "atualizado_em": "2026-10-26T04:46:14+00:00",
  "jogos": [
   {
    "id": "401896735",
@@ -24,7 +24,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": 2.33,
+   "cotas": {
+    "2": 2.33,
+    "1": 2.78,
+    "X": 2.85
+   }
   },
   {
    "id": "401881758",
@@ -49,7 +54,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": 1.51,
+   "cotas": {
+    "1": 4.45,
+    "2": 1.51,
+    "X": 3.95
+   }
   },
   {
    "id": "401876414",
@@ -74,7 +84,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": 3.7,
+   "cotas": {
+    "2": 3.7,
+    "1": 1.73,
+    "X": 3.68
+   }
   },
   {
    "id": "401881761",
@@ -99,7 +114,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 1.14,
+   "cotas": {
+    "2": 10.0,
+    "1": 1.14,
+    "X": 6.4
+   }
   },
   {
    "id": "401881759",
@@ -124,7 +144,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": 1.52,
+   "cotas": {
+    "2": 1.52,
+    "1": 4.35,
+    "X": 3.95
+   }
   },
   {
    "id": "401842872",
@@ -149,7 +174,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 1.24,
+   "cotas": {
+    "2": 7.75,
+    "1": 1.24,
+    "X": 4.9
+   }
   },
   {
    "id": "401888261",
@@ -174,7 +204,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 1.71,
+   "cotas": {
+    "1": 1.71,
+    "2": 3.65,
+    "X": 3.55
+   }
   },
   {
    "id": "401888263",
@@ -199,7 +234,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 1.35,
+   "cotas": {
+    "2": 5.75,
+    "1": 1.35,
+    "X": 4.4
+   }
   },
   {
    "id": "401888374",
@@ -225,7 +265,12 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": 1.24,
+   "cotas": {
+    "1": 1.24,
+    "2": 8.0,
+    "X": 4.85
+   }
   },
   {
    "id": "401885404",
@@ -251,11 +296,11 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": 1.14,
+   "cota": 1.2,
    "cotas": {
-    "2": 12.25,
-    "1": 1.14,
-    "X": 6.25
+    "2": 9.5,
+    "1": 1.2,
+    "X": 5.5
    }
   },
   {
@@ -268,7 +313,7 @@
    "liga_id": "ned.1",
    "casa": {
     "nome": "PSV Eindhoven",
-    "posicao": 4,
+    "posicao": 3,
     "total": 18
    },
    "fora": {
@@ -277,7 +322,8 @@
     "total": 18
    },
    "criterios": [
-    "serie_derrotas"
+    "serie_derrotas",
+    "top_vs_bottom"
    ],
    "favorito": "casa",
    "aposta": "1",
@@ -306,7 +352,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": 1.54,
+   "cotas": {
+    "2": 1.54,
+    "1": 4.75,
+    "X": 3.85
+   }
   },
   {
    "id": "401878536",
@@ -487,7 +538,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": 1.18,
+   "cotas": {
+    "1": 10.5,
+    "2": 1.18,
+    "X": 5.6
+   }
   },
   {
    "id": "401878956",
@@ -542,7 +598,12 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": 1.19,
+   "cotas": {
+    "1": 8.75,
+    "2": 1.19,
+    "X": 6.1
+   }
   },
   {
    "id": "401878352",
@@ -592,11 +653,11 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": 1.26,
+   "cota": 1.28,
    "cotas": {
-    "2": 1.26,
-    "1": 7.5,
-    "X": 5.75
+    "2": 1.28,
+    "1": 7.25,
+    "X": 5.6
    }
   },
   {
@@ -657,7 +718,7 @@
   {
    "id": "401874779",
    "selecionado_em": "2026-10-18T20:42:41+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-25T19:45Z",
    "liga": "Serie A",
    "pais": "Itália",
@@ -682,7 +743,13 @@
     "2": 1.71,
     "1": 4.35,
     "X": 3.53
-   }
+   },
+   "golos_casa": 0,
+   "golos_fora": 2,
+   "resultado": "2",
+   "acertou": true,
+   "resolvido_em": "2026-10-26T04:46:14+00:00",
+   "lucro": 0.71
   },
   {
    "id": "401885416",

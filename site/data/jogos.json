@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-26T22:39:44+00:00",
- "cotas_atualizadas": false,
+ "gerado_em": "2026-10-27T05:03:49+00:00",
+ "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -263,8 +263,8 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 15,
-   "selecionados": 2,
+   "jogos_agendados": 16,
+   "selecionados": 1,
    "com_resultados": 30,
    "resultados_em_falta": 0
   },
@@ -301,38 +301,6 @@
  ],
  "jogos": [
   {
-   "id": "401841635",
-   "data": "2026-10-27T00:15Z",
-   "casa": {
-    "nome": "Instituto (Córdoba)",
-    "posicao": 1,
-    "total": 15,
-    "pontos": 29,
-    "jogos": 13,
-    "forma": "VEVVV",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Deportivo Riestra",
-    "posicao": 13,
-    "total": 15,
-    "pontos": 12,
-    "jogos": 13,
-    "forma": "EDEED",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Liga Profesional",
-   "pais": "Argentina",
-   "liga_id": "arg.1"
-  },
-  {
    "id": "401899573",
    "data": "2026-10-27T19:00Z",
    "casa": {
@@ -367,14 +335,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 2.78,
-      "1": 2.17,
+      "2": 3.1,
+      "1": 2.02,
       "X": 3.12
      },
-     "atualizado": "2026-10-25T04:42:36Z"
+     "atualizado": "2026-10-27T05:02:14Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401874773",
@@ -895,7 +862,18 @@
    ],
    "liga": "Eredivisie",
    "pais": "Países Baixos",
-   "liga_id": "ned.1"
+   "liga_id": "ned.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 1.04,
+      "2": 17.25,
+      "X": 9.75
+     },
+     "atualizado": "2026-10-27T05:02:31Z"
+    }
+   }
   },
   {
    "id": "401885404",
@@ -1391,7 +1369,18 @@
    ],
    "liga": "Superliga",
    "pais": "Dinamarca",
-   "liga_id": "den.1"
+   "liga_id": "den.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 1.35,
+      "1": 5.9,
+      "X": 4.35
+     },
+     "atualizado": "2026-10-27T05:01:47Z"
+    }
+   }
   },
   {
    "id": "401875866",

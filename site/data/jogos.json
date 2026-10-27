@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-27T18:00:22+00:00",
- "cotas_atualizadas": true,
+ "gerado_em": "2026-10-27T22:13:58+00:00",
+ "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -33,7 +33,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 12,
+   "jogos_agendados": 21,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -43,7 +43,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 17,
+   "jogos_agendados": 14,
    "selecionados": 1,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -103,7 +103,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 19,
+   "jogos_agendados": 17,
    "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -113,8 +113,8 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 19,
-   "selecionados": 1,
+   "jogos_agendados": 13,
+   "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -193,7 +193,7 @@
    "pais": "Escócia",
    "ok": true,
    "equipas": 10,
-   "jogos_agendados": 6,
+   "jogos_agendados": 5,
    "selecionados": 2,
    "com_resultados": 10,
    "resultados_em_falta": 0
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 16,
+   "jogos_agendados": 15,
    "selecionados": 1,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -273,7 +273,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 2,
+   "jogos_agendados": 9,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -301,49 +301,6 @@
  ],
  "jogos": [
   {
-   "id": "401899573",
-   "data": "2026-10-27T19:00Z",
-   "casa": {
-    "nome": "Mantova",
-    "posicao": 2,
-    "total": 20,
-    "pontos": 17,
-    "jogos": 8,
-    "forma": "VDVEV",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Cremonese",
-    "posicao": 18,
-    "total": 20,
-    "pontos": 6,
-    "jogos": 8,
-    "forma": "DDEEE",
-    "serie_derrotas": 2
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Serie B",
-   "pais": "Itália",
-   "liga_id": "ita.2",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 3.0,
-      "1": 2.15,
-      "X": 3.12
-     },
-     "atualizado": "2026-10-27T18:00:12Z"
-    }
-   }
-  },
-  {
    "id": "401874773",
    "data": "2026-10-28T17:30Z",
    "casa": {
@@ -357,7 +314,7 @@
    },
    "fora": {
     "nome": "Internazionale",
-    "posicao": 1,
+    "posicao": 2,
     "total": 20,
     "pontos": 22,
     "jogos": 8,
@@ -759,14 +716,19 @@
    },
    "fora": {
     "nome": "Oxford United",
-    "posicao": 7,
+    "posicao": 3,
     "total": 24,
-    "pontos": 19,
-    "jogos": 10,
-    "forma": "EVEVE",
+    "pontos": 22,
+    "jogos": 11,
+    "forma": "VEVEV",
     "serie_derrotas": 0
    },
    "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    },
     {
      "tipo": "serie_derrotas",
      "equipa": "casa",
@@ -795,9 +757,9 @@
     "nome": "AS Roma",
     "posicao": 3,
     "total": 20,
-    "pontos": 18,
-    "jogos": 8,
-    "forma": "EVEEV",
+    "pontos": 21,
+    "jogos": 9,
+    "forma": "VEVEE",
     "serie_derrotas": 0
    },
    "criterios": [

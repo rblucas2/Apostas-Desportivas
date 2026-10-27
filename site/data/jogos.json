@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-27T12:10:38+00:00",
+ "gerado_em": "2026-10-27T18:00:22+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -103,7 +103,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 20,
+   "jogos_agendados": 19,
    "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -113,7 +113,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 20,
+   "jogos_agendados": 19,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -244,7 +244,7 @@
    "ok": true,
    "equipas": 16,
    "jogos_agendados": 15,
-   "selecionados": 1,
+   "selecionados": 2,
    "com_resultados": 16,
    "resultados_em_falta": 0
   },
@@ -273,7 +273,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 0,
+   "jogos_agendados": 2,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -335,14 +335,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 3.1,
-      "1": 2.02,
+      "2": 3.0,
+      "1": 2.15,
       "X": 3.12
      },
-     "atualizado": "2026-10-27T05:02:14Z"
+     "atualizado": "2026-10-27T18:00:12Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401874773",
@@ -385,7 +384,8 @@
      },
      "atualizado": "2026-10-27T12:10:32Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878352",
@@ -822,7 +822,8 @@
      },
      "atualizado": "2026-10-27T12:10:32Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401875564",
@@ -1416,6 +1417,38 @@
    "liga": "Eerste Divisie",
    "pais": "Países Baixos",
    "liga_id": "ned.2"
+  },
+  {
+   "id": "401842866",
+   "data": "2026-11-03T18:00Z",
+   "casa": {
+    "nome": "IK Sirius",
+    "posicao": 1,
+    "total": 16,
+    "pontos": 55,
+    "jogos": 25,
+    "forma": "DEVVV",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "Halmstads BK",
+    "posicao": 16,
+    "total": 16,
+    "pontos": 17,
+    "jogos": 25,
+    "forma": "VDDVD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Allsvenskan",
+   "pais": "Suécia",
+   "liga_id": "swe.1"
   }
  ]
 }

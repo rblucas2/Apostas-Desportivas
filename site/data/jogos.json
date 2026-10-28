@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-27T22:13:58+00:00",
- "cotas_atualizadas": false,
+ "gerado_em": "2026-10-28T05:42:01+00:00",
+ "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 11,
+   "jogos_agendados": 13,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -335,14 +335,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.31,
-      "1": 6.6,
-      "X": 5.25
+      "2": 1.32,
+      "1": 6.9,
+      "X": 5.4
      },
-     "atualizado": "2026-10-27T12:10:32Z"
+     "atualizado": "2026-10-28T05:43:28Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401878352",
@@ -778,14 +777,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.49,
-      "1": 5.0,
-      "X": 3.98
+      "2": 1.51,
+      "1": 5.1,
+      "X": 4.05
      },
-     "atualizado": "2026-10-27T12:10:32Z"
+     "atualizado": "2026-10-28T05:43:28Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401875564",
@@ -976,13 +974,12 @@
      "titulo": "Betclic (FR)",
      "cotas": {
       "2": 7.75,
-      "1": 1.24,
-      "X": 4.9
+      "1": 1.25,
+      "X": 4.75
      },
-     "atualizado": "2026-10-26T04:47:17Z"
+     "atualizado": "2026-10-28T05:44:54Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401888261",
@@ -1410,7 +1407,18 @@
    ],
    "liga": "Allsvenskan",
    "pais": "Suécia",
-   "liga_id": "swe.1"
+   "liga_id": "swe.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 8.0,
+      "1": 1.22,
+      "X": 5.1
+     },
+     "atualizado": "2026-10-28T05:44:54Z"
+    }
+   }
   }
  ]
 }

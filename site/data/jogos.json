@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-28T05:42:01+00:00",
+ "gerado_em": "2026-10-28T12:54:06+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -341,7 +341,8 @@
      },
      "atualizado": "2026-10-28T05:43:28Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878352",
@@ -783,7 +784,8 @@
      },
      "atualizado": "2026-10-28T05:43:28Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401875564",
@@ -979,7 +981,8 @@
      },
      "atualizado": "2026-10-28T05:44:54Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888261",
@@ -1418,7 +1421,8 @@
      },
      "atualizado": "2026-10-28T05:44:54Z"
     }
-   }
+   },
+   "cotas_antigas": true
   }
  ]
 }

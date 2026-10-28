@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-28T12:54:06+00:00",
+ "gerado_em": "2026-10-28T22:34:42+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -33,7 +33,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 21,
+   "jogos_agendados": 24,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -43,7 +43,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 14,
+   "jogos_agendados": 15,
    "selecionados": 1,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -103,8 +103,8 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 17,
-   "selecionados": 2,
+   "jogos_agendados": 12,
+   "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -113,7 +113,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 13,
+   "jogos_agendados": 10,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -163,7 +163,7 @@
    "pais": "Bélgica",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 9,
+   "jogos_agendados": 10,
    "selecionados": 1,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -183,8 +183,8 @@
    "pais": "Escócia",
    "ok": true,
    "equipas": 12,
-   "jogos_agendados": 9,
-   "selecionados": 2,
+   "jogos_agendados": 3,
+   "selecionados": 0,
    "com_resultados": 12,
    "resultados_em_falta": 0
   },
@@ -243,7 +243,7 @@
    "pais": "Suécia",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 15,
+   "jogos_agendados": 11,
    "selecionados": 2,
    "com_resultados": 16,
    "resultados_em_falta": 0
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 13,
+   "jogos_agendados": 12,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -273,7 +273,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 9,
+   "jogos_agendados": 18,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -283,7 +283,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 0,
+   "jogos_agendados": 1,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -300,84 +300,6 @@
   }
  ],
  "jogos": [
-  {
-   "id": "401874773",
-   "data": "2026-10-28T17:30Z",
-   "casa": {
-    "nome": "Venezia",
-    "posicao": 20,
-    "total": 20,
-    "pontos": 3,
-    "jogos": 8,
-    "forma": "DVDDD",
-    "serie_derrotas": 1
-   },
-   "fora": {
-    "nome": "Internazionale",
-    "posicao": 2,
-    "total": 20,
-    "pontos": 22,
-    "jogos": 8,
-    "forma": "VVVEV",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "fora",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Serie A",
-   "pais": "Itália",
-   "liga_id": "ita.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 1.32,
-      "1": 6.9,
-      "X": 5.4
-     },
-     "atualizado": "2026-10-28T05:43:28Z"
-    }
-   },
-   "cotas_antigas": true
-  },
-  {
-   "id": "401878352",
-   "data": "2026-10-28T19:45Z",
-   "casa": {
-    "nome": "St Johnstone",
-    "posicao": 8,
-    "total": 12,
-    "pontos": 12,
-    "jogos": 10,
-    "forma": "DEVED",
-    "serie_derrotas": 1
-   },
-   "fora": {
-    "nome": "Motherwell",
-    "posicao": 10,
-    "total": 12,
-    "pontos": 8,
-    "jogos": 10,
-    "forma": "DDDDD",
-    "serie_derrotas": 6
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 6,
-     "favorito": "casa",
-     "texto": "Motherwell com 6 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Premiership",
-   "pais": "Escócia",
-   "liga_id": "sco.1"
-  },
   {
    "id": "401876421",
    "data": "2026-10-30T18:00Z",
@@ -669,40 +591,6 @@
    "liga_id": "sco.2"
   },
   {
-   "id": "401878346",
-   "data": "2026-10-31T15:00Z",
-   "casa": {
-    "nome": "Motherwell",
-    "posicao": 10,
-    "total": 12,
-    "pontos": 8,
-    "jogos": 10,
-    "forma": "DDDDD",
-    "serie_derrotas": 6
-   },
-   "fora": {
-    "nome": "St Mirren",
-    "posicao": 6,
-    "total": 12,
-    "pontos": 13,
-    "jogos": 10,
-    "forma": "VDDDD",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 6,
-     "favorito": "fora",
-     "texto": "Motherwell com 6 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Premiership",
-   "pais": "Escócia",
-   "liga_id": "sco.1"
-  },
-  {
    "id": "401880766",
    "data": "2026-10-31T15:00Z",
    "casa": {
@@ -740,52 +628,6 @@
    "liga": "League One",
    "pais": "Inglaterra",
    "liga_id": "eng.3"
-  },
-  {
-   "id": "401874990",
-   "data": "2026-10-31T17:00Z",
-   "casa": {
-    "nome": "Udinese",
-    "posicao": 17,
-    "total": 20,
-    "pontos": 4,
-    "jogos": 8,
-    "forma": "DDDDD",
-    "serie_derrotas": 6
-   },
-   "fora": {
-    "nome": "AS Roma",
-    "posicao": 3,
-    "total": 20,
-    "pontos": 21,
-    "jogos": 9,
-    "forma": "VEVEE",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 6,
-     "favorito": "fora",
-     "texto": "Udinese com 6 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Serie A",
-   "pais": "Itália",
-   "liga_id": "ita.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 1.51,
-      "1": 5.1,
-      "X": 4.05
-     },
-     "atualizado": "2026-10-28T05:43:28Z"
-    }
-   },
-   "cotas_antigas": true
   },
   {
    "id": "401875564",
@@ -947,9 +789,9 @@
     "nome": "Djurgården",
     "posicao": 3,
     "total": 16,
-    "pontos": 48,
-    "jogos": 25,
-    "forma": "EVVDV",
+    "pontos": 49,
+    "jogos": 26,
+    "forma": "EEVVD",
     "serie_derrotas": 0
    },
    "fora": {
@@ -957,9 +799,9 @@
     "posicao": 14,
     "total": 16,
     "pontos": 20,
-    "jogos": 25,
-    "forma": "DDEDD",
-    "serie_derrotas": 2
+    "jogos": 26,
+    "forma": "DDDED",
+    "serie_derrotas": 3
    },
    "criterios": [
     {
@@ -1397,9 +1239,9 @@
     "posicao": 16,
     "total": 16,
     "pontos": 17,
-    "jogos": 25,
-    "forma": "VDDVD",
-    "serie_derrotas": 0
+    "jogos": 26,
+    "forma": "DVDDV",
+    "serie_derrotas": 1
    },
    "criterios": [
     {

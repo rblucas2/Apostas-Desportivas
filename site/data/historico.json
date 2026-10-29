@@ -1,6 +1,91 @@
 {
- "atualizado_em": "2026-10-29T12:59:40+00:00",
+ "atualizado_em": "2026-10-29T22:44:30+00:00",
  "jogos": [
+  {
+   "id": "401841300",
+   "selecionado_em": "2026-10-29T22:44:30+00:00",
+   "estado": "pendente",
+   "data": "2026-11-05T22:30Z",
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1",
+   "casa": {
+    "nome": "Palmeiras",
+    "posicao": 2,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Remo",
+    "posicao": 19,
+    "total": 20
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401915823",
+   "selecionado_em": "2026-10-29T22:44:30+00:00",
+   "estado": "pendente",
+   "data": "2026-11-05T20:00Z",
+   "liga": "Liga Conferência",
+   "pais": "Europa (UEFA)",
+   "liga_id": "uefa.europa.conf",
+   "casa": {
+    "nome": "FC Lugano",
+    "posicao": 2,
+    "total": 36
+   },
+   "fora": {
+    "nome": "Kauno Zalgiris",
+    "posicao": 36,
+    "total": 36
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "1": 1.14,
+    "2": 10.25,
+    "X": 6.1
+   },
+   "cota": 1.14
+  },
+  {
+   "id": "401915533",
+   "selecionado_em": "2026-10-29T22:44:30+00:00",
+   "estado": "pendente",
+   "data": "2026-11-05T20:00Z",
+   "liga": "Liga Europa",
+   "pais": "Europa (UEFA)",
+   "liga_id": "uefa.europa",
+   "casa": {
+    "nome": "Bayer Leverkusen",
+    "posicao": 2,
+    "total": 36
+   },
+   "fora": {
+    "nome": "Marseille",
+    "posicao": 34,
+    "total": 36
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "1": 1.37,
+    "2": 5.9,
+    "X": 4.5
+   },
+   "cota": 1.37
+  },
   {
    "id": "401842866",
    "selecionado_em": "2026-10-27T18:00:22+00:00",

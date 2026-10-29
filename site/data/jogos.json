@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-29T12:59:40+00:00",
+ "gerado_em": "2026-10-29T22:44:30+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -103,7 +103,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 12,
+   "jogos_agendados": 10,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -243,7 +243,7 @@
    "pais": "Suécia",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 11,
+   "jogos_agendados": 8,
    "selecionados": 2,
    "com_resultados": 16,
    "resultados_em_falta": 0
@@ -254,7 +254,7 @@
    "ok": true,
    "equipas": 20,
    "jogos_agendados": 12,
-   "selecionados": 0,
+   "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -283,8 +283,8 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 1,
-   "selecionados": 0,
+   "jogos_agendados": 18,
+   "selecionados": 1,
    "com_resultados": 36,
    "resultados_em_falta": 0
   },
@@ -293,8 +293,8 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 0,
-   "selecionados": 0,
+   "jogos_agendados": 18,
+   "selecionados": 1,
    "com_resultados": 36,
    "resultados_em_falta": 0
   }
@@ -348,7 +348,8 @@
      },
      "atualizado": "2026-10-29T12:58:44Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878956",
@@ -393,7 +394,8 @@
      },
      "atualizado": "2026-10-29T12:59:54Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401885408",
@@ -436,7 +438,8 @@
      },
      "atualizado": "2026-10-29T13:01:46Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401841655",
@@ -725,7 +728,8 @@
      },
      "atualizado": "2026-10-29T13:01:46Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888374",
@@ -1047,7 +1051,8 @@
      },
      "atualizado": "2026-10-29T12:58:44Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401896735",
@@ -1225,9 +1230,9 @@
     "posicao": 1,
     "total": 16,
     "pontos": 55,
-    "jogos": 25,
-    "forma": "DEVVV",
-    "serie_derrotas": 1
+    "jogos": 26,
+    "forma": "DDEVV",
+    "serie_derrotas": 2
    },
    "fora": {
     "nome": "Halmstads BK",
@@ -1260,6 +1265,124 @@
     }
    },
    "cotas_antigas": true
+  },
+  {
+   "id": "401915823",
+   "data": "2026-11-05T20:00Z",
+   "casa": {
+    "nome": "FC Lugano",
+    "posicao": 2,
+    "total": 36,
+    "pontos": 6,
+    "jogos": 2,
+    "forma": "VV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Kauno Zalgiris",
+    "posicao": 36,
+    "total": 36,
+    "pontos": 0,
+    "jogos": 2,
+    "forma": "DD",
+    "serie_derrotas": 2
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Liga Conferência",
+   "pais": "Europa (UEFA)",
+   "liga_id": "uefa.europa.conf",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 1.14,
+      "2": 10.25,
+      "X": 6.1
+     },
+     "atualizado": "2026-10-29T22:44:06Z"
+    }
+   }
+  },
+  {
+   "id": "401915533",
+   "data": "2026-11-05T20:00Z",
+   "casa": {
+    "nome": "Bayer Leverkusen",
+    "posicao": 2,
+    "total": 36,
+    "pontos": 9,
+    "jogos": 3,
+    "forma": "VVV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Marseille",
+    "posicao": 34,
+    "total": 36,
+    "pontos": 0,
+    "jogos": 3,
+    "forma": "DDD",
+    "serie_derrotas": 3
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Liga Europa",
+   "pais": "Europa (UEFA)",
+   "liga_id": "uefa.europa",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 1.37,
+      "2": 5.9,
+      "X": 4.5
+     },
+     "atualizado": "2026-10-29T22:44:47Z"
+    }
+   }
+  },
+  {
+   "id": "401841300",
+   "data": "2026-11-05T22:30Z",
+   "casa": {
+    "nome": "Palmeiras",
+    "posicao": 2,
+    "total": 20,
+    "pontos": 70,
+    "jogos": 33,
+    "forma": "EVVVV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Remo",
+    "posicao": 19,
+    "total": 20,
+    "pontos": 29,
+    "jogos": 33,
+    "forma": "VDEEE",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1"
   }
  ]
 }

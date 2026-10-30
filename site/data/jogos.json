@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-30T05:48:03+00:00",
+ "gerado_em": "2026-10-30T12:54:43+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -348,7 +348,8 @@
      },
      "atualizado": "2026-10-30T05:47:55Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878956",
@@ -393,7 +394,8 @@
      },
      "atualizado": "2026-10-30T05:46:43Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401885408",
@@ -436,7 +438,8 @@
      },
      "atualizado": "2026-10-30T05:47:09Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401841655",
@@ -513,7 +516,8 @@
      },
      "atualizado": "2026-10-30T05:47:34Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878536",
@@ -724,7 +728,8 @@
      },
      "atualizado": "2026-10-30T05:47:09Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888374",
@@ -1046,7 +1051,8 @@
      },
      "atualizado": "2026-10-30T05:47:55Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401896735",

@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-31T12:28:17+00:00",
+ "gerado_em": "2026-10-31T17:52:50+00:00",
  "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
@@ -23,8 +23,8 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 11,
-   "selecionados": 0,
+   "jogos_agendados": 8,
+   "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -43,8 +43,8 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 15,
-   "selecionados": 1,
+   "jogos_agendados": 4,
+   "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
   },
@@ -53,7 +53,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 12,
+   "jogos_agendados": 1,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -73,8 +73,8 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 22,
-   "jogos_agendados": 12,
-   "selecionados": 1,
+   "jogos_agendados": 13,
+   "selecionados": 0,
    "com_resultados": 22,
    "resultados_em_falta": 0
   },
@@ -83,7 +83,7 @@
    "pais": "Alemanha",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 9,
+   "jogos_agendados": 8,
    "selecionados": 0,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -94,7 +94,7 @@
    "ok": true,
    "equipas": 18,
    "jogos_agendados": 9,
-   "selecionados": 1,
+   "selecionados": 0,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -103,7 +103,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 11,
+   "jogos_agendados": 12,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -113,7 +113,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 11,
+   "jogos_agendados": 12,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -123,7 +123,7 @@
    "pais": "França",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 7,
+   "jogos_agendados": 8,
    "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -143,8 +143,8 @@
    "pais": "Países Baixos",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 10,
-   "selecionados": 2,
+   "jogos_agendados": 9,
+   "selecionados": 1,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -154,7 +154,7 @@
    "ok": true,
    "equipas": 20,
    "jogos_agendados": 13,
-   "selecionados": 2,
+   "selecionados": 3,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -173,17 +173,17 @@
    "pais": "Turquia",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 9,
-   "selecionados": 5,
+   "jogos_agendados": 10,
+   "selecionados": 6,
    "com_resultados": 18,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "Premiership",
    "pais": "Escócia",
    "ok": true,
    "equipas": 12,
-   "jogos_agendados": 3,
+   "jogos_agendados": 4,
    "selecionados": 0,
    "com_resultados": 12,
    "resultados_em_falta": 0
@@ -203,8 +203,8 @@
    "pais": "Grécia",
    "ok": true,
    "equipas": 14,
-   "jogos_agendados": 7,
-   "selecionados": 1,
+   "jogos_agendados": 8,
+   "selecionados": 2,
    "com_resultados": 14,
    "resultados_em_falta": 0
   },
@@ -216,14 +216,14 @@
    "jogos_agendados": 6,
    "selecionados": 4,
    "com_resultados": 12,
-   "resultados_em_falta": 0
+   "resultados_em_falta": 2
   },
   {
    "liga": "Superliga",
    "pais": "Dinamarca",
    "ok": true,
    "equipas": 12,
-   "jogos_agendados": 6,
+   "jogos_agendados": 7,
    "selecionados": 1,
    "com_resultados": 12,
    "resultados_em_falta": 0
@@ -243,7 +243,7 @@
    "pais": "Suécia",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 9,
+   "jogos_agendados": 11,
    "selecionados": 2,
    "com_resultados": 16,
    "resultados_em_falta": 0
@@ -300,213 +300,6 @@
   }
  ],
  "jogos": [
-  {
-   "id": "401883145",
-   "data": "2026-10-31T13:00Z",
-   "casa": {
-    "nome": "Real Sociedad II",
-    "posicao": 20,
-    "total": 22,
-    "pontos": 8,
-    "jogos": 11,
-    "forma": "DDDDD",
-    "serie_derrotas": 6
-   },
-   "fora": {
-    "nome": "Girona",
-    "posicao": 4,
-    "total": 22,
-    "pontos": 21,
-    "jogos": 11,
-    "forma": "VVEEV",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 6,
-     "favorito": "fora",
-     "texto": "Real Sociedad II com 6 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "LaLiga 2",
-   "pais": "Espanha",
-   "liga_id": "esp.2",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 1.96,
-      "1": 3.15,
-      "X": 3.42
-     },
-     "atualizado": "2026-10-30T22:15:50Z"
-    }
-   },
-   "cotas_antigas": true
-  },
-  {
-   "id": "401878536",
-   "data": "2026-10-31T15:00Z",
-   "casa": {
-    "nome": "Arbroath",
-    "posicao": 8,
-    "total": 10,
-    "pontos": 11,
-    "jogos": 12,
-    "forma": "DDDDV",
-    "serie_derrotas": 4
-   },
-   "fora": {
-    "nome": "Raith Rovers",
-    "posicao": 3,
-    "total": 10,
-    "pontos": 21,
-    "jogos": 12,
-    "forma": "DEVVD",
-    "serie_derrotas": 1
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "fora",
-     "texto": "3 primeiros vs 3 últimos"
-    },
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 4,
-     "favorito": "fora",
-     "texto": "Arbroath com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Championship",
-   "pais": "Escócia",
-   "liga_id": "sco.2"
-  },
-  {
-   "id": "401878533",
-   "data": "2026-10-31T15:00Z",
-   "casa": {
-    "nome": "Partick Thistle",
-    "posicao": 1,
-    "total": 10,
-    "pontos": 25,
-    "jogos": 12,
-    "forma": "VEVVV",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Greenock Morton",
-    "posicao": 9,
-    "total": 10,
-    "pontos": 7,
-    "jogos": 11,
-    "forma": "VVDDD",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Championship",
-   "pais": "Escócia",
-   "liga_id": "sco.2"
-  },
-  {
-   "id": "401880766",
-   "data": "2026-10-31T15:00Z",
-   "casa": {
-    "nome": "Barnsley",
-    "posicao": 23,
-    "total": 24,
-    "pontos": 8,
-    "jogos": 11,
-    "forma": "DDDDE",
-    "serie_derrotas": 4
-   },
-   "fora": {
-    "nome": "Oxford United",
-    "posicao": 3,
-    "total": 24,
-    "pontos": 22,
-    "jogos": 11,
-    "forma": "VEVEV",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "fora",
-     "texto": "3 primeiros vs 3 últimos"
-    },
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 4,
-     "favorito": "fora",
-     "texto": "Barnsley com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "League One",
-   "pais": "Inglaterra",
-   "liga_id": "eng.3"
-  },
-  {
-   "id": "401875564",
-   "data": "2026-10-31T17:45Z",
-   "casa": {
-    "nome": "PSV Eindhoven",
-    "posicao": 3,
-    "total": 18,
-    "pontos": 20,
-    "jogos": 10,
-    "forma": "EDVDV",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Willem II",
-    "posicao": 18,
-    "total": 18,
-    "pontos": 2,
-    "jogos": 10,
-    "forma": "DDDDD",
-    "serie_derrotas": 5
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
-    },
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 5,
-     "favorito": "casa",
-     "texto": "Willem II com 5 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Eredivisie",
-   "pais": "Países Baixos",
-   "liga_id": "ned.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "1": 1.05,
-      "2": 16.25,
-      "X": 9.75
-     },
-     "atualizado": "2026-10-31T05:38:34Z"
-    }
-   },
-   "cotas_antigas": true
-  },
   {
    "id": "401885404",
    "data": "2026-10-31T20:30Z",
@@ -1474,9 +1267,9 @@
     "nome": "Kocaelispor",
     "posicao": 8,
     "total": 18,
-    "pontos": 15,
-    "jogos": 9,
-    "forma": "VDDVD",
+    "pontos": 16,
+    "jogos": 10,
+    "forma": "EVDDV",
     "serie_derrotas": 0
    },
    "criterios": [
@@ -1493,36 +1286,204 @@
    "liga_id": "tur.1"
   },
   {
-   "id": "401885063",
-   "data": "2026-11-07T12:00Z",
+   "id": "401888250",
+   "data": "2026-11-07T13:00Z",
    "casa": {
-    "nome": "1. FC Nürnberg",
-    "posicao": 2,
+    "nome": "Samsunspor",
+    "posicao": 17,
     "total": 18,
-    "pontos": 18,
+    "pontos": 4,
     "jogos": 9,
-    "forma": "DEEVV",
-    "serie_derrotas": 1
+    "forma": "DDDDD",
+    "serie_derrotas": 7
    },
    "fora": {
-    "nome": "SV Darmstadt 98",
-    "posicao": 18,
+    "nome": "Konyaspor",
+    "posicao": 15,
     "total": 18,
     "pontos": 8,
-    "jogos": 9,
-    "forma": "EDVDV",
+    "jogos": 10,
+    "forma": "DVDEE",
+    "serie_derrotas": 1
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 7,
+     "favorito": "fora",
+     "texto": "Samsunspor com 7 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1"
+  },
+  {
+   "id": "401878531",
+   "data": "2026-11-07T15:00Z",
+   "casa": {
+    "nome": "Arbroath",
+    "posicao": 8,
+    "total": 10,
+    "pontos": 11,
+    "jogos": 13,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
+   },
+   "fora": {
+    "nome": "Ayr United",
+    "posicao": 7,
+    "total": 10,
+    "pontos": 15,
+    "jogos": 12,
+    "forma": "VDEVD",
     "serie_derrotas": 0
    },
    "criterios": [
     {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 5,
+     "favorito": "fora",
+     "texto": "Arbroath com 5 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Championship",
+   "pais": "Escócia",
+   "liga_id": "sco.2"
+  },
+  {
+   "id": "401878528",
+   "data": "2026-11-07T15:00Z",
+   "casa": {
+    "nome": "Queen's Park",
+    "posicao": 10,
+    "total": 10,
+    "pontos": 7,
+    "jogos": 13,
+    "forma": "DDDVD",
+    "serie_derrotas": 3
+   },
+   "fora": {
+    "nome": "Partick Thistle",
+    "posicao": 1,
+    "total": 10,
+    "pontos": 25,
+    "jogos": 13,
+    "forma": "DVEVV",
+    "serie_derrotas": 1
+   },
+   "criterios": [
+    {
      "tipo": "top_vs_bottom",
-     "favorito": "casa",
+     "favorito": "fora",
      "texto": "3 primeiros vs 3 últimos"
     }
    ],
-   "liga": "2. Bundesliga",
-   "pais": "Alemanha",
-   "liga_id": "ger.2"
+   "liga": "Championship",
+   "pais": "Escócia",
+   "liga_id": "sco.2"
+  },
+  {
+   "id": "401875857",
+   "data": "2026-11-07T15:30Z",
+   "casa": {
+    "nome": "FC Den Bosch",
+    "posicao": 13,
+    "total": 20,
+    "pontos": 15,
+    "jogos": 12,
+    "forma": "EVVED",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Jong FC Utrecht",
+    "posicao": 20,
+    "total": 20,
+    "pontos": 7,
+    "jogos": 12,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 4,
+     "favorito": "casa",
+     "texto": "Jong FC Utrecht com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Eerste Divisie",
+   "pais": "Países Baixos",
+   "liga_id": "ned.2"
+  },
+  {
+   "id": "401896732",
+   "data": "2026-11-07T17:30Z",
+   "casa": {
+    "nome": "Aris",
+    "posicao": 4,
+    "total": 14,
+    "pontos": 16,
+    "jogos": 8,
+    "forma": "VVVED",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Panetolikos",
+    "posicao": 10,
+    "total": 14,
+    "pontos": 9,
+    "jogos": 8,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 5,
+     "favorito": "casa",
+     "texto": "Panetolikos com 5 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Super League",
+   "pais": "Grécia",
+   "liga_id": "gre.1"
+  },
+  {
+   "id": "401878757",
+   "data": "2026-11-07T17:30Z",
+   "casa": {
+    "nome": "Nottingham Forest",
+    "posicao": 19,
+    "total": 20,
+    "pontos": 6,
+    "jogos": 9,
+    "forma": "DEDDD",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "Manchester City",
+    "posicao": 1,
+    "total": 20,
+    "pontos": 21,
+    "jogos": 9,
+    "forma": "DDVVV",
+    "serie_derrotas": 2
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Premier League",
+   "pais": "Inglaterra",
+   "liga_id": "eng.1"
   }
  ]
 }

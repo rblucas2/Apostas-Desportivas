@@ -1,6 +1,81 @@
 {
- "atualizado_em": "2026-10-31T17:52:50+00:00",
+ "atualizado_em": "2026-10-31T21:33:11+00:00",
  "jogos": [
+  {
+   "id": "401882808",
+   "selecionado_em": "2026-10-31T21:33:11+00:00",
+   "estado": "pendente",
+   "data": "2026-11-07T20:00Z",
+   "liga": "LaLiga",
+   "pais": "Espanha",
+   "liga_id": "esp.1",
+   "casa": {
+    "nome": "Valencia",
+    "posicao": 19,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Real Madrid",
+    "posicao": 3,
+    "total": 20
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401876407",
+   "selecionado_em": "2026-10-31T21:33:11+00:00",
+   "estado": "pendente",
+   "data": "2026-11-07T19:45Z",
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1",
+   "casa": {
+    "nome": "Paris Saint-Germain",
+    "posicao": 1,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Troyes",
+    "posicao": 17,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401876693",
+   "selecionado_em": "2026-10-31T21:33:11+00:00",
+   "estado": "pendente",
+   "data": "2026-11-07T19:00Z",
+   "liga": "Ligue 2",
+   "pais": "França",
+   "liga_id": "fra.2",
+   "casa": {
+    "nome": "Saint-Étienne",
+    "posicao": 1,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Stade Laval",
+    "posicao": 16,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
   {
    "id": "401896732",
    "selecionado_em": "2026-10-31T17:52:50+00:00",
@@ -817,7 +892,7 @@
   {
    "id": "401875564",
    "selecionado_em": "2026-10-24T20:48:53+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-10-31T17:45Z",
    "liga": "Eredivisie",
    "pais": "Países Baixos",
@@ -843,7 +918,13 @@
     "1": 1.05,
     "2": 16.25,
     "X": 9.75
-   }
+   },
+   "golos_casa": 7,
+   "golos_fora": 0,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-10-31T21:33:11+00:00",
+   "lucro": 0.05
   },
   {
    "id": "401878536",

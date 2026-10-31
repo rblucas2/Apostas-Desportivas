@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-31T17:52:50+00:00",
+ "gerado_em": "2026-10-31T21:33:11+00:00",
  "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
@@ -13,8 +13,8 @@
    "pais": "Portugal",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 9,
-   "selecionados": 1,
+   "jogos_agendados": 10,
+   "selecionados": 0,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -23,7 +23,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 8,
+   "jogos_agendados": 7,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -64,7 +64,7 @@
    "ok": true,
    "equipas": 20,
    "jogos_agendados": 10,
-   "selecionados": 0,
+   "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -124,7 +124,7 @@
    "ok": true,
    "equipas": 18,
    "jogos_agendados": 8,
-   "selecionados": 2,
+   "selecionados": 3,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -133,8 +133,8 @@
    "pais": "França",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 10,
-   "selecionados": 1,
+   "jogos_agendados": 11,
+   "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -143,7 +143,7 @@
    "pais": "Países Baixos",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 9,
+   "jogos_agendados": 8,
    "selecionados": 1,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -183,7 +183,7 @@
    "pais": "Escócia",
    "ok": true,
    "equipas": 12,
-   "jogos_agendados": 4,
+   "jogos_agendados": 5,
    "selecionados": 0,
    "com_resultados": 12,
    "resultados_em_falta": 0
@@ -216,7 +216,7 @@
    "jogos_agendados": 6,
    "selecionados": 4,
    "com_resultados": 12,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "Superliga",
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 11,
+   "jogos_agendados": 10,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 11,
+   "jogos_agendados": 10,
    "selecionados": 0,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -300,57 +300,6 @@
   }
  ],
  "jogos": [
-  {
-   "id": "401885404",
-   "data": "2026-10-31T20:30Z",
-   "casa": {
-    "nome": "FC Porto",
-    "posicao": 1,
-    "total": 18,
-    "pontos": 27,
-    "jogos": 9,
-    "forma": "VVVVV",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Estoril",
-    "posicao": 18,
-    "total": 18,
-    "pontos": 2,
-    "jogos": 9,
-    "forma": "DDDDE",
-    "serie_derrotas": 4
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
-    },
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 4,
-     "favorito": "casa",
-     "texto": "Estoril com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Liga Portugal Betclic",
-   "pais": "Portugal",
-   "liga_id": "por.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 14.5,
-      "1": 1.14,
-      "X": 6.5
-     },
-     "atualizado": "2026-10-31T05:41:06Z"
-    }
-   },
-   "cotas_antigas": true
-  },
   {
    "id": "401888374",
    "data": "2026-11-01T10:30Z",
@@ -1167,9 +1116,9 @@
     "posicao": 18,
     "total": 18,
     "pontos": 2,
-    "jogos": 10,
+    "jogos": 11,
     "forma": "DDDDD",
-    "serie_derrotas": 5
+    "serie_derrotas": 6
    },
    "fora": {
     "nome": "PEC Zwolle",
@@ -1184,9 +1133,9 @@
     {
      "tipo": "serie_derrotas",
      "equipa": "casa",
-     "derrotas": 5,
+     "derrotas": 6,
      "favorito": "fora",
-     "texto": "Willem II com 5 derrotas seguidas vs melhor classificado"
+     "texto": "Willem II com 6 derrotas seguidas vs melhor classificado"
     }
    ],
    "liga": "Eredivisie",
@@ -1484,6 +1433,102 @@
    "liga": "Premier League",
    "pais": "Inglaterra",
    "liga_id": "eng.1"
+  },
+  {
+   "id": "401876693",
+   "data": "2026-11-07T19:00Z",
+   "casa": {
+    "nome": "Saint-Étienne",
+    "posicao": 1,
+    "total": 18,
+    "pontos": 25,
+    "jogos": 11,
+    "forma": "DVVVE",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "Stade Laval",
+    "posicao": 16,
+    "total": 18,
+    "pontos": 9,
+    "jogos": 11,
+    "forma": "VDEDE",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Ligue 2",
+   "pais": "França",
+   "liga_id": "fra.2"
+  },
+  {
+   "id": "401876407",
+   "data": "2026-11-07T19:45Z",
+   "casa": {
+    "nome": "Paris Saint-Germain",
+    "posicao": 1,
+    "total": 18,
+    "pontos": 20,
+    "jogos": 9,
+    "forma": "VVVVV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Troyes",
+    "posicao": 17,
+    "total": 18,
+    "pontos": 5,
+    "jogos": 8,
+    "forma": "EDDDD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1"
+  },
+  {
+   "id": "401882808",
+   "data": "2026-11-07T20:00Z",
+   "casa": {
+    "nome": "Valencia",
+    "posicao": 19,
+    "total": 20,
+    "pontos": 6,
+    "jogos": 10,
+    "forma": "DEEDV",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "Real Madrid",
+    "posicao": 3,
+    "total": 20,
+    "pontos": 24,
+    "jogos": 10,
+    "forma": "VVVDV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "LaLiga",
+   "pais": "Espanha",
+   "liga_id": "esp.1"
   }
  ]
 }

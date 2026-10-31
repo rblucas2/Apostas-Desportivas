@@ -1,6 +1,56 @@
 {
- "atualizado_em": "2026-10-31T05:39:49+00:00",
+ "atualizado_em": "2026-10-31T12:28:17+00:00",
  "jogos": [
+  {
+   "id": "401885063",
+   "selecionado_em": "2026-10-31T12:28:17+00:00",
+   "estado": "pendente",
+   "data": "2026-11-07T12:00Z",
+   "liga": "2. Bundesliga",
+   "pais": "Alemanha",
+   "liga_id": "ger.2",
+   "casa": {
+    "nome": "1. FC Nürnberg",
+    "posicao": 2,
+    "total": 18
+   },
+   "fora": {
+    "nome": "SV Darmstadt 98",
+    "posicao": 18,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401888255",
+   "selecionado_em": "2026-10-31T12:28:17+00:00",
+   "estado": "pendente",
+   "data": "2026-11-07T10:30Z",
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1",
+   "casa": {
+    "nome": "Eyupspor",
+    "posicao": 18,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Kocaelispor",
+    "posicao": 8,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401876405",
    "selecionado_em": "2026-10-30T22:19:19+00:00",
@@ -152,7 +202,7 @@
    },
    "fora": {
     "nome": "Kasimpasa",
-    "posicao": 6,
+    "posicao": 7,
     "total": 18
    },
    "criterios": [

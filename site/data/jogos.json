@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-31T05:39:49+00:00",
- "cotas_atualizadas": true,
+ "gerado_em": "2026-10-31T12:28:17+00:00",
+ "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -94,7 +94,7 @@
    "ok": true,
    "equipas": 18,
    "jogos_agendados": 9,
-   "selecionados": 0,
+   "selecionados": 1,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -174,9 +174,9 @@
    "ok": true,
    "equipas": 18,
    "jogos_agendados": 9,
-   "selecionados": 4,
+   "selecionados": 5,
    "com_resultados": 18,
-   "resultados_em_falta": 0
+   "resultados_em_falta": 2
   },
   {
    "liga": "Premiership",
@@ -504,7 +504,8 @@
      },
      "atualizado": "2026-10-31T05:38:34Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401885404",
@@ -554,7 +555,8 @@
      },
      "atualizado": "2026-10-31T05:41:06Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888374",
@@ -604,7 +606,8 @@
      },
      "atualizado": "2026-10-31T05:42:33Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401842872",
@@ -647,7 +650,8 @@
      },
      "atualizado": "2026-10-31T05:42:14Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888261",
@@ -692,7 +696,8 @@
      },
      "atualizado": "2026-10-31T05:42:33Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888263",
@@ -737,7 +742,8 @@
      },
      "atualizado": "2026-10-31T05:42:33Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881761",
@@ -780,7 +786,8 @@
      },
      "atualizado": "2026-10-31T05:40:52Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881759",
@@ -825,7 +832,8 @@
      },
      "atualizado": "2026-10-31T05:40:52Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876414",
@@ -870,7 +878,8 @@
      },
      "atualizado": "2026-10-31T05:42:34Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401896735",
@@ -915,7 +924,8 @@
      },
      "atualizado": "2026-10-31T05:40:07Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881758",
@@ -958,7 +968,8 @@
      },
      "atualizado": "2026-10-31T05:40:52Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401874494",
@@ -1079,7 +1090,8 @@
      },
      "atualizado": "2026-10-31T05:42:14Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401915823",
@@ -1215,7 +1227,7 @@
    },
    "fora": {
     "nome": "Kasimpasa",
-    "posicao": 6,
+    "posicao": 7,
     "total": 18,
     "pontos": 16,
     "jogos": 9,
@@ -1244,7 +1256,8 @@
      },
      "atualizado": "2026-10-31T05:42:33Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881754",
@@ -1396,7 +1409,8 @@
      },
      "atualizado": "2026-10-31T05:38:34Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876405",
@@ -1441,7 +1455,74 @@
      },
      "atualizado": "2026-10-31T05:42:34Z"
     }
-   }
+   },
+   "cotas_antigas": true
+  },
+  {
+   "id": "401888255",
+   "data": "2026-11-07T10:30Z",
+   "casa": {
+    "nome": "Eyupspor",
+    "posicao": 18,
+    "total": 18,
+    "pontos": 3,
+    "jogos": 9,
+    "forma": "DDDDD",
+    "serie_derrotas": 6
+   },
+   "fora": {
+    "nome": "Kocaelispor",
+    "posicao": 8,
+    "total": 18,
+    "pontos": 15,
+    "jogos": 9,
+    "forma": "VDDVD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 6,
+     "favorito": "fora",
+     "texto": "Eyupspor com 6 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1"
+  },
+  {
+   "id": "401885063",
+   "data": "2026-11-07T12:00Z",
+   "casa": {
+    "nome": "1. FC Nürnberg",
+    "posicao": 2,
+    "total": 18,
+    "pontos": 18,
+    "jogos": 9,
+    "forma": "DEEVV",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "SV Darmstadt 98",
+    "posicao": 18,
+    "total": 18,
+    "pontos": 8,
+    "jogos": 9,
+    "forma": "EDVDV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "2. Bundesliga",
+   "pais": "Alemanha",
+   "liga_id": "ger.2"
   }
  ]
 }

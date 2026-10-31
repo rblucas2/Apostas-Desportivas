@@ -98,7 +98,19 @@ function render() {
   lista.innerHTML = "";
   const jogos = filtrar();
   if (!jogos.length) {
-    lista.innerHTML = `<div class="vazio">Nenhum jogo cumpre os critérios com estes filtros.</div>`;
+    const agora = Date.now();
+    const total = DATA.jogos.filter(j => new Date(j.data).getTime() >= agora - 2 * 3600e3).length;
+    const filtrosAtivos = ["#f-criterio", "#f-pais", "#f-dia", "#f-busca"].some(s => $(s).value) || $("#f-cotas").checked;
+    lista.innerHTML = `<div class="vazio">${total && filtrosAtivos
+      ? `Os filtros ativos escondem os ${total} jogos selecionados.<div class="row" style="justify-content:center">
+           <button id="limpar-filtros" class="btn primary">Limpar filtros</button></div>`
+      : "Não há jogos selecionados para os próximos 7 dias."}</div>`;
+    const b = $("#limpar-filtros");
+    if (b) b.onclick = () => {
+      ["#f-criterio", "#f-pais", "#f-dia", "#f-busca"].forEach(s => { $(s).value = ""; });
+      $("#f-cotas").checked = false;
+      render();
+    };
     return;
   }
   let diaAtual = "";

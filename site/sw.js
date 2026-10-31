@@ -1,5 +1,5 @@
 // Cache "rede primeiro": mostra dados frescos quando há rede e a última versão quando não há.
-const CACHE = "scanner-v2";
+const CACHE = "scanner-v3";
 const ASSETS = ["./", "index.html", "style.css", "app.js", "historico.js", "manifest.webmanifest", "icon.svg"];
 
 self.addEventListener("install", e => {

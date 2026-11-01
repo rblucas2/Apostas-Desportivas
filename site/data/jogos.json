@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-01T06:03:14+00:00",
+ "gerado_em": "2026-11-01T13:23:05+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -146,14 +146,14 @@
    "jogos_agendados": 8,
    "selecionados": 1,
    "com_resultados": 18,
-   "resultados_em_falta": 0
+   "resultados_em_falta": 2
   },
   {
    "liga": "Eerste Divisie",
    "pais": "Países Baixos",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 13,
+   "jogos_agendados": 14,
    "selecionados": 3,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -173,8 +173,8 @@
    "pais": "Turquia",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 10,
-   "selecionados": 6,
+   "jogos_agendados": 9,
+   "selecionados": 3,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -183,7 +183,7 @@
    "pais": "Escócia",
    "ok": true,
    "equipas": 12,
-   "jogos_agendados": 5,
+   "jogos_agendados": 4,
    "selecionados": 0,
    "com_resultados": 12,
    "resultados_em_falta": 0
@@ -301,189 +301,6 @@
  ],
  "jogos": [
   {
-   "id": "401888374",
-   "data": "2026-11-01T10:30Z",
-   "casa": {
-    "nome": "Amed SFK",
-    "posicao": 2,
-    "total": 18,
-    "pontos": 20,
-    "jogos": 9,
-    "forma": "VVEVV",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Eyupspor",
-    "posicao": 18,
-    "total": 18,
-    "pontos": 3,
-    "jogos": 9,
-    "forma": "DDDDD",
-    "serie_derrotas": 6
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
-    },
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 6,
-     "favorito": "casa",
-     "texto": "Eyupspor com 6 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Süper Lig",
-   "pais": "Turquia",
-   "liga_id": "tur.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "1": 1.22,
-      "2": 9.0,
-      "X": 5.25
-     },
-     "atualizado": "2026-11-01T06:04:22Z"
-    }
-   }
-  },
-  {
-   "id": "401842872",
-   "data": "2026-11-01T13:00Z",
-   "casa": {
-    "nome": "Djurgården",
-    "posicao": 3,
-    "total": 16,
-    "pontos": 49,
-    "jogos": 26,
-    "forma": "EEVVD",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Degerfors IF",
-    "posicao": 14,
-    "total": 16,
-    "pontos": 20,
-    "jogos": 26,
-    "forma": "DDDED",
-    "serie_derrotas": 3
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Allsvenskan",
-   "pais": "Suécia",
-   "liga_id": "swe.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 8.5,
-      "1": 1.25,
-      "X": 5.4
-     },
-     "atualizado": "2026-11-01T06:04:57Z"
-    }
-   }
-  },
-  {
-   "id": "401888261",
-   "data": "2026-11-01T13:00Z",
-   "casa": {
-    "nome": "Istanbul Basaksehir",
-    "posicao": 12,
-    "total": 18,
-    "pontos": 11,
-    "jogos": 9,
-    "forma": "DVEVD",
-    "serie_derrotas": 1
-   },
-   "fora": {
-    "nome": "Samsunspor",
-    "posicao": 17,
-    "total": 18,
-    "pontos": 4,
-    "jogos": 9,
-    "forma": "DDDDD",
-    "serie_derrotas": 7
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 7,
-     "favorito": "casa",
-     "texto": "Samsunspor com 7 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Süper Lig",
-   "pais": "Turquia",
-   "liga_id": "tur.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "1": 1.73,
-      "2": 3.8,
-      "X": 3.58
-     },
-     "atualizado": "2026-11-01T06:04:22Z"
-    }
-   }
-  },
-  {
-   "id": "401888263",
-   "data": "2026-11-01T13:00Z",
-   "casa": {
-    "nome": "Trabzonspor",
-    "posicao": 3,
-    "total": 18,
-    "pontos": 19,
-    "jogos": 9,
-    "forma": "VVVVD",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Gaziantep FK",
-    "posicao": 14,
-    "total": 18,
-    "pontos": 8,
-    "jogos": 9,
-    "forma": "DDDDE",
-    "serie_derrotas": 4
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 4,
-     "favorito": "casa",
-     "texto": "Gaziantep FK com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Süper Lig",
-   "pais": "Turquia",
-   "liga_id": "tur.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 7.75,
-      "1": 1.23,
-      "X": 5.6
-     },
-     "atualizado": "2026-11-01T06:04:22Z"
-    }
-   }
-  },
-  {
    "id": "401881761",
    "data": "2026-11-01T13:30Z",
    "casa": {
@@ -524,7 +341,8 @@
      },
      "atualizado": "2026-11-01T06:04:23Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881759",
@@ -569,7 +387,8 @@
      },
      "atualizado": "2026-11-01T06:04:23Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876414",
@@ -614,7 +433,8 @@
      },
      "atualizado": "2026-11-01T06:03:53Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401896735",
@@ -659,7 +479,8 @@
      },
      "atualizado": "2026-11-01T06:04:00Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881758",
@@ -702,7 +523,8 @@
      },
      "atualizado": "2026-11-01T06:04:23Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401874494",
@@ -745,7 +567,8 @@
      },
      "atualizado": "2026-11-01T06:05:23Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401875866",
@@ -816,11 +639,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 6.9,
-      "1": 1.26,
+      "2": 7.0,
+      "1": 1.25,
       "X": 5.1
      },
-     "atualizado": "2026-11-01T06:04:57Z"
+     "atualizado": "2026-11-01T13:22:52Z"
     }
    }
   },
@@ -987,7 +810,8 @@
      },
      "atualizado": "2026-11-01T06:04:22Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881754",
@@ -1037,7 +861,8 @@
      },
      "atualizado": "2026-11-01T06:04:23Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876696",
@@ -1121,10 +946,10 @@
    },
    "fora": {
     "nome": "PEC Zwolle",
-    "posicao": 15,
+    "posicao": 14,
     "total": 18,
-    "pontos": 8,
-    "jogos": 10,
+    "pontos": 11,
+    "jogos": 11,
     "forma": "EVDDD",
     "serie_derrotas": 0
    },
@@ -1196,7 +1021,8 @@
      },
      "atualizado": "2026-11-01T06:03:53Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888255",
@@ -1206,9 +1032,9 @@
     "posicao": 18,
     "total": 18,
     "pontos": 3,
-    "jogos": 9,
+    "jogos": 10,
     "forma": "DDDDD",
-    "serie_derrotas": 6
+    "serie_derrotas": 7
    },
    "fora": {
     "nome": "Kocaelispor",
@@ -1223,9 +1049,9 @@
     {
      "tipo": "serie_derrotas",
      "equipa": "casa",
-     "derrotas": 6,
+     "derrotas": 7,
      "favorito": "fora",
-     "texto": "Eyupspor com 6 derrotas seguidas vs melhor classificado"
+     "texto": "Eyupspor com 7 derrotas seguidas vs melhor classificado"
     }
    ],
    "liga": "Süper Lig",
@@ -1241,7 +1067,8 @@
      },
      "atualizado": "2026-11-01T06:04:22Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888250",
@@ -1286,7 +1113,8 @@
      },
      "atualizado": "2026-11-01T06:04:22Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878531",
@@ -1431,7 +1259,8 @@
      },
      "atualizado": "2026-11-01T06:04:00Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878757",
@@ -1474,7 +1303,8 @@
      },
      "atualizado": "2026-11-01T06:04:33Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876693",
@@ -1515,7 +1345,7 @@
       "2": 7.25,
       "X": 4.8
      },
-     "atualizado": "2026-11-01T06:04:23Z"
+     "atualizado": "2026-11-01T13:23:46Z"
     }
    }
   },
@@ -1559,6 +1389,50 @@
       "X": 5.0
      },
      "atualizado": "2026-11-01T06:03:54Z"
+    }
+   },
+   "cotas_antigas": true
+  },
+  {
+   "id": "401842877",
+   "data": "2026-11-08T13:00Z",
+   "casa": {
+    "nome": "Halmstads BK",
+    "posicao": 16,
+    "total": 16,
+    "pontos": 17,
+    "jogos": 26,
+    "forma": "DVDDV",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "Djurgården",
+    "posicao": 3,
+    "total": 16,
+    "pontos": 49,
+    "jogos": 26,
+    "forma": "EEVVD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Allsvenskan",
+   "pais": "Suécia",
+   "liga_id": "swe.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 1.32,
+      "1": 6.4,
+      "X": 4.4
+     },
+     "atualizado": "2026-11-01T13:22:52Z"
     }
    }
   }

@@ -1,6 +1,36 @@
 {
- "atualizado_em": "2026-11-01T06:03:14+00:00",
+ "atualizado_em": "2026-11-01T13:23:05+00:00",
  "jogos": [
+  {
+   "id": "401842877",
+   "selecionado_em": "2026-11-01T13:23:05+00:00",
+   "estado": "pendente",
+   "data": "2026-11-08T13:00Z",
+   "liga": "Allsvenskan",
+   "pais": "Suécia",
+   "liga_id": "swe.1",
+   "casa": {
+    "nome": "Halmstads BK",
+    "posicao": 16,
+    "total": 16
+   },
+   "fora": {
+    "nome": "Djurgården",
+    "posicao": 3,
+    "total": 16
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cotas": {
+    "2": 1.32,
+    "1": 6.4,
+    "X": 4.4
+   },
+   "cota": 1.32
+  },
   {
    "id": "401882808",
    "selecionado_em": "2026-10-31T21:33:11+00:00",
@@ -351,7 +381,7 @@
    },
    "fora": {
     "nome": "PEC Zwolle",
-    "posicao": 15,
+    "posicao": 14,
     "total": 18
    },
    "criterios": [
@@ -535,10 +565,10 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": 1.26,
+   "cota": 1.25,
    "cotas": {
-    "2": 6.9,
-    "1": 1.26,
+    "2": 7.0,
+    "1": 1.25,
     "X": 5.1
    }
   },
@@ -840,7 +870,7 @@
   {
    "id": "401888374",
    "selecionado_em": "2026-10-25T11:27:50+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-01T10:30Z",
    "liga": "Süper Lig",
    "pais": "Turquia",
@@ -866,7 +896,13 @@
     "1": 1.22,
     "2": 9.0,
     "X": 5.25
-   }
+   },
+   "golos_casa": 5,
+   "golos_fora": 1,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-11-01T13:23:05+00:00",
+   "lucro": 0.22
   },
   {
    "id": "401885404",

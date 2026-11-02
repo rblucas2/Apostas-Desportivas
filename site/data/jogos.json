@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-02T06:00:20+00:00",
+ "gerado_em": "2026-11-02T15:50:34+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -73,7 +73,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 22,
-   "jogos_agendados": 14,
+   "jogos_agendados": 12,
    "selecionados": 1,
    "com_resultados": 22,
    "resultados_em_falta": 0
@@ -335,14 +335,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.37,
-      "1": 5.75,
-      "X": 4.55
+      "2": 1.38,
+      "1": 6.4,
+      "X": 4.6
      },
-     "atualizado": "2026-11-01T22:01:19Z"
+     "atualizado": "2026-11-02T15:51:11Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401875866",
@@ -419,7 +418,8 @@
      },
      "atualizado": "2026-11-02T06:00:15Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401915823",
@@ -754,7 +754,8 @@
      },
      "atualizado": "2026-11-02T05:59:54Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888255",
@@ -1127,7 +1128,8 @@
      },
      "atualizado": "2026-11-02T06:00:15Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401883143",
@@ -1172,7 +1174,8 @@
      },
      "atualizado": "2026-11-02T06:00:20Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401896732",
@@ -1349,7 +1352,8 @@
      },
      "atualizado": "2026-11-02T05:59:38Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401882808",
@@ -1438,7 +1442,8 @@
      },
      "atualizado": "2026-11-02T05:59:54Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401842877",
@@ -1481,7 +1486,8 @@
      },
      "atualizado": "2026-11-02T06:00:15Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881751",
@@ -1570,7 +1576,8 @@
      },
      "atualizado": "2026-11-02T05:59:33Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401885400",
@@ -1615,7 +1622,8 @@
      },
      "atualizado": "2026-11-02T06:00:40Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878343",
@@ -1692,7 +1700,8 @@
      },
      "atualizado": "2026-11-02T05:59:38Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401884741",
@@ -1735,7 +1744,8 @@
      },
      "atualizado": "2026-11-02T06:01:00Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401874556",
@@ -1772,14 +1782,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.22,
-      "2": 8.0,
-      "X": 5.1
+      "1": 1.25,
+      "2": 7.25,
+      "X": 4.95
      },
-     "atualizado": "2026-11-01T22:01:19Z"
+     "atualizado": "2026-11-02T15:51:11Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401878944",
@@ -1824,7 +1833,8 @@
      },
      "atualizado": "2026-11-02T05:59:33Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401841672",
@@ -1935,7 +1945,8 @@
      },
      "atualizado": "2026-11-02T06:00:40Z"
     }
-   }
+   },
+   "cotas_antigas": true
   }
  ]
 }

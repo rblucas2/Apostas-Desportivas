@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-02T15:50:34+00:00",
+ "gerado_em": "2026-11-03T00:57:43+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -13,7 +13,7 @@
    "pais": "Portugal",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 11,
+   "jogos_agendados": 9,
    "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -23,7 +23,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 11,
+   "jogos_agendados": 10,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -63,7 +63,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 11,
+   "jogos_agendados": 10,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -73,7 +73,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 22,
-   "jogos_agendados": 12,
+   "jogos_agendados": 11,
    "selecionados": 1,
    "com_resultados": 22,
    "resultados_em_falta": 0
@@ -103,8 +103,8 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 12,
-   "selecionados": 1,
+   "jogos_agendados": 10,
+   "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -123,7 +123,7 @@
    "pais": "França",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 10,
+   "jogos_agendados": 9,
    "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -133,7 +133,7 @@
    "pais": "França",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 11,
+   "jogos_agendados": 9,
    "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -153,8 +153,8 @@
    "pais": "Países Baixos",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 14,
-   "selecionados": 3,
+   "jogos_agendados": 10,
+   "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -173,7 +173,7 @@
    "pais": "Turquia",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 10,
+   "jogos_agendados": 9,
    "selecionados": 3,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -203,7 +203,7 @@
    "pais": "Grécia",
    "ok": true,
    "equipas": 14,
-   "jogos_agendados": 9,
+   "jogos_agendados": 7,
    "selecionados": 1,
    "com_resultados": 14,
    "resultados_em_falta": 0
@@ -223,8 +223,8 @@
    "pais": "Dinamarca",
    "ok": true,
    "equipas": 12,
-   "jogos_agendados": 7,
-   "selecionados": 2,
+   "jogos_agendados": 6,
+   "selecionados": 1,
    "com_resultados": 12,
    "resultados_em_falta": 0
   },
@@ -243,7 +243,7 @@
    "pais": "Suécia",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 11,
+   "jogos_agendados": 9,
    "selecionados": 3,
    "com_resultados": 16,
    "resultados_em_falta": 0
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 10,
+   "jogos_agendados": 9,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 19,
+   "jogos_agendados": 15,
    "selecionados": 2,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -301,83 +301,6 @@
  ],
  "jogos": [
   {
-   "id": "401874494",
-   "data": "2026-11-02T18:00Z",
-   "casa": {
-    "nome": "Sønderjyske Fodbold",
-    "posicao": 12,
-    "total": 12,
-    "pontos": 8,
-    "jogos": 12,
-    "forma": "DVDVE",
-    "serie_derrotas": 1
-   },
-   "fora": {
-    "nome": "F.C. København",
-    "posicao": 2,
-    "total": 12,
-    "pontos": 26,
-    "jogos": 12,
-    "forma": "EEDVV",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "fora",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Superliga",
-   "pais": "Dinamarca",
-   "liga_id": "den.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 1.38,
-      "1": 6.4,
-      "X": 4.6
-     },
-     "atualizado": "2026-11-02T15:51:11Z"
-    }
-   }
-  },
-  {
-   "id": "401875866",
-   "data": "2026-11-02T19:00Z",
-   "casa": {
-    "nome": "Jong FC Utrecht",
-    "posicao": 20,
-    "total": 20,
-    "pontos": 7,
-    "jogos": 12,
-    "forma": "DDDDV",
-    "serie_derrotas": 4
-   },
-   "fora": {
-    "nome": "FC Dordrecht",
-    "posicao": 18,
-    "total": 20,
-    "pontos": 11,
-    "jogos": 12,
-    "forma": "DVDEV",
-    "serie_derrotas": 1
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "casa",
-     "derrotas": 4,
-     "favorito": "fora",
-     "texto": "Jong FC Utrecht com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Eerste Divisie",
-   "pais": "Países Baixos",
-   "liga_id": "ned.2"
-  },
-  {
    "id": "401842866",
    "data": "2026-11-03T18:00Z",
    "casa": {
@@ -412,14 +335,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 7.25,
-      "1": 1.26,
-      "X": 5.25
+      "2": 7.5,
+      "1": 1.24,
+      "X": 5.5
      },
-     "atualizado": "2026-11-02T06:00:15Z"
+     "atualizado": "2026-11-03T00:53:58Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401915823",
@@ -546,7 +468,7 @@
    "data": "2026-11-06T17:00Z",
    "casa": {
     "nome": "Gaziantep FK",
-    "posicao": 15,
+    "posicao": 16,
     "total": 18,
     "pontos": 8,
     "jogos": 10,
@@ -645,11 +567,11 @@
    },
    "fora": {
     "nome": "Stade de Reims",
-    "posicao": 5,
+    "posicao": 4,
     "total": 18,
-    "pontos": 18,
-    "jogos": 10,
-    "forma": "EVEEV",
+    "pontos": 21,
+    "jogos": 11,
+    "forma": "VEVEE",
     "serie_derrotas": 0
    },
    "criterios": [
@@ -682,7 +604,7 @@
    "data": "2026-11-06T19:00Z",
    "casa": {
     "nome": "FC Eindhoven",
-    "posicao": 19,
+    "posicao": 18,
     "total": 20,
     "pontos": 11,
     "jogos": 13,
@@ -693,9 +615,9 @@
     "nome": "Jong Ajax",
     "posicao": 16,
     "total": 20,
-    "pontos": 12,
-    "jogos": 12,
-    "forma": "EVDED",
+    "pontos": 13,
+    "jogos": 13,
+    "forma": "EEVDE",
     "serie_derrotas": 0
    },
    "criterios": [
@@ -861,7 +783,7 @@
    },
    "fora": {
     "nome": "Konyaspor",
-    "posicao": 14,
+    "posicao": 15,
     "total": 18,
     "pontos": 8,
     "jogos": 10,
@@ -930,14 +852,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.62,
-      "2": 2.23,
-      "X": 3.45
+      "1": 2.58,
+      "2": 2.25,
+      "X": 3.47
      },
-     "atualizado": "2026-11-01T22:04:26Z"
+     "atualizado": "2026-11-03T00:57:17Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401878531",
@@ -1006,40 +927,6 @@
    "liga_id": "sco.2"
   },
   {
-   "id": "401875857",
-   "data": "2026-11-07T15:30Z",
-   "casa": {
-    "nome": "FC Den Bosch",
-    "posicao": 8,
-    "total": 20,
-    "pontos": 18,
-    "jogos": 13,
-    "forma": "VEVVE",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Jong FC Utrecht",
-    "posicao": 20,
-    "total": 20,
-    "pontos": 7,
-    "jogos": 12,
-    "forma": "DDDDV",
-    "serie_derrotas": 4
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 4,
-     "favorito": "casa",
-     "texto": "Jong FC Utrecht com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Eerste Divisie",
-   "pais": "Países Baixos",
-   "liga_id": "ned.2"
-  },
-  {
    "id": "401881750",
    "data": "2026-11-07T16:00Z",
    "casa": {
@@ -1101,9 +988,9 @@
     "nome": "GAIS",
     "posicao": 10,
     "total": 16,
-    "pontos": 34,
-    "jogos": 26,
-    "forma": "VEDDV",
+    "pontos": 37,
+    "jogos": 27,
+    "forma": "VVEDD",
     "serie_derrotas": 0
    },
    "criterios": [
@@ -1122,21 +1009,20 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 3.5,
-      "2": 1.82,
-      "X": 3.27
+      "1": 2.87,
+      "2": 2.05,
+      "X": 3.3
      },
-     "atualizado": "2026-11-02T06:00:15Z"
+     "atualizado": "2026-11-03T00:53:58Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401883143",
    "data": "2026-11-07T17:30Z",
    "casa": {
     "nome": "Córdoba",
-    "posicao": 11,
+    "posicao": 12,
     "total": 22,
     "pontos": 16,
     "jogos": 12,
@@ -1356,6 +1242,51 @@
    "cotas_antigas": true
   },
   {
+   "id": "401874803",
+   "data": "2026-11-07T19:45Z",
+   "casa": {
+    "nome": "AS Roma",
+    "posicao": 3,
+    "total": 20,
+    "pontos": 24,
+    "jogos": 10,
+    "forma": "VVEVE",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Sassuolo",
+    "posicao": 17,
+    "total": 20,
+    "pontos": 8,
+    "jogos": 10,
+    "forma": "DDDDE",
+    "serie_derrotas": 4
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 4,
+     "favorito": "casa",
+     "texto": "Sassuolo com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Serie A",
+   "pais": "Itália",
+   "liga_id": "ita.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 1.25,
+      "2": 7.5,
+      "X": 5.5
+     },
+     "atualizado": "2026-11-03T00:57:17Z"
+    }
+   }
+  },
+  {
    "id": "401882808",
    "data": "2026-11-07T20:00Z",
    "casa": {
@@ -1480,14 +1411,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.32,
-      "1": 6.4,
-      "X": 4.4
+      "2": 1.29,
+      "1": 7.0,
+      "X": 4.5
      },
-     "atualizado": "2026-11-02T06:00:15Z"
+     "atualizado": "2026-11-03T00:53:58Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401881751",
@@ -1671,12 +1601,12 @@
    },
    "fora": {
     "nome": "Lorient",
-    "posicao": 10,
+    "posicao": 11,
     "total": 18,
     "pontos": 12,
-    "jogos": 8,
-    "forma": "EVVDE",
-    "serie_derrotas": 0
+    "jogos": 9,
+    "forma": "DEVVD",
+    "serie_derrotas": 1
    },
    "criterios": [
     {
@@ -1764,9 +1694,9 @@
     "posicao": 12,
     "total": 12,
     "pontos": 8,
-    "jogos": 12,
-    "forma": "DVDVE",
-    "serie_derrotas": 1
+    "jogos": 13,
+    "forma": "DDVDV",
+    "serie_derrotas": 2
    },
    "criterios": [
     {
@@ -1788,7 +1718,8 @@
      },
      "atualizado": "2026-11-02T15:51:11Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878944",
@@ -1918,9 +1849,9 @@
     "nome": "Benfica",
     "posicao": 2,
     "total": 18,
-    "pontos": 22,
-    "jogos": 9,
-    "forma": "VVDVV",
+    "pontos": 25,
+    "jogos": 10,
+    "forma": "VVVDV",
     "serie_derrotas": 0
    },
    "criterios": [

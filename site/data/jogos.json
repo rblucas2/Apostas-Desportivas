@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-03T14:13:10+00:00",
+ "gerado_em": "2026-11-03T23:23:06+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -33,8 +33,8 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 24,
-   "selecionados": 0,
+   "jogos_agendados": 15,
+   "selecionados": 1,
    "com_resultados": 24,
    "resultados_em_falta": 0
   },
@@ -43,7 +43,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 3,
+   "jogos_agendados": 1,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -53,7 +53,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 1,
+   "jogos_agendados": 0,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -243,8 +243,8 @@
    "pais": "Suécia",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 9,
-   "selecionados": 3,
+   "jogos_agendados": 8,
+   "selecionados": 2,
    "com_resultados": 16,
    "resultados_em_falta": 0
   },
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 9,
+   "jogos_agendados": 8,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -273,7 +273,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 18,
+   "jogos_agendados": 9,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -300,49 +300,6 @@
   }
  ],
  "jogos": [
-  {
-   "id": "401842866",
-   "data": "2026-11-03T18:00Z",
-   "casa": {
-    "nome": "IK Sirius",
-    "posicao": 2,
-    "total": 16,
-    "pontos": 55,
-    "jogos": 26,
-    "forma": "DDEVV",
-    "serie_derrotas": 2
-   },
-   "fora": {
-    "nome": "Halmstads BK",
-    "posicao": 16,
-    "total": 16,
-    "pontos": 17,
-    "jogos": 26,
-    "forma": "DVDDV",
-    "serie_derrotas": 1
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Allsvenskan",
-   "pais": "Suécia",
-   "liga_id": "swe.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 7.5,
-      "1": 1.28,
-      "X": 5.4
-     },
-     "atualizado": "2026-11-03T14:11:29Z"
-    }
-   }
-  },
   {
    "id": "401915823",
    "data": "2026-11-05T20:00Z",
@@ -928,6 +885,51 @@
    "liga_id": "sco.2"
   },
   {
+   "id": "401880168",
+   "data": "2026-11-07T15:00Z",
+   "casa": {
+    "nome": "Charlton Athletic",
+    "posicao": 21,
+    "total": 24,
+    "pontos": 14,
+    "jogos": 14,
+    "forma": "DDDDE",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Sheffield United",
+    "posicao": 9,
+    "total": 24,
+    "pontos": 22,
+    "jogos": 14,
+    "forma": "VVEVD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Charlton Athletic com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Championship",
+   "pais": "Inglaterra",
+   "liga_id": "eng.2",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 3.03,
+      "2": 2.0,
+      "X": 3.25
+     },
+     "atualizado": "2026-11-03T23:19:54Z"
+    }
+   }
+  },
+  {
    "id": "401881750",
    "data": "2026-11-07T16:00Z",
    "casa": {
@@ -1016,7 +1018,8 @@
      },
      "atualizado": "2026-11-03T14:11:29Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401883143",
@@ -1452,9 +1455,9 @@
     "posicao": 16,
     "total": 16,
     "pontos": 17,
-    "jogos": 26,
-    "forma": "DVDDV",
-    "serie_derrotas": 1
+    "jogos": 27,
+    "forma": "DDVDD",
+    "serie_derrotas": 2
    },
    "fora": {
     "nome": "Djurgården",
@@ -1485,7 +1488,8 @@
      },
      "atualizado": "2026-11-03T14:11:29Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881751",

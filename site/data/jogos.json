@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-03T00:57:43+00:00",
+ "gerado_em": "2026-11-03T14:13:10+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -336,10 +336,10 @@
      "titulo": "Betclic (FR)",
      "cotas": {
       "2": 7.5,
-      "1": 1.24,
-      "X": 5.5
+      "1": 1.28,
+      "X": 5.4
      },
-     "atualizado": "2026-11-03T00:53:58Z"
+     "atualizado": "2026-11-03T14:11:29Z"
     }
    }
   },
@@ -858,7 +858,8 @@
      },
      "atualizado": "2026-11-03T00:57:17Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878531",
@@ -1009,11 +1010,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.87,
-      "2": 2.05,
-      "X": 3.3
+      "1": 2.7,
+      "2": 2.13,
+      "X": 3.32
      },
-     "atualizado": "2026-11-03T00:53:58Z"
+     "atualizado": "2026-11-03T14:11:29Z"
     }
    }
   },
@@ -1284,7 +1285,8 @@
      },
      "atualizado": "2026-11-03T00:57:17Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401882808",
@@ -1377,6 +1379,72 @@
    "cotas_antigas": true
   },
   {
+   "id": "401841672",
+   "data": "2026-11-07T20:30Z",
+   "casa": {
+    "nome": "Argentinos Juniors",
+    "posicao": 2,
+    "total": 15,
+    "pontos": 31,
+    "jogos": 15,
+    "forma": "VVVEV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Huracán",
+    "posicao": 9,
+    "total": 15,
+    "pontos": 19,
+    "jogos": 15,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 4,
+     "favorito": "casa",
+     "texto": "Huracán com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1"
+  },
+  {
+   "id": "401841663",
+   "data": "2026-11-07T20:30Z",
+   "casa": {
+    "nome": "Rosario Central",
+    "posicao": 1,
+    "total": 15,
+    "pontos": 31,
+    "jogos": 15,
+    "forma": "VVVVE",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Estudiantes de Río Cuarto",
+    "posicao": 15,
+    "total": 15,
+    "pontos": 9,
+    "jogos": 15,
+    "forma": "DDVDD",
+    "serie_derrotas": 2
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Liga Profesional",
+   "pais": "Argentina",
+   "liga_id": "arg.1"
+  },
+  {
    "id": "401842877",
    "data": "2026-11-08T13:00Z",
    "casa": {
@@ -1415,7 +1483,7 @@
       "1": 7.0,
       "X": 4.5
      },
-     "atualizado": "2026-11-03T00:53:58Z"
+     "atualizado": "2026-11-03T14:11:29Z"
     }
    }
   },
@@ -1766,72 +1834,6 @@
     }
    },
    "cotas_antigas": true
-  },
-  {
-   "id": "401841672",
-   "data": "2026-11-08T20:00Z",
-   "casa": {
-    "nome": "Argentinos Juniors",
-    "posicao": 2,
-    "total": 15,
-    "pontos": 28,
-    "jogos": 14,
-    "forma": "VVEVD",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Huracán",
-    "posicao": 8,
-    "total": 15,
-    "pontos": 19,
-    "jogos": 15,
-    "forma": "DDDDV",
-    "serie_derrotas": 4
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 4,
-     "favorito": "casa",
-     "texto": "Huracán com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Liga Profesional",
-   "pais": "Argentina",
-   "liga_id": "arg.1"
-  },
-  {
-   "id": "401841663",
-   "data": "2026-11-08T20:00Z",
-   "casa": {
-    "nome": "Rosario Central",
-    "posicao": 1,
-    "total": 15,
-    "pontos": 31,
-    "jogos": 15,
-    "forma": "VVVVE",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Estudiantes de Río Cuarto",
-    "posicao": 15,
-    "total": 15,
-    "pontos": 9,
-    "jogos": 15,
-    "forma": "DDVDD",
-    "serie_derrotas": 2
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Liga Profesional",
-   "pais": "Argentina",
-   "liga_id": "arg.1"
   },
   {
    "id": "401885401",

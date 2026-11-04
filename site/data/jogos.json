@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-03T23:23:06+00:00",
+ "gerado_em": "2026-11-04T06:20:59+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 8,
+   "jogos_agendados": 7,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -927,7 +927,8 @@
      },
      "atualizado": "2026-11-03T23:19:54Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881750",

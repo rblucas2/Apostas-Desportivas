@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-04T06:20:59+00:00",
+ "gerado_em": "2026-11-04T19:44:34+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -73,7 +73,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 22,
-   "jogos_agendados": 11,
+   "jogos_agendados": 9,
    "selecionados": 1,
    "com_resultados": 22,
    "resultados_em_falta": 0
@@ -163,7 +163,7 @@
    "pais": "Bélgica",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 10,
+   "jogos_agendados": 9,
    "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -273,7 +273,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 9,
+   "jogos_agendados": 7,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -283,7 +283,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 18,
+   "jogos_agendados": 17,
    "selecionados": 1,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -336,20 +336,19 @@
      "titulo": "Betclic (FR)",
      "cotas": {
       "1": 1.14,
-      "2": 10.25,
-      "X": 6.1
+      "2": 11.0,
+      "X": 6.5
      },
-     "atualizado": "2026-10-29T22:44:06Z"
+     "atualizado": "2026-11-04T19:44:32Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401915533",
    "data": "2026-11-05T20:00Z",
    "casa": {
     "nome": "Bayer Leverkusen",
-    "posicao": 2,
+    "posicao": 3,
     "total": 36,
     "pontos": 9,
     "jogos": 3,
@@ -379,14 +378,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.37,
-      "2": 5.9,
-      "X": 4.5
+      "1": 1.31,
+      "2": 6.5,
+      "X": 4.95
      },
-     "atualizado": "2026-10-29T22:44:47Z"
+     "atualizado": "2026-11-04T19:45:55Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401841300",
@@ -1203,50 +1201,6 @@
    "cotas_antigas": true
   },
   {
-   "id": "401876407",
-   "data": "2026-11-07T19:45Z",
-   "casa": {
-    "nome": "Paris Saint-Germain",
-    "posicao": 1,
-    "total": 18,
-    "pontos": 20,
-    "jogos": 9,
-    "forma": "VVVVV",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Troyes",
-    "posicao": 16,
-    "total": 18,
-    "pontos": 8,
-    "jogos": 9,
-    "forma": "VEDDD",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "casa",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Ligue 1",
-   "pais": "França",
-   "liga_id": "fra.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "1": 1.1,
-      "2": 13.25,
-      "X": 7.5
-     },
-     "atualizado": "2026-11-02T05:59:38Z"
-    }
-   },
-   "cotas_antigas": true
-  },
-  {
    "id": "401874803",
    "data": "2026-11-07T19:45Z",
    "casa": {
@@ -1378,6 +1332,50 @@
       "X": 3.53
      },
      "atualizado": "2026-11-02T05:59:54Z"
+    }
+   },
+   "cotas_antigas": true
+  },
+  {
+   "id": "401876407",
+   "data": "2026-11-07T20:05Z",
+   "casa": {
+    "nome": "Paris Saint-Germain",
+    "posicao": 1,
+    "total": 18,
+    "pontos": 20,
+    "jogos": 9,
+    "forma": "VVVVV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Troyes",
+    "posicao": 16,
+    "total": 18,
+    "pontos": 8,
+    "jogos": 9,
+    "forma": "VEDDD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 1.1,
+      "2": 13.25,
+      "X": 7.5
+     },
+     "atualizado": "2026-11-02T05:59:38Z"
     }
    },
    "cotas_antigas": true

@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-08T13:23:43+00:00",
+ "atualizado_em": "2026-11-08T22:03:48+00:00",
  "jogos": [
   {
    "id": "401883113",
@@ -140,7 +140,7 @@
   {
    "id": "401878944",
    "selecionado_em": "2026-11-01T22:01:40+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-08T18:15Z",
    "liga": "Pro League",
    "pais": "Bélgica",
@@ -165,12 +165,18 @@
     "1": 1.68,
     "2": 3.6,
     "X": 3.48
-   }
+   },
+   "golos_casa": 4,
+   "golos_fora": 1,
+   "resultado": "1",
+   "acertou": false,
+   "resolvido_em": "2026-11-08T22:03:48+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401874556",
    "selecionado_em": "2026-11-01T22:01:40+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-08T17:00Z",
    "liga": "Superliga",
    "pais": "Dinamarca",
@@ -195,12 +201,18 @@
     "2": 6.9,
     "X": 5.25
    },
-   "cota": 1.24
+   "cota": 1.24,
+   "golos_casa": 2,
+   "golos_fora": 2,
+   "resultado": "X",
+   "acertou": false,
+   "resolvido_em": "2026-11-08T22:03:48+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401876409",
    "selecionado_em": "2026-11-01T22:01:40+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-08T16:15Z",
    "liga": "Ligue 1",
    "pais": "França",
@@ -225,12 +237,18 @@
     "1": 2.57,
     "2": 2.4,
     "X": 3.17
-   }
+   },
+   "golos_casa": 0,
+   "golos_fora": 2,
+   "resultado": "2",
+   "acertou": true,
+   "resolvido_em": "2026-11-08T22:03:48+00:00",
+   "lucro": 1.4
   },
   {
    "id": "401878343",
    "selecionado_em": "2026-11-01T22:01:40+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-08T16:00Z",
    "liga": "Premiership",
    "pais": "Escócia",
@@ -250,12 +268,18 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": null,
+   "golos_casa": 1,
+   "golos_fora": 0,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-11-08T22:03:48+00:00",
+   "lucro": null
   },
   {
    "id": "401881751",
    "selecionado_em": "2026-11-01T22:01:40+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-08T13:30Z",
    "liga": "Bundesliga",
    "pais": "Áustria",
@@ -280,12 +304,18 @@
     "1": 2.5,
     "X": 3.22
    },
-   "cota": 2.5
+   "cota": 2.5,
+   "golos_casa": 1,
+   "golos_fora": 1,
+   "resultado": "X",
+   "acertou": false,
+   "resolvido_em": "2026-11-08T22:03:48+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401842877",
    "selecionado_em": "2026-11-01T13:23:05+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-08T13:00Z",
    "liga": "Allsvenskan",
    "pais": "Suécia",
@@ -310,7 +340,13 @@
     "1": 6.9,
     "X": 4.75
    },
-   "cota": 1.31
+   "cota": 1.31,
+   "golos_casa": 2,
+   "golos_fora": 1,
+   "resultado": "1",
+   "acertou": false,
+   "resolvido_em": "2026-11-08T22:03:48+00:00",
+   "lucro": -1.0
   },
   {
    "id": "401841672",

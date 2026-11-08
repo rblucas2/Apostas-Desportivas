@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-08T05:59:38+00:00",
+ "gerado_em": "2026-11-08T13:23:43+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -63,7 +63,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 5,
+   "jogos_agendados": 4,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -73,8 +73,8 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 22,
-   "jogos_agendados": 10,
-   "selecionados": 0,
+   "jogos_agendados": 11,
+   "selecionados": 1,
    "com_resultados": 22,
    "resultados_em_falta": 0
   },
@@ -93,7 +93,7 @@
    "pais": "Alemanha",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 3,
+   "jogos_agendados": 0,
    "selecionados": 0,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -103,7 +103,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 5,
+   "jogos_agendados": 4,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -143,17 +143,17 @@
    "pais": "Países Baixos",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 5,
+   "jogos_agendados": 4,
    "selecionados": 0,
    "com_resultados": 18,
-   "resultados_em_falta": 0
+   "resultados_em_falta": 2
   },
   {
    "liga": "Eerste Divisie",
    "pais": "Países Baixos",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 9,
+   "jogos_agendados": 8,
    "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -163,7 +163,7 @@
    "pais": "Bélgica",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 4,
+   "jogos_agendados": 3,
    "selecionados": 1,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -173,7 +173,7 @@
    "pais": "Turquia",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 4,
+   "jogos_agendados": 2,
    "selecionados": 0,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -223,10 +223,10 @@
    "pais": "Dinamarca",
    "ok": true,
    "equipas": 12,
-   "jogos_agendados": 4,
+   "jogos_agendados": 2,
    "selecionados": 1,
    "com_resultados": 12,
-   "resultados_em_falta": 0
+   "resultados_em_falta": 2
   },
   {
    "liga": "Eliteserien",
@@ -243,8 +243,8 @@
    "pais": "Suécia",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 5,
-   "selecionados": 1,
+   "jogos_agendados": 3,
+   "selecionados": 0,
    "com_resultados": 16,
    "resultados_em_falta": 0
   },
@@ -301,49 +301,6 @@
  ],
  "jogos": [
   {
-   "id": "401842877",
-   "data": "2026-11-08T13:00Z",
-   "casa": {
-    "nome": "Halmstads BK",
-    "posicao": 16,
-    "total": 16,
-    "pontos": 17,
-    "jogos": 27,
-    "forma": "DDVDD",
-    "serie_derrotas": 2
-   },
-   "fora": {
-    "nome": "Djurgården",
-    "posicao": 3,
-    "total": 16,
-    "pontos": 52,
-    "jogos": 27,
-    "forma": "VEEVV",
-    "serie_derrotas": 0
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "fora",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Allsvenskan",
-   "pais": "Suécia",
-   "liga_id": "swe.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 1.31,
-      "1": 6.9,
-      "X": 4.75
-     },
-     "atualizado": "2026-11-08T05:57:26Z"
-    }
-   }
-  },
-  {
    "id": "401881751",
    "data": "2026-11-08T13:30Z",
    "casa": {
@@ -386,7 +343,8 @@
      },
      "atualizado": "2026-11-08T06:00:40Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878343",
@@ -471,7 +429,7 @@
    "data": "2026-11-08T17:00Z",
    "casa": {
     "nome": "FC Midtjylland",
-    "posicao": 1,
+    "posicao": 2,
     "total": 12,
     "pontos": 31,
     "jogos": 13,
@@ -507,7 +465,8 @@
      },
      "atualizado": "2026-11-08T06:00:51Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878944",
@@ -552,7 +511,8 @@
      },
      "atualizado": "2026-11-08T06:00:31Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401885401",
@@ -704,6 +664,51 @@
    "liga": "Eerste Divisie",
    "pais": "Países Baixos",
    "liga_id": "ned.2"
+  },
+  {
+   "id": "401883113",
+   "data": "2026-11-15T13:00Z",
+   "casa": {
+    "nome": "Tenerife",
+    "posicao": 14,
+    "total": 22,
+    "pontos": 15,
+    "jogos": 12,
+    "forma": "EEEED",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Ceuta",
+    "posicao": 22,
+    "total": 22,
+    "pontos": 5,
+    "jogos": 13,
+    "forma": "DDDDD",
+    "serie_derrotas": 5
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 5,
+     "favorito": "casa",
+     "texto": "Ceuta com 5 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "LaLiga 2",
+   "pais": "Espanha",
+   "liga_id": "esp.2",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 3.7,
+      "1": 1.73,
+      "X": 3.2
+     },
+     "atualizado": "2026-11-08T13:22:59Z"
+    }
+   }
   }
  ]
 }

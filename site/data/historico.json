@@ -1,6 +1,36 @@
 {
- "atualizado_em": "2026-11-08T05:59:38+00:00",
+ "atualizado_em": "2026-11-08T13:23:43+00:00",
  "jogos": [
+  {
+   "id": "401883113",
+   "selecionado_em": "2026-11-08T13:23:43+00:00",
+   "estado": "pendente",
+   "data": "2026-11-15T13:00Z",
+   "liga": "LaLiga 2",
+   "pais": "Espanha",
+   "liga_id": "esp.2",
+   "casa": {
+    "nome": "Tenerife",
+    "posicao": 14,
+    "total": 22
+   },
+   "fora": {
+    "nome": "Ceuta",
+    "posicao": 22,
+    "total": 22
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "2": 3.7,
+    "1": 1.73,
+    "X": 3.2
+   },
+   "cota": 1.73
+  },
   {
    "id": "401875851",
    "selecionado_em": "2026-11-07T21:49:32+00:00",
@@ -147,7 +177,7 @@
    "liga_id": "den.1",
    "casa": {
     "nome": "FC Midtjylland",
-    "posicao": 1,
+    "posicao": 2,
     "total": 12
    },
    "fora": {

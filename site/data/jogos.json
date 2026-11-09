@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-08T22:03:48+00:00",
+ "gerado_em": "2026-11-09T06:26:03+00:00",
  "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
@@ -66,7 +66,7 @@
    "jogos_agendados": 0,
    "selecionados": 0,
    "com_resultados": 20,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "LaLiga 2",
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 1,
+   "jogos_agendados": 0,
    "selecionados": 0,
    "com_resultados": 30,
    "resultados_em_falta": 0

@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-08T22:03:48+00:00",
+ "atualizado_em": "2026-11-09T06:26:03+00:00",
  "jogos": [
   {
    "id": "401883113",
@@ -110,7 +110,7 @@
   {
    "id": "401885401",
    "selecionado_em": "2026-11-01T22:01:40+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-08T20:30Z",
    "liga": "Liga Portugal Betclic",
    "pais": "Portugal",
@@ -135,7 +135,13 @@
     "2": 1.22,
     "1": 9.25,
     "X": 5.9
-   }
+   },
+   "golos_casa": 2,
+   "golos_fora": 3,
+   "resultado": "2",
+   "acertou": true,
+   "resolvido_em": "2026-11-09T06:26:03+00:00",
+   "lucro": 0.22
   },
   {
    "id": "401878944",

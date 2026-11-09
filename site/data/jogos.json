@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-09T06:26:03+00:00",
+ "gerado_em": "2026-11-09T22:20:50+00:00",
  "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
@@ -43,7 +43,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 8,
+   "jogos_agendados": 5,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -53,7 +53,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 11,
+   "jogos_agendados": 10,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -73,7 +73,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 22,
-   "jogos_agendados": 12,
+   "jogos_agendados": 11,
    "selecionados": 1,
    "com_resultados": 22,
    "resultados_em_falta": 0
@@ -233,7 +233,7 @@
    "pais": "Noruega",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 1,
+   "jogos_agendados": 0,
    "selecionados": 0,
    "com_resultados": 16,
    "resultados_em_falta": 0

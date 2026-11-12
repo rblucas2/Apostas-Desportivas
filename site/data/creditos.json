@@ -1,11 +1,11 @@
 {
- "dia": "2026-11-11",
+ "dia": "2026-11-12",
  "gastos_hoje": 0,
  "restantes": 408,
  "dia_renovacao": 1,
- "dias_ate_renovacao": 20,
- "orcamento_hoje": 20,
- "disponivel_agora": 20,
+ "dias_ate_renovacao": 19,
+ "orcamento_hoje": 21,
+ "disponivel_agora": 21,
  "ultima_consulta": {
   "ger.2": "2026-11-07T05:57:29+00:00",
   "tur.1": "2026-11-07T05:57:29+00:00",
@@ -32,6 +32,6 @@
   "uefa.europa.conf": "2026-11-05T06:45:07+00:00",
   "esp.1": "2026-11-07T05:57:29+00:00"
  },
- "atualizado_em": "2026-11-11T19:35:03+00:00",
+ "atualizado_em": "2026-11-12T07:09:13+00:00",
  "dia_renovacao_detetado": 1
 }

@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-11T19:35:03+00:00",
+ "gerado_em": "2026-11-12T07:09:13+00:00",
  "cotas_atualizadas": false,
  "parametros": {
   "top_n": 3,
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 2,
+   "jogos_agendados": 8,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0

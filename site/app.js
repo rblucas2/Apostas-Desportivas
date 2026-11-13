@@ -23,7 +23,44 @@ const num = v => (typeof v === "number" && isFinite(v) ? v : parseFloat(String(v
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 function formaHTML(f) {
-  return f ? `<span class="forma">${[...f].map(r => `<b class="${r}">${r}</b>`).join("")}</span>` : "";
+  return f ? `<span class="forma" title="Últimos jogos: ${esc(f)}">${[...f].map(r => `<b class="${r}">${r}</b>`).join("")}</span>` : "";
+}
+
+let toastTimer = null;
+function toast(t) {
+  const el = $("#toast");
+  el.textContent = t;
+  el.classList.add("on");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove("on"), 1800);
+}
+
+const fmtDiaCurto = d => {
+  const hoje = diaKey(new Date()), amanha = diaKey(new Date(Date.now() + 864e5));
+  const k = diaKey(d);
+  if (k === hoje) return "Hoje";
+  if (k === amanha) return "Amanhã";
+  const wd = d.toLocaleDateString("pt-PT", { weekday: "long" }).slice(0, 3);
+  return `${wd.charAt(0).toUpperCase()}${wd.slice(1)} ${d.getDate()}`;
+};
+
+/* Chips de critério e de dia controlam os <select> escondidos, que continuam a ser a fonte de verdade. */
+function renderChips() {
+  const crit = $("#f-criterio").value;
+  document.querySelectorAll("#chips-crit .chip-f").forEach(c => c.classList.toggle("on", c.dataset.crit === crit));
+  const fd = $("#f-dia"), dia = fd.value;
+  const box = $("#chips-dia");
+  const dias = [...fd.options].slice(1).map(o => o.value);
+  box.innerHTML = dias.length < 2 ? "" : [`<button class="chip-f${dia ? "" : " on"}" data-dia="">Todos os dias</button>`]
+    .concat(dias.map(d => `<button class="chip-f${d === dia ? " on" : ""}" data-dia="${d}">${esc(fmtDiaCurto(new Date(d + "T12:00")))}</button>`)).join("");
+  box.querySelectorAll("[data-dia]").forEach(b => b.onclick = () => { fd.value = b.dataset.dia; render(); });
+  const n = ($("#f-pais").value ? 1 : 0) + ($("#f-cotas").checked ? 1 : 0);
+  const nEl = $("#filtros-n");
+  nEl.textContent = n; nEl.hidden = !n;
+}
+
+function abrirFiltros(abrir) {
+  $("#sheet-filtros").hidden = !abrir;
 }
 
 /* ------------------------------------------------------------------ dados */
@@ -97,6 +134,7 @@ function render() {
   const lista = $("#lista");
   lista.innerHTML = "";
   const jogos = filtrar();
+  renderChips();
   if (!jogos.length) {
     const agora = Date.now();
     const total = DATA.jogos.filter(j => new Date(j.data).getTime() >= agora - 2 * 3600e3).length;
@@ -106,11 +144,7 @@ function render() {
            <button id="limpar-filtros" class="btn primary">Limpar filtros</button></div>`
       : "Não há jogos selecionados para os próximos 7 dias."}</div>`;
     const b = $("#limpar-filtros");
-    if (b) b.onclick = () => {
-      ["#f-criterio", "#f-pais", "#f-dia", "#f-busca"].forEach(s => { $(s).value = ""; });
-      $("#f-cotas").checked = false;
-      render();
-    };
+    if (b) b.onclick = limparFiltros;
     return;
   }
   let diaAtual = "";
@@ -130,8 +164,10 @@ function render() {
     const favs = new Set(j.criterios.map(c => c.favorito));
     for (const lado of ["casa", "fora"]) {
       const t = j[lado], box = $("." + lado, el);
+      $(".rk", box).textContent = `${t.posicao}.º`;
       $(".nome", box).textContent = t.nome;
-      $(".info", box).innerHTML = `${t.posicao}.º/${t.total} · ${t.pontos} pts · ${t.jogos} J<br>${formaHTML(t.forma)}`;
+      $(".info", box).textContent = `de ${t.total} · ${t.pontos} pts · ${t.jogos} jogos`;
+      $(".forma-box", box).innerHTML = formaHTML(t.forma);
       if (favs.has(lado)) box.classList.add("fav");
     }
     $(".criterios", el).innerHTML = j.criterios.map(c => `<span class="chip ${c.tipo}">${esc(c.texto)}</span>`).join("");
@@ -143,22 +179,26 @@ function render() {
     for (const p of ["1", "X", "2"]) {
       const b = document.createElement("button");
       b.className = "odd" + (p === favPick ? " fav" : "") + (cot[p] ? "" : " nd") + (naSlip(j.id, p) ? " sel" : "");
-      b.innerHTML = `<small>${p}</small><strong>${cot[p] ? cot[p].toFixed(2) : "s/ cota"}</strong>`;
+      b.innerHTML = `<small>${p}</small><strong>${cot[p] ? cot[p].toFixed(2) : "—"}</strong>`;
       b.title = PICK_LABEL[p];
+      b.setAttribute("aria-label", `${PICK_LABEL[p]}${cot[p] ? ", cota " + cot[p].toFixed(2) : ", sem cota"}`);
       b.onclick = () => toggleSelecao(j, p, cot[p]);
       cotasEl.appendChild(b);
     }
-    const fonte = document.createElement("div");
-    fonte.className = "cotas-fonte";
-    fonte.textContent = bc
+    $(".fonte", el).textContent = bc
       ? `${bc.titulo}${bc.atualizado ? " · " + new Date(bc.atualizado).toLocaleString("pt-PT", { dateStyle: "short", timeStyle: "short" }) : ""}${j.cotas_antigas ? " (cota anterior)" : ""}`
-      : "Sem cota disponível — toca para adicionar e escreve a cota no boletim.";
-    cotasEl.appendChild(fonte);
+      : "Sem cota — escreve-a no boletim";
     const q = encodeURIComponent(`${j.casa.nome} ${j.fora.nome}`);
-    $(".links", el).innerHTML =
-      `<a href="https://www.betclic.pt/" target="_blank" rel="noopener">Abrir Betclic</a>` +
-      `<a href="https://www.betano.pt/" target="_blank" rel="noopener">Abrir Betano</a>` +
+    const links = $(".links", el), mais = $(".mais", el);
+    links.innerHTML =
+      `<a href="https://www.betclic.pt/" target="_blank" rel="noopener">Betclic</a>` +
+      `<a href="https://www.betano.pt/" target="_blank" rel="noopener">Betano</a>` +
       `<a href="https://www.google.com/search?q=${q}" target="_blank" rel="noopener">Pesquisar</a>`;
+    mais.onclick = () => {
+      links.hidden = !links.hidden;
+      mais.setAttribute("aria-expanded", String(!links.hidden));
+      mais.textContent = links.hidden ? "Apostar" : "Fechar";
+    };
     lista.appendChild(el);
   }
 }
@@ -181,6 +221,9 @@ function toggleSelecao(j, pick, odd) {
   if (!mesmo) {
     slip.items.push({ gameId: j.id, pick, odd: odd || null, casa: "Betclic", data: j.data, liga: j.liga,
                       casaNome: j.casa.nome, foraNome: j.fora.nome });
+    toast(`Adicionado ao boletim · ${slip.items.length} ${slip.items.length === 1 ? "seleção" : "seleções"}`);
+  } else {
+    toast("Removido do boletim");
   }
   alterado();
   render();
@@ -194,10 +237,15 @@ function alterado() {
 }
 
 function renderSlip() {
-  $("#slip-count").textContent = slip.items.length;
+  const cnt = $("#slip-count");
+  cnt.textContent = slip.items.length;
+  cnt.hidden = !slip.items.length;
   const box = $("#boletim");
   if (!slip.items.length) {
-    box.innerHTML = `<div class="card vazio">O boletim está vazio. Toca numa cota (1, X ou 2) na lista de jogos para a adicionar.</div>`;
+    box.innerHTML = `<div class="card vazio"><strong style="color:var(--ink);font-size:16px">O boletim está vazio</strong><br>
+      Toca numa cota (1, X ou 2) na lista de jogos para a adicionar.
+      <div class="row" style="justify-content:center"><button class="btn primary" id="ir-jogos">Ver jogos</button></div></div>`;
+    $("#ir-jogos").onclick = () => mostrar("jogos");
     return;
   }
   slip.items.sort((a, b) => a.data.localeCompare(b.data));
@@ -216,7 +264,7 @@ function renderSlip() {
       </div></div>`;
   }).join("");
   const stake = num(slip.stake) || 0;
-  box.innerHTML = `<div class="card"><h2>Combinada (${slip.items.length} seleções)</h2>${itens}
+  box.innerHTML = `<div class="card"><h2>${slip.items.length === 1 ? "Simples (1 seleção)" : `Combinada (${slip.items.length} seleções)`}</h2>${itens}
     <div class="totais">
       <div><span class="small muted">Cota total</span><strong>${completo ? total.toFixed(2) : "—"}</strong></div>
       <div><span class="small muted">Retorno potencial</span><strong>${completo ? (total * stake).toFixed(2) + " €" : "—"}</strong></div>
@@ -306,13 +354,37 @@ async function push(direto = false) {
 function agendarPush() { clearTimeout(pushTimer); pushTimer = setTimeout(() => push(), 800); }
 
 /* ------------------------------------------------------------------ arranque */
-function init() {
-  document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
-    document.querySelectorAll(".tab").forEach(x => x.classList.toggle("active", x === t));
-    document.querySelectorAll(".view").forEach(v => v.classList.toggle("active", v.id === "view-" + t.dataset.view));
+const TITULOS = { jogos: "Jogos", boletim: "Boletim", historico: "Histórico", definicoes: "Definições" };
+
+function mostrar(view) {
+  document.querySelectorAll(".tab").forEach(x => {
+    const on = x.dataset.view === view;
+    x.classList.toggle("active", on);
+    x.setAttribute("aria-selected", String(on));
   });
+  document.querySelectorAll(".view").forEach(v => v.classList.toggle("active", v.id === "view-" + view));
+  $("#titulo").textContent = TITULOS[view] || "";
+  $("#meta").hidden = view !== "jogos";
+  $("#btn-filtros").hidden = view !== "jogos";
+  window.scrollTo(0, 0);
+}
+
+function limparFiltros() {
+  ["#f-criterio", "#f-pais", "#f-dia", "#f-busca"].forEach(s => { $(s).value = ""; });
+  $("#f-cotas").checked = false;
+  render();
+}
+
+function init() {
+  document.querySelectorAll(".tab").forEach(t => t.onclick = () => mostrar(t.dataset.view));
   ["#f-criterio", "#f-pais", "#f-dia", "#f-cotas"].forEach(s => $(s).onchange = render);
   $("#f-busca").oninput = render;
+  document.querySelectorAll("#chips-crit .chip-f").forEach(c => c.onclick = () => { $("#f-criterio").value = c.dataset.crit; render(); });
+  $("#btn-filtros").onclick = () => abrirFiltros(true);
+  $("#sheet-ok").onclick = () => abrirFiltros(false);
+  $("#sheet-limpar").onclick = () => { limparFiltros(); abrirFiltros(false); };
+  $("#sheet-filtros").onclick = e => { if (e.target.id === "sheet-filtros") abrirFiltros(false); };
+  document.addEventListener("keydown", e => { if (e.key === "Escape") abrirFiltros(false); });
 
   $("#s-token").value = ls.get(LS.token, "");
   $("#s-guardar").onclick = () => { ls.set(LS.token, $("#s-token").value.trim()); ls.del(LS.gist); estado("A sincronizar…"); pull(); };

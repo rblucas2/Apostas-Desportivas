@@ -1,6 +1,36 @@
 {
- "atualizado_em": "2026-11-13T14:43:00+00:00",
+ "atualizado_em": "2026-11-13T19:40:45+00:00",
  "jogos": [
+  {
+   "id": "401876685",
+   "selecionado_em": "2026-11-13T19:40:45+00:00",
+   "estado": "pendente",
+   "data": "2026-11-20T19:00Z",
+   "liga": "Ligue 2",
+   "pais": "França",
+   "liga_id": "fra.2",
+   "casa": {
+    "nome": "Red Star FC 93",
+    "posicao": 8,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Pau",
+    "posicao": 5,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cotas": {
+    "2": 3.25,
+    "1": 2.0,
+    "X": 3.2
+   },
+   "cota": 3.25
+  },
   {
    "id": "401883113",
    "selecionado_em": "2026-11-08T13:23:43+00:00",

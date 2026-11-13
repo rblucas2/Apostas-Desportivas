@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-11-13T14:43:00+00:00",
- "cotas_atualizadas": false,
+ "gerado_em": "2026-11-13T19:40:45+00:00",
+ "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
   "bottom_n": 3,
@@ -83,7 +83,7 @@
    "pais": "Alemanha",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 0,
+   "jogos_agendados": 1,
    "selecionados": 0,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -93,7 +93,7 @@
    "pais": "Alemanha",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 0,
+   "jogos_agendados": 2,
    "selecionados": 0,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -113,7 +113,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 0,
+   "jogos_agendados": 1,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -133,8 +133,8 @@
    "pais": "França",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 0,
-   "selecionados": 0,
+   "jogos_agendados": 5,
+   "selecionados": 1,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -153,7 +153,7 @@
    "pais": "Países Baixos",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 8,
+   "jogos_agendados": 17,
    "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -193,7 +193,7 @@
    "pais": "Escócia",
    "ok": true,
    "equipas": 10,
-   "jogos_agendados": 4,
+   "jogos_agendados": 5,
    "selecionados": 1,
    "com_resultados": 10,
    "resultados_em_falta": 0
@@ -223,7 +223,7 @@
    "pais": "Dinamarca",
    "ok": true,
    "equipas": 12,
-   "jogos_agendados": 0,
+   "jogos_agendados": 1,
    "selecionados": 0,
    "com_resultados": 12,
    "resultados_em_falta": 0
@@ -233,7 +233,7 @@
    "pais": "Noruega",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 0,
+   "jogos_agendados": 1,
    "selecionados": 0,
    "com_resultados": 16,
    "resultados_em_falta": 0
@@ -450,6 +450,51 @@
     }
    },
    "cotas_antigas": true
+  },
+  {
+   "id": "401876685",
+   "data": "2026-11-20T19:00Z",
+   "casa": {
+    "nome": "Red Star FC 93",
+    "posicao": 8,
+    "total": 18,
+    "pontos": 17,
+    "jogos": 12,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Pau",
+    "posicao": 5,
+    "total": 18,
+    "pontos": 20,
+    "jogos": 12,
+    "forma": "DVVVV",
+    "serie_derrotas": 1
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Red Star FC 93 com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Ligue 2",
+   "pais": "França",
+   "liga_id": "fra.2",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 3.25,
+      "1": 2.0,
+      "X": 3.2
+     },
+     "atualizado": "2026-11-13T19:40:52Z"
+    }
+   }
   }
  ]
 }

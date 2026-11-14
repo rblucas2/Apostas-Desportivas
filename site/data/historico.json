@@ -1,6 +1,36 @@
 {
- "atualizado_em": "2026-11-14T18:00:01+00:00",
+ "atualizado_em": "2026-11-14T22:23:11+00:00",
  "jogos": [
+  {
+   "id": "401878938",
+   "selecionado_em": "2026-11-14T22:23:11+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T19:45Z",
+   "liga": "Pro League",
+   "pais": "Bélgica",
+   "liga_id": "bel.1",
+   "casa": {
+    "nome": "Zulte-Waregem",
+    "posicao": 14,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Antwerp",
+    "posicao": 13,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cotas": {
+    "2": 2.9,
+    "1": 1.96,
+    "X": 3.27
+   },
+   "cota": 2.9
+  },
   {
    "id": "401875543",
    "selecionado_em": "2026-11-14T18:00:01+00:00",
@@ -60,31 +90,6 @@
     "X": 3.53
    },
    "cota": 1.74
-  },
-  {
-   "id": "401875837",
-   "selecionado_em": "2026-11-14T18:00:01+00:00",
-   "estado": "pendente",
-   "data": "2026-11-21T15:30Z",
-   "liga": "Eerste Divisie",
-   "pais": "Países Baixos",
-   "liga_id": "ned.2",
-   "casa": {
-    "nome": "FC Eindhoven",
-    "posicao": 20,
-    "total": 20
-   },
-   "fora": {
-    "nome": "RKC Waalwijk",
-    "posicao": 11,
-    "total": 20
-   },
-   "criterios": [
-    "serie_derrotas"
-   ],
-   "favorito": "fora",
-   "aposta": "2",
-   "cota": null
   },
   {
    "id": "401878521",
@@ -454,7 +459,7 @@
   {
    "id": "401875851",
    "selecionado_em": "2026-11-07T21:49:32+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-14T19:00Z",
    "liga": "Eerste Divisie",
    "pais": "Países Baixos",
@@ -474,12 +479,18 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": null,
+   "golos_casa": 1,
+   "golos_fora": 2,
+   "resultado": "2",
+   "acertou": true,
+   "resolvido_em": "2026-11-14T22:23:11+00:00",
+   "lucro": null
   },
   {
    "id": "401875848",
    "selecionado_em": "2026-11-07T21:49:32+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-14T19:00Z",
    "liga": "Eerste Divisie",
    "pais": "Países Baixos",
@@ -500,7 +511,13 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": null,
+   "golos_casa": 1,
+   "golos_fora": 2,
+   "resultado": "2",
+   "acertou": false,
+   "resolvido_em": "2026-11-14T22:23:11+00:00",
+   "lucro": null
   },
   {
    "id": "401878522",

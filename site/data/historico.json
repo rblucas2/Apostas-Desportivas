@@ -1,6 +1,371 @@
 {
- "atualizado_em": "2026-11-14T06:21:43+00:00",
+ "atualizado_em": "2026-11-14T18:00:01+00:00",
  "jogos": [
+  {
+   "id": "401875543",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T17:45Z",
+   "liga": "Eredivisie",
+   "pais": "Países Baixos",
+   "liga_id": "ned.1",
+   "casa": {
+    "nome": "Feyenoord Rotterdam",
+    "posicao": 2,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Excelsior",
+    "posicao": 15,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "2": 10.5,
+    "1": 1.14,
+    "X": 6.75
+   },
+   "cota": 1.14
+  },
+  {
+   "id": "401899545",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T16:15Z",
+   "liga": "Serie B",
+   "pais": "Itália",
+   "liga_id": "ita.2",
+   "casa": {
+    "nome": "Catanzaro",
+    "posicao": 20,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Palermo",
+    "posicao": 1,
+    "total": 20
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cotas": {
+    "2": 1.74,
+    "1": 3.58,
+    "X": 3.53
+   },
+   "cota": 1.74
+  },
+  {
+   "id": "401875837",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T15:30Z",
+   "liga": "Eerste Divisie",
+   "pais": "Países Baixos",
+   "liga_id": "ned.2",
+   "casa": {
+    "nome": "FC Eindhoven",
+    "posicao": 20,
+    "total": 20
+   },
+   "fora": {
+    "nome": "RKC Waalwijk",
+    "posicao": 11,
+    "total": 20
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401878521",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T15:00Z",
+   "liga": "Championship",
+   "pais": "Escócia",
+   "liga_id": "sco.2",
+   "casa": {
+    "nome": "Arbroath",
+    "posicao": 8,
+    "total": 10
+   },
+   "fora": {
+    "nome": "Stenhousemuir",
+    "posicao": 2,
+    "total": 10
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401878518",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T15:00Z",
+   "liga": "Championship",
+   "pais": "Escócia",
+   "liga_id": "sco.2",
+   "casa": {
+    "nome": "Queen's Park",
+    "posicao": 10,
+    "total": 10
+   },
+   "fora": {
+    "nome": "Livingston",
+    "posicao": 5,
+    "total": 10
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401881258",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T15:00Z",
+   "liga": "League Two",
+   "pais": "Inglaterra",
+   "liga_id": "eng.4",
+   "casa": {
+    "nome": "Grimsby Town",
+    "posicao": 3,
+    "total": 24
+   },
+   "fora": {
+    "nome": "Rotherham United",
+    "posicao": 23,
+    "total": 24
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401879235",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T15:00Z",
+   "liga": "Premier League",
+   "pais": "Inglaterra",
+   "liga_id": "eng.1",
+   "casa": {
+    "nome": "Coventry City",
+    "posicao": 17,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Crystal Palace",
+    "posicao": 20,
+    "total": 20
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "1": 2.18,
+    "2": 2.72,
+    "X": 3.4
+   },
+   "cota": 2.18
+  },
+  {
+   "id": "401884731",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T14:30Z",
+   "liga": "Bundesliga",
+   "pais": "Alemanha",
+   "liga_id": "ger.1",
+   "casa": {
+    "nome": "Borussia Mönchengladbach",
+    "posicao": 18,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Borussia Dortmund",
+    "posicao": 2,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cotas": {
+    "2": 1.52,
+    "1": 4.5,
+    "X": 4.15
+   },
+   "cota": 1.52
+  },
+  {
+   "id": "401899548",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T14:00Z",
+   "liga": "Serie B",
+   "pais": "Itália",
+   "liga_id": "ita.2",
+   "casa": {
+    "nome": "Ascoli",
+    "posicao": 3,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Vicenza",
+    "posicao": 19,
+    "total": 20
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "1": 1.76,
+    "2": 3.8,
+    "X": 3.25
+   },
+   "cota": 1.76
+  },
+  {
+   "id": "401842882",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T14:00Z",
+   "liga": "Allsvenskan",
+   "pais": "Suécia",
+   "liga_id": "swe.1",
+   "casa": {
+    "nome": "AIK",
+    "posicao": 8,
+    "total": 16
+   },
+   "fora": {
+    "nome": "Degerfors IF",
+    "posicao": 14,
+    "total": 16
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "1": 2.07,
+    "2": 2.62,
+    "X": 3.65
+   },
+   "cota": 2.07
+  },
+  {
+   "id": "401876689",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T13:00Z",
+   "liga": "Ligue 2",
+   "pais": "França",
+   "liga_id": "fra.2",
+   "casa": {
+    "nome": "Stade Laval",
+    "posicao": 18,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Montpellier",
+    "posicao": 3,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401888245",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T13:00Z",
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1",
+   "casa": {
+    "nome": "Galatasaray",
+    "posicao": 1,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Samsunspor",
+    "posicao": 17,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "1": 1.16,
+    "2": 9.25,
+    "X": 6.0
+   },
+   "cota": 1.16
+  },
+  {
+   "id": "401888247",
+   "selecionado_em": "2026-11-14T18:00:01+00:00",
+   "estado": "pendente",
+   "data": "2026-11-21T10:30Z",
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1",
+   "casa": {
+    "nome": "Genclerbirligi",
+    "posicao": 14,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Gaziantep FK",
+    "posicao": 16,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "2": 2.75,
+    "1": 2.12,
+    "X": 3.28
+   },
+   "cota": 2.12
+  },
   {
    "id": "401876395",
    "selecionado_em": "2026-11-14T06:21:43+00:00",
@@ -80,11 +445,11 @@
    "favorito": "casa",
    "aposta": "1",
    "cotas": {
-    "2": 3.88,
-    "1": 1.68,
-    "X": 3.25
+    "2": 4.0,
+    "1": 1.65,
+    "X": 3.28
    },
-   "cota": 1.68
+   "cota": 1.65
   },
   {
    "id": "401875851",
@@ -140,7 +505,7 @@
   {
    "id": "401878522",
    "selecionado_em": "2026-11-07T21:49:32+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-14T15:00Z",
    "liga": "Championship",
    "pais": "Escócia",
@@ -160,7 +525,13 @@
    ],
    "favorito": "casa",
    "aposta": "1",
-   "cota": null
+   "cota": null,
+   "golos_casa": 2,
+   "golos_fora": 0,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-11-14T18:00:01+00:00",
+   "lucro": null
   },
   {
    "id": "401885401",

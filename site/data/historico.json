@@ -1,6 +1,31 @@
 {
- "atualizado_em": "2026-11-13T19:40:45+00:00",
+ "atualizado_em": "2026-11-14T06:21:43+00:00",
  "jogos": [
+  {
+   "id": "401876395",
+   "selecionado_em": "2026-11-14T06:21:43+00:00",
+   "estado": "pendente",
+   "data": "2026-11-20T19:45Z",
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1",
+   "casa": {
+    "nome": "Troyes",
+    "posicao": 17,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Le Havre AC",
+    "posicao": 18,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
   {
    "id": "401876685",
    "selecionado_em": "2026-11-13T19:40:45+00:00",
@@ -55,11 +80,11 @@
    "favorito": "casa",
    "aposta": "1",
    "cotas": {
-    "2": 3.7,
-    "1": 1.73,
-    "X": 3.2
+    "2": 3.88,
+    "1": 1.68,
+    "X": 3.25
    },
-   "cota": 1.73
+   "cota": 1.68
   },
   {
    "id": "401875851",

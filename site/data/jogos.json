@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-13T19:40:45+00:00",
+ "gerado_em": "2026-11-14T06:21:43+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -43,7 +43,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 5,
+   "jogos_agendados": 6,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -63,7 +63,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 0,
+   "jogos_agendados": 1,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -123,8 +123,8 @@
    "pais": "França",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 0,
-   "selecionados": 0,
+   "jogos_agendados": 1,
+   "selecionados": 1,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -163,7 +163,7 @@
    "pais": "Bélgica",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 0,
+   "jogos_agendados": 1,
    "selecionados": 0,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 0,
+   "jogos_agendados": 1,
    "selecionados": 0,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -442,14 +442,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 3.7,
-      "1": 1.73,
-      "X": 3.2
+      "2": 3.88,
+      "1": 1.68,
+      "X": 3.25
      },
-     "atualizado": "2026-11-08T13:22:59Z"
+     "atualizado": "2026-11-14T06:22:18Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401876685",
@@ -494,7 +493,42 @@
      },
      "atualizado": "2026-11-13T19:40:52Z"
     }
-   }
+   },
+   "cotas_antigas": true
+  },
+  {
+   "id": "401876395",
+   "data": "2026-11-20T19:45Z",
+   "casa": {
+    "nome": "Troyes",
+    "posicao": 17,
+    "total": 18,
+    "pontos": 8,
+    "jogos": 10,
+    "forma": "DVEDD",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "Le Havre AC",
+    "posicao": 18,
+    "total": 18,
+    "pontos": 2,
+    "jogos": 10,
+    "forma": "DDDDD",
+    "serie_derrotas": 6
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 6,
+     "favorito": "casa",
+     "texto": "Le Havre AC com 6 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1"
   }
  ]
 }

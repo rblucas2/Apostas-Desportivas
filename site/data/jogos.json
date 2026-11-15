@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-14T22:23:11+00:00",
+ "gerado_em": "2026-11-15T06:29:50+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -254,7 +254,7 @@
    "ok": true,
    "equipas": 20,
    "jogos_agendados": 12,
-   "selecionados": 0,
+   "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -337,14 +337,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 4.0,
+      "2": 4.15,
       "1": 1.65,
-      "X": 3.28
+      "X": 3.4
      },
-     "atualizado": "2026-11-14T17:58:26Z"
+     "atualizado": "2026-11-15T06:30:16Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401876685",
@@ -387,7 +386,7 @@
       "1": 2.0,
       "X": 3.2
      },
-     "atualizado": "2026-11-14T22:23:04Z"
+     "atualizado": "2026-11-15T06:29:13Z"
     }
    }
   },
@@ -958,7 +957,40 @@
      },
      "atualizado": "2026-11-14T22:22:20Z"
     }
-   }
+   },
+   "cotas_antigas": true
+  },
+  {
+   "id": "401841325",
+   "data": "2026-11-22T00:00Z",
+   "casa": {
+    "nome": "Chapecoense",
+    "posicao": 20,
+    "total": 20,
+    "pontos": 21,
+    "jogos": 34,
+    "forma": "DDDVD",
+    "serie_derrotas": 3
+   },
+   "fora": {
+    "nome": "Cruzeiro",
+    "posicao": 3,
+    "total": 20,
+    "pontos": 60,
+    "jogos": 34,
+    "forma": "VVVVD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1"
   }
  ]
 }

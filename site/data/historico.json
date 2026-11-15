@@ -1,6 +1,272 @@
 {
- "atualizado_em": "2026-11-15T06:29:50+00:00",
+ "atualizado_em": "2026-11-15T18:50:31+00:00",
  "jogos": [
+  {
+   "id": "401843490",
+   "selecionado_em": "2026-11-15T18:50:31+00:00",
+   "estado": "pendente",
+   "data": "2026-11-22T16:00Z",
+   "liga": "Eliteserien",
+   "pais": "Noruega",
+   "liga_id": "nor.1",
+   "casa": {
+    "nome": "Aalesund",
+    "posicao": 15,
+    "total": 16
+   },
+   "fora": {
+    "nome": "Rosenborg",
+    "posicao": 3,
+    "total": 16
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cotas": {
+    "1": 3.98,
+    "2": 1.55,
+    "X": 4.1
+   },
+   "cota": 1.55
+  },
+  {
+   "id": "401888249",
+   "selecionado_em": "2026-11-15T18:50:31+00:00",
+   "estado": "pendente",
+   "data": "2026-11-22T16:00Z",
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1",
+   "casa": {
+    "nome": "Trabzonspor",
+    "posicao": 2,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Eyupspor",
+    "posicao": 18,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas",
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "2": 11.75,
+    "1": 1.1,
+    "X": 6.6
+   },
+   "cota": 1.1
+  },
+  {
+   "id": "401881747",
+   "selecionado_em": "2026-11-15T18:50:31+00:00",
+   "estado": "pendente",
+   "data": "2026-11-22T16:00Z",
+   "liga": "Bundesliga",
+   "pais": "Áustria",
+   "liga_id": "aut.1",
+   "casa": {
+    "nome": "Austria Vienna",
+    "posicao": 11,
+    "total": 12
+   },
+   "fora": {
+    "nome": "RB Salzburg",
+    "posicao": 2,
+    "total": 12
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cotas": {
+    "1": 4.15,
+    "2": 1.51,
+    "X": 3.9
+   },
+   "cota": 1.51
+  },
+  {
+   "id": "401878936",
+   "selecionado_em": "2026-11-15T18:50:31+00:00",
+   "estado": "pendente",
+   "data": "2026-11-22T15:00Z",
+   "liga": "Pro League",
+   "pais": "Bélgica",
+   "liga_id": "bel.1",
+   "casa": {
+    "nome": "KV Kortrijk",
+    "posicao": 18,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Union St.-Gilloise",
+    "posicao": 1,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cotas": {
+    "1": 5.9,
+    "2": 1.33,
+    "X": 4.2
+   },
+   "cota": 1.33
+  },
+  {
+   "id": "401876397",
+   "selecionado_em": "2026-11-15T18:50:31+00:00",
+   "estado": "pendente",
+   "data": "2026-11-22T14:00Z",
+   "liga": "Ligue 1",
+   "pais": "França",
+   "liga_id": "fra.1",
+   "casa": {
+    "nome": "Paris FC",
+    "posicao": 3,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Angers",
+    "posicao": 16,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "2": 7.5,
+    "1": 1.28,
+    "X": 4.85
+   },
+   "cota": 1.28
+  },
+  {
+   "id": "401874960",
+   "selecionado_em": "2026-11-15T18:50:31+00:00",
+   "estado": "pendente",
+   "data": "2026-11-22T14:00Z",
+   "liga": "Serie A",
+   "pais": "Itália",
+   "liga_id": "ita.1",
+   "casa": {
+    "nome": "Sassuolo",
+    "posicao": 17,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Genoa",
+    "posicao": 13,
+    "total": 20
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401875547",
+   "selecionado_em": "2026-11-15T18:50:31+00:00",
+   "estado": "pendente",
+   "data": "2026-11-22T13:30Z",
+   "liga": "Eredivisie",
+   "pais": "Países Baixos",
+   "liga_id": "ned.1",
+   "casa": {
+    "nome": "Ajax Amsterdam",
+    "posicao": 3,
+    "total": 18
+   },
+   "fora": {
+    "nome": "ADO Den Haag",
+    "posicao": 17,
+    "total": 18
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "2": 10.75,
+    "1": 1.13,
+    "X": 7.0
+   },
+   "cota": 1.13
+  },
+  {
+   "id": "401874558",
+   "selecionado_em": "2026-11-15T18:50:31+00:00",
+   "estado": "pendente",
+   "data": "2026-11-22T13:00Z",
+   "liga": "Superliga",
+   "pais": "Dinamarca",
+   "liga_id": "den.1",
+   "casa": {
+    "nome": "Viborg FF",
+    "posicao": 3,
+    "total": 12
+   },
+   "fora": {
+    "nome": "Randers FC",
+    "posicao": 11,
+    "total": 12
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "2": 4.45,
+    "1": 1.47,
+    "X": 3.9
+   },
+   "cota": 1.47
+  },
+  {
+   "id": "401888248",
+   "selecionado_em": "2026-11-15T18:50:31+00:00",
+   "estado": "pendente",
+   "data": "2026-11-22T13:00Z",
+   "liga": "Süper Lig",
+   "pais": "Turquia",
+   "liga_id": "tur.1",
+   "casa": {
+    "nome": "Kasimpasa",
+    "posicao": 5,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Alanyaspor",
+    "posicao": 13,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "2": 3.3,
+    "1": 1.88,
+    "X": 3.27
+   },
+   "cota": 1.88
+  },
   {
    "id": "401841325",
    "selecionado_em": "2026-11-15T06:29:50+00:00",
@@ -454,7 +720,7 @@
   {
    "id": "401883113",
    "selecionado_em": "2026-11-08T13:23:43+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-15T13:00Z",
    "liga": "LaLiga 2",
    "pais": "Espanha",
@@ -479,7 +745,13 @@
     "1": 1.65,
     "X": 3.4
    },
-   "cota": 1.65
+   "cota": 1.65,
+   "golos_casa": 2,
+   "golos_fora": 0,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-11-15T18:50:31+00:00",
+   "lucro": 0.65
   },
   {
    "id": "401875851",

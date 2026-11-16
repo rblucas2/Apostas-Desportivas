@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-15T18:50:31+00:00",
+ "gerado_em": "2026-11-16T06:27:15+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -63,7 +63,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 8,
+   "jogos_agendados": 9,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -73,7 +73,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 22,
-   "jogos_agendados": 10,
+   "jogos_agendados": 11,
    "selecionados": 0,
    "com_resultados": 22,
    "resultados_em_falta": 0
@@ -103,7 +103,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 8,
+   "jogos_agendados": 9,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -123,7 +123,7 @@
    "pais": "França",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 8,
+   "jogos_agendados": 9,
    "selecionados": 2,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 12,
+   "jogos_agendados": 15,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 3,
+   "jogos_agendados": 6,
    "selecionados": 0,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -341,7 +341,7 @@
       "1": 2.0,
       "X": 3.2
      },
-     "atualizado": "2026-11-15T18:51:02Z"
+     "atualizado": "2026-11-16T06:28:31Z"
     }
    }
   },
@@ -422,7 +422,8 @@
      },
      "atualizado": "2026-11-15T18:52:12Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876689",
@@ -497,7 +498,8 @@
      },
      "atualizado": "2026-11-15T18:52:12Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401899548",
@@ -864,7 +866,8 @@
      },
      "atualizado": "2026-11-15T18:52:12Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878938",
@@ -909,7 +912,8 @@
      },
      "atualizado": "2026-11-15T18:50:39Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401841325",
@@ -984,7 +988,8 @@
      },
      "atualizado": "2026-11-15T18:48:58Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888248",
@@ -1029,7 +1034,8 @@
      },
      "atualizado": "2026-11-15T18:52:12Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401875547",
@@ -1072,7 +1078,8 @@
      },
      "atualizado": "2026-11-15T18:52:12Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876397",
@@ -1113,7 +1120,7 @@
       "1": 1.28,
       "X": 4.85
      },
-     "atualizado": "2026-11-15T18:50:59Z"
+     "atualizado": "2026-11-16T06:28:57Z"
     }
    }
   },
@@ -1192,7 +1199,8 @@
      },
      "atualizado": "2026-11-15T18:50:39Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401843490",
@@ -1235,7 +1243,8 @@
      },
      "atualizado": "2026-11-15T18:51:57Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401888249",
@@ -1285,7 +1294,8 @@
      },
      "atualizado": "2026-11-15T18:52:12Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881747",
@@ -1328,7 +1338,8 @@
      },
      "atualizado": "2026-11-15T18:52:50Z"
     }
-   }
+   },
+   "cotas_antigas": true
   }
  ]
 }

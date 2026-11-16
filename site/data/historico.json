@@ -1,6 +1,92 @@
 {
- "atualizado_em": "2026-11-16T06:27:15+00:00",
+ "atualizado_em": "2026-11-16T22:00:21+00:00",
  "jogos": [
+  {
+   "id": "401876683",
+   "selecionado_em": "2026-11-16T22:00:21+00:00",
+   "estado": "pendente",
+   "data": "2026-11-23T19:45Z",
+   "liga": "Ligue 2",
+   "pais": "França",
+   "liga_id": "fra.2",
+   "casa": {
+    "nome": "Sochaux",
+    "posicao": 16,
+    "total": 18
+   },
+   "fora": {
+    "nome": "Dunkerque",
+    "posicao": 10,
+    "total": 18
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cotas": {
+    "1": 2.17,
+    "2": 2.92,
+    "X": 3.17
+   },
+   "cota": 2.92
+  },
+  {
+   "id": "401875009",
+   "selecionado_em": "2026-11-16T22:00:21+00:00",
+   "estado": "pendente",
+   "data": "2026-11-23T19:45Z",
+   "liga": "Serie A",
+   "pais": "Itália",
+   "liga_id": "ita.1",
+   "casa": {
+    "nome": "Monza",
+    "posicao": 18,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Fiorentina",
+    "posicao": 15,
+    "total": 20
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
+  {
+   "id": "401883110",
+   "selecionado_em": "2026-11-16T22:00:21+00:00",
+   "estado": "pendente",
+   "data": "2026-11-23T19:30Z",
+   "liga": "LaLiga 2",
+   "pais": "Espanha",
+   "liga_id": "esp.2",
+   "casa": {
+    "nome": "Ceuta",
+    "posicao": 22,
+    "total": 22
+   },
+   "fora": {
+    "nome": "Almería",
+    "posicao": 1,
+    "total": 22
+   },
+   "criterios": [
+    "serie_derrotas",
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cotas": {
+    "1": 2.85,
+    "2": 1.84,
+    "X": 3.37
+   },
+   "cota": 1.84
+  },
   {
    "id": "401843490",
    "selecionado_em": "2026-11-15T18:50:31+00:00",

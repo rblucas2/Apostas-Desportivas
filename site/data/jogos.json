@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-16T06:27:15+00:00",
+ "gerado_em": "2026-11-16T22:00:21+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -23,7 +23,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 9,
+   "jogos_agendados": 10,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -63,7 +63,7 @@
    "pais": "Espanha",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 9,
+   "jogos_agendados": 10,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -74,7 +74,7 @@
    "ok": true,
    "equipas": 22,
    "jogos_agendados": 11,
-   "selecionados": 0,
+   "selecionados": 1,
    "com_resultados": 22,
    "resultados_em_falta": 0
   },
@@ -103,8 +103,8 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 9,
-   "selecionados": 1,
+   "jogos_agendados": 10,
+   "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -133,8 +133,8 @@
    "pais": "França",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 8,
-   "selecionados": 2,
+   "jogos_agendados": 9,
+   "selecionados": 3,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -153,7 +153,7 @@
    "pais": "Países Baixos",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 10,
+   "jogos_agendados": 13,
    "selecionados": 0,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -173,7 +173,7 @@
    "pais": "Turquia",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 8,
+   "jogos_agendados": 9,
    "selecionados": 4,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -203,7 +203,7 @@
    "pais": "Grécia",
    "ok": true,
    "equipas": 14,
-   "jogos_agendados": 6,
+   "jogos_agendados": 7,
    "selecionados": 0,
    "com_resultados": 14,
    "resultados_em_falta": 0
@@ -223,7 +223,7 @@
    "pais": "Dinamarca",
    "ok": true,
    "equipas": 12,
-   "jogos_agendados": 5,
+   "jogos_agendados": 6,
    "selecionados": 1,
    "com_resultados": 12,
    "resultados_em_falta": 0
@@ -243,7 +243,7 @@
    "pais": "Suécia",
    "ok": true,
    "equipas": 16,
-   "jogos_agendados": 6,
+   "jogos_agendados": 8,
    "selecionados": 1,
    "com_resultados": 16,
    "resultados_em_falta": 0
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 6,
+   "jogos_agendados": 7,
    "selecionados": 0,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -341,7 +341,7 @@
       "1": 2.0,
       "X": 3.2
      },
-     "atualizado": "2026-11-16T06:28:31Z"
+     "atualizado": "2026-11-16T22:01:01Z"
     }
    }
   },
@@ -1120,7 +1120,7 @@
       "1": 1.28,
       "X": 4.85
      },
-     "atualizado": "2026-11-16T06:28:57Z"
+     "atualizado": "2026-11-16T22:00:43Z"
     }
    }
   },
@@ -1340,6 +1340,135 @@
     }
    },
    "cotas_antigas": true
+  },
+  {
+   "id": "401883110",
+   "data": "2026-11-23T19:30Z",
+   "casa": {
+    "nome": "Ceuta",
+    "posicao": 22,
+    "total": 22,
+    "pontos": 5,
+    "jogos": 14,
+    "forma": "DDDDD",
+    "serie_derrotas": 6
+   },
+   "fora": {
+    "nome": "Almería",
+    "posicao": 1,
+    "total": 22,
+    "pontos": 32,
+    "jogos": 14,
+    "forma": "VVEEV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    },
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 6,
+     "favorito": "fora",
+     "texto": "Ceuta com 6 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "LaLiga 2",
+   "pais": "Espanha",
+   "liga_id": "esp.2",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 2.85,
+      "2": 1.84,
+      "X": 3.37
+     },
+     "atualizado": "2026-11-16T22:01:03Z"
+    }
+   }
+  },
+  {
+   "id": "401876683",
+   "data": "2026-11-23T19:45Z",
+   "casa": {
+    "nome": "Sochaux",
+    "posicao": 16,
+    "total": 18,
+    "pontos": 11,
+    "jogos": 12,
+    "forma": "DDDDE",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Dunkerque",
+    "posicao": 10,
+    "total": 18,
+    "pontos": 15,
+    "jogos": 12,
+    "forma": "VDEVD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Sochaux com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Ligue 2",
+   "pais": "França",
+   "liga_id": "fra.2",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "1": 2.17,
+      "2": 2.92,
+      "X": 3.17
+     },
+     "atualizado": "2026-11-16T22:01:01Z"
+    }
+   }
+  },
+  {
+   "id": "401875009",
+   "data": "2026-11-23T19:45Z",
+   "casa": {
+    "nome": "Monza",
+    "posicao": 18,
+    "total": 20,
+    "pontos": 7,
+    "jogos": 11,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Fiorentina",
+    "posicao": 15,
+    "total": 20,
+    "pontos": 9,
+    "jogos": 11,
+    "forma": "EVEDD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Monza com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Serie A",
+   "pais": "Itália",
+   "liga_id": "ita.1"
   }
  ]
 }

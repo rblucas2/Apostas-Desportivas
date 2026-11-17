@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-16T22:00:21+00:00",
+ "gerado_em": "2026-11-17T07:54:26+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 15,
+   "jogos_agendados": 18,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -341,7 +341,7 @@
       "1": 2.0,
       "X": 3.2
      },
-     "atualizado": "2026-11-16T22:01:01Z"
+     "atualizado": "2026-11-17T07:55:06Z"
     }
    }
   },
@@ -1120,7 +1120,7 @@
       "1": 1.28,
       "X": 4.85
      },
-     "atualizado": "2026-11-16T22:00:43Z"
+     "atualizado": "2026-11-17T07:55:03Z"
     }
    }
   },
@@ -1389,7 +1389,8 @@
      },
      "atualizado": "2026-11-16T22:01:03Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876683",
@@ -1432,7 +1433,7 @@
       "2": 2.92,
       "X": 3.17
      },
-     "atualizado": "2026-11-16T22:01:01Z"
+     "atualizado": "2026-11-17T07:55:06Z"
     }
    }
   },

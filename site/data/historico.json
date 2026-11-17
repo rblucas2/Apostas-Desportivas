@@ -1,6 +1,86 @@
 {
- "atualizado_em": "2026-11-17T07:54:26+00:00",
+ "atualizado_em": "2026-11-17T20:54:37+00:00",
  "jogos": [
+  {
+   "id": "401878345",
+   "selecionado_em": "2026-11-17T20:54:37+00:00",
+   "estado": "pendente",
+   "data": "2026-11-24T20:00Z",
+   "liga": "Premiership",
+   "pais": "Escócia",
+   "liga_id": "sco.1",
+   "casa": {
+    "nome": "Rangers",
+    "posicao": 2,
+    "total": 12
+   },
+   "fora": {
+    "nome": "Aberdeen",
+    "posicao": 11,
+    "total": 12
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401915297",
+   "selecionado_em": "2026-11-17T20:54:37+00:00",
+   "estado": "pendente",
+   "data": "2026-11-24T20:00Z",
+   "liga": "Liga dos Campeões",
+   "pais": "Europa (UEFA)",
+   "liga_id": "uefa.champions",
+   "casa": {
+    "nome": "Slovan Bratislava",
+    "posicao": 36,
+    "total": 36
+   },
+   "fora": {
+    "nome": "Real Betis",
+    "posicao": 11,
+    "total": 36
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cotas": {
+    "2": 1.19,
+    "1": 8.5,
+    "X": 5.75
+   },
+   "cota": 1.19
+  },
+  {
+   "id": "401881358",
+   "selecionado_em": "2026-11-17T20:54:37+00:00",
+   "estado": "pendente",
+   "data": "2026-11-24T19:45Z",
+   "liga": "League Two",
+   "pais": "Inglaterra",
+   "liga_id": "eng.4",
+   "casa": {
+    "nome": "Crawley Town",
+    "posicao": 24,
+    "total": 24
+   },
+   "fora": {
+    "nome": "Barnet",
+    "posicao": 2,
+    "total": 24
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401876683",
    "selecionado_em": "2026-11-16T22:00:21+00:00",
@@ -25,11 +105,11 @@
    "favorito": "fora",
    "aposta": "2",
    "cotas": {
-    "1": 2.17,
-    "2": 2.92,
-    "X": 3.17
+    "1": 2.22,
+    "2": 2.87,
+    "X": 3.13
    },
-   "cota": 2.92
+   "cota": 2.87
   },
   {
    "id": "401875009",
@@ -234,7 +314,7 @@
    "cotas": {
     "2": 7.5,
     "1": 1.28,
-    "X": 4.85
+    "X": 4.9
    },
    "cota": 1.28
   },

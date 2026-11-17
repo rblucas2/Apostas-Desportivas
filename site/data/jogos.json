@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-17T07:54:26+00:00",
+ "gerado_em": "2026-11-17T20:54:37+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -33,7 +33,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 12,
+   "jogos_agendados": 20,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -43,7 +43,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 12,
+   "jogos_agendados": 16,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -53,8 +53,8 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 12,
-   "selecionados": 1,
+   "jogos_agendados": 14,
+   "selecionados": 2,
    "com_resultados": 24,
    "resultados_em_falta": 0
   },
@@ -113,7 +113,7 @@
    "pais": "Itália",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 10,
+   "jogos_agendados": 16,
    "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -183,8 +183,8 @@
    "pais": "Escócia",
    "ok": true,
    "equipas": 12,
-   "jogos_agendados": 6,
-   "selecionados": 0,
+   "jogos_agendados": 8,
+   "selecionados": 1,
    "com_resultados": 12,
    "resultados_em_falta": 0
   },
@@ -273,8 +273,8 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 0,
-   "selecionados": 0,
+   "jogos_agendados": 9,
+   "selecionados": 1,
    "com_resultados": 36,
    "resultados_em_falta": 0
   },
@@ -341,7 +341,7 @@
       "1": 2.0,
       "X": 3.2
      },
-     "atualizado": "2026-11-17T07:55:06Z"
+     "atualizado": "2026-11-17T20:52:46Z"
     }
    }
   },
@@ -1118,9 +1118,9 @@
      "cotas": {
       "2": 7.5,
       "1": 1.28,
-      "X": 4.85
+      "X": 4.9
      },
-     "atualizado": "2026-11-17T07:55:03Z"
+     "atualizado": "2026-11-17T20:55:17Z"
     }
    }
   },
@@ -1429,11 +1429,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.17,
-      "2": 2.92,
-      "X": 3.17
+      "1": 2.22,
+      "2": 2.87,
+      "X": 3.13
      },
-     "atualizado": "2026-11-17T07:55:06Z"
+     "atualizado": "2026-11-17T20:52:46Z"
     }
    }
   },
@@ -1470,6 +1470,115 @@
    "liga": "Serie A",
    "pais": "Itália",
    "liga_id": "ita.1"
+  },
+  {
+   "id": "401881358",
+   "data": "2026-11-24T19:45Z",
+   "casa": {
+    "nome": "Crawley Town",
+    "posicao": 24,
+    "total": 24,
+    "pontos": 9,
+    "jogos": 12,
+    "forma": "VEDDE",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Barnet",
+    "posicao": 2,
+    "total": 24,
+    "pontos": 26,
+    "jogos": 13,
+    "forma": "EVEDV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "League Two",
+   "pais": "Inglaterra",
+   "liga_id": "eng.4"
+  },
+  {
+   "id": "401878345",
+   "data": "2026-11-24T20:00Z",
+   "casa": {
+    "nome": "Rangers",
+    "posicao": 2,
+    "total": 12,
+    "pontos": 27,
+    "jogos": 12,
+    "forma": "VEVEV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Aberdeen",
+    "posicao": 11,
+    "total": 12,
+    "pontos": 11,
+    "jogos": 12,
+    "forma": "DDDVD",
+    "serie_derrotas": 3
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Premiership",
+   "pais": "Escócia",
+   "liga_id": "sco.1"
+  },
+  {
+   "id": "401915297",
+   "data": "2026-11-24T20:00Z",
+   "casa": {
+    "nome": "Slovan Bratislava",
+    "posicao": 36,
+    "total": 36,
+    "pontos": 0,
+    "jogos": 4,
+    "forma": "DDDD",
+    "serie_derrotas": 4
+   },
+   "fora": {
+    "nome": "Real Betis",
+    "posicao": 11,
+    "total": 36,
+    "pontos": 9,
+    "jogos": 4,
+    "forma": "DVVV",
+    "serie_derrotas": 1
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Slovan Bratislava com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Liga dos Campeões",
+   "pais": "Europa (UEFA)",
+   "liga_id": "uefa.champions",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 1.19,
+      "1": 8.5,
+      "X": 5.75
+     },
+     "atualizado": "2026-11-17T20:55:15Z"
+    }
+   }
   }
  ]
 }

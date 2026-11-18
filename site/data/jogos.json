@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-17T20:54:37+00:00",
+ "gerado_em": "2026-11-18T07:28:07+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -253,8 +253,8 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 18,
-   "selecionados": 1,
+   "jogos_agendados": 19,
+   "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -341,7 +341,7 @@
       "1": 2.0,
       "X": 3.2
      },
-     "atualizado": "2026-11-17T20:52:46Z"
+     "atualizado": "2026-11-18T07:27:19Z"
     }
    }
   },
@@ -1117,10 +1117,10 @@
      "titulo": "Betclic (FR)",
      "cotas": {
       "2": 7.5,
-      "1": 1.28,
+      "1": 1.27,
       "X": 4.9
      },
-     "atualizado": "2026-11-17T20:55:17Z"
+     "atualizado": "2026-11-18T07:27:16Z"
     }
    }
   },
@@ -1433,7 +1433,7 @@
       "2": 2.87,
       "X": 3.13
      },
-     "atualizado": "2026-11-17T20:52:46Z"
+     "atualizado": "2026-11-18T07:27:19Z"
     }
    }
   },
@@ -1578,7 +1578,40 @@
      },
      "atualizado": "2026-11-17T20:55:15Z"
     }
-   }
+   },
+   "cotas_antigas": true
+  },
+  {
+   "id": "401841335",
+   "data": "2026-11-24T21:00Z",
+   "casa": {
+    "nome": "Chapecoense",
+    "posicao": 20,
+    "total": 20,
+    "pontos": 21,
+    "jogos": 34,
+    "forma": "DDDVD",
+    "serie_derrotas": 3
+   },
+   "fora": {
+    "nome": "Palmeiras",
+    "posicao": 2,
+    "total": 20,
+    "pontos": 73,
+    "jogos": 34,
+    "forma": "VEVVV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1"
   }
  ]
 }

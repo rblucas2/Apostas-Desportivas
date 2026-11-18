@@ -1,6 +1,31 @@
 {
- "atualizado_em": "2026-11-17T20:54:37+00:00",
+ "atualizado_em": "2026-11-18T07:28:07+00:00",
  "jogos": [
+  {
+   "id": "401841335",
+   "selecionado_em": "2026-11-18T07:28:07+00:00",
+   "estado": "pendente",
+   "data": "2026-11-24T21:00Z",
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1",
+   "casa": {
+    "nome": "Chapecoense",
+    "posicao": 20,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Palmeiras",
+    "posicao": 2,
+    "total": 20
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cota": null
+  },
   {
    "id": "401878345",
    "selecionado_em": "2026-11-17T20:54:37+00:00",
@@ -313,10 +338,10 @@
    "aposta": "1",
    "cotas": {
     "2": 7.5,
-    "1": 1.28,
+    "1": 1.27,
     "X": 4.9
    },
-   "cota": 1.28
+   "cota": 1.27
   },
   {
    "id": "401874960",

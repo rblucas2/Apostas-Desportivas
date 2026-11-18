@@ -1,6 +1,36 @@
 {
- "atualizado_em": "2026-11-18T07:28:07+00:00",
+ "atualizado_em": "2026-11-18T20:29:59+00:00",
  "jogos": [
+  {
+   "id": "401880139",
+   "selecionado_em": "2026-11-18T20:29:59+00:00",
+   "estado": "pendente",
+   "data": "2026-11-25T19:45Z",
+   "liga": "Championship",
+   "pais": "Inglaterra",
+   "liga_id": "eng.2",
+   "casa": {
+    "nome": "Burnley",
+    "posicao": 22,
+    "total": 24
+   },
+   "fora": {
+    "nome": "Birmingham City",
+    "posicao": 1,
+    "total": 24
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "fora",
+   "aposta": "2",
+   "cotas": {
+    "2": 2.5,
+    "1": 2.4,
+    "X": 3.1
+   },
+   "cota": 2.5
+  },
   {
    "id": "401841335",
    "selecionado_em": "2026-11-18T07:28:07+00:00",

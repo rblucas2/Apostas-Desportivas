@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-19T07:24:05+00:00",
+ "gerado_em": "2026-11-19T20:36:06+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -43,7 +43,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 16,
+   "jogos_agendados": 17,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -283,8 +283,8 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 0,
-   "selecionados": 0,
+   "jogos_agendados": 18,
+   "selecionados": 1,
    "com_resultados": 36,
    "resultados_em_falta": 0
   },
@@ -293,7 +293,7 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 0,
+   "jogos_agendados": 18,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
@@ -341,7 +341,7 @@
       "1": 2.0,
       "X": 3.2
      },
-     "atualizado": "2026-11-19T07:25:22Z"
+     "atualizado": "2026-11-19T20:35:27Z"
     }
    }
   },
@@ -1123,11 +1123,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 7.5,
-      "1": 1.27,
-      "X": 4.9
+      "2": 8.0,
+      "1": 1.25,
+      "X": 5.1
      },
-     "atualizado": "2026-11-19T07:26:25Z"
+     "atualizado": "2026-11-19T20:35:25Z"
     }
    }
   },
@@ -1440,7 +1440,7 @@
       "2": 2.87,
       "X": 3.13
      },
-     "atualizado": "2026-11-19T07:25:22Z"
+     "atualizado": "2026-11-19T20:35:27Z"
     }
    }
   },
@@ -1670,6 +1670,51 @@
     }
    },
    "cotas_antigas": true
+  },
+  {
+   "id": "401915520",
+   "data": "2026-11-26T17:45Z",
+   "casa": {
+    "nome": "RB Salzburg",
+    "posicao": 26,
+    "total": 36,
+    "pontos": 4,
+    "jogos": 4,
+    "forma": "DEDV",
+    "serie_derrotas": 1
+   },
+   "fora": {
+    "nome": "Ararat-Armenia",
+    "posicao": 36,
+    "total": 36,
+    "pontos": 0,
+    "jogos": 4,
+    "forma": "DDDD",
+    "serie_derrotas": 4
+   },
+   "criterios": [
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "fora",
+     "derrotas": 4,
+     "favorito": "casa",
+     "texto": "Ararat-Armenia com 4 derrotas seguidas vs melhor classificado"
+    }
+   ],
+   "liga": "Liga Europa",
+   "pais": "Europa (UEFA)",
+   "liga_id": "uefa.europa",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 11.0,
+      "1": 1.12,
+      "X": 6.5
+     },
+     "atualizado": "2026-11-19T20:37:19Z"
+    }
+   }
   }
  ]
 }

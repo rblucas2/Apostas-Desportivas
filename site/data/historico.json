@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-18T20:29:59+00:00",
+ "atualizado_em": "2026-11-19T07:24:05+00:00",
  "jogos": [
   {
    "id": "401880139",
@@ -50,6 +50,7 @@
     "total": 20
    },
    "criterios": [
+    "serie_derrotas",
     "top_vs_bottom"
    ],
    "favorito": "fora",
@@ -507,6 +508,7 @@
     "total": 20
    },
    "criterios": [
+    "serie_derrotas",
     "top_vs_bottom"
    ],
    "favorito": "fora",

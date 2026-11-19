@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-18T20:29:59+00:00",
+ "gerado_em": "2026-11-19T07:24:05+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 19,
+   "jogos_agendados": 14,
    "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 7,
+   "jogos_agendados": 8,
    "selecionados": 0,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -341,7 +341,7 @@
       "1": 2.0,
       "X": 3.2
      },
-     "atualizado": "2026-11-18T20:29:58Z"
+     "atualizado": "2026-11-19T07:25:22Z"
     }
    }
   },
@@ -923,17 +923,17 @@
     "posicao": 20,
     "total": 20,
     "pontos": 21,
-    "jogos": 34,
-    "forma": "DDDVD",
-    "serie_derrotas": 3
+    "jogos": 35,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
    },
    "fora": {
     "nome": "Cruzeiro",
     "posicao": 3,
     "total": 20,
-    "pontos": 60,
-    "jogos": 34,
-    "forma": "VVVVD",
+    "pontos": 63,
+    "jogos": 35,
+    "forma": "VVVVV",
     "serie_derrotas": 0
    },
    "criterios": [
@@ -941,6 +941,13 @@
      "tipo": "top_vs_bottom",
      "favorito": "fora",
      "texto": "3 primeiros vs 3 últimos"
+    },
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Chapecoense com 4 derrotas seguidas vs melhor classificado"
     }
    ],
    "liga": "Série A",
@@ -1120,7 +1127,7 @@
       "1": 1.27,
       "X": 4.9
      },
-     "atualizado": "2026-11-18T20:31:21Z"
+     "atualizado": "2026-11-19T07:26:25Z"
     }
    }
   },
@@ -1433,7 +1440,7 @@
       "2": 2.87,
       "X": 3.13
      },
-     "atualizado": "2026-11-18T20:29:58Z"
+     "atualizado": "2026-11-19T07:25:22Z"
     }
    }
   },
@@ -1589,24 +1596,31 @@
     "posicao": 20,
     "total": 20,
     "pontos": 21,
-    "jogos": 34,
-    "forma": "DDDVD",
-    "serie_derrotas": 3
+    "jogos": 35,
+    "forma": "DDDDV",
+    "serie_derrotas": 4
    },
    "fora": {
     "nome": "Palmeiras",
     "posicao": 2,
     "total": 20,
     "pontos": 73,
-    "jogos": 34,
-    "forma": "VEVVV",
-    "serie_derrotas": 0
+    "jogos": 35,
+    "forma": "DVEVV",
+    "serie_derrotas": 1
    },
    "criterios": [
     {
      "tipo": "top_vs_bottom",
      "favorito": "fora",
      "texto": "3 primeiros vs 3 últimos"
+    },
+    {
+     "tipo": "serie_derrotas",
+     "equipa": "casa",
+     "derrotas": 4,
+     "favorito": "fora",
+     "texto": "Chapecoense com 4 derrotas seguidas vs melhor classificado"
     }
    ],
    "liga": "Série A",
@@ -1654,7 +1668,8 @@
      },
      "atualizado": "2026-11-18T20:30:10Z"
     }
-   }
+   },
+   "cotas_antigas": true
   }
  ]
 }

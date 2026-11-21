@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-20T20:17:54+00:00",
+ "gerado_em": "2026-11-21T07:05:51+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -164,7 +164,7 @@
    "ok": true,
    "equipas": 18,
    "jogos_agendados": 9,
-   "selecionados": 2,
+   "selecionados": 3,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -236,7 +236,7 @@
    "jogos_agendados": 7,
    "selecionados": 1,
    "com_resultados": 16,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "Allsvenskan",
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 12,
+   "jogos_agendados": 13,
    "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 8,
+   "jogos_agendados": 7,
    "selecionados": 0,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -338,10 +338,10 @@
      "titulo": "Betclic (FR)",
      "cotas": {
       "2": 2.73,
-      "1": 2.15,
+      "1": 2.2,
       "X": 3.33
      },
-     "atualizado": "2026-11-20T20:17:29Z"
+     "atualizado": "2026-11-21T07:05:54Z"
     }
    }
   },
@@ -412,11 +412,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.18,
+      "1": 1.19,
       "2": 8.75,
-      "X": 5.9
+      "X": 6.0
      },
-     "atualizado": "2026-11-20T20:17:29Z"
+     "atualizado": "2026-11-21T07:05:54Z"
     }
    }
   },
@@ -455,11 +455,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.68,
-      "2": 4.15,
-      "X": 3.32
+      "1": 1.66,
+      "2": 4.4,
+      "X": 3.43
      },
-     "atualizado": "2026-11-20T20:16:38Z"
+     "atualizado": "2026-11-21T07:06:29Z"
     }
    }
   },
@@ -500,11 +500,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 1.93,
-      "2": 2.87,
-      "X": 3.65
+      "1": 1.96,
+      "2": 2.92,
+      "X": 3.73
      },
-     "atualizado": "2026-11-20T20:15:07Z"
+     "atualizado": "2026-11-21T07:06:40Z"
     }
    }
   },
@@ -543,11 +543,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.5,
-      "1": 4.65,
-      "X": 4.35
+      "2": 1.53,
+      "1": 4.7,
+      "X": 4.3
      },
-     "atualizado": "2026-11-20T20:17:43Z"
+     "atualizado": "2026-11-21T07:03:08Z"
     }
    }
   },
@@ -686,11 +686,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.32,
-      "2": 2.62,
-      "X": 3.38
+      "1": 2.37,
+      "2": 2.65,
+      "X": 3.32
      },
-     "atualizado": "2026-11-20T20:18:32Z"
+     "atualizado": "2026-11-21T07:06:20Z"
     }
    }
   },
@@ -729,11 +729,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.64,
-      "1": 3.95,
-      "X": 3.6
+      "2": 1.67,
+      "1": 3.98,
+      "X": 3.73
      },
-     "atualizado": "2026-11-20T20:16:38Z"
+     "atualizado": "2026-11-21T07:06:29Z"
     }
    }
   },
@@ -774,11 +774,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 11.0,
-      "1": 1.13,
-      "X": 6.9
+      "2": 10.25,
+      "1": 1.15,
+      "X": 6.75
      },
-     "atualizado": "2026-11-20T20:16:35Z"
+     "atualizado": "2026-11-21T07:05:20Z"
     }
    }
   },
@@ -787,7 +787,7 @@
    "data": "2026-11-21T19:45Z",
    "casa": {
     "nome": "Zulte-Waregem",
-    "posicao": 14,
+    "posicao": 15,
     "total": 18,
     "pontos": 11,
     "jogos": 11,
@@ -796,7 +796,7 @@
    },
    "fora": {
     "nome": "Antwerp",
-    "posicao": 13,
+    "posicao": 14,
     "total": 18,
     "pontos": 11,
     "jogos": 11,
@@ -819,11 +819,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 2.85,
-      "1": 2.0,
+      "2": 2.78,
+      "1": 2.05,
       "X": 3.22
      },
-     "atualizado": "2026-11-20T20:17:02Z"
+     "atualizado": "2026-11-21T07:05:01Z"
     }
    }
   },
@@ -867,6 +867,49 @@
    "liga_id": "bra.1"
   },
   {
+   "id": "401878942",
+   "data": "2026-11-22T12:30Z",
+   "casa": {
+    "nome": "Waasland-Beveren",
+    "posicao": 16,
+    "total": 18,
+    "pontos": 10,
+    "jogos": 11,
+    "forma": "DDEDD",
+    "serie_derrotas": 2
+   },
+   "fora": {
+    "nome": "KAA Gent",
+    "posicao": 3,
+    "total": 18,
+    "pontos": 28,
+    "jogos": 11,
+    "forma": "VDVVV",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "fora",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Pro League",
+   "pais": "Bélgica",
+   "liga_id": "bel.1",
+   "cotas": {
+    "betclic_fr": {
+     "titulo": "Betclic (FR)",
+     "cotas": {
+      "2": 1.86,
+      "1": 3.25,
+      "X": 3.2
+     },
+     "atualizado": "2026-11-21T07:05:01Z"
+    }
+   }
+  },
+  {
    "id": "401874558",
    "data": "2026-11-22T13:00Z",
    "casa": {
@@ -901,14 +944,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 4.45,
+      "2": 4.5,
       "1": 1.47,
-      "X": 3.9
+      "X": 3.93
      },
-     "atualizado": "2026-11-15T18:48:58Z"
+     "atualizado": "2026-11-21T07:05:53Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401888248",
@@ -951,7 +993,7 @@
       "1": 1.88,
       "X": 3.32
      },
-     "atualizado": "2026-11-20T20:17:29Z"
+     "atualizado": "2026-11-21T07:05:54Z"
     }
    }
   },
@@ -990,11 +1032,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 11.25,
+      "2": 11.75,
       "1": 1.12,
-      "X": 7.0
+      "X": 7.25
      },
-     "atualizado": "2026-11-20T20:16:35Z"
+     "atualizado": "2026-11-21T07:05:20Z"
     }
    }
   },
@@ -1012,7 +1054,7 @@
    },
    "fora": {
     "nome": "Angers",
-    "posicao": 16,
+    "posicao": 17,
     "total": 18,
     "pontos": 8,
     "jogos": 10,
@@ -1035,12 +1077,11 @@
      "cotas": {
       "2": 8.0,
       "1": 1.25,
-      "X": 5.1
+      "X": 5.4
      },
-     "atualizado": "2026-11-20T07:14:05Z"
+     "atualizado": "2026-11-21T07:05:53Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401874960",
@@ -1115,7 +1156,7 @@
       "2": 1.31,
       "X": 4.3
      },
-     "atualizado": "2026-11-20T20:17:02Z"
+     "atualizado": "2026-11-21T07:05:01Z"
     }
    }
   },
@@ -1154,14 +1195,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 3.98,
-      "2": 1.55,
-      "X": 4.1
+      "1": 4.05,
+      "2": 1.53,
+      "X": 4.15
      },
-     "atualizado": "2026-11-15T18:51:57Z"
+     "atualizado": "2026-11-21T07:05:14Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401888249",
@@ -1209,7 +1249,7 @@
       "1": 1.1,
       "X": 7.0
      },
-     "atualizado": "2026-11-20T20:17:29Z"
+     "atualizado": "2026-11-21T07:05:54Z"
     }
    }
   },
@@ -1248,14 +1288,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 4.15,
-      "2": 1.51,
-      "X": 3.9
+      "1": 4.1,
+      "2": 1.54,
+      "X": 3.78
      },
-     "atualizado": "2026-11-15T18:52:50Z"
+     "atualizado": "2026-11-21T07:06:31Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401883110",
@@ -1322,7 +1361,7 @@
    },
    "fora": {
     "nome": "Dunkerque",
-    "posicao": 10,
+    "posicao": 11,
     "total": 18,
     "pontos": 15,
     "jogos": 12,
@@ -1349,7 +1388,7 @@
       "2": 2.87,
       "X": 3.13
      },
-     "atualizado": "2026-11-20T20:16:37Z"
+     "atualizado": "2026-11-21T07:05:54Z"
     }
    }
   },
@@ -1631,11 +1670,11 @@
    "data": "2026-11-27T19:00Z",
    "casa": {
     "nome": "Jong FC Utrecht",
-    "posicao": 20,
+    "posicao": 18,
     "total": 20,
-    "pontos": 11,
-    "jogos": 14,
-    "forma": "EVDDD",
+    "pontos": 14,
+    "jogos": 15,
+    "forma": "VEVDD",
     "serie_derrotas": 0
    },
    "fora": {
@@ -1643,9 +1682,9 @@
     "posicao": 2,
     "total": 20,
     "pontos": 31,
-    "jogos": 15,
-    "forma": "VVVDD",
-    "serie_derrotas": 0
+    "jogos": 16,
+    "forma": "DVVVD",
+    "serie_derrotas": 1
    },
    "criterios": [
     {

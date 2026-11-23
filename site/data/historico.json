@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-23T07:36:57+00:00",
+ "atualizado_em": "2026-11-23T23:52:29+00:00",
  "jogos": [
   {
    "id": "401885390",
@@ -30,32 +30,6 @@
     "X": 3.4
    },
    "cota": 1.77
-  },
-  {
-   "id": "401874769",
-   "selecionado_em": "2026-11-22T19:38:49+00:00",
-   "estado": "pendente",
-   "data": "2026-11-29T17:00Z",
-   "liga": "Serie A",
-   "pais": "Itália",
-   "liga_id": "ita.1",
-   "casa": {
-    "nome": "AS Roma",
-    "posicao": 2,
-    "total": 20
-   },
-   "fora": {
-    "nome": "Monza",
-    "posicao": 18,
-    "total": 20
-   },
-   "criterios": [
-    "serie_derrotas",
-    "top_vs_bottom"
-   ],
-   "favorito": "casa",
-   "aposta": "1",
-   "cota": null
   },
   {
    "id": "401879230",
@@ -97,7 +71,7 @@
    "liga_id": "ita.1",
    "casa": {
     "nome": "Sassuolo",
-    "posicao": 17,
+    "posicao": 18,
     "total": 20
    },
    "fora": {
@@ -187,7 +161,7 @@
    },
    "fora": {
     "nome": "Istanbul Basaksehir",
-    "posicao": 9,
+    "posicao": 7,
     "total": 18
    },
    "criterios": [
@@ -358,7 +332,7 @@
    },
    "fora": {
     "nome": "Asteras Tripoli",
-    "posicao": 12,
+    "posicao": 13,
     "total": 14
    },
    "criterios": [
@@ -508,11 +482,11 @@
    "favorito": "fora",
    "aposta": "2",
    "cotas": {
-    "2": 1.19,
+    "2": 1.18,
     "1": 8.5,
-    "X": 5.75
+    "X": 6.9
    },
-   "cota": 1.19
+   "cota": 1.18
   },
   {
    "id": "401880141",
@@ -538,11 +512,11 @@
    "favorito": "casa",
    "aposta": "1",
    "cotas": {
-    "2": 7.75,
-    "1": 1.24,
-    "X": 4.85
+    "2": 7.25,
+    "1": 1.26,
+    "X": 4.75
    },
-   "cota": 1.24
+   "cota": 1.26
   },
   {
    "id": "401881358",
@@ -602,7 +576,7 @@
   {
    "id": "401876683",
    "selecionado_em": "2026-11-16T22:00:21+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-23T19:45Z",
    "liga": "Ligue 2",
    "pais": "França",
@@ -627,12 +601,18 @@
     "2": 2.87,
     "X": 3.15
    },
-   "cota": 2.87
+   "cota": 2.87,
+   "golos_casa": 2,
+   "golos_fora": 3,
+   "resultado": "2",
+   "acertou": true,
+   "resolvido_em": "2026-11-23T23:52:29+00:00",
+   "lucro": 1.87
   },
   {
    "id": "401875009",
    "selecionado_em": "2026-11-16T22:00:21+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-23T19:45Z",
    "liga": "Serie A",
    "pais": "Itália",
@@ -652,12 +632,18 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": null,
+   "golos_casa": 3,
+   "golos_fora": 0,
+   "resultado": "1",
+   "acertou": false,
+   "resolvido_em": "2026-11-23T23:52:29+00:00",
+   "lucro": null
   },
   {
    "id": "401883110",
    "selecionado_em": "2026-11-16T22:00:21+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-23T19:30Z",
    "liga": "LaLiga 2",
    "pais": "Espanha",
@@ -683,7 +669,13 @@
     "2": 1.82,
     "X": 3.5
    },
-   "cota": 1.82
+   "cota": 1.82,
+   "golos_casa": 2,
+   "golos_fora": 3,
+   "resultado": "2",
+   "acertou": true,
+   "resolvido_em": "2026-11-23T23:52:29+00:00",
+   "lucro": 0.82
   },
   {
    "id": "401843490",

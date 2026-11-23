@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-22T19:38:49+00:00",
+ "gerado_em": "2026-11-23T07:36:57+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -13,7 +13,7 @@
    "pais": "Portugal",
    "ok": true,
    "equipas": 18,
-   "jogos_agendados": 6,
+   "jogos_agendados": 7,
    "selecionados": 1,
    "com_resultados": 18,
    "resultados_em_falta": 0
@@ -124,7 +124,7 @@
    "ok": true,
    "equipas": 18,
    "jogos_agendados": 9,
-   "selecionados": 2,
+   "selecionados": 1,
    "com_resultados": 18,
    "resultados_em_falta": 0
   },
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 12,
+   "jogos_agendados": 14,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 4,
+   "jogos_agendados": 3,
    "selecionados": 0,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -342,11 +342,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.7,
-      "2": 1.9,
-      "X": 3.33
+      "1": 2.98,
+      "2": 1.82,
+      "X": 3.5
      },
-     "atualizado": "2026-11-22T19:40:16Z"
+     "atualizado": "2026-11-23T07:37:34Z"
     }
    }
   },
@@ -391,7 +391,7 @@
       "2": 2.87,
       "X": 3.15
      },
-     "atualizado": "2026-11-22T19:40:14Z"
+     "atualizado": "2026-11-23T07:35:21Z"
     }
    }
   },
@@ -803,7 +803,8 @@
      },
      "atualizado": "2026-11-22T19:39:03Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401881246",
@@ -887,7 +888,8 @@
      },
      "atualizado": "2026-11-22T19:33:58Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401882793",
@@ -905,10 +907,10 @@
     "nome": "Atlético Madrid",
     "posicao": 3,
     "total": 20,
-    "pontos": 28,
-    "jogos": 12,
-    "forma": "DVVVV",
-    "serie_derrotas": 1
+    "pontos": 31,
+    "jogos": 13,
+    "forma": "VDVVV",
+    "serie_derrotas": 0
    },
    "criterios": [
     {
@@ -935,7 +937,7 @@
    },
    "fora": {
     "nome": "Strasbourg",
-    "posicao": 15,
+    "posicao": 16,
     "total": 18,
     "pontos": 10,
     "jogos": 11,
@@ -961,50 +963,6 @@
       "1": 2.7,
       "2": 2.15,
       "X": 3.53
-     },
-     "atualizado": "2026-11-22T06:47:15Z"
-    }
-   },
-   "cotas_antigas": true
-  },
-  {
-   "id": "401876390",
-   "data": "2026-11-28T19:45Z",
-   "casa": {
-    "nome": "Le Mans",
-    "posicao": 16,
-    "total": 18,
-    "pontos": 8,
-    "jogos": 10,
-    "forma": "EDEDD",
-    "serie_derrotas": 0
-   },
-   "fora": {
-    "nome": "Lille",
-    "posicao": 3,
-    "total": 18,
-    "pontos": 21,
-    "jogos": 11,
-    "forma": "DVVEE",
-    "serie_derrotas": 1
-   },
-   "criterios": [
-    {
-     "tipo": "top_vs_bottom",
-     "favorito": "fora",
-     "texto": "3 primeiros vs 3 últimos"
-    }
-   ],
-   "liga": "Ligue 1",
-   "pais": "França",
-   "liga_id": "fra.1",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "1": 3.75,
-      "2": 1.8,
-      "X": 3.35
      },
      "atualizado": "2026-11-22T06:47:15Z"
     }
@@ -1052,7 +1010,8 @@
      },
      "atualizado": "2026-11-22T19:39:44Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401874500",
@@ -1095,7 +1054,8 @@
      },
      "atualizado": "2026-11-22T19:40:13Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401883103",
@@ -1138,7 +1098,7 @@
       "1": 1.53,
       "X": 3.55
      },
-     "atualizado": "2026-11-22T19:40:16Z"
+     "atualizado": "2026-11-23T07:37:34Z"
     }
    }
   },
@@ -1185,7 +1145,8 @@
      },
      "atualizado": "2026-11-22T19:33:58Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401874992",
@@ -1264,7 +1225,8 @@
      },
      "atualizado": "2026-11-22T19:38:06Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401874769",
@@ -1348,7 +1310,8 @@
      },
      "atualizado": "2026-11-22T19:38:07Z"
     }
-   }
+   },
+   "cotas_antigas": true
   }
  ]
 }

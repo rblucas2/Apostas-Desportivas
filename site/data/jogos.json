@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-23T23:52:29+00:00",
+ "gerado_em": "2026-11-24T09:53:15+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -253,7 +253,7 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 12,
+   "jogos_agendados": 11,
    "selecionados": 1,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -337,11 +337,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "1": 2.52,
+      "1": 2.73,
       "2": 2.4,
-      "X": 3.1
+      "X": 3.15
      },
-     "atualizado": "2026-11-23T23:51:19Z"
+     "atualizado": "2026-11-24T09:50:35Z"
     }
    }
   },
@@ -414,11 +414,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 1.18,
-      "1": 8.5,
-      "X": 6.9
+      "2": 1.2,
+      "1": 10.25,
+      "X": 6.4
      },
-     "atualizado": "2026-11-23T23:51:24Z"
+     "atualizado": "2026-11-24T09:52:36Z"
     }
    }
   },
@@ -457,11 +457,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 7.25,
-      "1": 1.26,
-      "X": 4.75
+      "2": 8.25,
+      "1": 1.29,
+      "X": 5.0
      },
-     "atualizado": "2026-11-23T23:51:19Z"
+     "atualizado": "2026-11-24T09:50:35Z"
     }
    }
   },
@@ -623,7 +623,7 @@
       "2": 1.54,
       "X": 3.7
      },
-     "atualizado": "2026-11-23T23:51:19Z"
+     "atualizado": "2026-11-24T09:50:35Z"
     }
    }
   },

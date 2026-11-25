@@ -1,6 +1,61 @@
 {
- "atualizado_em": "2026-11-25T08:32:36+00:00",
+ "atualizado_em": "2026-11-25T21:41:17+00:00",
  "jogos": [
+  {
+   "id": "401878325",
+   "selecionado_em": "2026-11-25T21:41:17+00:00",
+   "estado": "pendente",
+   "data": "2026-12-02T19:45Z",
+   "liga": "Premiership",
+   "pais": "Escócia",
+   "liga_id": "sco.1",
+   "casa": {
+    "nome": "Falkirk",
+    "posicao": 3,
+    "total": 12
+   },
+   "fora": {
+    "nome": "Motherwell",
+    "posicao": 11,
+    "total": 12
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401879222",
+   "selecionado_em": "2026-11-25T21:41:17+00:00",
+   "estado": "pendente",
+   "data": "2026-12-02T19:30Z",
+   "liga": "Premier League",
+   "pais": "Inglaterra",
+   "liga_id": "eng.1",
+   "casa": {
+    "nome": "Chelsea",
+    "posicao": 8,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Crystal Palace",
+    "posicao": 20,
+    "total": 20
+   },
+   "criterios": [
+    "serie_derrotas"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cotas": {
+    "1": 1.56,
+    "2": 4.3,
+    "X": 4.05
+   },
+   "cota": 1.56
+  },
   {
    "id": "401881239",
    "selecionado_em": "2026-11-24T22:25:55+00:00",
@@ -105,11 +160,11 @@
    "favorito": "fora",
    "aposta": "2",
    "cotas": {
-    "1": 1.72,
-    "2": 3.85,
-    "X": 3.58
+    "1": 1.75,
+    "2": 3.75,
+    "X": 3.55
    },
-   "cota": 3.85
+   "cota": 3.75
   },
   {
    "id": "401874992",
@@ -486,11 +541,11 @@
    "favorito": "casa",
    "aposta": "1",
    "cotas": {
-    "2": 11.25,
-    "1": 1.13,
-    "X": 6.9
+    "2": 12.25,
+    "1": 1.12,
+    "X": 7.0
    },
-   "cota": 1.13
+   "cota": 1.12
   },
   {
    "id": "401841335",

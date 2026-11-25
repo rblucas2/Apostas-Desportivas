@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-24T22:25:55+00:00",
+ "atualizado_em": "2026-11-25T08:32:36+00:00",
  "jogos": [
   {
    "id": "401881239",
@@ -486,16 +486,16 @@
    "favorito": "casa",
    "aposta": "1",
    "cotas": {
-    "2": 11.0,
-    "1": 1.12,
-    "X": 6.5
+    "2": 11.25,
+    "1": 1.13,
+    "X": 6.9
    },
-   "cota": 1.12
+   "cota": 1.13
   },
   {
    "id": "401841335",
    "selecionado_em": "2026-11-18T07:28:07+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-24T21:00Z",
    "liga": "Série A",
    "pais": "Brasil",
@@ -516,7 +516,13 @@
    ],
    "favorito": "fora",
    "aposta": "2",
-   "cota": null
+   "cota": null,
+   "golos_casa": 3,
+   "golos_fora": 0,
+   "resultado": "1",
+   "acertou": false,
+   "resolvido_em": "2026-11-25T08:32:36+00:00",
+   "lucro": null
   },
   {
    "id": "401915297",

@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-24T22:25:55+00:00",
+ "gerado_em": "2026-11-25T08:32:36+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -56,7 +56,7 @@
    "jogos_agendados": 23,
    "selecionados": 3,
    "com_resultados": 24,
-   "resultados_em_falta": 4
+   "resultados_em_falta": 0
   },
   {
    "liga": "LaLiga",
@@ -337,14 +337,13 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 11.0,
-      "1": 1.12,
-      "X": 6.5
+      "2": 11.25,
+      "1": 1.13,
+      "X": 6.9
      },
-     "atualizado": "2026-11-19T20:37:19Z"
+     "atualizado": "2026-11-25T08:34:16Z"
     }
-   },
-   "cotas_antigas": true
+   }
   },
   {
    "id": "401875831",
@@ -488,7 +487,7 @@
     "total": 24,
     "pontos": 30,
     "jogos": 15,
-    "forma": "VEVED",
+    "forma": "EVEVE",
     "serie_derrotas": 0
    },
    "criterios": [
@@ -596,7 +595,8 @@
      },
      "atualizado": "2026-11-24T22:24:04Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401876391",
@@ -867,7 +867,8 @@
      },
      "atualizado": "2026-11-24T22:26:44Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401879230",
@@ -970,7 +971,7 @@
     "total": 24,
     "pontos": 30,
     "jogos": 15,
-    "forma": "VEVED",
+    "forma": "EVEVE",
     "serie_derrotas": 0
    },
    "fora": {

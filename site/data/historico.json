@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-26T08:16:32+00:00",
+ "atualizado_em": "2026-11-26T21:30:19+00:00",
  "jogos": [
   {
    "id": "401841340",
@@ -570,7 +570,7 @@
   {
    "id": "401915520",
    "selecionado_em": "2026-11-19T20:36:06+00:00",
-   "estado": "pendente",
+   "estado": "terminado",
    "data": "2026-11-26T17:45Z",
    "liga": "Liga Europa",
    "pais": "Europa (UEFA)",
@@ -595,7 +595,13 @@
     "1": 1.13,
     "X": 7.75
    },
-   "cota": 1.13
+   "cota": 1.13,
+   "golos_casa": 2,
+   "golos_fora": 0,
+   "resultado": "1",
+   "acertou": true,
+   "resolvido_em": "2026-11-26T21:30:19+00:00",
+   "lucro": 0.13
   },
   {
    "id": "401841335",

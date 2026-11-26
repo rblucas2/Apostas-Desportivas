@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-26T08:16:32+00:00",
+ "gerado_em": "2026-11-26T21:30:19+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -23,7 +23,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 19,
+   "jogos_agendados": 20,
    "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
@@ -43,7 +43,7 @@
    "pais": "Inglaterra",
    "ok": true,
    "equipas": 24,
-   "jogos_agendados": 24,
+   "jogos_agendados": 23,
    "selecionados": 0,
    "com_resultados": 24,
    "resultados_em_falta": 0
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 3,
+   "jogos_agendados": 4,
    "selecionados": 0,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -283,8 +283,8 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 18,
-   "selecionados": 1,
+   "jogos_agendados": 0,
+   "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
   },
@@ -293,58 +293,13 @@
    "pais": "Europa (UEFA)",
    "ok": true,
    "equipas": 36,
-   "jogos_agendados": 18,
+   "jogos_agendados": 0,
    "selecionados": 0,
    "com_resultados": 36,
    "resultados_em_falta": 0
   }
  ],
  "jogos": [
-  {
-   "id": "401915520",
-   "data": "2026-11-26T17:45Z",
-   "casa": {
-    "nome": "RB Salzburg",
-    "posicao": 26,
-    "total": 36,
-    "pontos": 4,
-    "jogos": 4,
-    "forma": "DEDV",
-    "serie_derrotas": 1
-   },
-   "fora": {
-    "nome": "Ararat-Armenia",
-    "posicao": 36,
-    "total": 36,
-    "pontos": 0,
-    "jogos": 4,
-    "forma": "DDDD",
-    "serie_derrotas": 4
-   },
-   "criterios": [
-    {
-     "tipo": "serie_derrotas",
-     "equipa": "fora",
-     "derrotas": 4,
-     "favorito": "casa",
-     "texto": "Ararat-Armenia com 4 derrotas seguidas vs melhor classificado"
-    }
-   ],
-   "liga": "Liga Europa",
-   "pais": "Europa (UEFA)",
-   "liga_id": "uefa.europa",
-   "cotas": {
-    "betclic_fr": {
-     "titulo": "Betclic (FR)",
-     "cotas": {
-      "2": 12.0,
-      "1": 1.13,
-      "X": 7.75
-     },
-     "atualizado": "2026-11-26T08:16:58Z"
-    }
-   }
-  },
   {
    "id": "401875831",
    "data": "2026-11-27T19:00Z",

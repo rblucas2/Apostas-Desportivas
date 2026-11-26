@@ -1,6 +1,56 @@
 {
- "atualizado_em": "2026-11-25T21:41:17+00:00",
+ "atualizado_em": "2026-11-26T08:16:32+00:00",
  "jogos": [
+  {
+   "id": "401841340",
+   "selecionado_em": "2026-11-26T08:16:32+00:00",
+   "estado": "pendente",
+   "data": "2026-12-03T00:30Z",
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1",
+   "casa": {
+    "nome": "Cruzeiro",
+    "posicao": 3,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Internacional",
+    "posicao": 18,
+    "total": 20
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
+  {
+   "id": "401841341",
+   "selecionado_em": "2026-11-26T08:16:32+00:00",
+   "estado": "pendente",
+   "data": "2026-12-03T00:30Z",
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1",
+   "casa": {
+    "nome": "Flamengo",
+    "posicao": 1,
+    "total": 20
+   },
+   "fora": {
+    "nome": "Chapecoense",
+    "posicao": 20,
+    "total": 20
+   },
+   "criterios": [
+    "top_vs_bottom"
+   ],
+   "favorito": "casa",
+   "aposta": "1",
+   "cota": null
+  },
   {
    "id": "401878325",
    "selecionado_em": "2026-11-25T21:41:17+00:00",
@@ -477,7 +527,7 @@
    },
    "fora": {
     "nome": "Wolverhampton Wanderers",
-    "posicao": 2,
+    "posicao": 3,
     "total": 24
    },
    "criterios": [
@@ -541,11 +591,11 @@
    "favorito": "casa",
    "aposta": "1",
    "cotas": {
-    "2": 12.25,
-    "1": 1.12,
-    "X": 7.0
+    "2": 12.0,
+    "1": 1.13,
+    "X": 7.75
    },
-   "cota": 1.12
+   "cota": 1.13
   },
   {
    "id": "401841335",

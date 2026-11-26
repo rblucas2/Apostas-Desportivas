@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-25T21:41:17+00:00",
+ "gerado_em": "2026-11-26T08:16:32+00:00",
  "cotas_atualizadas": true,
  "parametros": {
   "top_n": 3,
@@ -36,7 +36,7 @@
    "jogos_agendados": 12,
    "selecionados": 1,
    "com_resultados": 24,
-   "resultados_em_falta": 2
+   "resultados_em_falta": 0
   },
   {
    "liga": "League One",
@@ -253,8 +253,8 @@
    "pais": "Brasil",
    "ok": true,
    "equipas": 20,
-   "jogos_agendados": 10,
-   "selecionados": 0,
+   "jogos_agendados": 19,
+   "selecionados": 2,
    "com_resultados": 20,
    "resultados_em_falta": 0
   },
@@ -263,7 +263,7 @@
    "pais": "Argentina",
    "ok": true,
    "equipas": 30,
-   "jogos_agendados": 4,
+   "jogos_agendados": 3,
    "selecionados": 0,
    "com_resultados": 30,
    "resultados_em_falta": 0
@@ -337,11 +337,11 @@
     "betclic_fr": {
      "titulo": "Betclic (FR)",
      "cotas": {
-      "2": 12.25,
-      "1": 1.12,
-      "X": 7.0
+      "2": 12.0,
+      "1": 1.13,
+      "X": 7.75
      },
-     "atualizado": "2026-11-25T21:41:41Z"
+     "atualizado": "2026-11-26T08:16:58Z"
     }
    }
   },
@@ -391,7 +391,7 @@
    },
    "fora": {
     "nome": "Wolverhampton Wanderers",
-    "posicao": 2,
+    "posicao": 3,
     "total": 24,
     "pontos": 34,
     "jogos": 17,
@@ -913,7 +913,8 @@
      },
      "atualizado": "2026-11-25T21:35:01Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401885390",
@@ -1070,7 +1071,8 @@
      },
      "atualizado": "2026-11-25T21:35:01Z"
     }
-   }
+   },
+   "cotas_antigas": true
   },
   {
    "id": "401878325",
@@ -1103,6 +1105,70 @@
    "liga": "Premiership",
    "pais": "Escócia",
    "liga_id": "sco.1"
+  },
+  {
+   "id": "401841340",
+   "data": "2026-12-03T00:30Z",
+   "casa": {
+    "nome": "Cruzeiro",
+    "posicao": 3,
+    "total": 20,
+    "pontos": 66,
+    "jogos": 36,
+    "forma": "VVVVV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Internacional",
+    "posicao": 18,
+    "total": 20,
+    "pontos": 38,
+    "jogos": 36,
+    "forma": "DDVDV",
+    "serie_derrotas": 2
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1"
+  },
+  {
+   "id": "401841341",
+   "data": "2026-12-03T00:30Z",
+   "casa": {
+    "nome": "Flamengo",
+    "posicao": 1,
+    "total": 20,
+    "pontos": 80,
+    "jogos": 36,
+    "forma": "EVVVV",
+    "serie_derrotas": 0
+   },
+   "fora": {
+    "nome": "Chapecoense",
+    "posicao": 20,
+    "total": 20,
+    "pontos": 24,
+    "jogos": 37,
+    "forma": "VDDDD",
+    "serie_derrotas": 0
+   },
+   "criterios": [
+    {
+     "tipo": "top_vs_bottom",
+     "favorito": "casa",
+     "texto": "3 primeiros vs 3 últimos"
+    }
+   ],
+   "liga": "Série A",
+   "pais": "Brasil",
+   "liga_id": "bra.1"
   }
  ]
 }
